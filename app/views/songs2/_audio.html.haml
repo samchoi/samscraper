@@ -1,0 +1,4 @@
+.audio{ id: ['song', audio.code].join('-'), data: {code: audio.code}, style: "background-image:url('#{audio.thumb_url}')"}
+  %p.description="#{audio.artist} - #{audio.title}"
+  .action.play
+  .action.like

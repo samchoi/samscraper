@@ -1,0 +1,120 @@
+#logo
+#title="..."
+%audio#music{ src: nil, preload: 'auto' }
+%canvas#viz{ width: 1350, height: 350}
+
+#q
+  -@audios.each do |audio|
+    =render partial:'audio', locals: { audio: audio }
+
+:javascript
+  var viz = new Visualizer('music', 'viz');
+  viz.play('1me2k');
+
+  $('.audio .action.play').on('click', function(){
+      var code = $(this).parent().data('code');
+      var $description = $(this).siblings('.description');
+      var file = code + ".mp3";
+      if($(this).hasClass('play')){
+        $(this).parent().addClass('active');
+        viz.play(file);
+        trackHistory(code, 1, '');
+      }else{
+        viz.pause();
+      }
+      $(this).toggleClass('play').toggleClass('pause');
+      $('#title').text($description.text());
+  });
+
+  $('.like').on('click', function(){
+    var code = $(this).parents('.audio').data('code');
+    trackLike(code, 1, '');
+  });
+
+  $('#music').on('ended', function(){
+    var files = $('.audio');
+    var i = Math.floor(Math.random()*(files.length+1));
+    var code = $(files[i]).data('code');
+    var file = code + '.mp3';
+    $('.active').remove();
+    trackHistory(code, 1, '');
+    var $description = files[i].find('.description');
+    $('html, body').animate(
+      { scrollTop: $("#"+code).offset().top + 30 }, 1000);
+
+    $('#title').text($description.text());
+    viz.play(file);
+  });
+
+  function trackLike(code, user_id, data){
+    $.ajax({
+      type: 'POST',
+      data: {like: {code: code, user_id: user_id, data: data}},
+      url: "/likes.json",
+      error: function (jqXHR, textStatus, errorThrown) {
+        console.log(jqXHR)
+      },
+      success: function (msg) {
+        console.log(msg);
+      }
+    });
+  }
+
+
+  function trackHistory(code, user_id, data){
+    $.ajax({
+      type: 'POST',
+      data: {play_history: {code: code, user_id: user_id, data: data}},
+      url: "/play_histories.json",
+      error: function (jqXHR, textStatus, errorThrown) {
+        console.log(jqXHR)
+      },
+      success: function (msg) {
+        console.log(msg);
+      }
+    });
+  }
+
+  window.onbeforeunload = function(){
+    var music = $('#music')[0]
+    trackHistory(0, 0, music.currentTime);
+    $.cookie('resume', music.currentSrc + "-" + music.currentTime);
+  }
+
+  /*
+    var tracks = window.displayList['tracks'];
+    for(i in tracks){
+      var track = tracks[i];
+      $.getJSON("/serve/source/"+ track.id + "/" + track.key,
+      function(data) {
+        var url = "http://sam-choi.com/get.php?",
+        link = data.url,
+        name = data.itemid + ".mp3";
+        $.get(url+"f="+name+"&u="+link, function(){ console.log(name); });
+      });
+    }
+  for(var i = 1; i <=3; i++ ){
+    $.getJSON('http://hypem.com/playlist/popular/3day/json/'+i+'/data.js', function(track_data){
+      for( var i in track_data){
+        $.ajax({
+              type: 'POST',
+              data: {audio: {code: track_data[i].mediaid, artist: track_data[i].artist, title: track_data[i].title, posturl: track_data[i].posturl, thumb_url: track_data[i].thumb_url}},
+              url: "http://localhost:4000/audios.json",
+              error: function (jqXHR, textStatus, errorThrown) {
+                  console.log(jqXHR)
+              },
+              success: function (msg) {
+                  console.log(msg);
+              }
+          });
+      }
+    });
+  }
+
+  var tracks = [];
+  for (var i in tracks) {
+    var code = tracks[i];
+    $.post('/audios.json', {audio: {code: code , artist: null, title: code}}, function(data){
+       console.log(data);
+    });
+  }*/

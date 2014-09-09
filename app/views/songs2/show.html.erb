@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Code:</strong>
+  <%= @audio.code %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @audio.title %>
+</p>
+
+<p>
+  <strong>Artist:</strong>
+  <%= @audio.artist %>
+</p>
+
+<%= link_to 'Edit', edit_audio_path(@audio) %> |
+<%= link_to 'Back', audios_path %>
