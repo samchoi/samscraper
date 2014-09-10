@@ -1,7 +1,7 @@
 $(function() {
     //create connection between audio tag and canvas
     var viz = new Visualizer('music', 'viz');
-    playRandomSong();
+    play('Imogen%20Heap%20-%20Hide%20And%20Seek%20(Sound%20Remedy%20Remix).mp3');
 
     bindEvents();
 
@@ -53,18 +53,10 @@ $(function() {
 
     }
 
-    function play(code){
-        var _self = $('#song-' + code);
-        var $description = _self.find('.description'); //taking the artist-song container
-        var file = code + ".mp3";
-        $('.active').remove();
-        _self.addClass('active');
-
+    function play(file){
         viz.play(file);
-        trackHistory(code, 1, '');
-
-        $('#title').text($description.text());
-        $(this).toggleClass('play').toggleClass('pause');
+        //trackHistory(code, 1, '');
+//        $(this).toggleClass('play').toggleClass('pause');
 
     }
 

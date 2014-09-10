@@ -15,8 +15,8 @@ function Visualizer(domId, viz){
     this.loop(0, viz); //starts visualizer
 }
 
-Visualizer.prototype.play = function(code){
-    this.audio.src = 'http://sam-choi.com/music/hm/' + code
+Visualizer.prototype.play = function(file){
+    this.audio.src = 'http://sam-choi.com/music/' + file;
     this.audio.play();
     this.gainNode.gain.linearRampToValueAtTime(1, 0);
     this.gainNode.gain.linearRampToValueAtTime(0, 1);;

@@ -1,3 +1,6 @@
+%audio#music{ src: nil, preload: 'auto' }
+%canvas#viz{ width: 1350, height: 200}
+
 #title="..."
 #action.pause
 %p
@@ -5,8 +8,7 @@
     Likes
   %a{ href: "/audios?history=1"}
     History
-%audio#music{ src: nil, preload: 'auto' }
-%canvas#viz{ width: 1350, height: 350}
+
 
 #q
   -#@audios.each do |audio|

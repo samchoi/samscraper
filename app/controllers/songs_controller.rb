@@ -4,7 +4,12 @@ class SongsController < ApplicationController
   # GET /songs
   # GET /songs.json
   def index
+    redirect_to building_path and return unless browser.chrome?
     @songs = Song.all
+  end
+
+  def coming
+
   end
 
   # GET /songs/1
