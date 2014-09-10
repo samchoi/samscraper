@@ -1,0 +1,94 @@
+// Place all the styles related to the Audios controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+#q{
+  overflow: scroll;
+  height: 225px;
+}
+
+#action{
+  display: inline-block;
+
+}
+
+.audio{
+  position: relative;
+  float: left;
+  margin: 5px;
+  padding: 5px;
+  width: 200px;
+  height: 200px;
+  border-radius: 2px;
+  border: 1px solid black;
+
+  background-repeat: no-repeat;
+  background-position: top right;
+  font-weight: bold;
+  color: #000;
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+  &.active{
+    background-color: grey;
+  }
+  .action {
+    position: absolute;
+    bottom: 10px;
+    &.like {
+      right: 10px;
+    }
+  }
+}
+
+.play{
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+  border-left: 50px solid black;
+}
+.pause{
+  width: 5px;
+  height: 50px;
+  background-color: transparent;
+  border-right: 10px solid black;
+  border-left: 10px solid black;
+}
+.like{
+  right: 10px;
+  cursor: pointer;
+  height: 32px;
+  width: 32px;
+  background-image: url('/assets/headphones.png');
+}
+
+
+.fader { 
+  position: absolute; 
+  bottom: 153px; left: 0;
+  width: 100%; 
+  text-align: center; 
+  margin: 0; 
+  height: 25px;	     
+  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, transparent),color-stop(1, #fff));
+  background-image: -webkit-linear-gradient(top, transparent, #fff);
+  background-image: -moz-linear-gradient(top, transparent, #fff);
+  background-image: -ms-linear-gradient(top, transparent, #fff);
+  background-image: -o-linear-gradient(top, transparent, #fff);
+}
+
+#logo{
+  display: inline-block;
+  border-radius: 50%;
+  behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+  width: 100px;
+  height: 25px;
+  border: 3px solid black;
+}
+
+#title{
+  line-height: 50px;
+  float: left;
+  margin-right: 25px;
+  font-family: "Arial Black, Gadget, sans-serif";
+  display: inline-block;
+  font-size: 30px;
+}
