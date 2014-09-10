@@ -43,10 +43,7 @@ Visualizer.prototype.loop = function(x, id){
     canvas = document.getElementById(id);
     ctx = canvas.getContext('2d');
     ctx.clearRect(0, 0, canvas.width, canvas.height); // Clear the canvas
-    /*threshold = parseInt(document.getElementById('threshold').value);
-    if(x < threshold*-1){
-	ctx.fillStyle = this.randomColor(); // Color of the bars
-    } */
+    //ctx.fillStyle = this.randomColor(); // Color of the bars
     bars = this.analyser.frequencyBinCount;
     for (var i = 0; i < bars; i++) {
 	bar_x = i * 5;

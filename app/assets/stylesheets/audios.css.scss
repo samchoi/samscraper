@@ -61,13 +61,13 @@
 }
 
 
-.fader { 
-  position: absolute; 
+.fader {
+  position: absolute;
   bottom: 153px; left: 0;
-  width: 100%; 
-  text-align: center; 
-  margin: 0; 
-  height: 25px;	     
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  height: 25px;
   background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, transparent),color-stop(1, #fff));
   background-image: -webkit-linear-gradient(top, transparent, #fff);
   background-image: -moz-linear-gradient(top, transparent, #fff);
