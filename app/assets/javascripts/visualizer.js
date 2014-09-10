@@ -16,7 +16,6 @@ function Visualizer(domId, viz){
 }
 
 Visualizer.prototype.play = function(file){
-    this.audio.src = 'http://sam-choi.com/music/' + file;
     this.audio.play();
     this.gainNode.gain.linearRampToValueAtTime(1, 0);
     this.gainNode.gain.linearRampToValueAtTime(0, 1);;
@@ -51,7 +50,7 @@ Visualizer.prototype.loop = function(x, id){
 	bar_height = -(fbc_array[i] / 2);
 	//fillRect( x, y, width, height ) // Explanation of the parameters below
 	ctx.fillRect(bar_x, bar_height, bar_width, canvas.height-5);
-	ctx.fillRect(bar_x, canvas.height, bar_width, bar_height);
+	//ctx.fillRect(bar_x, canvas.height, bar_width, bar_height);
 	if(this.lastFreq){
 	    if(this.lastFreq[i] < fbc_array[i]){
 		delta -= 1;

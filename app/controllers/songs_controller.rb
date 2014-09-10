@@ -6,6 +6,7 @@ class SongsController < ApplicationController
   def index
     redirect_to building_path and return unless browser.chrome?
     @songs = Song.all
+    @random_song = @songs.sample
   end
 
   def coming

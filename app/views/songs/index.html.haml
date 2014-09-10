@@ -1,5 +1,6 @@
-%audio#music{ src: nil, preload: 'auto' }
+%audio#music{ src: 'http://sam-choi.com/music/' + @random_song.filename, preload: 'auto' }
 %canvas#viz{ width: 1350, height: 200}
 
 #controls
   #action.pause
+  %span=@random_song.filename
