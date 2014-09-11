@@ -5,7 +5,15 @@
   =javascript_include_tag 'audio'
   =javascript_include_tag 'visualizer'
   =stylesheet_link_tag 'audios'
+  =stylesheet_link_tag 'http://fonts.googleapis.com/css?family=Dosis'
   =csrf_meta_tags
 
 %body
+  %audio#music{ src: 'http://sam-choi.com/music/' + @song.filename, preload: 'auto' }
+  %canvas#viz{ width: 1350, height: 200}
+
+  #controls
+    #action.pause
+    %span=@song.filename
+
   = yield

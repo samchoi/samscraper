@@ -1,6 +1,6 @@
-// Place all the styles related to the Audios controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+  font-family: 'Dosis', sans-serif;
+}
 #q{
   overflow: scroll;
   height: 225px;
@@ -60,21 +60,6 @@
   background-image: url('/assets/headphones.png');
 }
 
-
-.fader {
-  position: absolute;
-  bottom: 153px; left: 0;
-  width: 100%;
-  text-align: center;
-  margin: 0;
-  height: 25px;
-  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, transparent),color-stop(1, #fff));
-  background-image: -webkit-linear-gradient(top, transparent, #fff);
-  background-image: -moz-linear-gradient(top, transparent, #fff);
-  background-image: -ms-linear-gradient(top, transparent, #fff);
-  background-image: -o-linear-gradient(top, transparent, #fff);
-}
-
 #logo{
   display: inline-block;
   border-radius: 50%;
@@ -91,4 +76,20 @@
   font-family: "Arial Black, Gadget, sans-serif";
   display: inline-block;
   font-size: 30px;
+}
+#songs{
+  height: 500px;
+  overflow-y: scroll;
+  float: left;
+  %li{
+    float: left;
+    width: 250px;
+  }
+}
+
+#playlist{
+  float: right;
+}
+.add, .minus{
+  cursor: pointer;
 }

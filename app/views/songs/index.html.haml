@@ -1,6 +1,8 @@
-%audio#music{ src: 'http://sam-choi.com/music/' + @random_song.filename, preload: 'auto' }
-%canvas#viz{ width: 1350, height: 200}
+%ul#songs
+  -@songs.each do |song|
+    %li{ data: {song_id: song.id} }
+      %span.minus &#8722;
+      %a{ href: "/songs/#{song.id}"}=song.name
+      %span.add &#43;
 
-#controls
-  #action.pause
-  %span=@random_song.filename
+=render partial: 'shared/playlist', locals: { playlist: @playlist }

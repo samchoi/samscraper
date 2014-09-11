@@ -30,17 +30,33 @@ $(function() {
         });
 
         //bind like click
-        $('.like').on('click', function(){
-            var code = $(this).parents('.audio').data('code');
-            trackLike(code, 1, '');
+        $('.add').on('click', function(){
+            var _self = $(this);
+            $.post('/q.json',{song_id: _self.parent().data('song-id') }, function(data){
+              var json = $.parseJSON(data)
+              $('#playlist').replaceWith(json.html);
+            });
 
             $(this).fadeOut();
         });
 
-        $('#title').on('click', function(){
-            $('#q').animate(
-                { scrollTop: $('.active').offset().top + 30 }, 1000);
-            $('.active').css('background-color', 'red');
+        $('.minus').on('click', function(){
+            var _self = $(this);
+            $.post('/remove.json',{song_id: _self.parent().data('song-id') }, function(data){
+            });
+
+            _self.parent().slideUp().remove();
+        });
+
+        $(document).on('click', '#playlist a', function(e){
+            var _self = $(this);
+            var file =  _self.data('filename');
+            e.preventDefault();
+            //set src
+            $('#music').attr('src', 'http://sam-choi.com/music/' + file)
+            $('#controls span').html(file)
+            //start player
+            play();
         });
 
         $('#music').on('error', function(){
