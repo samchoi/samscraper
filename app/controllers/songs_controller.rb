@@ -8,7 +8,7 @@ class SongsController < ApplicationController
     redirect_to building_path and return unless browser.chrome?
     @songs = Song.where.not(id: session[:song_filter])
     @song = @songs.sample
-    @playlist = Song.find(session[:playlist])
+    @playlist = session[:playlist].nil? ? [] : Song.find(session[:playlist])
   end
 
   def coming
