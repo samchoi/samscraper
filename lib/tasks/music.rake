@@ -2,7 +2,7 @@ namespace :music do
   desc 'Adding files to database'
   task :index => :environment do
     puts "Indexing files"
-    Dir.foreach(APP_CONFIG[:music_path]) do |item|
+    Dir.foreach(Rails.configuration.settings[:music_path]) do |item|
       next if (['.', '..', 'hm'].include?(item) || Song.exists?(:filename => item))
       song_params = { filename: item, name: item[0..-5], code: 'tmp' }
       song = Song.new(song_params).save!
