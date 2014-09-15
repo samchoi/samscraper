@@ -9,11 +9,6 @@
   =csrf_meta_tags
 
 %body
-  %audio#music{ src: 'http://sam-choi.com/music/' + @song.filename, preload: 'auto' }
-  %canvas#viz{ width: 1350, height: 200}
-
-  #controls
-    #action.pause
-    %span=@song.filename
+  =render partial:'shared/canvas', locals: {song: @song} if @song
 
   = yield
