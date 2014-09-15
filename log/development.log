@@ -1707,3 +1707,81 @@ Migrating to AddFilenameToSong (20140910055500)
   [1m[35mSQL (1.8ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20140910055500')
   [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
   [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36m (336.6ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (411.3ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations`  ON `schema_migrations` (`version`) 
+  [1m[36mActiveRecord::SchemaMigration Load (1.4ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to CreateSongs (20140908225748)
+  [1m[35m (154.0ms)[0m  CREATE TABLE `songs` (`id` int(11) auto_increment PRIMARY KEY, `song_id` int(11), `name` varchar(255), `code` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (35.0ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20140908225748')
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+Migrating to AddFilenameToSong (20140910055500)
+  [1m[35m (477.5ms)[0m  ALTER TABLE `songs` ADD `filename` varchar(255)
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20140910055500')
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-15 03:56:27 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by SongsController#index as HTML
+  [1m[35mSong Load (57.0ms)[0m  SELECT `songs`.* FROM `songs`  WHERE (`songs`.`id` IS NOT NULL)
+  Rendered shared/_playlist.html.haml (2.6ms)
+  Rendered songs/index.html.haml within layouts/application (11.7ms)
+Completed 500 Internal Server Error in 320ms
+
+ActionView::Template::Error (undefined method `filename' for nil:NilClass):
+     9:   =csrf_meta_tags
+    10: 
+    11: %body
+    12:   %audio#music{ src: 'http://sam-choi.com/music/' + @song.filename, preload: 'auto' }
+    13:   %canvas#viz{ width: 1350, height: 200}
+    14: 
+    15:   #controls
+  app/views/layouts/application.html.haml:12:in `_app_views_layouts_application_html_haml__3805529824387185349_70308025202220'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (20.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-15 04:02:39 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by SongsController#index as HTML
+  [1m[35mSong Load (0.3ms)[0m  SELECT `songs`.* FROM `songs`  WHERE (`songs`.`id` IS NOT NULL)
+  Rendered shared/_playlist.html.haml (1.4ms)
+  Rendered songs/index.html.haml within layouts/application (6.7ms)
+Completed 500 Internal Server Error in 70ms
+
+ActionView::Template::Error (undefined method `filename' for nil:NilClass):
+    13: 
+    14:   #controls
+    15:     #action.pause
+    16:     %span=@song.filename
+    17: 
+    18:   = yield
+  app/views/layouts/application.html.haml:16:in `_app_views_layouts_application_html_haml__502067517225897378_70111925090300'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-15 04:03:04 -0700
+Processing by SongsController#index as HTML
+  [1m[36mSong Load (0.3ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE (`songs`.`id` IS NOT NULL)[0m
+  Rendered shared/_playlist.html.haml (0.1ms)
+  Rendered songs/index.html.haml within layouts/application (1.3ms)
+Completed 200 OK in 24ms (Views: 22.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-15 04:03:05 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-15 04:03:05 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-15 04:03:05 -0700

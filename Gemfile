@@ -27,6 +27,8 @@ gem 'spring',        group: :development
 
 gem 'haml'
 gem 'sass-rails'
+gem 'json'
+
 
 gem 'browser'
 gem 'turbolinks'
