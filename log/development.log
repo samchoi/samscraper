@@ -16973,3 +16973,158 @@ Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-19 01:58:57 -0700
 
 
 Started GET "/assets/wli.jpg" for 127.0.0.1 at 2014-09-19 01:58:57 -0700
+
+
+Started GET "/song/dl" for 127.0.0.1 at 2014-09-19 02:17:04 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by SongController#show as HTML
+  Parameters: {"id"=>"dl"}
+  [1m[35mSong Load (44.2ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 0 LIMIT 1
+Completed 404 Not Found in 77ms
+
+ActiveRecord::RecordNotFound (Couldn't find Song with 'id'=dl):
+  app/controllers/song_controller.rb:114:in `set_song'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (28.4ms)
+
+
+Started GET "/dl" for 127.0.0.1 at 2014-09-19 02:17:28 -0700
+
+ArgumentError (Invalid route name, already in use: 'music' 
+You may have defined two routes with the same name using the `:as` option, or you may be overriding a route already defined by a resource with the same naming. For the latter, you can restrict the routes created with `resources` as explained here: 
+http://guides.rubyonrails.org/routing.html#restricting-the-routes-created):
+  config/routes.rb:6:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.7ms)
+
+
+Started GET "/dl" for 127.0.0.1 at 2014-09-19 02:17:39 -0700
+Processing by SongController#dl as HTML
+Completed 500 Internal Server Error in 95ms
+
+TypeError (no implicit conversion of nil into String):
+  app/controllers/song_controller.rb:21:in `block in dl'
+  app/controllers/song_controller.rb:20:in `dl'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.9ms)
+
+
+Started GET "/dl?url=http://img2.findthebest.com/sites/default/files/10/media/images/t2/University_of_California_-_Santa_Barbara_UCSB_1015482.png" for 127.0.0.1 at 2014-09-19 02:18:02 -0700
+Processing by SongController#dl as HTML
+  Parameters: {"url"=>"http://img2.findthebest.com/sites/default/files/10/media/images/t2/University_of_California_-_Santa_Barbara_UCSB_1015482.png"}
+Completed 500 Internal Server Error in 714ms
+
+ArgumentError (too few arguments):
+  app/controllers/song_controller.rb:24:in `format'
+  app/controllers/song_controller.rb:24:in `dl'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.8ms)
+
+
+Started GET "/dl.json?url=http://img2.findthebest.com/sites/default/files/10/media/images/t2/University_of_California_-_Santa_Barbara_UCSB_1015482.png" for 127.0.0.1 at 2014-09-19 02:18:20 -0700
+Processing by SongController#dl as JSON
+  Parameters: {"url"=>"http://img2.findthebest.com/sites/default/files/10/media/images/t2/University_of_California_-_Santa_Barbara_UCSB_1015482.png"}
+Completed 500 Internal Server Error in 75ms
+
+ArgumentError (too few arguments):
+  app/controllers/song_controller.rb:24:in `format'
+  app/controllers/song_controller.rb:24:in `dl'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.4ms)
+
+
+Started GET "/dl.json?url=http://img2.findthebest.com/sites/default/files/10/media/images/t2/University_of_California_-_Santa_Barbara_UCSB_1015482.png" for 127.0.0.1 at 2014-09-19 02:18:58 -0700
+Processing by SongController#dl as JSON
+  Parameters: {"url"=>"http://img2.findthebest.com/sites/default/files/10/media/images/t2/University_of_California_-_Santa_Barbara_UCSB_1015482.png"}
+Completed 200 OK in 503ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/song/1" for 127.0.0.1 at 2014-09-19 02:44:32 -0700
+Processing by SongController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSong Load (0.2ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 1 LIMIT 1[0m
+Completed 404 Not Found in 89ms
+
+ActiveRecord::RecordNotFound (Couldn't find Song with 'id'=1):
+  app/controllers/song_controller.rb:116:in `set_song'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-19 02:48:41 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (5.8ms)
+Completed 200 OK in 177ms (Views: 175.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-19 02:48:42 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-19 02:48:42 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-19 02:48:42 -0700
+
+
+Started GET "/assets/haight.png" for 127.0.0.1 at 2014-09-19 02:48:42 -0700
+
+
+Started GET "/assets/nopa.png" for 127.0.0.1 at 2014-09-19 02:48:42 -0700
+
+
+Started GET "/assets/github_logo.jpg" for 127.0.0.1 at 2014-09-19 02:48:42 -0700
+
+
+Started GET "/assets/isla-vista-beach.jpg" for 127.0.0.1 at 2014-09-19 02:48:42 -0700
+
+
+Started GET "/assets/campus.jpg" for 127.0.0.1 at 2014-09-19 02:48:42 -0700
+
+
+Started GET "/assets/dragon.jpg" for 127.0.0.1 at 2014-09-19 02:48:42 -0700
+
+
+Started GET "/assets/coachella.jpg" for 127.0.0.1 at 2014-09-19 02:48:42 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-19 02:48:42 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-19 02:48:42 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-19 02:48:42 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-19 02:48:42 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-19 02:48:42 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-19 02:48:42 -0700
