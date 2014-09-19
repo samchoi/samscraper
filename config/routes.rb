@@ -1,11 +1,11 @@
 Rails.application.routes.draw do
-  resources :songs
+  resources :song
 
-  get '/' => 'songs#index', as: 'home'
-  get 'coming-soon' => 'songs#coming', as: 'building'
+  get '/' => 'song#home', as: 'home'
+  get 'samscraper' => 'song#index', as: 'music'
 
-  post 'q.json' => 'songs#add_to_session_playlist', as: 'add_to_playlist'
-  post 'remove.json' => 'songs#add_to_session_filter', as: 'remove'
+  post 'q.json' => 'sons#add_to_session_playlist', as: 'add_to_playlist'
+  post 'remove.json' => 'song#add_to_session_filter', as: 'remove'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

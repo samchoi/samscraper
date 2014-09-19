@@ -2,7 +2,7 @@
   -@songs.each do |song|
     %li{ data: {song_id: song.id} }
       %span.minus &#8722;
-      %a{ href: "/songs/#{song.id}"}=song.name
+      %a{ href: "/song/#{song.id}"}=song.name
       %span.add &#43;
 
 =render partial: 'shared/playlist', locals: { playlist: @playlist }

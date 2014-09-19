@@ -1,17 +1,17 @@
-class SongsController < ApplicationController
+class SongController < ApplicationController
   before_action :set_song, only: [:show, :edit, :update, :destroy]
   skip_before_action :verify_authenticity_token, only: [:add_to_session_playlist, :add_to_session_filter]
 
-  # GET /songs
-  # GET /songs.json
+  # GET /song
+  # GET /song.json
   def index
-    redirect_to building_path and return unless browser.chrome?
+    redirect_to home_path and return unless browser.chrome?
     @songs = Song.where.not(id: session[:song_filter])
     @song = @songs.sample
     @playlist = session[:playlist].nil? ? [] : Song.find(session[:playlist])
   end
 
-  def coming
+  def home
 
   end
 
@@ -42,23 +42,23 @@ class SongsController < ApplicationController
       send_file "/path/to/file.mp3", :type=>"audio/mp3", :filename => "filenamehere.mp3"
   end
 
-  # GET /songs/1
-  # GET /songs/1.json
+  # GET /song/1
+  # GET /song/1.json
   def show
     @song = Song.find(params[:id])
   end
 
-  # GET /songs/new
+  # GET /song/new
   def new
     @song = Song.new
   end
 
-  # GET /songs/1/edit
+  # GET /song/1/edit
   def edit
   end
 
-  # POST /songs
-  # POST /songs.json
+  # POST /song
+  # POST /song.json
   def create
     @song = Song.new(song_params)
 
@@ -73,8 +73,8 @@ class SongsController < ApplicationController
     end
   end
 
-  # PATCH/PUT /songs/1
-  # PATCH/PUT /songs/1.json
+  # PATCH/PUT /song/1
+  # PATCH/PUT /song/1.json
   def update
     respond_to do |format|
       if @song.update(song_params)
@@ -87,8 +87,8 @@ class SongsController < ApplicationController
     end
   end
 
-  # DELETE /songs/1
-  # DELETE /songs/1.json
+  # DELETE /song/1
+  # DELETE /song/1.json
   def destroy
     @song.destroy
     respond_to do |format|
