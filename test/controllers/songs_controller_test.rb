@@ -8,7 +8,7 @@ class SongsControllerTest < ActionController::TestCase
   test "should get index" do
     get :index
     assert_response :success
-    assert_not_nil assigns(:songs)
+    assert_not_nil assigns(:song)
   end
 
   test "should get new" do

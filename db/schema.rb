@@ -13,7 +13,7 @@
 
 ActiveRecord::Schema.define(version: 20140910055500) do
 
-  create_table "songs", force: true do |t|
+  create_table "song", force: true do |t|
     t.integer  "song_id"
     t.string   "name"
     t.string   "code"

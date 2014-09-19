@@ -1,0 +1,58 @@
+#content
+  %section#header
+    %h1 Sam Choi
+    %h2 local San Franciscan, geek, world traveler
+  %section#who
+    .bubble#local
+      %p{ style: 'display: none;'}
+        local San Franciscan, geek, world traveler
+      .image-circle.sunset
+      .image-circle.nopa
+      .image-circle.presidio
+      .image-circle.richmond
+      .image-circle.haight
+    .bubble#hack
+      %p
+        who loves to tinker and hack with web stuff.
+      %a{href: 'http://github.com/samchoi'}
+        .image-circle.github
+      %p
+        this section is always a work in progess...
+    .bubble#ucsb
+      %p
+        I've got a BS in Computer Science from the prestigious UC Santa Barbara.
+      .image-circle.ucsb
+      .image-circle.campus
+      .image-circle.islavista
+    .bubble#summer
+      %p
+        During the summers, I enjoy taking in some festivals.
+      .image-circle.burning-man
+      /.image-circle.edc
+      .image-circle.coachella
+    .bubble#winter
+      %p
+        Winters, you will find me snowboarding.
+      .image-circle.squaw
+      .image-circle.passout
+      .image-circle.nap
+    .bubble#travel
+      %p
+        In between, there's some world travel.
+      .image-circle.bhutan
+      .image-circle.monkey
+      .image-circle.ireland
+      /.image-circle.mikanos
+      .image-circle.zipline
+      .image-circle.thai
+      .image-circle.temple
+      .image-circle.varanasi
+      .image-circle.wli
+
+  %p I'll be back soon! Retooling the site with some stuff I've been working on.
+  -if browser.chrome?
+    %p
+      Using Google Chrome?
+      %a{ href: music_path}
+        Check out a music scraping project I'm hacking together!
+
