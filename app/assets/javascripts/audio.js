@@ -123,6 +123,20 @@ $(function() {
             play();
         });
 
+        $(document).on('click', '.play-btn', function(e){
+            var _self = $(this);
+            var $holder = _self.parents('li');
+            var file =  $holder.data('filename');
+            var name =  $holder.data('name');
+            e.preventDefault();
+            //set src
+            $('#music').attr('src', gon.music_host + file);
+            $('#controls span').html(name);
+            //start player
+            $('#action').toggleClass('play');
+            play();
+        });
+
         $('#music').on('error', function(){
             playRandomSong();
         });
