@@ -6,7 +6,7 @@ class SongController < ApplicationController
   # GET /song.json
   def index
     redirect_to home_path and return unless browser.chrome?
-    @songs = Song.where.not(id: session[:song_filter])
+    @songs = Song.where.not(id: session[:song_filter]).select{ |s| !s.filename.nil?}
     @song = @songs.sample
     @playlist = session[:playlist].nil? ? [] : Song.find(session[:playlist])
   end
@@ -39,12 +39,18 @@ class SongController < ApplicationController
   end
 
   def download
-      send_file "/path/to/file.mp3", :type=>"audio/mp3", :filename => "filenamehere.mp3"
+    output = `wget #{params[:url]} -O '/Users/samchoi/dev/music/hm/'#{params[:name]}.mp3`
+    respond_to do |format|
+      format.all do
+        render json: {status: output}
+      end
+    end
   end
 
   # GET /song/1
   # GET /song/1.json
   def show
+    headers['Access-Control-Allow-Origin'] = "*"
     @song = Song.find(params[:id])
   end
 

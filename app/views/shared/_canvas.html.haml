@@ -1,6 +1,6 @@
-%audio#music{ src: 'http://sam-choi.com/music/' + song.filename, preload: 'auto' }
+%audio#music{ src: Rails.configuration.settings['filehost'] + song.filename, preload: 'auto' }
 %canvas#viz{ width: 1350, height: 200}
 
 #controls
   #action.pause
-  %span=song.filename
+  %span=song.name
