@@ -29,6 +29,7 @@ gem 'haml'
 gem 'sass-rails'
 gem 'json'
 
+gem 'gon'
 
 gem 'browser'
 gem 'turbolinks'

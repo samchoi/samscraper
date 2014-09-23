@@ -117,8 +117,8 @@ $(function() {
             var file =  _self.data('filename');
             e.preventDefault();
             //set src
-            $('#music').attr('src', 'http://sam-choi.com/music/' + file)
-            $('#controls span').html(file)
+            $('#music').attr('src', gon.music_host + file);
+            $('#controls span').html(_self.data('name'));
             //start player
             play();
         });

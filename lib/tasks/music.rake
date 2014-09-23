@@ -1,5 +1,5 @@
 namespace :music do
-  desc 'Adding files to database'
+  desc 'Adding filenames to database'
   task :index => :environment do
     puts "Indexing files"
     Dir.foreach(Rails.configuration.settings['music_path']) do |item|
