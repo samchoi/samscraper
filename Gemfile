@@ -31,6 +31,8 @@ gem 'json'
 
 gem 'gon'
 
+gem 'rubyzip'
+
 gem 'browser'
 gem 'turbolinks'
 

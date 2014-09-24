@@ -24,7 +24,19 @@ namespace :music do
         history = JSON.parse(response.body)
         history.each do |key, song|
           next if key == 'version'
-          song_params = { filename: nil, name: "#{song["artist"]} - #{song["title"]}", code: song["mediaid"] }
+          song_params = {
+              filename: nil,
+              name: "#{song["artist"]} - #{song["title"]}",
+              code: song["mediaid"],
+              mediaid: song["mediaid"],
+              artist: song["artist"],
+              title: song["title"],
+              sitename: song["mediaid"],
+              posturl: song["posturl"],
+              thumb_url_artist: song["thumb_url_artist"],
+              description: song["description"],
+              itunes_link: song["itunes_link"]
+          }
           puts Song.new(song_params).save!
         end
 
@@ -44,11 +56,47 @@ namespace :music do
         history = JSON.parse(response.body)
         history.each do |key, song|
           next if key == 'version'
-          song_params = { filename: nil, name: "#{song["artist"]} - #{song["title"]}", code: song["mediaid"] }
+          song_params = {
+              filename: nil,
+              name: "#{song["artist"]} - #{song["title"]}",
+              code: song["mediaid"],
+              mediaid: song["mediaid"],
+              artist: song["artist"],
+              title: song["title"],
+              sitename: song["mediaid"],
+              posturl: song["posturl"],
+              thumb_url_artist: song["thumb_url_artist"],
+              description: song["description"],
+              itunes_link: song["itunes_link"]
+          }
           counter += 1
           status = Song.new(song_params).save! unless Song.exists?({ code: song["mediaid"] })
           puts counter.to_s
         end
+      end
+    end
+  end
+
+  task :zip => :environment do
+    require 'rubygems'
+    require 'zip'
+
+    folder = Rails.configuration.settings['music_path']
+    zipfile_name = Rails.configuration.settings['zip_path'] + 'test3.zip'
+
+    songs = [Song.first, Song.last]
+    puts zipfile_name
+    Zip::File.open(zipfile_name, Zip::File::CREATE) do |zipfile|
+      songs.each do |song|
+        filename = song.filename
+        puts song.filename
+        # Two arguments:
+        # - The name of the file as it will appear in the archive
+        # - The original file, including the path to find it
+        zipfile.add(filename, folder + '/' + filename)
+      end
+      zipfile.get_output_stream("tracks.txt") do |os|
+        os.write songs.map{ |song| "#{song.artist} - #{song.title}"}.join('\n')
       end
     end
   end

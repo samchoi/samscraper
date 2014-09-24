@@ -141,10 +141,14 @@ $(function() {
             e.preventDefault();
             //set src
             $('#music').attr('src', gon.music_host + file);
-            $('#controls span').html(name);
+            $('#controls span.name').html(name);
             //start player
             $('#action').toggleClass('play');
             play();
+        });
+
+        $(document).on('keyup', '#playlist-name', function(){
+            $('#download-btn').attr('href', '/dl/'+$(this).val());
         });
 
         $('#music').on('error', function(){

@@ -6,12 +6,16 @@
     -@songs.each do |song|
       %li{ data: {id: song.id, filename: song.filename, name: song.name} }
         %a{ href: "/song/#{song.id}"}=song.name
-        %p
+        %p.actions
           %span.minus &#8722;
           %span.add &#43;
           %span.play-btn &#9658;
-          %span.download-btn &#8623;
+          %a.download-btn{href: download_song_path(song.id), alt: 'Download Song', title: 'Download'} &#8623;
         .rank
           =song.id
 
+  %h2
+    %input#playlist-name{ type: 'text', maxlength: 25 }
+    %a.download-list{ href: download_zip_path(Time.new.seconds_until_end_of_day.to_s)} &#8623;
+    %a{ href: reset_path} &#10226;
   =render partial: 'shared/playlist', locals: { playlist: @playlist }

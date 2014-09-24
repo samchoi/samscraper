@@ -8,27 +8,63 @@ class SongController < ApplicationController
   # GET /song.json
   def index
     redirect_to home_path and return unless browser.chrome?
-    @songs = Song.where.not(id: session[:song_filter]).select{ |s| !s.filename.nil?}
+    @songs = Song.where.not(id: session[:song_filter])
     @song = @songs.sample
     gon.music_host = Rails.configuration.settings['filehost']
-    @playlist = session[:playlist].nil? ? [] : Song.find(session[:playlist]) rescue []
+    @playlist = session[:playlist].nil? ? [] : Song.where(id: session[:playlist])
   end
 
   def home
+  end
 
+  def clear
+    session[:playlist] = nil
+    redirect_to music_path and return
   end
 
   def add_to_session_playlist
     session[:playlist] = [] if session[:playlist].nil?
     session[:playlist] << params[:song_id]
 
-    @songs = Song.find(session[:playlist]) rescue []
+    @songs = Song.where(id: session[:playlist]) rescue []
 
     respond_to do |format|
       format.all do
         render json: { html: render_to_string(partial: 'shared/playlist', formats: [:json, :html], layout: false, locals: {playlist: @songs}) }
       end
     end
+  end
+
+  def send_zip
+    #to optimize this we can create a rabbitmq and a running process that runs the following as a rake job
+    require 'rubygems'
+    require 'zip'
+
+    music_path = Rails.configuration.settings['music_path']
+
+    zip_file = params[:name] + '.zip'
+    zip_file_path = Rails.configuration.settings['zip_path'] + zip_file
+
+    songs = Song.where(id: session[:playlist])
+    Zip::File.open(zip_file_path, Zip::File::CREATE) do |zip|
+      songs.each do |song|
+        music_file_path = music_path + '/' + song.filename
+        zip.add("#{song.download_name}", music_file_path)
+      end
+      zip.get_output_stream("tracks.txt") do |os|
+        os.write songs.map{ |song| "#{song.desc}"}.join("\n")
+      end
+    end
+
+    send_file zip_file_path, :type => 'application/zip', :filename => zip_file
+
+  end
+
+  def send_song
+    music_path = Rails.configuration.settings['music_path'] + '/'
+    song = Song.where(id: params[:id]).first
+
+    send_file music_path + song.filename, :type => 'application/mp3', :filename => song.download_name
   end
 
   def add_to_session_filter
