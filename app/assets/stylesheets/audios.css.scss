@@ -9,133 +9,135 @@ body{
   }
 }
 
-#fixed-top{
-  background-image: url('/assets/headphones.jpg');
-  background-position: 0 -50px;
-  position: fixed;
-  width: 100%;
-  z-index: 1;
-}
+.audio-content{
+  #fixed-top{
+    background-image: url('/assets/headphones.jpg');
+    background-position: 0 -50px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+  }
 
-#q{
-  overflow: scroll;
-  height: 225px;
-}
+  #q{
+    overflow: scroll;
+    height: 225px;
+  }
 
-#controls{
-  background-color: grey;
-  line-height: 50px;
-  padding: 0 15px;
-  width: 100%;
-}
+  #controls{
+    background-color: grey;
+    line-height: 50px;
+    padding: 0 15px;
+    width: 100%;
+  }
 
-#header{
-  background-image: url('/assets/headphones.jpg');
-  background-position: 0 -50px;
-  height: 250px;
-  width: 100%;
-}
+  #header{
+    background-image: url('/assets/headphones.jpg');
+    background-position: 0 -50px;
+    height: 250px;
+    width: 100%;
+  }
 
-#songs{
-  float: left;
-  list-style: none;
-  overflow: hidden;
-  width: 75%;
-  li{
-    border: 1px solid #696F7A;
+  #songs{
     float: left;
-    height: 160px;
+    list-style: none;
+    overflow: hidden;
+    width: 75%;
+    li{
+      border: 1px solid #696F7A;
+      float: left;
+      height: 160px;
+      margin: 5px;
+      padding: 5px;
+      position: relative;
+      width: 160px;
+      .rank{
+        bottom: 5px;
+        position: absolute;
+        right: 5px;
+      }
+
+    }
+
+  }
+
+  .audio{
+    position: relative;
+    float: left;
     margin: 5px;
     padding: 5px;
-    position: relative;
-    width: 160px;
-    .rank{
-      bottom: 5px;
+    width: 200px;
+    height: 200px;
+    border-radius: 2px;
+    border: 1px solid black;
+
+    background-repeat: no-repeat;
+    background-position: top right;
+    font-weight: bold;
+    color: #000;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+    &.active{
+      background-color: grey;
+    }
+    .action {
       position: absolute;
-      right: 5px;
-    }
-
-  }
-  
-}
-
-.audio{
-  position: relative;
-  float: left;
-  margin: 5px;
-  padding: 5px;
-  width: 200px;
-  height: 200px;
-  border-radius: 2px;
-  border: 1px solid black;
-
-  background-repeat: no-repeat;
-  background-position: top right;
-  font-weight: bold;
-  color: #000;
-  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
-  &.active{
-    background-color: grey;
-  }
-  .action {
-    position: absolute;
-    bottom: 10px;
-    &.like {
-      right: 10px;
+      bottom: 10px;
+      &.like {
+        right: 10px;
+      }
     }
   }
-}
 
-.play-btn{
-  cursor: pointer;
-}
+  .play-btn{
+    cursor: pointer;
+  }
 
-.play{
-  width: 0;
-  height: 0;
-  border-top: 25px solid transparent;
-  border-bottom: 25px solid transparent;
-  border-left: 50px solid black;
-}
-.pause{
-  width: 5px;
-  height: 50px;
-  background-color: transparent;
-  border-right: 10px solid black;
-  border-left: 10px solid black;
-}
-.like{
-  right: 10px;
-  cursor: pointer;
-  height: 32px;
-  width: 32px;
-  background-image: url('/assets/headphones.png');
-}
+  .play{
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-left: 50px solid black;
+  }
+  .pause{
+    width: 5px;
+    height: 50px;
+    background-color: transparent;
+    border-right: 10px solid black;
+    border-left: 10px solid black;
+  }
+  .like{
+    right: 10px;
+    cursor: pointer;
+    height: 32px;
+    width: 32px;
+    background-image: url('/assets/headphones.png');
+  }
 
-#logo{
-  display: inline-block;
-  border-radius: 50%;
-  behavior: url(PIE.htc); /* remove if you don't care about IE8 */
-  width: 100px;
-  height: 25px;
-  border: 3px solid black;
-}
+  #logo{
+    display: inline-block;
+    border-radius: 50%;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+    width: 100px;
+    height: 25px;
+    border: 3px solid black;
+  }
 
-#title{
-  line-height: 50px;
-  float: left;
-  margin-right: 25px;
-  font-family: "Arial Black, Gadget, sans-serif";
-  display: inline-block;
-  font-size: 30px;
-}
+  #title{
+    line-height: 50px;
+    float: left;
+    margin-right: 25px;
+    font-family: "Arial Black, Gadget, sans-serif";
+    display: inline-block;
+    font-size: 30px;
+  }
 
-#playlist{
-  float: right;
-  width: 15%;
-}
-.add, .minus{
-  cursor: pointer;
+  #playlist{
+    float: right;
+    width: 15%;
+  }
+  .add, .minus{
+    cursor: pointer;
+  }
 }
 
 #content{
@@ -153,7 +155,7 @@ body{
     position: fixed;
     top: 0;
     width: 100%;
-
+    z-index: 1;
     h1{
       margin-bottom: 5px;
     }
@@ -172,9 +174,20 @@ body{
 
   #who{
     background-color: #CCCCCC;
+    .scrolling{
+      min-height: 100%;
+    }
     .bubble{
+      min-height: 100%;
+      background-size: cover;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-position: center center;
+
+
       padding: 25px 0 100px 0;
       &#local{
+        background-image: url('/assets/ggbridge.jpg');
         background-color: #495E8E;
         color: #fff;
       }
@@ -182,12 +195,26 @@ body{
         background-color: #71B654;
       }
       &#ucsb{
-        background-color: #D4AE61;
+        background-image: url('/assets/ucsb.jpg');
+        height: 450px;
+        position: relative;
+        p{
+          background-color: #D4AE61;
+          border-radius: 5px;
+          color: #fff;
+          font-size: 18px;
+          margin: 100px auto;
+          padding: 5px;
+          width: 300px;
+        }
+
       }
       &#summer{
         background-color: #985979;
       }
       &#winter{
+        background-image: url('/assets/passout.jpg');
+        background-position: 0 -550px;
         background-color: #52564C;
         color: #fff;
       }
@@ -197,9 +224,10 @@ body{
 
 
       .image-circle{
-        background-image: url('/assets/dragon.jpg');
+        background-color: #466675;
         border-radius: 50%;
         height: 300px;
+        line-height: 300px;
         margin: 10px auto;
         width: 300px;
         background-repeat: no-repeat;
@@ -221,9 +249,9 @@ body{
           background-image: url('/assets/coachella.jpg');
           background-position: -450px -420px;
         }
-        &.edc{
-          background-image: url('/assets/edc.jpg');
-          background-position: -40px 0px;
+        &.burning-man{
+          background-image: url('/assets/dragon.jpg');
+          background-position: -140px -60px;
         }
         &.squaw{
           background-image: url('/assets/squaw.jpg');

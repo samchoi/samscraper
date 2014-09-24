@@ -1,14 +1,17 @@
-#header
-%ul#songs
-  -@songs.each do |song|
-    %li{ data: {id: song.id, filename: song.filename, name: song.name} }
-      %a{ href: "/song/#{song.id}"}=song.name
-      %p
-        %span.minus &#8722;
-        %span.add &#43;
-        %span.play-btn &#9658;
-        %span.download-btn &#8623;
-      .rank
-        =song.id
+.audio-content
+  =render partial:'shared/canvas', locals: {song: @song} if @song
 
-=render partial: 'shared/playlist', locals: { playlist: @playlist }
+  #header
+  %ul#songs
+    -@songs.each do |song|
+      %li{ data: {id: song.id, filename: song.filename, name: song.name} }
+        %a{ href: "/song/#{song.id}"}=song.name
+        %p
+          %span.minus &#8722;
+          %span.add &#43;
+          %span.play-btn &#9658;
+          %span.download-btn &#8623;
+        .rank
+          =song.id
+
+  =render partial: 'shared/playlist', locals: { playlist: @playlist }
