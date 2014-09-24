@@ -65,11 +65,21 @@ $(function() {
 
     //create connection between audio tag and canvas
     var viz = new Visualizer('music', 'viz');
+    var lastScrollTop = 0;
+
     play();
 
     bindEvents();
 
     function bindEvents(){
+        $(document).on('scroll', function(){
+            var st = $(this).scrollTop();
+            var top = parseInt($('#fixed-top').css('background-position-y'), 10);
+            var factor = st > lastScrollTop ? -10 : 10
+            lastScrollTop = st;
+            $('#fixed-top').css('background-position-y', top+factor);
+        });
+
         //bind play click
         $('.audio .action.play').on('click', function(){
             var code = $(this).parent().data('code'); //grab the song id
@@ -96,7 +106,7 @@ $(function() {
         //bind like click
         $('.add').on('click', function(){
             var _self = $(this);
-            $.post('/q.json',{song_id: _self.parent().data('song-id') }, function(data){
+            $.post('/q.json',{song_id: _self.parents('li').data('id') }, function(data){
               var json = $.parseJSON(data)
               $('#playlist').replaceWith(json.html);
             });

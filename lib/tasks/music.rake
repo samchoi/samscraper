@@ -31,4 +31,25 @@ namespace :music do
       end
     end
   end
+
+  task :load_hm => :environment do
+    require 'net/http'
+    puts "Getting Hypemachine Top 50"
+    counter = 0
+    3.times do |i|
+      begin
+        domain = "hypem.com"
+        path = "/playlist/popular/3day/json/#{i+1}/data.json"
+        response = Net::HTTP.get_response(domain, path)
+        history = JSON.parse(response.body)
+        history.each do |key, song|
+          next if key == 'version'
+          song_params = { filename: nil, name: "#{song["artist"]} - #{song["title"]}", code: song["mediaid"] }
+          counter += 1
+          status = Song.new(song_params).save! unless Song.exists?({ code: song["mediaid"] })
+          puts counter.to_s
+        end
+      end
+    end
+  end
 end

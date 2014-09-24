@@ -1,37 +1,60 @@
 body{
   font-family: 'Dosis', sans-serif;
+  margin: 0;
   a{
     color: #696F7A;
     &:visited{
       color: #696F7A;
     }
   }
-  #viz{
-    background-color: transparent;
-  }
 }
+
+#fixed-top{
+  background-image: url('/assets/headphones.jpg');
+  background-position: 0 -50px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
 #q{
   overflow: scroll;
   height: 225px;
 }
 
-#action{
-  display: inline-block;
+#controls{
+  background-color: grey;
+  line-height: 50px;
+  padding: 0 15px;
+  width: 100%;
+}
 
+#header{
+  background-image: url('/assets/headphones.jpg');
+  background-position: 0 -50px;
+  height: 250px;
+  width: 100%;
 }
 
 #songs{
+  float: left;
   list-style: none;
   overflow: hidden;
   width: 75%;
   li{
     border: 1px solid #696F7A;
-    //background-color: grey;
     float: left;
     height: 160px;
     margin: 5px;
     padding: 5px;
+    position: relative;
     width: 160px;
+    .rank{
+      bottom: 5px;
+      position: absolute;
+      right: 5px;
+    }
+
   }
   
 }
@@ -106,18 +129,10 @@ body{
   display: inline-block;
   font-size: 30px;
 }
-#songs{
-  height: 500px;
-  overflow-y: scroll;
-  float: left;
-  %li{
-    float: left;
-    width: 250px;
-  }
-}
 
 #playlist{
   float: right;
+  width: 15%;
 }
 .add, .minus{
   cursor: pointer;

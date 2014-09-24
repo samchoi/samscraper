@@ -2,6 +2,8 @@ class SongController < ApplicationController
   before_action :set_song, only: [:show, :edit, :update, :destroy]
   skip_before_action :verify_authenticity_token, only: [:add_to_session_playlist, :add_to_session_filter]
 
+  before_filter :prepare_fixed_assets
+
   # GET /song
   # GET /song.json
   def index
@@ -9,7 +11,7 @@ class SongController < ApplicationController
     @songs = Song.where.not(id: session[:song_filter]).select{ |s| !s.filename.nil?}
     @song = @songs.sample
     gon.music_host = Rails.configuration.settings['filehost']
-    @playlist = session[:playlist].nil? ? [] : Song.find(session[:playlist])
+    @playlist = session[:playlist].nil? ? [] : Song.find(session[:playlist]) rescue []
   end
 
   def home
@@ -20,7 +22,7 @@ class SongController < ApplicationController
     session[:playlist] = [] if session[:playlist].nil?
     session[:playlist] << params[:song_id]
 
-    @songs = Song.find(session[:playlist])
+    @songs = Song.find(session[:playlist]) rescue []
 
     respond_to do |format|
       format.all do
@@ -102,6 +104,10 @@ class SongController < ApplicationController
       format.html { redirect_to songs_url, notice: 'Song was successfully destroyed.' }
       format.json { head :no_content }
     end
+  end
+
+  def prepare_fixed_assets
+    @header_image = ['/assets/headphones.jpg', '/assets/headphones2.jpg', '/assets/headphones3.jpg'].sample()
   end
 
   private
