@@ -40,7 +40,7 @@ class SongController < ApplicationController
   end
 
   def download
-    output = `wget #{params[:url]} -O #{Rails.configurations.settings['music_path']}'/'#{params[:name]}.mp3`
+    output = `wget #{params[:url]} -O #{Rails.configuration.settings['music_path']}'/'#{params[:name]}.mp3`
     respond_to do |format|
       format.all do
         render json: {status: output}
