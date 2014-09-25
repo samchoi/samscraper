@@ -1,6 +1,17 @@
-%audio#music{ src: 'http://sam-choi.com/music/' + song.filename, preload: 'auto' }
-%canvas#viz{ width: 1350, height: 200}
+#fixed-top{style: "background-image: url('#{@header_image}')"}
+  %audio#music{ src: Rails.configuration.settings['filehost'] + song.filename, preload: 'auto' }
+  %canvas#viz{ width: 1350, height: 200}
 
-#controls
-  #action.pause
-  %span=song.filename
+  #controls.actions{ data: {id: song.id, filename: song.filename, name: song.name} }
+    %span.name=song.name
+    /%span.btn.minus &#8722;
+    %a.download{href: download_song_path(song.id), alt: 'Download Song', title: 'Download'} &#8623;
+    %span.btn.add &#43;
+    %span.btn.play.inactive &#9658;
+    %span.btn.pause &#9616;&#9616;
+
+
+    %marquee#ticker{scrolldelay: 5, scrollamount: 2}
+      =song.description
+      %a{href: song.posturl, target: '_blank'}
+        &nbsp; (read more)

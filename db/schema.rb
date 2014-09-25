@@ -11,15 +11,24 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140910055500) do
+ActiveRecord::Schema.define(version: 20140925041915) do
 
-  create_table "song", force: true do |t|
+  create_table "songs", force: true do |t|
     t.integer  "song_id"
     t.string   "name"
     t.string   "code"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "filename"
+    t.string   "mediaid"
+    t.string   "artist"
+    t.string   "title"
+    t.string   "sitename"
+    t.string   "posturl"
+    t.string   "thumb_url_artist"
+    t.string   "description"
+    t.string   "itunes_link"
+    t.string   "thumb_url"
   end
 
 end

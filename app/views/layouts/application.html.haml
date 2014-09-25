@@ -2,13 +2,16 @@
 %html
   %head
   =javascript_include_tag '//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'
+  =include_gon
   =javascript_include_tag 'audio'
+  =javascript_include_tag 'home'
   =javascript_include_tag 'visualizer'
+  =stylesheet_link_tag 'application'
   =stylesheet_link_tag 'audios'
+  =stylesheet_link_tag 'home'
   =stylesheet_link_tag 'http://fonts.googleapis.com/css?family=Dosis'
+  =stylesheet_link_tag 'http://fonts.googleapis.com/css?family=Special+Elite'
   =csrf_meta_tags
 
 %body
-  =render partial:'shared/canvas', locals: {song: @song} if @song
-
   = yield

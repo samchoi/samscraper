@@ -1,75 +1,21 @@
 $(function() {
-    function isPassedHeader(elem)
-    {
-        var docViewTop = $(window).scrollTop();
-        var docViewBottom = docViewTop + $(window).height();
-
-        var elemTop = $(elem).offset().top;
-        var elemBottom = elemTop + $(elem).height();
-
-        return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
-    }
-    var sections = ['local', 'hack', 'ucsb', 'summer', 'winter', 'travel'];
-    var $h2 = $('#header h2');
-
-    var active = 0, next = 1;
-
-
-
-    var lastScrollTop = 0;
-    $(window).on('scroll', function(e){
-        var st = $(this).scrollTop();
-        var $active = $('#'+sections[active] + ' p');
-        if(!$active.length){
-            return;
-        }
-
-        if (st > lastScrollTop){
-            if($active.position().top < $(window).scrollTop()+$h2.position().top){
-                if(active < 0){
-                    active = 0;
-                }else if(active >= sections.length-1){
-                    active = sections.length-2;
-                }
-
-                $h2.html($active.html());
-                active += 1
-                console.log('down', active);
-                $active = $('#'+sections[active] + ' p');
-                console.log($active);
-            }
-
-        } else {
-            if($active.position().top > $(window).scrollTop()+$h2.position().top){
-                if(active <= 0){
-                    active = 1;
-                }else if(active > sections.length-1){
-                    active = sections.length-2;
-                    active = sections.length-2;
-                }
-
-
-                active -= 1;
-                console.log('up', active);
-                $active = $('#'+sections[active]+' p');
-                console.log($active);
-                $h2.html($active.html());
-
-            }
-
-        }
-        lastScrollTop = st;
-
-    });
-
-
     //create connection between audio tag and canvas
     var viz = new Visualizer('music', 'viz');
+    var lastScrollTop = 0;
+
     play();
 
     bindEvents();
 
     function bindEvents(){
+        $(document).on('scroll', function(){
+            var st = $(this).scrollTop();
+            var top = parseInt($('#fixed-top').css('background-position-y'), 10);
+            var factor = st > lastScrollTop ? -10 : 10
+            lastScrollTop = st;
+            $('#fixed-top').css('background-position-y', top+factor);
+        });
+
         //bind play click
         $('.audio .action.play').on('click', function(){
             var code = $(this).parent().data('code'); //grab the song id
@@ -86,6 +32,19 @@ $(function() {
         });
 
 
+        $('.actions').on('click', '.play', function(){
+            viz.play();
+            $(this).toggleClass('inactive');
+            $(this).siblings('.pause').toggleClass('inactive');
+
+        }).on('click', '.pause', function(){
+            viz.pause();
+            $(this).toggleClass('inactive');
+            $(this).siblings('.play').toggleClass('inactive');
+
+        });
+
+
         //bind pause clicks
         $('.audio .action.pause').on('click', function(){
             viz.pause();
@@ -96,7 +55,7 @@ $(function() {
         //bind like click
         $('.add').on('click', function(){
             var _self = $(this);
-            $.post('/q.json',{song_id: _self.parent().data('song-id') }, function(data){
+            $.post('/q.json',{song_id: _self.parents('li').data('id') }, function(data){
               var json = $.parseJSON(data)
               $('#playlist').replaceWith(json.html);
             });
@@ -117,10 +76,28 @@ $(function() {
             var file =  _self.data('filename');
             e.preventDefault();
             //set src
-            $('#music').attr('src', 'http://sam-choi.com/music/' + file)
-            $('#controls span').html(file)
+            $('#music').attr('src', gon.music_host + file);
+            $('#controls span.name').html(_self.data('name'));
             //start player
             play();
+        });
+
+        $(document).on('click', '.play-btn', function(e){
+            var _self = $(this);
+            var $holder = _self.parents('li');
+            var file =  $holder.data('filename');
+            var name =  $holder.data('name');
+            e.preventDefault();
+            //set src
+            $('#music').attr('src', gon.music_host + file);
+                $('#controls span.name').html(name);
+            //start player
+            $('#action').toggleClass('play');
+            play();
+        });
+
+        $(document).on('keyup', '#playlist-name', function(){
+            $('#download-btn').attr('href', '/dl/'+$(this).val());
         });
 
         $('#music').on('error', function(){
@@ -172,73 +149,10 @@ $(function() {
     }
 
 
-    function trackHistory(code, user_id, data){
-        $.ajax({
-            type: 'POST',
-            data: {play_history: {code: code, user_id: user_id, data: data}},
-            url: "/play_histories.json",
-            error: function (jqXHR, textStatus, errorThrown) {
-                console.log(jqXHR)
-            },
-            success: function (msg) {
-                console.log(msg);
-            }
-        });
-    }
-
     window.onbeforeunload = function(){
         var music = $('#music')[0]
         trackHistory(0, 0, music.currentTime);
         $.cookie('resume', music.currentSrc + "-" + music.currentTime);
     }
-
-    /*
-     var tracks = window.displayList['tracks'];
-     for(i in tracks){
-     var track = tracks[i];
-     $.getJSON("/serve/source/"+ track.id + "/" + track.key,
-     function(data) {
-     var url = "http://sam-choi.com/get.php?",
-     link = data.url,
-     name = data.itemid + ".mp3";
-     $.get(url+"f="+name+"&u="+link, function(){ console.log(name); });
-     });
-     }
-     for(var i = 1; i <=3; i++ ){
-     $.getJSON('http://hypem.com/playlist/popular/3day/json/'+i+'/data.js', function(track_data){
-     for( var i in track_data){
-     console.log({audio: {code: track_data[i].mediaid, artist: track_data[i].artist, title: track_data[i].title, posturl: track_data[i].posturl, thumb_url: track_data[i].thumb_url}});
-     $.ajax({
-     type: 'POST',
-     data: {audio: {code: track_data[i].mediaid, artist: track_data[i].artist, title: track_data[i].title, posturl: track_data[i].posturl, thumb_url: track_data[i].thumb_url}},
-     url: "http://localhost:4000/audios.json",
-     error: function (jqXHR, textStatus, errorThrown) {
-     console.log(jqXHR)
-     },
-     success: function (msg) {
-     console.log(msg);
-     }
-     });
-     }
-     });
-     }
-
-     var tracks = [];
-     for (var i in tracks) {
-     var code = tracks[i];
-     $.post('/audios.json', {audio: {code: code , artist: null, title: code}}, function(data){
-     console.log(data);
-     });
-     }*/
-
 });
 
-
-var Audio = function(){
-};
-
-Audio.prototype.play = function(){};
-Audio.prototype.generate = function() {};
-Audio.prototype.init = function() {}
-
-var a = new Audio();

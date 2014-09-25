@@ -2,30 +2,69 @@ class SongController < ApplicationController
   before_action :set_song, only: [:show, :edit, :update, :destroy]
   skip_before_action :verify_authenticity_token, only: [:add_to_session_playlist, :add_to_session_filter]
 
+  before_filter :prepare_fixed_assets
+
   # GET /song
   # GET /song.json
   def index
     redirect_to home_path and return unless browser.chrome?
-    @songs = Song.where.not(id: session[:song_filter])
+    @songs = Song.where.not(id: session[:song_filter], filename: nil)
     @song = @songs.sample
-    @playlist = session[:playlist].nil? ? [] : Song.find(session[:playlist])
+    gon.music_host = Rails.configuration.settings['filehost']
+    @playlist = session[:playlist].nil? ? [] : Song.where(id: session[:playlist])
   end
 
   def home
+  end
 
+  def clear
+    session[:playlist] = nil
+    redirect_to music_path and return
   end
 
   def add_to_session_playlist
     session[:playlist] = [] if session[:playlist].nil?
     session[:playlist] << params[:song_id]
 
-    @songs = Song.find(session[:playlist])
+    @songs = Song.where(id: session[:playlist]) rescue []
 
     respond_to do |format|
       format.all do
         render json: { html: render_to_string(partial: 'shared/playlist', formats: [:json, :html], layout: false, locals: {playlist: @songs}) }
       end
     end
+  end
+
+  def send_zip
+    #to optimize this we can create a rabbitmq and a running process that runs the following as a rake job
+    require 'rubygems'
+    require 'zip'
+
+    music_path = Rails.configuration.settings['music_path']
+
+    zip_file = params[:name] + '.zip'
+    zip_file_path = Rails.configuration.settings['zip_path'] + zip_file
+
+    songs = Song.where(id: session[:playlist])
+    Zip::File.open(zip_file_path, Zip::File::CREATE) do |zip|
+      songs.each do |song|
+        music_file_path = music_path + '/' + song.filename
+        zip.add("#{song.download_name}", music_file_path)
+      end
+      zip.get_output_stream("tracks.txt") do |os|
+        os.write songs.map{ |song| "#{song.desc}"}.join("\n")
+      end
+    end
+
+    send_file zip_file_path, :type => 'application/zip', :filename => zip_file
+
+  end
+
+  def send_song
+    music_path = Rails.configuration.settings['music_path'] + '/'
+    song = Song.where(id: params[:id]).first
+
+    send_file music_path + song.filename, :type => 'application/mp3', :filename => song.download_name
   end
 
   def add_to_session_filter
@@ -39,12 +78,18 @@ class SongController < ApplicationController
   end
 
   def download
-      send_file "/path/to/file.mp3", :type=>"audio/mp3", :filename => "filenamehere.mp3"
+    output = `wget #{params[:url]} -O #{Rails.configuration.settings['music_path']}'/'#{params[:name]}.mp3`
+    respond_to do |format|
+      format.all do
+        render json: {status: output}
+      end
+    end
   end
 
   # GET /song/1
   # GET /song/1.json
   def show
+    headers['Access-Control-Allow-Origin'] = "*"
     @song = Song.find(params[:id])
   end
 
@@ -95,6 +140,11 @@ class SongController < ApplicationController
       format.html { redirect_to songs_url, notice: 'Song was successfully destroyed.' }
       format.json { head :no_content }
     end
+  end
+
+  def prepare_fixed_assets
+    session[:playlist] ||= []
+    @header_image = ['/assets/headphones.jpg', '/assets/headphones2.jpg', '/assets/headphones3.jpg'].sample()
   end
 
   private

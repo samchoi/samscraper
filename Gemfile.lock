@@ -40,6 +40,11 @@ GEM
     coffee-script-source (1.8.0)
     erubis (2.7.0)
     execjs (2.2.1)
+    gon (5.2.0)
+      actionpack (>= 2.3.0)
+      json
+      multi_json
+      request_store (>= 1.0.5)
     haml (4.0.5)
       tilt
     hike (1.2.3)
@@ -85,6 +90,8 @@ GEM
     rake (10.3.2)
     rdoc (4.1.1)
       json (~> 1.4)
+    request_store (1.1.0)
+    rubyzip (1.1.6)
     sass (3.2.19)
     sass-rails (4.0.3)
       railties (>= 4.0.0, < 5.0)
@@ -125,6 +132,7 @@ PLATFORMS
 DEPENDENCIES
   browser
   coffee-rails (~> 4.0.0)
+  gon
   haml
   jbuilder (~> 2.0)
   jquery-rails
@@ -132,6 +140,7 @@ DEPENDENCIES
   mysql2
   pry
   rails (= 4.1.0)
+  rubyzip
   sass-rails
   sdoc (~> 0.4.0)
   spring

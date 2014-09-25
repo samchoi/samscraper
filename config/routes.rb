@@ -4,7 +4,10 @@ Rails.application.routes.draw do
   get '/' => 'song#home', as: 'home'
   get 'samscraper' => 'song#index', as: 'music'
   get 's' => 'song#download'
+  get 'dl/:name' => 'song#send_zip', as: 'download_zip'
+  get 'ds/:id' => 'song#send_song', as: 'download_song'
   post 'q.json' => 'song#add_to_session_playlist', as: 'add_to_playlist'
+  get 'reset' => 'song#clear', as: 'reset'
   post 'remove.json' => 'song#add_to_session_filter', as: 'remove'
 
   # The priority is based upon order of creation: first created -> highest priority.
