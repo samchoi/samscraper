@@ -11,6 +11,8 @@
           %span.add &#43;
           %span.play-btn &#9658;
           %a.download-btn{href: download_song_path(song.id), alt: 'Download Song', title: 'Download'} &#8623;
+        .description
+          =song.description
         .rank
           =song.id
 

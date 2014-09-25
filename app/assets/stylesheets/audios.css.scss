@@ -81,7 +81,10 @@ body{
     overflow: hidden;
     width: 75%;
     li{
-      border: 1px solid #696F7A;
+      background-color: #efefef;
+      border: 3px solid #fff;
+      border-radius: 3px;
+      box-shadow: 0 0 2px 0 rgba(0,0,0,.1);
       float: left;
       height: 160px;
       margin: 5px;
@@ -93,7 +96,9 @@ body{
         position: absolute;
         right: 5px;
       }
-
+      .description{
+        display: none;
+      }
     }
 
   }

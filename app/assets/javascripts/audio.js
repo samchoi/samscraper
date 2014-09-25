@@ -128,7 +128,7 @@ $(function() {
             e.preventDefault();
             //set src
             $('#music').attr('src', gon.music_host + file);
-            $('#controls span').html(_self.data('name'));
+            $('#controls span.name').html(_self.data('name'));
             //start player
             play();
         });
@@ -141,7 +141,7 @@ $(function() {
             e.preventDefault();
             //set src
             $('#music').attr('src', gon.music_host + file);
-            $('#controls span.name').html(name);
+                $('#controls span.name').html(name);
             //start player
             $('#action').toggleClass('play');
             play();
