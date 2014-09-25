@@ -8,7 +8,7 @@ class SongController < ApplicationController
   # GET /song.json
   def index
     redirect_to home_path and return unless browser.chrome?
-    @songs = Song.where.not(id: session[:song_filter])
+    @songs = Song.where.not(id: session[:song_filter], filename: nil)
     @song = @songs.sample
     gon.music_host = Rails.configuration.settings['filehost']
     @playlist = session[:playlist].nil? ? [] : Song.where(id: session[:playlist])
@@ -143,6 +143,7 @@ class SongController < ApplicationController
   end
 
   def prepare_fixed_assets
+    session[:playlist] ||= []
     @header_image = ['/assets/headphones.jpg', '/assets/headphones2.jpg', '/assets/headphones3.jpg'].sample()
   end
 
