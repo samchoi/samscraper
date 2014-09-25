@@ -4,18 +4,25 @@ body{
     &:visited{
       color: #696F7A;
     }
+    &:hover{
+      background-color: transparent;
+    }
+  }
+
+}
+
+.audio-content{
+
+  #fixed-top{
+    background-image: url('/assets/headphones.jpg');
+    background-position: 0 -50px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
   }
 
   .inactive{
     display: none;
-  }
-
-  .play-btn{
-    font-size: 18px;
-  }
-
-  .pause-btn{
-    letter-spacing: -.15em;
   }
 
   .actions{
@@ -36,17 +43,6 @@ body{
     &:focus{
       border: none;
     }
-  }
-}
-
-.audio-content{
-
-  #fixed-top{
-    background-image: url('/assets/headphones.jpg');
-    background-position: 0 -50px;
-    position: fixed;
-    width: 100%;
-    z-index: 1;
   }
 
   #q{
@@ -76,12 +72,15 @@ body{
   }
 
   #songs{
+    background-attachment: fixed;
+    background-image: url('http://clarehubbard.com/wp-content/uploads/2014/09/Headphones-Gray-Music.jpg');
     float: left;
     list-style: none;
     overflow: hidden;
     width: 75%;
     li{
-      background-color: #efefef;
+      background-attachment: fixed;
+      background-image: url('http://resources1.news.com.au/images/2014/04/16/1226886/312449-133690ea-c504-11e3-bbdc-335205f64e54.jpg');
       border: 3px solid #fff;
       border-radius: 3px;
       box-shadow: 0 0 2px 0 rgba(0,0,0,.1);
@@ -91,10 +90,25 @@ body{
       padding: 5px;
       position: relative;
       width: 160px;
-      .rank{
-        bottom: 5px;
+      .bottom{
+        background-color: #efefef;
+        bottom: 0px;
+        overflow: hidden;
         position: absolute;
-        right: 5px;
+        right: 0px;
+        .actions{
+          float: left;
+        }
+
+        .name{
+          display: block;
+          width: 170px;
+          text-align: center;
+        }
+
+        .rank{
+          float: right;
+        }
       }
       .description{
         display: none;
@@ -130,48 +144,19 @@ body{
     }
   }
 
-  .play-btn{
-    cursor: pointer;
-  }
-
   .play{
-    width: 0;
-    height: 0;
-    border-top: 25px solid transparent;
-    border-bottom: 25px solid transparent;
-    border-left: 50px solid black;
+    padding-left: 5px;
   }
   .pause{
-    width: 5px;
-    height: 50px;
-    background-color: transparent;
-    border-right: 10px solid black;
-    border-left: 10px solid black;
+    letter-spacing: -.15em;
+    margin-right: 2px;
   }
-  .like{
-    right: 10px;
+  .btn{
     cursor: pointer;
-    height: 32px;
-    width: 32px;
-    background-image: url('/assets/headphones.png');
   }
 
-  #logo{
-    display: inline-block;
-    border-radius: 50%;
-    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
-    width: 100px;
-    height: 25px;
-    border: 3px solid black;
-  }
-
-  #title{
-    line-height: 50px;
-    float: left;
-    margin-right: 25px;
-    font-family: "Arial Black, Gadget, sans-serif";
-    display: inline-block;
-    font-size: 30px;
+  .download:hover{
+    background-color: none;
   }
 
   #playlist{

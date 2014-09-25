@@ -48037,3 +48037,3079 @@ ActionController::RoutingError (No route matches [POST] "/play_histories.json"):
 
   Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.9ms)
   Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (9.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 18:47:47 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (16.9ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (7.2ms)
+Completed 200 OK in 540ms (Views: 459.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 18:47:50 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 18:47:50 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 18:47:50 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 18:47:50 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 18:47:50 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 18:47:50 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 18:47:50 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 18:47:50 -0700
+
+
+Started GET "/assets/haight.png" for 127.0.0.1 at 2014-09-24 18:47:50 -0700
+
+
+Started GET "/assets/github_logo.jpg" for 127.0.0.1 at 2014-09-24 18:47:50 -0700
+
+
+Started GET "/assets/nopa.png" for 127.0.0.1 at 2014-09-24 18:47:50 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 18:47:50 -0700
+
+
+Started GET "/assets/dragon.jpg" for 127.0.0.1 at 2014-09-24 18:47:50 -0700
+
+
+Started GET "/assets/coachella.jpg" for 127.0.0.1 at 2014-09-24 18:47:50 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 18:47:51 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 18:47:51 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 18:47:51 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-24 18:47:51 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-24 18:47:51 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-24 18:47:51 -0700
+
+
+Started GET "/samscraper" for 127.0.0.1 at 2014-09-24 18:52:59 -0700
+Processing by SongController#index as HTML
+  [1m[35mSong Load (148.9ms)[0m  SELECT `songs`.* FROM `songs`  WHERE (`songs`.`id` IS NOT NULL) AND (`songs`.`filename` IS NOT NULL)
+  Rendered shared/_canvas.html.haml (16.5ms)
+  [1m[36mSong Load (29.5ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE 1=0[0m
+  Rendered shared/_playlist.html.haml (32.3ms)
+  Rendered song/index.html.haml within layouts/application (109.8ms)
+Completed 200 OK in 479ms (Views: 217.2ms | ActiveRecord: 181.9ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 18:53:00 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 18:53:00 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 18:53:00 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 18:53:00 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 18:53:00 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 18:53:00 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 18:53:00 -0700
+
+
+Started GET "/assets/headphones.jpg" for 127.0.0.1 at 2014-09-24 18:53:00 -0700
+
+
+Started GET "/assets/headphones2.jpg" for 127.0.0.1 at 2014-09-24 18:53:00 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 18:53:08 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 18:53:08 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 18:53:08 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 18:53:08 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 18:53:08 -0700
+
+
+Started POST "/play_histories.json" for 127.0.0.1 at 2014-09-24 18:56:46 -0700
+
+ActionController::RoutingError (No route matches [POST] "/play_histories.json"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (9.8ms)
+
+
+Started GET "/song/795" for 127.0.0.1 at 2014-09-24 18:56:46 -0700
+Processing by SongController#show as HTML
+  Parameters: {"id"=>"795"}
+  [1m[35mSong Load (52.3ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1[0m  [["id", "795"]]
+  Rendered song/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 264ms (Views: 208.3ms | ActiveRecord: 52.4ms)
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 18:56:46 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 18:56:46 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 18:56:46 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 18:56:46 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 18:56:46 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 18:56:46 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 18:56:46 -0700
+
+
+Started GET "/song/795" for 127.0.0.1 at 2014-09-24 19:04:52 -0700
+Processing by SongController#show as HTML
+  Parameters: {"id"=>"795"}
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1[0m  [["id", "795"]]
+  Rendered shared/_canvas.html.haml (1.2ms)
+  Rendered song/show.html.haml within layouts/application (21.4ms)
+Completed 200 OK in 102ms (Views: 99.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 19:04:52 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 19:04:52 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 19:04:53 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 19:04:53 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 19:04:53 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 19:04:53 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 19:04:53 -0700
+
+
+Started GET "/assets/headphones3.jpg" for 127.0.0.1 at 2014-09-24 19:04:53 -0700
+
+
+Started POST "/play_histories.json" for 127.0.0.1 at 2014-09-24 19:13:37 -0700
+
+ActionController::RoutingError (No route matches [POST] "/play_histories.json"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (7.0ms)
+
+
+Started GET "/song/795" for 127.0.0.1 at 2014-09-24 19:13:37 -0700
+Processing by SongController#show as HTML
+  Parameters: {"id"=>"795"}
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1[0m  [["id", "795"]]
+  Rendered shared/_canvas.html.haml (4.9ms)
+  Rendered song/show.html.haml within layouts/application (5.9ms)
+Completed 200 OK in 192ms (Views: 188.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 19:13:37 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 19:13:37 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 19:13:38 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 19:13:38 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 19:13:38 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 19:13:38 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 19:13:38 -0700
+
+
+Started GET "/assets/headphones2.jpg" for 127.0.0.1 at 2014-09-24 19:13:38 -0700
+
+
+Started POST "/play_histories.json" for 127.0.0.1 at 2014-09-24 19:13:57 -0700
+
+ActionController::RoutingError (No route matches [POST] "/play_histories.json"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (6.4ms)
+
+
+Started GET "/song/795" for 127.0.0.1 at 2014-09-24 19:13:57 -0700
+Processing by SongController#show as HTML
+  Parameters: {"id"=>"795"}
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1[0m  [["id", "795"]]
+  Rendered shared/_canvas.html.haml (4.8ms)
+  Rendered song/show.html.haml within layouts/application (6.7ms)
+Completed 200 OK in 154ms (Views: 151.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 19:13:57 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 19:13:57 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 19:13:57 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 19:13:57 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 19:13:57 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 19:13:57 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 19:13:57 -0700
+
+
+Started GET "/assets/headphones2.jpg" for 127.0.0.1 at 2014-09-24 19:13:57 -0700
+
+
+Started POST "/play_histories.json" for 127.0.0.1 at 2014-09-24 19:16:02 -0700
+
+ActionController::RoutingError (No route matches [POST] "/play_histories.json"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (10.5ms)
+
+
+Started GET "/song/795" for 127.0.0.1 at 2014-09-24 19:16:02 -0700
+Processing by SongController#show as HTML
+  Parameters: {"id"=>"795"}
+  [1m[35mSong Load (0.5ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1[0m  [["id", "795"]]
+  Rendered shared/_canvas.html.haml (1.8ms)
+  Rendered song/show.html.haml within layouts/application (3.0ms)
+Completed 200 OK in 636ms (Views: 633.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 19:16:03 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 19:16:03 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 19:16:03 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 19:16:03 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 19:16:03 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 19:16:03 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 19:16:03 -0700
+
+
+Started GET "/assets/headphones.jpg" for 127.0.0.1 at 2014-09-24 19:16:03 -0700
+
+
+Started POST "/play_histories.json" for 127.0.0.1 at 2014-09-24 19:19:25 -0700
+
+ActionController::RoutingError (No route matches [POST] "/play_histories.json"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (7.9ms)
+
+
+Started GET "/song/795" for 127.0.0.1 at 2014-09-24 19:19:25 -0700
+Processing by SongController#show as HTML
+  Parameters: {"id"=>"795"}
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1[0m  [["id", "795"]]
+  Rendered shared/_canvas.html.haml (1.0ms)
+  Rendered song/show.html.haml within layouts/application (2.2ms)
+Completed 200 OK in 68ms (Views: 65.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 19:19:25 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 19:19:25 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 19:19:25 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 19:19:25 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 19:19:25 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 19:19:25 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 19:19:25 -0700
+
+
+Started GET "/assets/headphones3.jpg" for 127.0.0.1 at 2014-09-24 19:19:25 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 19:19:30 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 19:19:30 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 19:19:30 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 19:19:30 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 19:19:30 -0700
+
+
+Started POST "/play_histories.json" for 127.0.0.1 at 2014-09-24 19:19:48 -0700
+
+ActionController::RoutingError (No route matches [POST] "/play_histories.json"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (6.3ms)
+
+
+Started GET "/song/795" for 127.0.0.1 at 2014-09-24 19:19:48 -0700
+Processing by SongController#show as HTML
+  Parameters: {"id"=>"795"}
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1[0m  [["id", "795"]]
+  Rendered shared/_canvas.html.haml (1.4ms)
+  Rendered song/show.html.haml within layouts/application (2.5ms)
+Completed 200 OK in 147ms (Views: 144.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 19:19:48 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 19:19:48 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 19:19:48 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 19:19:48 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 19:19:48 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 19:19:48 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 19:19:48 -0700
+
+
+Started GET "/assets/headphones.jpg" for 127.0.0.1 at 2014-09-24 19:19:55 -0700
+
+
+Started POST "/play_histories.json" for 127.0.0.1 at 2014-09-24 19:20:02 -0700
+
+ActionController::RoutingError (No route matches [POST] "/play_histories.json"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (14.6ms)
+
+
+Started GET "/song/795" for 127.0.0.1 at 2014-09-24 19:20:02 -0700
+Processing by SongController#show as HTML
+  Parameters: {"id"=>"795"}
+  [1m[35mSong Load (0.3ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1[0m  [["id", "795"]]
+  Rendered shared/_canvas.html.haml (1.3ms)
+  Rendered song/show.html.haml within layouts/application (24.9ms)
+Completed 200 OK in 814ms (Views: 811.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 19:20:03 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 19:20:03 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 19:20:03 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 19:20:03 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 19:20:03 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 19:20:03 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 19:20:03 -0700
+
+
+Started GET "/assets/headphones2.jpg" for 127.0.0.1 at 2014-09-24 19:20:03 -0700
+
+
+Started POST "/play_histories.json" for 127.0.0.1 at 2014-09-24 19:20:17 -0700
+
+ActionController::RoutingError (No route matches [POST] "/play_histories.json"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (6.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (27.5ms)
+
+
+Started GET "/song/795" for 127.0.0.1 at 2014-09-24 19:20:17 -0700
+Processing by SongController#show as HTML
+  Parameters: {"id"=>"795"}
+  [1m[35mSong Load (0.5ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1[0m  [["id", "795"]]
+  Rendered shared/_canvas.html.haml (7.2ms)
+  Rendered song/show.html.haml within layouts/application (32.0ms)
+Completed 200 OK in 308ms (Views: 302.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 19:20:17 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 19:20:17 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 19:20:17 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 19:20:17 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 19:20:17 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 19:20:17 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 19:20:17 -0700
+
+
+Started GET "/assets/headphones2.jpg" for 127.0.0.1 at 2014-09-24 19:20:18 -0700
+
+
+Started POST "/play_histories.json" for 127.0.0.1 at 2014-09-24 19:21:12 -0700
+
+ActionController::RoutingError (No route matches [POST] "/play_histories.json"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (12.4ms)
+
+
+Started GET "/song/795" for 127.0.0.1 at 2014-09-24 19:21:12 -0700
+Processing by SongController#show as HTML
+  Parameters: {"id"=>"795"}
+  [1m[35mSong Load (1.2ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1[0m  [["id", "795"]]
+  Rendered shared/_canvas.html.haml (2.0ms)
+  Rendered song/show.html.haml within layouts/application (4.0ms)
+Completed 200 OK in 141ms (Views: 135.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 19:21:12 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 19:21:12 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 19:21:12 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 19:21:12 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 19:21:12 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 19:21:12 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 19:21:12 -0700
+
+
+Started GET "/assets/headphones.jpg" for 127.0.0.1 at 2014-09-24 19:21:13 -0700
+
+
+Started POST "/play_histories.json" for 127.0.0.1 at 2014-09-24 19:21:40 -0700
+
+ActionController::RoutingError (No route matches [POST] "/play_histories.json"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (6.9ms)
+
+
+Started GET "/song/795" for 127.0.0.1 at 2014-09-24 19:21:40 -0700
+Processing by SongController#show as HTML
+  Parameters: {"id"=>"795"}
+  [1m[35mSong Load (0.8ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1[0m  [["id", "795"]]
+  Rendered shared/_canvas.html.haml (2.6ms)
+  Rendered song/show.html.haml within layouts/application (26.2ms)
+Completed 200 OK in 145ms (Views: 141.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 19:21:41 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 19:21:41 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 19:21:41 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 19:21:41 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 19:21:41 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 19:21:41 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 19:21:41 -0700
+
+
+Started GET "/assets/headphones.jpg" for 127.0.0.1 at 2014-09-24 19:21:41 -0700
+
+
+Started POST "/play_histories.json" for 127.0.0.1 at 2014-09-24 19:22:01 -0700
+
+ActionController::RoutingError (No route matches [POST] "/play_histories.json"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (6.9ms)
+
+
+Started GET "/song/795" for 127.0.0.1 at 2014-09-24 19:22:01 -0700
+Processing by SongController#show as HTML
+  Parameters: {"id"=>"795"}
+  [1m[35mSong Load (1.1ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1[0m  [["id", "795"]]
+  Rendered shared/_canvas.html.haml (1.2ms)
+  Rendered song/show.html.haml within layouts/application (2.1ms)
+Completed 200 OK in 292ms (Views: 287.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 19:22:01 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 19:22:01 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 19:22:01 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 19:22:01 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 19:22:01 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 19:22:01 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 19:22:01 -0700
+
+
+Started GET "/assets/headphones3.jpg" for 127.0.0.1 at 2014-09-24 19:22:01 -0700
+
+
+Started POST "/play_histories.json" for 127.0.0.1 at 2014-09-24 19:24:27 -0700
+
+ActionController::RoutingError (No route matches [POST] "/play_histories.json"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (9.7ms)
+
+
+Started GET "/song/795" for 127.0.0.1 at 2014-09-24 19:24:27 -0700
+Processing by SongController#show as HTML
+  Parameters: {"id"=>"795"}
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1[0m  [["id", "795"]]
+  Rendered shared/_canvas.html.haml (4.9ms)
+  Rendered song/show.html.haml within layouts/application (6.4ms)
+Completed 200 OK in 292ms (Views: 288.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 19:24:27 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 19:24:27 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 19:24:27 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 19:24:27 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 19:24:27 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 19:24:27 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 19:24:27 -0700
+
+
+Started GET "/assets/headphones2.jpg" for 127.0.0.1 at 2014-09-24 19:24:28 -0700
+
+
+Started POST "/play_histories.json" for 127.0.0.1 at 2014-09-24 19:24:49 -0700
+
+ActionController::RoutingError (No route matches [POST] "/play_histories.json"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (7.5ms)
+
+
+Started GET "/song/795" for 127.0.0.1 at 2014-09-24 19:24:50 -0700
+Processing by SongController#show as HTML
+  Parameters: {"id"=>"795"}
+  [1m[35mSong Load (0.3ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1[0m  [["id", "795"]]
+  Rendered shared/_canvas.html.haml (1.1ms)
+  Rendered song/show.html.haml within layouts/application (17.4ms)
+Completed 200 OK in 321ms (Views: 317.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 19:24:50 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 19:24:50 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 19:24:50 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 19:24:50 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 19:24:50 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 19:24:50 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 19:24:50 -0700
+
+
+Started GET "/assets/headphones3.jpg" for 127.0.0.1 at 2014-09-24 19:24:51 -0700
+
+
+Started POST "/play_histories.json" for 127.0.0.1 at 2014-09-24 19:24:52 -0700
+
+ActionController::RoutingError (No route matches [POST] "/play_histories.json"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (8.9ms)
+
+
+Started GET "/song/795" for 127.0.0.1 at 2014-09-24 19:24:52 -0700
+Processing by SongController#show as HTML
+  Parameters: {"id"=>"795"}
+  [1m[35mSong Load (0.7ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1[0m  [["id", "795"]]
+  Rendered shared/_canvas.html.haml (2.3ms)
+  Rendered song/show.html.haml within layouts/application (3.8ms)
+Completed 200 OK in 177ms (Views: 172.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 19:24:52 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 19:24:52 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 19:24:52 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 19:24:52 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 19:24:52 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 19:24:52 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 19:24:52 -0700
+
+
+Started GET "/assets/headphones.jpg" for 127.0.0.1 at 2014-09-24 19:24:52 -0700
+
+
+Started POST "/play_histories.json" for 127.0.0.1 at 2014-09-24 19:24:57 -0700
+
+ActionController::RoutingError (No route matches [POST] "/play_histories.json"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (8.3ms)
+
+
+Started GET "/song/795" for 127.0.0.1 at 2014-09-24 19:24:57 -0700
+Processing by SongController#show as HTML
+  Parameters: {"id"=>"795"}
+  [1m[35mSong Load (0.3ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1[0m  [["id", "795"]]
+  Rendered shared/_canvas.html.haml (1.8ms)
+  Rendered song/show.html.haml within layouts/application (3.0ms)
+Completed 200 OK in 76ms (Views: 73.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 19:24:57 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 19:24:57 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 19:24:57 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 19:24:57 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 19:24:57 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 19:24:57 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 19:24:57 -0700
+
+
+Started GET "/assets/headphones2.jpg" for 127.0.0.1 at 2014-09-24 19:24:57 -0700
+
+
+Started POST "/play_histories.json" for 127.0.0.1 at 2014-09-24 19:27:21 -0700
+
+ActionController::RoutingError (No route matches [POST] "/play_histories.json"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (8.1ms)
+
+
+Started GET "/song/795" for 127.0.0.1 at 2014-09-24 19:27:21 -0700
+Processing by SongController#show as HTML
+  Parameters: {"id"=>"795"}
+  [1m[35mSong Load (0.6ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1[0m  [["id", "795"]]
+  Rendered shared/_canvas.html.haml (1.4ms)
+  Rendered song/show.html.haml within layouts/application (18.1ms)
+Completed 200 OK in 308ms (Views: 303.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 19:27:21 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 19:27:21 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 19:27:21 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 19:27:21 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 19:27:21 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 19:27:21 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 19:27:21 -0700
+
+
+Started GET "/assets/headphones3.jpg" for 127.0.0.1 at 2014-09-24 19:27:21 -0700
+
+
+Started POST "/play_histories.json" for 127.0.0.1 at 2014-09-24 19:28:20 -0700
+
+ActionController::RoutingError (No route matches [POST] "/play_histories.json"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (9.9ms)
+
+
+Started GET "/song/795" for 127.0.0.1 at 2014-09-24 19:28:20 -0700
+Processing by SongController#show as HTML
+  Parameters: {"id"=>"795"}
+  [1m[35mSong Load (75.7ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1[0m  [["id", "795"]]
+  Rendered shared/_canvas.html.haml (1.1ms)
+  Rendered song/show.html.haml within layouts/application (1.9ms)
+Completed 200 OK in 267ms (Views: 189.1ms | ActiveRecord: 75.8ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 19:28:21 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 19:28:21 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 19:28:21 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 19:28:21 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 19:28:21 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 19:28:21 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 19:28:21 -0700
+
+
+Started GET "/assets/headphones2.jpg" for 127.0.0.1 at 2014-09-24 19:28:21 -0700
+
+
+Started POST "/play_histories.json" for 127.0.0.1 at 2014-09-24 19:29:16 -0700
+
+ActionController::RoutingError (No route matches [POST] "/play_histories.json"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (7.9ms)
+
+
+Started GET "/song/795" for 127.0.0.1 at 2014-09-24 19:29:16 -0700
+Processing by SongController#show as HTML
+  Parameters: {"id"=>"795"}
+  [1m[35mSong Load (0.6ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1[0m  [["id", "795"]]
+  Rendered shared/_canvas.html.haml (1.6ms)
+  Rendered song/show.html.haml within layouts/application (3.4ms)
+Completed 200 OK in 151ms (Views: 145.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 19:29:16 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 19:29:16 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 19:29:16 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 19:29:16 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 19:29:16 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 19:29:16 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 19:29:16 -0700
+
+
+Started GET "/assets/headphones.jpg" for 127.0.0.1 at 2014-09-24 19:29:16 -0700
+
+
+Started POST "/play_histories.json" for 127.0.0.1 at 2014-09-24 19:29:29 -0700
+
+ActionController::RoutingError (No route matches [POST] "/play_histories.json"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (7.5ms)
+
+
+Started GET "/song/795" for 127.0.0.1 at 2014-09-24 19:29:29 -0700
+Processing by SongController#show as HTML
+  Parameters: {"id"=>"795"}
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1[0m  [["id", "795"]]
+  Rendered shared/_canvas.html.haml (1.4ms)
+  Rendered song/show.html.haml within layouts/application (3.1ms)
+Completed 200 OK in 144ms (Views: 140.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 19:29:30 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 19:29:30 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 19:29:30 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 19:29:30 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 19:29:30 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 19:29:30 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 19:29:30 -0700
+
+
+Started GET "/assets/headphones2.jpg" for 127.0.0.1 at 2014-09-24 19:29:30 -0700
+
+
+Started POST "/play_histories.json" for 127.0.0.1 at 2014-09-24 19:30:03 -0700
+
+ActionController::RoutingError (No route matches [POST] "/play_histories.json"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (10.1ms)
+
+
+Started GET "/song/795" for 127.0.0.1 at 2014-09-24 19:30:03 -0700
+Processing by SongController#show as HTML
+  Parameters: {"id"=>"795"}
+  [1m[35mSong Load (0.5ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1[0m  [["id", "795"]]
+  Rendered shared/_canvas.html.haml (1.9ms)
+  Rendered song/show.html.haml within layouts/application (3.4ms)
+Completed 200 OK in 200ms (Views: 195.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 19:30:03 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 19:30:03 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 19:30:03 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 19:30:03 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 19:30:03 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 19:30:03 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 19:30:03 -0700
+
+
+Started GET "/assets/headphones.jpg" for 127.0.0.1 at 2014-09-24 19:30:03 -0700
+
+
+Started POST "/play_histories.json" for 127.0.0.1 at 2014-09-24 19:30:11 -0700
+
+ActionController::RoutingError (No route matches [POST] "/play_histories.json"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (8.5ms)
+
+
+Started GET "/song/795" for 127.0.0.1 at 2014-09-24 19:30:11 -0700
+Processing by SongController#show as HTML
+  Parameters: {"id"=>"795"}
+  [1m[35mSong Load (0.3ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1[0m  [["id", "795"]]
+  Rendered shared/_canvas.html.haml (1.6ms)
+  Rendered song/show.html.haml within layouts/application (3.1ms)
+Completed 200 OK in 238ms (Views: 235.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 19:30:12 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 19:30:12 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 19:30:12 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 19:30:12 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 19:30:12 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 19:30:12 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 19:30:12 -0700
+
+
+Started GET "/assets/headphones3.jpg" for 127.0.0.1 at 2014-09-24 19:30:12 -0700
+
+
+Started POST "/play_histories.json" for 127.0.0.1 at 2014-09-24 19:30:46 -0700
+
+ActionController::RoutingError (No route matches [POST] "/play_histories.json"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (8.5ms)
+
+
+Started GET "/song/795" for 127.0.0.1 at 2014-09-24 19:30:46 -0700
+Processing by SongController#show as HTML
+  Parameters: {"id"=>"795"}
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1[0m  [["id", "795"]]
+  Rendered shared/_canvas.html.haml (1.4ms)
+  Rendered song/show.html.haml within layouts/application (3.0ms)
+Completed 200 OK in 155ms (Views: 150.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 19:30:46 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 19:30:46 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 19:30:46 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 19:30:46 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 19:30:46 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 19:30:46 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 19:30:46 -0700
+
+
+Started GET "/assets/headphones3.jpg" for 127.0.0.1 at 2014-09-24 19:30:46 -0700
+
+
+Started POST "/play_histories.json" for 127.0.0.1 at 2014-09-24 19:30:51 -0700
+
+ActionController::RoutingError (No route matches [POST] "/play_histories.json"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (14.0ms)
+
+
+Started GET "/ds/795" for 127.0.0.1 at 2014-09-24 19:30:51 -0700
+Processing by SongController#send_song as HTML
+  Parameters: {"id"=>"795"}
+  [1m[35mSong Load (0.5ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795  ORDER BY `songs`.`id` ASC LIMIT 1
+Sent file /Users/samchoi/dev/music/top50/26811.mp3 (0.2ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.5ms)
+
+
+Started POST "/play_histories.json" for 127.0.0.1 at 2014-09-24 19:32:01 -0700
+
+ActionController::RoutingError (No route matches [POST] "/play_histories.json"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (10.0ms)
+
+
+Started GET "/song/795" for 127.0.0.1 at 2014-09-24 19:32:01 -0700
+Processing by SongController#show as HTML
+  Parameters: {"id"=>"795"}
+  [1m[36mSong Load (0.6ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1  [["id", "795"]]
+  Rendered shared/_canvas.html.haml (1.6ms)
+  Rendered song/show.html.haml within layouts/application (3.4ms)
+Completed 200 OK in 146ms (Views: 142.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 19:32:01 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 19:32:01 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 19:32:01 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 19:32:01 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 19:32:01 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 19:32:01 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 19:32:01 -0700
+
+
+Started GET "/assets/headphones3.jpg" for 127.0.0.1 at 2014-09-24 19:32:01 -0700
+
+
+Started GET "/song/795" for 127.0.0.1 at 2014-09-24 19:36:16 -0700
+Processing by SongController#show as HTML
+  Parameters: {"id"=>"795"}
+  [1m[36mSong Load (0.5ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1  [["id", "795"]]
+  Rendered shared/_canvas.html.haml (1.2ms)
+  Rendered song/show.html.haml within layouts/application (2.6ms)
+Completed 200 OK in 199ms (Views: 193.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 19:36:16 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 19:36:16 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 19:36:16 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 19:36:16 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 19:36:17 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 19:36:17 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 19:36:17 -0700
+
+
+Started GET "/assets/headphones.jpg" for 127.0.0.1 at 2014-09-24 19:36:17 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 19:36:57 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 19:36:57 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 19:36:57 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 19:36:57 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 19:36:57 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 19:37:22 -0700
+
+
+Started GET "/ds/795" for 127.0.0.1 at 2014-09-24 19:37:56 -0700
+Processing by SongController#send_song as HTML
+  Parameters: {"id"=>"795"}
+  [1m[36mSong Load (0.4ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795  ORDER BY `songs`.`id` ASC LIMIT 1[0m
+Sent file /Users/samchoi/dev/music/top50/26811.mp3 (0.1ms)
+Completed 200 OK in 3ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/song/795" for 127.0.0.1 at 2014-09-24 19:38:25 -0700
+Processing by SongController#show as HTML
+  Parameters: {"id"=>"795"}
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1[0m  [["id", "795"]]
+  Rendered shared/_canvas.html.haml (1.1ms)
+  Rendered song/show.html.haml within layouts/application (1.9ms)
+Completed 200 OK in 108ms (Views: 104.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 19:38:25 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 19:38:25 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 19:38:25 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 19:38:25 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 19:38:25 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 19:38:25 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 19:38:25 -0700
+
+
+Started GET "/assets/headphones.jpg" for 127.0.0.1 at 2014-09-24 19:38:25 -0700
+
+
+Started GET "/song/795" for 127.0.0.1 at 2014-09-24 19:38:37 -0700
+Processing by SongController#show as HTML
+  Parameters: {"id"=>"795"}
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 795 LIMIT 1[0m  [["id", "795"]]
+  Rendered shared/_canvas.html.haml (4.0ms)
+  Rendered song/show.html.haml within layouts/application (5.1ms)
+Completed 200 OK in 67ms (Views: 64.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 19:38:38 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 19:38:38 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 19:38:38 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 19:38:38 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 19:38:38 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 19:38:38 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 19:38:38 -0700
+
+
+Started GET "/assets/headphones.jpg" for 127.0.0.1 at 2014-09-24 19:38:38 -0700
+
+
+Started POST "/q.json" for 127.0.0.1 at 2014-09-24 19:40:57 -0700
+Processing by SongController#add_to_session_playlist as */*
+  [1m[35mSong Load (0.3ms)[0m  SELECT `songs`.* FROM `songs`  WHERE `songs`.`id` IS NULL
+  Rendered shared/_playlist.html.haml (2.4ms)
+Completed 200 OK in 78ms (Views: 0.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/samscraper" for 127.0.0.1 at 2014-09-24 19:41:13 -0700
+Processing by SongController#index as HTML
+  [1m[36mSong Load (0.4ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE (`songs`.`id` IS NOT NULL) AND (`songs`.`filename` IS NOT NULL)[0m
+  Rendered shared/_canvas.html.haml (2.0ms)
+  [1m[35mSong Load (0.3ms)[0m  SELECT `songs`.* FROM `songs`  WHERE `songs`.`id` IS NULL
+  Rendered shared/_playlist.html.haml (0.8ms)
+  Rendered song/index.html.haml within layouts/application (29.1ms)
+Completed 200 OK in 100ms (Views: 95.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 19:41:13 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 19:41:13 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 19:41:13 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 19:41:13 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 19:41:13 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 19:41:13 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 19:41:13 -0700
+
+
+Started GET "/assets/headphones2.jpg" for 127.0.0.1 at 2014-09-24 19:41:14 -0700
+
+
+Started GET "/samscraper" for 127.0.0.1 at 2014-09-24 19:41:32 -0700
+Processing by SongController#index as HTML
+  [1m[36mSong Load (0.6ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE (`songs`.`id` IS NOT NULL) AND (`songs`.`filename` IS NOT NULL)[0m
+  Rendered shared/_canvas.html.haml (5.4ms)
+  [1m[35mSong Load (0.7ms)[0m  SELECT `songs`.* FROM `songs`  WHERE `songs`.`id` IS NULL
+  Rendered shared/_playlist.html.haml (1.6ms)
+  Rendered song/index.html.haml within layouts/application (30.8ms)
+Completed 200 OK in 99ms (Views: 91.6ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 19:41:32 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 19:41:32 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 19:41:32 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 19:41:32 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 19:41:32 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 19:41:32 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 19:41:32 -0700
+
+
+Started GET "/assets/headphones3.jpg" for 127.0.0.1 at 2014-09-24 19:41:32 -0700
+
+
+Started GET "/assets/headphones.jpg" for 127.0.0.1 at 2014-09-24 19:41:32 -0700
+
+
+Started GET "/samscraper" for 127.0.0.1 at 2014-09-24 19:43:49 -0700
+Processing by SongController#index as HTML
+  [1m[36mSong Load (0.5ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE (`songs`.`id` IS NOT NULL) AND (`songs`.`filename` IS NOT NULL)[0m
+  Rendered shared/_canvas.html.haml (1.7ms)
+  [1m[35mSong Load (0.3ms)[0m  SELECT `songs`.* FROM `songs`  WHERE `songs`.`id` IS NULL
+  Rendered shared/_playlist.html.haml (0.8ms)
+  Rendered song/index.html.haml within layouts/application (61.4ms)
+Completed 200 OK in 200ms (Views: 194.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 19:43:49 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 19:43:49 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 19:43:49 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 19:43:49 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 19:43:49 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 19:43:49 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 19:43:49 -0700
+
+
+Started GET "/assets/headphones2.jpg" for 127.0.0.1 at 2014-09-24 19:43:50 -0700
+
+
+Started GET "/assets/headphones.jpg" for 127.0.0.1 at 2014-09-24 19:43:50 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 19:43:57 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 19:43:57 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 19:43:57 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 19:43:57 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 19:43:57 -0700
+
+
+Started GET "/samscraper" for 127.0.0.1 at 2014-09-24 19:45:27 -0700
+Processing by SongController#index as HTML
+  [1m[36mSong Load (1.3ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE (`songs`.`id` IS NOT NULL) AND (`songs`.`filename` IS NOT NULL)[0m
+  Rendered shared/_canvas.html.haml (1.3ms)
+  [1m[35mSong Load (0.3ms)[0m  SELECT `songs`.* FROM `songs`  WHERE `songs`.`id` IS NULL
+  Rendered shared/_playlist.html.haml (0.9ms)
+  Rendered song/index.html.haml within layouts/application (20.9ms)
+Completed 200 OK in 213ms (Views: 204.1ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 19:45:28 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 19:45:28 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 19:45:28 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 19:45:28 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 19:45:28 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 19:45:28 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 19:45:28 -0700
+
+
+Started GET "/assets/headphones3.jpg" for 127.0.0.1 at 2014-09-24 19:45:28 -0700
+
+
+Started GET "/assets/headphones.jpg" for 127.0.0.1 at 2014-09-24 19:45:28 -0700
+
+
+Started GET "/samscraper" for 127.0.0.1 at 2014-09-24 19:48:31 -0700
+Processing by SongController#index as HTML
+  [1m[36mSong Load (0.5ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE (`songs`.`id` IS NOT NULL) AND (`songs`.`filename` IS NOT NULL)[0m
+  Rendered shared/_canvas.html.haml (2.2ms)
+  [1m[35mSong Load (0.4ms)[0m  SELECT `songs`.* FROM `songs`  WHERE `songs`.`id` IS NULL
+  Rendered shared/_playlist.html.haml (2.0ms)
+  Rendered song/index.html.haml within layouts/application (119.2ms)
+Completed 200 OK in 230ms (Views: 224.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 19:48:31 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 19:48:31 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 19:48:31 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 19:48:31 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 19:48:31 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 19:48:31 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 19:48:31 -0700
+
+
+Started GET "/assets/headphones.jpg" for 127.0.0.1 at 2014-09-24 19:48:32 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 19:48:43 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 19:48:43 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 19:48:43 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 19:48:43 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 19:48:43 -0700
+
+
+Started GET "/samscraper" for 127.0.0.1 at 2014-09-24 19:52:12 -0700
+Processing by SongController#index as HTML
+  [1m[36mSong Load (1.8ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE (`songs`.`id` IS NOT NULL) AND (`songs`.`filename` IS NOT NULL)[0m
+  Rendered shared/_canvas.html.haml (1.1ms)
+  [1m[35mSong Load (0.3ms)[0m  SELECT `songs`.* FROM `songs`  WHERE `songs`.`id` IS NULL
+  Rendered shared/_playlist.html.haml (1.2ms)
+  Rendered song/index.html.haml within layouts/application (26.2ms)
+Completed 200 OK in 266ms (Views: 257.2ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 19:52:12 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 19:52:12 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 19:52:12 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 19:52:12 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 19:52:12 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 19:52:12 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 19:52:12 -0700
+
+
+Started GET "/assets/headphones.jpg" for 127.0.0.1 at 2014-09-24 19:52:12 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 19:53:59 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 19:53:59 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 19:53:59 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 19:53:59 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 19:53:59 -0700
+
+
+Started POST "/q.json" for 127.0.0.1 at 2014-09-24 19:54:43 -0700
+Processing by SongController#add_to_session_playlist as */*
+  Parameters: {"song_id"=>"797"}
+  [1m[36mSong Load (0.4ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE ((`songs`.`id` = 797 OR `songs`.`id` IS NULL))[0m
+  Rendered shared/_playlist.html.haml (2.1ms)
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/q.json" for 127.0.0.1 at 2014-09-24 19:54:47 -0700
+Processing by SongController#add_to_session_playlist as */*
+  Parameters: {"song_id"=>"803"}
+  [1m[35mSong Load (373.3ms)[0m  SELECT `songs`.* FROM `songs`  WHERE ((`songs`.`id` IN (797, 803) OR `songs`.`id` IS NULL))
+  Rendered shared/_playlist.html.haml (374.8ms)
+Completed 200 OK in 378ms (Views: 0.3ms | ActiveRecord: 373.3ms)
+
+
+Started GET "/samscraper" for 127.0.0.1 at 2014-09-24 19:56:31 -0700
+Processing by SongController#index as HTML
+  [1m[36mSong Load (0.5ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE (`songs`.`id` IS NOT NULL) AND (`songs`.`filename` IS NOT NULL)[0m
+  Rendered shared/_canvas.html.haml (2.1ms)
+  Rendered song/index.html.haml within layouts/application (182.5ms)
+Completed 500 Internal Server Error in 189ms
+
+ActionView::Template::Error (undefined method `artists' for #<Song:0x007fbddad94528>):
+     9:           %a.name{ href: "/song/#{song.id}"}
+    10:             =song.title
+    11:             %br
+    12:             =song.artists
+    13:           %p.actions
+    14:             %span.add &#43;
+    15:             %span.play-btn &#9658;
+  app/views/song/index.html.haml:12:in `block in _app_views_song_index_html_haml___3534839507657162961_70226722016520'
+  app/views/song/index.html.haml:6:in `_app_views_song_index_html_haml___3534839507657162961_70226722016520'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (17.5ms)
+
+
+Started GET "/samscraper" for 127.0.0.1 at 2014-09-24 19:56:37 -0700
+Processing by SongController#index as HTML
+  [1m[35mSong Load (0.5ms)[0m  SELECT `songs`.* FROM `songs`  WHERE (`songs`.`id` IS NOT NULL) AND (`songs`.`filename` IS NOT NULL)
+  Rendered shared/_canvas.html.haml (1.0ms)
+  [1m[36mSong Load (0.4ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE ((`songs`.`id` IN (797, 803) OR `songs`.`id` IS NULL))[0m
+  Rendered shared/_playlist.html.haml (1.4ms)
+  Rendered song/index.html.haml within layouts/application (26.6ms)
+Completed 200 OK in 105ms (Views: 100.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 19:56:38 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 19:56:38 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 19:56:38 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 19:56:38 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 19:56:38 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 19:56:38 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 19:56:38 -0700
+
+
+Started GET "/assets/headphones2.jpg" for 127.0.0.1 at 2014-09-24 19:56:38 -0700
+
+
+Started GET "/assets/headphones.jpg" for 127.0.0.1 at 2014-09-24 19:56:38 -0700
+
+
+Started GET "/samscraper" for 127.0.0.1 at 2014-09-24 19:56:47 -0700
+Processing by SongController#index as HTML
+  [1m[35mSong Load (0.7ms)[0m  SELECT `songs`.* FROM `songs`  WHERE (`songs`.`id` IS NOT NULL) AND (`songs`.`filename` IS NOT NULL)
+  Rendered shared/_canvas.html.haml (1.5ms)
+  [1m[36mSong Load (0.4ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE ((`songs`.`id` IN (797, 803) OR `songs`.`id` IS NULL))[0m
+  Rendered shared/_playlist.html.haml (1.5ms)
+  Rendered song/index.html.haml within layouts/application (32.4ms)
+Completed 200 OK in 151ms (Views: 146.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 19:56:47 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 19:56:47 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 19:56:47 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 19:56:47 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 19:56:47 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 19:56:47 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 19:56:47 -0700
+
+
+Started GET "/assets/headphones.jpg" for 127.0.0.1 at 2014-09-24 19:56:47 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:01:29 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:01:29 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:01:29 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:01:29 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:01:29 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:02:38 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:02:38 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:02:38 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:02:38 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:02:38 -0700
+
+
+Started GET "/samscraper" for 127.0.0.1 at 2014-09-24 20:05:18 -0700
+Processing by SongController#index as HTML
+  [1m[35mSong Load (1.2ms)[0m  SELECT `songs`.* FROM `songs`  WHERE (`songs`.`id` IS NOT NULL) AND (`songs`.`filename` IS NOT NULL)
+  Rendered shared/_canvas.html.haml (1.3ms)
+  [1m[36mSong Load (0.4ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE ((`songs`.`id` IN (797, 803) OR `songs`.`id` IS NULL))[0m
+  Rendered shared/_playlist.html.haml (1.7ms)
+  Rendered song/index.html.haml within layouts/application (58.6ms)
+Completed 200 OK in 562ms (Views: 554.4ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:05:19 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:05:19 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:05:19 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:05:19 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:05:19 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:05:19 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:05:19 -0700
+
+
+Started GET "/assets/headphones3.jpg" for 127.0.0.1 at 2014-09-24 20:05:19 -0700
+
+
+Started GET "/assets/headphones.jpg" for 127.0.0.1 at 2014-09-24 20:05:19 -0700
+
+
+Started GET "/samscraper" for 127.0.0.1 at 2014-09-24 20:07:08 -0700
+Processing by SongController#index as HTML
+  [1m[35mSong Load (0.6ms)[0m  SELECT `songs`.* FROM `songs`  WHERE (`songs`.`id` IS NOT NULL) AND (`songs`.`filename` IS NOT NULL)
+  Rendered shared/_canvas.html.haml (1.6ms)
+  [1m[36mSong Load (0.4ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE ((`songs`.`id` IN (797, 803) OR `songs`.`id` IS NULL))[0m
+  Rendered shared/_playlist.html.haml (2.0ms)
+  Rendered song/index.html.haml within layouts/application (24.1ms)
+Completed 200 OK in 170ms (Views: 165.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:07:08 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:07:08 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:07:08 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:07:08 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:07:08 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:07:08 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:07:08 -0700
+
+
+Started GET "/assets/headphones.jpg" for 127.0.0.1 at 2014-09-24 20:07:08 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:07:17 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:07:17 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:07:17 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:07:17 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:07:17 -0700
+
+
+Started GET "/reset" for 127.0.0.1 at 2014-09-24 20:10:18 -0700
+Processing by SongController#clear as HTML
+Redirected to http://localhost:3000/samscraper
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/samscraper" for 127.0.0.1 at 2014-09-24 20:10:18 -0700
+Processing by SongController#index as HTML
+  [1m[35mSong Load (0.5ms)[0m  SELECT `songs`.* FROM `songs`  WHERE (`songs`.`id` IS NOT NULL) AND (`songs`.`filename` IS NOT NULL)
+  Rendered shared/_canvas.html.haml (1.6ms)
+  [1m[36mSong Load (0.3ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE 1=0[0m
+  Rendered shared/_playlist.html.haml (0.9ms)
+  Rendered song/index.html.haml within layouts/application (25.0ms)
+Completed 200 OK in 89ms (Views: 83.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:10:18 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:10:18 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:10:18 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:10:18 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:10:18 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:10:18 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:10:18 -0700
+
+
+Started GET "/assets/headphones2.jpg" for 127.0.0.1 at 2014-09-24 20:10:18 -0700
+
+
+Started GET "/assets/headphones.jpg" for 127.0.0.1 at 2014-09-24 20:10:18 -0700
+
+
+Started POST "/q.json" for 127.0.0.1 at 2014-09-24 20:10:21 -0700
+Processing by SongController#add_to_session_playlist as */*
+  [1m[35mSong Load (0.4ms)[0m  SELECT `songs`.* FROM `songs`  WHERE `songs`.`id` IS NULL
+  Rendered shared/_playlist.html.haml (1.3ms)
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/samscraper" for 127.0.0.1 at 2014-09-24 20:11:51 -0700
+Processing by SongController#index as HTML
+  [1m[36mSong Load (0.6ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE (`songs`.`id` IS NOT NULL) AND (`songs`.`filename` IS NOT NULL)[0m
+  Rendered shared/_canvas.html.haml (1.7ms)
+  [1m[35mSong Load (0.5ms)[0m  SELECT `songs`.* FROM `songs`  WHERE `songs`.`id` IS NULL
+  Rendered shared/_playlist.html.haml (1.2ms)
+  Rendered song/index.html.haml within layouts/application (58.3ms)
+Completed 200 OK in 255ms (Views: 250.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:11:51 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:11:51 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:11:51 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:11:51 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:11:51 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:11:51 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:11:51 -0700
+
+
+Started GET "/assets/headphones.jpg" for 127.0.0.1 at 2014-09-24 20:11:51 -0700
+
+
+Started POST "/q.json" for 127.0.0.1 at 2014-09-24 20:11:58 -0700
+Processing by SongController#add_to_session_playlist as */*
+  Parameters: {"song_id"=>"797"}
+  [1m[36mSong Load (0.4ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE ((`songs`.`id` = 797 OR `songs`.`id` IS NULL))[0m
+  Rendered shared/_playlist.html.haml (1.6ms)
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:13:13 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:13:13 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:13:13 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:13:13 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:13:13 -0700
+
+
+Started GET "/samscraper" for 127.0.0.1 at 2014-09-24 20:13:23 -0700
+Processing by SongController#index as HTML
+  [1m[35mSong Load (1.2ms)[0m  SELECT `songs`.* FROM `songs`  WHERE (`songs`.`id` IS NOT NULL) AND (`songs`.`filename` IS NOT NULL)
+  Rendered shared/_canvas.html.haml (1.5ms)
+  [1m[36mSong Load (0.4ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE ((`songs`.`id` = 797 OR `songs`.`id` IS NULL))[0m
+  Rendered shared/_playlist.html.haml (1.5ms)
+  Rendered song/index.html.haml within layouts/application (24.0ms)
+Completed 200 OK in 92ms (Views: 85.2ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/samscraper" for 127.0.0.1 at 2014-09-24 20:13:24 -0700
+Processing by SongController#index as HTML
+  [1m[35mSong Load (0.6ms)[0m  SELECT `songs`.* FROM `songs`  WHERE (`songs`.`id` IS NOT NULL) AND (`songs`.`filename` IS NOT NULL)
+  Rendered shared/_canvas.html.haml (1.1ms)
+  [1m[36mSong Load (0.3ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE ((`songs`.`id` = 797 OR `songs`.`id` IS NULL))[0m
+  Rendered shared/_playlist.html.haml (1.4ms)
+  Rendered song/index.html.haml within layouts/application (27.9ms)
+Completed 200 OK in 144ms (Views: 138.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/samscraper" for 127.0.0.1 at 2014-09-24 20:13:25 -0700
+Processing by SongController#index as HTML
+  [1m[35mSong Load (0.5ms)[0m  SELECT `songs`.* FROM `songs`  WHERE (`songs`.`id` IS NOT NULL) AND (`songs`.`filename` IS NOT NULL)
+  Rendered shared/_canvas.html.haml (1.6ms)
+  [1m[36mSong Load (0.3ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE ((`songs`.`id` = 797 OR `songs`.`id` IS NULL))[0m
+  Rendered shared/_playlist.html.haml (1.6ms)
+  Rendered song/index.html.haml within layouts/application (31.3ms)
+Completed 200 OK in 103ms (Views: 98.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:13:48 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:13:48 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:13:48 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:13:48 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:13:48 -0700
+
+
+Started GET "/samscraper" for 127.0.0.1 at 2014-09-24 20:16:28 -0700
+Processing by SongController#index as HTML
+  [1m[35mSong Load (1.0ms)[0m  SELECT `songs`.* FROM `songs`  WHERE (`songs`.`id` IS NOT NULL) AND (`songs`.`filename` IS NOT NULL)
+  Rendered shared/_canvas.html.haml (1.4ms)
+  [1m[36mSong Load (0.6ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE ((`songs`.`id` = 797 OR `songs`.`id` IS NULL))[0m
+  Rendered shared/_playlist.html.haml (1.7ms)
+  Rendered song/index.html.haml within layouts/application (24.1ms)
+Completed 200 OK in 128ms (Views: 120.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:16:28 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:16:28 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:16:28 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:16:28 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:16:28 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:16:28 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:16:28 -0700
+
+
+Started GET "/assets/headphones.jpg" for 127.0.0.1 at 2014-09-24 20:16:28 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:16:53 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:16:53 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:16:53 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:16:53 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:16:53 -0700
+
+
+Started GET "/samscraper" for 127.0.0.1 at 2014-09-24 20:17:59 -0700
+Processing by SongController#index as HTML
+  [1m[35mSong Load (0.9ms)[0m  SELECT `songs`.* FROM `songs`  WHERE (`songs`.`id` IS NOT NULL) AND (`songs`.`filename` IS NOT NULL)
+  Rendered shared/_canvas.html.haml (2.5ms)
+  [1m[36mSong Load (0.3ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE ((`songs`.`id` = 797 OR `songs`.`id` IS NULL))[0m
+  Rendered shared/_playlist.html.haml (1.6ms)
+  Rendered song/index.html.haml within layouts/application (94.2ms)
+Completed 200 OK in 163ms (Views: 154.9ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:17:59 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:17:59 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:17:59 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:17:59 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:17:59 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:17:59 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:17:59 -0700
+
+
+Started GET "/assets/headphones3.jpg" for 127.0.0.1 at 2014-09-24 20:18:00 -0700
+
+
+Started GET "/assets/headphones.jpg" for 127.0.0.1 at 2014-09-24 20:18:00 -0700
+
+
+Started GET "/samscraper" for 127.0.0.1 at 2014-09-24 20:19:45 -0700
+Processing by SongController#index as HTML
+  [1m[35mSong Load (0.8ms)[0m  SELECT `songs`.* FROM `songs`  WHERE (`songs`.`id` IS NOT NULL) AND (`songs`.`filename` IS NOT NULL)
+  Rendered shared/_canvas.html.haml (1.7ms)
+  [1m[36mSong Load (0.3ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE ((`songs`.`id` = 797 OR `songs`.`id` IS NULL))[0m
+  Rendered shared/_playlist.html.haml (1.2ms)
+  Rendered song/index.html.haml within layouts/application (25.8ms)
+Completed 200 OK in 129ms (Views: 122.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:19:46 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:19:46 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:19:46 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:19:46 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:19:46 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:19:46 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:19:46 -0700
+
+
+Started GET "/assets/headphones.jpg" for 127.0.0.1 at 2014-09-24 20:19:46 -0700
+
+
+Started GET "/samscraper" for 127.0.0.1 at 2014-09-24 20:22:47 -0700
+Processing by SongController#index as HTML
+  [1m[35mSong Load (0.7ms)[0m  SELECT `songs`.* FROM `songs`  WHERE (`songs`.`id` IS NOT NULL) AND (`songs`.`filename` IS NOT NULL)
+  Rendered shared/_canvas.html.haml (1.2ms)
+  [1m[36mSong Load (0.4ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE ((`songs`.`id` = 797 OR `songs`.`id` IS NULL))[0m
+  Rendered shared/_playlist.html.haml (2.0ms)
+  Rendered song/index.html.haml within layouts/application (77.1ms)
+Completed 200 OK in 432ms (Views: 424.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:22:47 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:22:47 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:22:47 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:22:47 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:22:47 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:22:47 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:22:47 -0700
+
+
+Started GET "/assets/headphones.jpg" for 127.0.0.1 at 2014-09-24 20:22:48 -0700
+
+
+Started GET "/samscraper" for 127.0.0.1 at 2014-09-24 20:24:16 -0700
+Processing by SongController#index as HTML
+  [1m[35mSong Load (1.3ms)[0m  SELECT `songs`.* FROM `songs`  WHERE (`songs`.`id` IS NOT NULL) AND (`songs`.`filename` IS NOT NULL)
+  Rendered shared/_canvas.html.haml (1.4ms)
+  [1m[36mSong Load (0.5ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE ((`songs`.`id` = 797 OR `songs`.`id` IS NULL))[0m
+  Rendered shared/_playlist.html.haml (1.8ms)
+  Rendered song/index.html.haml within layouts/application (25.0ms)
+Completed 200 OK in 379ms (Views: 370.8ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:24:16 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:24:16 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:24:16 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:24:16 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:24:16 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:24:16 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:24:16 -0700
+
+
+Started GET "/music/top50/26rvk.mp3" for 127.0.0.1 at 2014-09-24 20:24:16 -0700
+
+ActionController::RoutingError (No route matches [GET] "/music/top50/26rvk.mp3"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (248.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (308.9ms)
+
+
+Started GET "/assets/headphones3.jpg" for 127.0.0.1 at 2014-09-24 20:24:17 -0700
+
+
+Started GET "/assets/headphones.jpg" for 127.0.0.1 at 2014-09-24 20:24:17 -0700
+
+
+Started GET "/samscraper" for 127.0.0.1 at 2014-09-24 20:24:33 -0700
+Processing by SongController#index as HTML
+  [1m[35mSong Load (1.1ms)[0m  SELECT `songs`.* FROM `songs`  WHERE (`songs`.`id` IS NOT NULL) AND (`songs`.`filename` IS NOT NULL)
+  Rendered shared/_canvas.html.haml (1.5ms)
+  [1m[36mSong Load (0.3ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE ((`songs`.`id` = 797 OR `songs`.`id` IS NULL))[0m
+  Rendered shared/_playlist.html.haml (1.2ms)
+  Rendered song/index.html.haml within layouts/application (24.3ms)
+Completed 200 OK in 220ms (Views: 212.0ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:24:33 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:24:34 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:24:34 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:24:34 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:24:34 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:24:34 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:24:34 -0700
+
+
+Started GET "/assets/headphones.jpg" for 127.0.0.1 at 2014-09-24 20:24:34 -0700
+
+
+Started GET "/assets/headphones3.jpg" for 127.0.0.1 at 2014-09-24 20:24:34 -0700
+
+
+Started GET "/samscraper" for 127.0.0.1 at 2014-09-24 20:25:25 -0700
+Processing by SongController#index as HTML
+  [1m[35mSong Load (1.9ms)[0m  SELECT `songs`.* FROM `songs`  WHERE (`songs`.`id` IS NOT NULL) AND (`songs`.`filename` IS NOT NULL)
+  Rendered shared/_canvas.html.haml (1.2ms)
+  [1m[36mSong Load (0.3ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE ((`songs`.`id` = 797 OR `songs`.`id` IS NULL))[0m
+  Rendered shared/_playlist.html.haml (1.2ms)
+  Rendered song/index.html.haml within layouts/application (24.0ms)
+Completed 200 OK in 199ms (Views: 192.0ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:25:26 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:25:26 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:25:26 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:25:26 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:25:26 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:25:26 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:25:26 -0700
+
+
+Started GET "/assets/headphones.jpg" for 127.0.0.1 at 2014-09-24 20:25:26 -0700
+
+
+Started GET "/assets/headphones3.jpg" for 127.0.0.1 at 2014-09-24 20:25:26 -0700
+
+
+Started GET "/samscraper" for 127.0.0.1 at 2014-09-24 20:25:34 -0700
+Processing by SongController#index as HTML
+  [1m[35mSong Load (0.7ms)[0m  SELECT `songs`.* FROM `songs`  WHERE (`songs`.`id` IS NOT NULL) AND (`songs`.`filename` IS NOT NULL)
+  Rendered shared/_canvas.html.haml (1.1ms)
+  [1m[36mSong Load (0.3ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE ((`songs`.`id` = 797 OR `songs`.`id` IS NULL))[0m
+  Rendered shared/_playlist.html.haml (1.2ms)
+  Rendered song/index.html.haml within layouts/application (25.1ms)
+Completed 200 OK in 161ms (Views: 152.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:25:34 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:25:34 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:25:34 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:25:34 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:25:34 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:25:34 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:25:34 -0700
+
+
+Started GET "/assets/headphones.jpg" for 127.0.0.1 at 2014-09-24 20:25:34 -0700
+
+
+Started GET "/samscraper" for 127.0.0.1 at 2014-09-24 20:26:25 -0700
+Processing by SongController#index as HTML
+  [1m[35mSong Load (0.6ms)[0m  SELECT `songs`.* FROM `songs`  WHERE (`songs`.`id` IS NOT NULL) AND (`songs`.`filename` IS NOT NULL)
+  Rendered shared/_canvas.html.haml (1.3ms)
+  [1m[36mSong Load (0.4ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE ((`songs`.`id` = 797 OR `songs`.`id` IS NULL))[0m
+  Rendered shared/_playlist.html.haml (1.7ms)
+  Rendered song/index.html.haml within layouts/application (69.7ms)
+Completed 200 OK in 367ms (Views: 361.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:26:25 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:26:25 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:26:25 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:26:25 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:26:25 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:26:25 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:26:25 -0700
+
+
+Started GET "/assets/headphones3.jpg" for 127.0.0.1 at 2014-09-24 20:26:26 -0700
+
+
+Started GET "/assets/headphones.jpg" for 127.0.0.1 at 2014-09-24 20:26:26 -0700
+
+
+Started GET "/samscraper" for 127.0.0.1 at 2014-09-24 20:26:51 -0700
+Processing by SongController#index as HTML
+  [1m[35mSong Load (1.0ms)[0m  SELECT `songs`.* FROM `songs`  WHERE (`songs`.`id` IS NOT NULL) AND (`songs`.`filename` IS NOT NULL)
+  Rendered shared/_canvas.html.haml (1.1ms)
+  [1m[36mSong Load (0.5ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE ((`songs`.`id` = 797 OR `songs`.`id` IS NULL))[0m
+  Rendered shared/_playlist.html.haml (1.7ms)
+  Rendered song/index.html.haml within layouts/application (25.4ms)
+Completed 200 OK in 174ms (Views: 167.2ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:26:52 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:26:52 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:26:52 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:26:52 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:26:52 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:26:52 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:26:52 -0700
+
+
+Started GET "/assets/headphones.jpg" for 127.0.0.1 at 2014-09-24 20:26:52 -0700
+
+
+Started GET "/assets/headphones2.jpg" for 127.0.0.1 at 2014-09-24 20:26:52 -0700
+
+
+Started GET "/samscraper" for 127.0.0.1 at 2014-09-24 20:27:43 -0700
+Processing by SongController#index as HTML
+  [1m[35mSong Load (0.5ms)[0m  SELECT `songs`.* FROM `songs`  WHERE (`songs`.`id` IS NOT NULL) AND (`songs`.`filename` IS NOT NULL)
+  Rendered shared/_canvas.html.haml (1.5ms)
+  [1m[36mSong Load (0.6ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE ((`songs`.`id` = 797 OR `songs`.`id` IS NULL))[0m
+  Rendered shared/_playlist.html.haml (2.4ms)
+  Rendered song/index.html.haml within layouts/application (26.2ms)
+Completed 200 OK in 95ms (Views: 89.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:27:43 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:27:43 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:27:43 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:27:43 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:27:43 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:27:43 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:27:43 -0700
+
+
+Started GET "/assets/headphones.jpg" for 127.0.0.1 at 2014-09-24 20:27:43 -0700
+
+
+Started GET "/song/835" for 127.0.0.1 at 2014-09-24 20:27:56 -0700
+Processing by SongController#show as HTML
+  Parameters: {"id"=>"835"}
+  [1m[35mSong Load (0.5ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 835 LIMIT 1
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`id` = 835 LIMIT 1[0m  [["id", "835"]]
+  Rendered shared/_canvas.html.haml (1.5ms)
+  Rendered song/show.html.haml within layouts/application (2.4ms)
+Completed 200 OK in 162ms (Views: 158.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:27:57 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:27:57 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:27:57 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:27:57 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:27:57 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:27:57 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:27:57 -0700
+
+
+Started GET "/assets/headphones2.jpg" for 127.0.0.1 at 2014-09-24 20:27:57 -0700
+
+
+Started POST "/q.json" for 127.0.0.1 at 2014-09-24 20:28:12 -0700
+Processing by SongController#add_to_session_playlist as */*
+  Parameters: {"song_id"=>"798"}
+  [1m[35mSong Load (0.6ms)[0m  SELECT `songs`.* FROM `songs`  WHERE ((`songs`.`id` IN (797, 798) OR `songs`.`id` IS NULL))
+  Rendered shared/_playlist.html.haml (2.5ms)
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/q.json" for 127.0.0.1 at 2014-09-24 20:28:14 -0700
+Processing by SongController#add_to_session_playlist as */*
+  Parameters: {"song_id"=>"803"}
+  [1m[36mSong Load (0.5ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE ((`songs`.`id` IN (797, 798, 803) OR `songs`.`id` IS NULL))[0m
+  Rendered shared/_playlist.html.haml (2.4ms)
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 20:28:30 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (0.5ms)
+Completed 200 OK in 156ms (Views: 155.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:28:31 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:28:31 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:28:31 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:28:31 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:28:31 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:28:31 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:28:31 -0700
+
+
+Started GET "/assets/nopa.png" for 127.0.0.1 at 2014-09-24 20:28:31 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 20:28:31 -0700
+
+
+Started GET "/assets/haight.png" for 127.0.0.1 at 2014-09-24 20:28:31 -0700
+
+
+Started GET "/assets/dragon.jpg" for 127.0.0.1 at 2014-09-24 20:28:31 -0700
+
+
+Started GET "/assets/github_logo.jpg" for 127.0.0.1 at 2014-09-24 20:28:31 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 20:28:31 -0700
+
+
+Started GET "/assets/coachella.jpg" for 127.0.0.1 at 2014-09-24 20:28:31 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 20:28:31 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 20:28:31 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 20:28:31 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-24 20:28:31 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-24 20:28:31 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-24 20:28:31 -0700

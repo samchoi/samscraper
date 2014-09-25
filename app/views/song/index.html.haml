@@ -5,16 +5,16 @@
   %ul#songs
     -@songs.each do |song|
       %li{ data: {id: song.id, filename: song.filename, name: song.name} }
-        %a{ href: "/song/#{song.id}"}=song.name
-        %p.actions
-          %span.minus &#8722;
-          %span.add &#43;
-          %span.play-btn &#9658;
-          %a.download-btn{href: download_song_path(song.id), alt: 'Download Song', title: 'Download'} &#8623;
-        .description
-          =song.description
-        .rank
-          =song.id
+        .bottom
+          %a.name{ href: "/song/#{song.id}"}=song.name
+          %p.actions
+            %span.add &#43;
+            %span.play-btn &#9658;
+            %a.download-btn{href: download_song_path(song.id), alt: 'Download Song', title: 'Download'} &#8623;
+          .description
+            =song.description
+          %p.rank
+            =song.id
 
   %h2
     %input#playlist-name{ type: 'text', maxlength: 25 }
