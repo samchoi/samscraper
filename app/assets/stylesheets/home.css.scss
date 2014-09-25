@@ -37,18 +37,26 @@
       min-height: 100%;
     }
     .bubble{
-      min-height: 100%;
+      min-height: 250px;
       background-size: cover;
       background-attachment: fixed;
       background-repeat: no-repeat;
       background-position: center center;
-
-
       padding: 25px 0 100px 0;
+
+      &.caption{
+        background-color: #000;
+        color: #fff;
+        line-height: 30px;
+        min-height: 30px;
+        padding: 15px;
+      }
+
       &#local{
         background-image: url('/assets/ggbridge.jpg');
         background-color: #495E8E;
         color: #fff;
+        height: 450px;
       }
       &#hack{
         background-color: #71B654;
@@ -77,90 +85,89 @@
         background-color: #52564C;
         color: #fff;
       }
-      &#travel{
+      &.travel{
         background-color: #607C72;
+        color: #fff;
+        min-height: 100px;
       }
 
 
       .image-circle{
         background-color: #466675;
         border-radius: 50%;
+        font-size: 13px;
         height: 300px;
         line-height: 300px;
         margin: 10px auto;
         width: 300px;
         background-repeat: no-repeat;
-        &.sunset{ background-image: url('/assets/sunset.png'); }
-        &.nopa{ background-image: url('/assets/nopa.png'); }
-        &.presidio{ background-image: url('/assets/presidio.png'); }
-        &.richmond{ background-image: url('/assets/richmond.png'); }
-        &.haight{ background-image: url('/assets/haight.png'); }
-        &.github{ background-image: url('/assets/github_logo.jpg'); }
-        &.ucsb{
-          background-image: url('/assets/ucsb.png');
-          background-position: -20px 50px;
-        }
-        &.campus{ background-image: url('/assets/campus.jpg'); }
-        &.islavista{ background-image: url('/assets/isla-vista-beach.jpg'); }
-        &.burning-man{
-          background-position: -120px -50px;
-        }&.coachella{
-           background-image: url('/assets/coachella.jpg');
-           background-position: -450px -420px;
-         }
-        &.burning-man{
-          background-image: url('/assets/dragon.jpg');
-          background-position: -140px -60px;
-        }
-        &.squaw{
-          background-image: url('/assets/squaw.jpg');
-          background-position: -500px -350px;
-        }
-        &.passout{
-          background-image: url('/assets/passout.jpg');
-          background-position: -0px -300px;
-        }
-        &.nap{
-          background-image: url('/assets/nap.jpg');
-          background-position: -300px -150px;
-        }
-        &.bhutan{
-          background-image: url('/assets/bhutan.jpg');
-          background-position: -50px -100px;
-        }
-        &.monkey{
-          background-image: url('/assets/monkey.jpg');
-          background-position: -150px 0px;
-        }
-        &.ireland{
-          background-image: url('/assets/ireland.jpg');
-          background-position: -150px 0px;
-        }
-        &.mikanos{
-          background-image: url('/assets/mikanos.jpg');
-          background-position: -350px -500px;
-        }
-        &.zipline{
-          background-image: url('/assets/zipline.jpg');
-          background-position: -50px -300px;
-        }
-        &.thai{
-          background-image: url('/assets/thai.jpg');
-          background-position: -150px 0px;
-        }
-        &.temple{
-          background-image: url('/assets/temple.jpg');
-          background-position: 0px -100px;
-        }
-        &.varanasi{
-          background-image: url('/assets/varanasi.jpg');
-          background-position: -300px -150px;
-        }
-        &.wli{
-          background-image: url('/assets/wli.jpg');
-          background-position: -350px 0px;
-        }
-
+      }
+      &.sunset{ background-image: url('/assets/sunset.png'); }
+      &.nopa{ background-image: url('/assets/nopa.png'); }
+      &.presidio{ background-image: url('/assets/presidio.png'); }
+      &.richmond{ background-image: url('/assets/richmond.png'); }
+      &.haight{ background-image: url('/assets/haight.png'); }
+      .github{ background-image: url('/assets/github_logo.jpg'); }
+      &.ucsb{
+        background-image: url('/assets/ucsb.png');
+        background-position: -20px 50px;
+      }
+      &.campus{ background-image: url('/assets/campus.jpg'); }
+      &.islavista{ background-image: url('/assets/isla-vista-beach.jpg'); }
+      .burning-man{
+        background-attachment: fixed;
+        background-image: url('/assets/dragon.jpg');
+        background-position: 340px 0px;
+        background-repeat: repeat-y;
+      }
+      .coachella{
+        background-attachment: fixed;
+        background-image: url('/assets/coachella.jpg');
+        background-position: -450px -420px;
+       }
+      &.burning-man{
+        background-image: url('/assets/dragon.jpg');
+        background-position: -140px -60px;
+      }
+      &.squaw{
+        background-image: url('/assets/squaw.jpg');
+        background-position: -500px -350px;
+      }
+      &.passout{
+        background-image: url('/assets/passout.jpg');
+        background-position: -0px -300px;
+      }
+      &.nap{
+        background-image: url('/assets/nap.jpg');
+        background-position: -300px -150px;
+      }
+      &.bhutan{
+        background-image: url('/assets/bhutan.jpg');
+        background-position: -50px -100px;
+      }
+      &.monkey{
+        background-image: url('/assets/monkey.jpg');
+      }
+      &.ireland{
+        background-image: url('/assets/ireland.jpg');
+      }
+      &.mikanos{
+        background-image: url('/assets/mikanos.jpg');
+      }
+      &.zipline{
+        background-image: url('/assets/zipline.jpg');
+      }
+      &.thai{
+        background-image: url('/assets/thai.jpg');
+      }
+      &.temple{
+        background-image: url('/assets/temple.jpg');
+      }
+      &.varanasi{
+        background-image: url('/assets/varanasi.jpg');
+      }
+      &.wli{
+        background-image: url('/assets/wli.jpg');
       }
       p{
         margin: 25px 0;

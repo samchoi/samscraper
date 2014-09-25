@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140924045750) do
+ActiveRecord::Schema.define(version: 20140925041915) do
 
   create_table "songs", force: true do |t|
     t.integer  "song_id"
@@ -28,6 +28,7 @@ ActiveRecord::Schema.define(version: 20140924045750) do
     t.string   "thumb_url_artist"
     t.string   "description"
     t.string   "itunes_link"
+    t.string   "thumb_url"
   end
 
 end

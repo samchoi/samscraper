@@ -4,7 +4,7 @@
   #header
   %ul#songs
     -@songs.each do |song|
-      %li{ data: {id: song.id, filename: song.filename, name: song.name} }
+      %li{ data: {id: song.id, filename: song.filename, name: song.name}, style: "background-image: url('#{song.thumb_url}')" }
         .bottom
           %a.name{ href: "/song/#{song.id}"}=song.name
           %p.actions

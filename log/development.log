@@ -51113,3 +51113,3725 @@ Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-24 20:28:31 -0700
 
 
 Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-24 20:28:31 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 20:29:52 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (0.5ms)
+Completed 200 OK in 52ms (Views: 50.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:29:52 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:29:52 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:29:52 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:29:52 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:29:52 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:29:52 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:29:52 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 20:29:52 -0700
+
+
+Started GET "/assets/github_logo.jpg" for 127.0.0.1 at 2014-09-24 20:29:52 -0700
+
+
+Started GET "/assets/haight.png" for 127.0.0.1 at 2014-09-24 20:29:52 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 20:29:52 -0700
+
+
+Started GET "/assets/nopa.png" for 127.0.0.1 at 2014-09-24 20:29:52 -0700
+
+
+Started GET "/assets/dragon.jpg" for 127.0.0.1 at 2014-09-24 20:29:52 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 20:29:52 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 20:29:52 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 20:29:52 -0700
+
+
+Started GET "/assets/coachella.jpg" for 127.0.0.1 at 2014-09-24 20:29:52 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-24 20:29:52 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-24 20:29:52 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-24 20:29:52 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 20:32:52 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (6.7ms)
+Completed 200 OK in 228ms (Views: 227.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:32:52 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:32:52 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:32:52 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:32:52 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:32:52 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:32:52 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:32:52 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 20:32:52 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 20:32:52 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 20:32:52 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 20:32:52 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 20:33:05 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (0.5ms)
+Completed 200 OK in 123ms (Views: 122.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:33:05 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:33:05 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:33:05 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:33:05 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:33:05 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:33:05 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:33:05 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 20:33:05 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 20:33:05 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 20:33:05 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 20:33:05 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 20:33:42 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (5.5ms)
+Completed 200 OK in 56ms (Views: 55.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:33:42 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:33:42 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:33:42 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:33:42 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:33:42 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:33:43 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:33:43 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 20:33:43 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 20:33:58 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (0.5ms)
+Completed 200 OK in 138ms (Views: 137.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:33:59 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:33:59 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:33:59 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:33:59 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:33:59 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:33:59 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:33:59 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 20:33:59 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 20:33:59 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 20:33:59 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 20:33:59 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 20:33:59 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 20:34:53 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (34.1ms)
+Completed 200 OK in 212ms (Views: 211.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:34:54 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:34:54 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:34:54 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:34:54 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:34:54 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:34:54 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:34:54 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 20:34:54 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 20:34:54 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 20:34:54 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 20:34:54 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 20:34:54 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-24 20:34:54 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-24 20:34:54 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-24 20:34:54 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 20:36:03 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (6.1ms)
+Completed 200 OK in 173ms (Views: 172.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:36:03 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:36:03 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:36:03 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:36:03 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:36:03 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:36:03 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:36:03 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 20:36:03 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 20:36:03 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 20:36:03 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-24 20:36:03 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 20:36:03 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 20:36:03 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-24 20:36:03 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-24 20:36:03 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 20:36:47 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (1.4ms)
+Completed 200 OK in 622ms (Views: 619.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:36:48 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:36:48 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:36:48 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:36:48 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:36:48 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:36:48 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:36:48 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 20:36:48 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 20:36:48 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 20:36:48 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 20:36:48 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-24 20:36:48 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-24 20:36:48 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 20:36:48 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-24 20:36:48 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 20:37:09 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (1.4ms)
+Completed 200 OK in 560ms (Views: 557.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:37:10 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:37:10 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:37:10 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:37:10 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:37:10 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:37:10 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:37:10 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 20:37:10 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 20:37:10 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-24 20:37:10 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 20:37:10 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 20:37:11 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 20:37:11 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-24 20:37:11 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-24 20:37:11 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 20:37:17 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (2.4ms)
+Completed 200 OK in 1181ms (Views: 1178.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:37:18 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:37:18 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:37:18 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:37:18 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:37:18 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:37:18 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:37:18 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 20:37:18 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 20:37:18 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 20:37:18 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-24 20:37:18 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-24 20:37:18 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-24 20:37:18 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 20:37:18 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 20:37:18 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 20:38:21 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (1.3ms)
+Completed 200 OK in 463ms (Views: 461.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:38:22 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:38:22 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:38:22 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:38:22 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:38:22 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:38:22 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:38:22 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 20:38:22 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 20:38:22 -0700
+
+
+Started GET "/assets/coachella.jpg" for 127.0.0.1 at 2014-09-24 20:38:22 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 20:38:22 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-24 20:38:22 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 20:38:22 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 20:38:22 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-24 20:38:22 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-24 20:38:22 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 20:38:52 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (1.4ms)
+Completed 200 OK in 365ms (Views: 362.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:38:53 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:38:53 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:38:53 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:38:53 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:38:53 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:38:53 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:38:53 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 20:38:53 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 20:38:53 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 20:38:53 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 20:38:53 -0700
+
+
+Started GET "/assets/coachella.jpg" for 127.0.0.1 at 2014-09-24 20:38:53 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 20:38:53 -0700
+
+
+Started GET "/assets/dragon.jpg" for 127.0.0.1 at 2014-09-24 20:38:53 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-24 20:38:53 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-24 20:38:53 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-24 20:38:53 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 20:39:25 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (2.1ms)
+Completed 200 OK in 546ms (Views: 544.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:39:25 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:39:26 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:39:26 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:39:26 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:39:26 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:39:26 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:39:26 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 20:39:26 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 20:39:26 -0700
+
+
+Started GET "/assets/dragon.jpg" for 127.0.0.1 at 2014-09-24 20:39:26 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 20:39:26 -0700
+
+
+Started GET "/assets/coachella.jpg" for 127.0.0.1 at 2014-09-24 20:39:26 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 20:39:26 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 20:39:26 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-24 20:39:26 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-24 20:39:26 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-24 20:39:26 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:39:49 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:39:49 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:39:49 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:39:49 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:39:49 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 20:40:08 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (2.0ms)
+Completed 200 OK in 518ms (Views: 515.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:40:09 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:40:09 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:40:09 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:40:09 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:40:09 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:40:09 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:40:09 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 20:40:09 -0700
+
+
+Started GET "/assets/dragon.jpg" for 127.0.0.1 at 2014-09-24 20:40:09 -0700
+
+
+Started GET "/assets/coachella.jpg" for 127.0.0.1 at 2014-09-24 20:40:09 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 20:40:09 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 20:40:09 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 20:40:09 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 20:40:09 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-24 20:40:09 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-24 20:40:09 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-24 20:40:09 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 20:40:28 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (1.7ms)
+Completed 200 OK in 515ms (Views: 511.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:40:29 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:40:29 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:40:29 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:40:29 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:40:29 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:40:29 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:40:29 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 20:40:29 -0700
+
+
+Started GET "/assets/dragon.jpg" for 127.0.0.1 at 2014-09-24 20:40:29 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 20:40:29 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 20:40:29 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 20:40:29 -0700
+
+
+Started GET "/assets/coachella.jpg" for 127.0.0.1 at 2014-09-24 20:40:29 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 20:40:29 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-24 20:40:29 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-24 20:40:29 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-24 20:40:29 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 20:40:46 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (1.5ms)
+Completed 200 OK in 472ms (Views: 468.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:40:47 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:40:47 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:40:47 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:40:47 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:40:47 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:40:47 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:40:47 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 20:40:47 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 20:40:47 -0700
+
+
+Started GET "/assets/dragon.jpg" for 127.0.0.1 at 2014-09-24 20:40:47 -0700
+
+
+Started GET "/assets/coachella.jpg" for 127.0.0.1 at 2014-09-24 20:40:47 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 20:40:47 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 20:40:47 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 20:40:47 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-24 20:40:47 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-24 20:40:48 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-24 20:40:48 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 20:41:19 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (2.3ms)
+Completed 200 OK in 379ms (Views: 375.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:41:19 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:41:19 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:41:19 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:41:19 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:41:19 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:41:19 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:41:19 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 20:41:20 -0700
+
+
+Started GET "/assets/dragon.jpg" for 127.0.0.1 at 2014-09-24 20:41:20 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 20:41:20 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 20:41:20 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 20:41:20 -0700
+
+
+Started GET "/assets/coachella.jpg" for 127.0.0.1 at 2014-09-24 20:41:20 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 20:41:20 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-24 20:41:20 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-24 20:41:20 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-24 20:41:20 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 20:41:31 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (1.5ms)
+Completed 200 OK in 505ms (Views: 501.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:41:32 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:41:32 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:41:32 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:41:32 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:41:32 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:41:32 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:41:32 -0700
+
+
+Started GET "/assets/dragon.jpg" for 127.0.0.1 at 2014-09-24 20:41:32 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 20:41:32 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 20:41:32 -0700
+
+
+Started GET "/assets/coachella.jpg" for 127.0.0.1 at 2014-09-24 20:41:32 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 20:41:32 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-24 20:41:32 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 20:41:32 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 20:41:32 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-24 20:41:33 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-24 20:41:33 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 20:41:37 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (2.1ms)
+Completed 200 OK in 570ms (Views: 566.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:41:38 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:41:38 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:41:38 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:41:38 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:41:38 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:41:38 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:41:38 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 20:41:38 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 20:41:38 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 20:41:38 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 20:41:38 -0700
+
+
+Started GET "/assets/coachella.jpg" for 127.0.0.1 at 2014-09-24 20:41:38 -0700
+
+
+Started GET "/assets/dragon.jpg" for 127.0.0.1 at 2014-09-24 20:41:38 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-24 20:41:38 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 20:41:38 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-24 20:41:38 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-24 20:41:38 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 20:41:44 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (1.6ms)
+Completed 200 OK in 518ms (Views: 515.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:41:44 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:41:44 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:41:44 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:41:44 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:41:44 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:41:44 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:41:44 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 20:41:45 -0700
+
+
+Started GET "/assets/dragon.jpg" for 127.0.0.1 at 2014-09-24 20:41:45 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 20:41:45 -0700
+
+
+Started GET "/assets/coachella.jpg" for 127.0.0.1 at 2014-09-24 20:41:45 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 20:41:45 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 20:41:45 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 20:41:45 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-24 20:41:45 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-24 20:41:45 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-24 20:41:45 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 20:41:49 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (2.0ms)
+Completed 200 OK in 464ms (Views: 461.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:41:50 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:41:50 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:41:50 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:41:50 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:41:50 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:41:50 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:41:50 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 20:41:51 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 20:41:51 -0700
+
+
+Started GET "/assets/dragon.jpg" for 127.0.0.1 at 2014-09-24 20:41:51 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 20:41:51 -0700
+
+
+Started GET "/assets/coachella.jpg" for 127.0.0.1 at 2014-09-24 20:41:51 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 20:41:51 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 20:41:51 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-24 20:41:51 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-24 20:41:51 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-24 20:41:51 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 20:41:55 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (1.8ms)
+Completed 200 OK in 514ms (Views: 511.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:41:56 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:41:56 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:41:56 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:41:56 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:41:56 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:41:56 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:41:56 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 20:41:56 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 20:41:56 -0700
+
+
+Started GET "/assets/coachella.jpg" for 127.0.0.1 at 2014-09-24 20:41:56 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 20:41:56 -0700
+
+
+Started GET "/assets/dragon.jpg" for 127.0.0.1 at 2014-09-24 20:41:56 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 20:41:56 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-24 20:41:56 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 20:41:56 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-24 20:41:56 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-24 20:41:56 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 20:42:01 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (3.7ms)
+Completed 200 OK in 633ms (Views: 630.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:42:02 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:42:02 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:42:02 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:42:02 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:42:02 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:42:02 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:42:02 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 20:42:02 -0700
+
+
+Started GET "/assets/dragon.jpg" for 127.0.0.1 at 2014-09-24 20:42:02 -0700
+
+
+Started GET "/assets/coachella.jpg" for 127.0.0.1 at 2014-09-24 20:42:02 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 20:42:02 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 20:42:02 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 20:42:02 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-24 20:42:02 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-24 20:42:02 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-24 20:42:02 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 20:42:02 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 20:42:36 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (1.7ms)
+Completed 200 OK in 372ms (Views: 369.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:42:36 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:42:36 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:42:36 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:42:36 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:42:36 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:42:36 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:42:36 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 20:42:37 -0700
+
+
+Started GET "/assets/dragon.jpg" for 127.0.0.1 at 2014-09-24 20:42:37 -0700
+
+
+Started GET "/assets/coachella.jpg" for 127.0.0.1 at 2014-09-24 20:42:37 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 20:42:37 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 20:42:37 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 20:42:37 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 20:42:37 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-24 20:42:37 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-24 20:42:37 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-24 20:42:37 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 20:42:57 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (2.6ms)
+Completed 200 OK in 520ms (Views: 518.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:42:58 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:42:58 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:42:58 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:42:58 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:42:58 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:42:58 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:42:58 -0700
+
+
+Started GET "/assets/coachella.jpg" for 127.0.0.1 at 2014-09-24 20:42:58 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 20:42:58 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 20:42:58 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 20:42:58 -0700
+
+
+Started GET "/assets/dragon.jpg" for 127.0.0.1 at 2014-09-24 20:42:58 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-24 20:42:58 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 20:42:58 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 20:42:58 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-24 20:42:58 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-24 20:42:58 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 20:45:20 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (1.5ms)
+Completed 200 OK in 450ms (Views: 448.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:45:21 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:45:21 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:45:21 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:45:21 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:45:21 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:45:21 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:45:21 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 20:45:21 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 20:45:21 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 20:45:21 -0700
+
+
+Started GET "/assets/coachella.jpg" for 127.0.0.1 at 2014-09-24 20:45:21 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 20:45:21 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 20:45:21 -0700
+
+
+Started GET "/assets/dragon.jpg" for 127.0.0.1 at 2014-09-24 20:45:21 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-24 20:45:21 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-24 20:45:21 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-24 20:45:21 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 20:45:44 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (1.5ms)
+Completed 200 OK in 555ms (Views: 551.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:45:45 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:45:45 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:45:45 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:45:45 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:45:45 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:45:45 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:45:45 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 20:45:45 -0700
+
+
+Started GET "/assets/dragon.jpg" for 127.0.0.1 at 2014-09-24 20:45:45 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 20:45:45 -0700
+
+
+Started GET "/assets/coachella.jpg" for 127.0.0.1 at 2014-09-24 20:45:45 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 20:45:45 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 20:45:45 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 20:45:45 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-24 20:45:45 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-24 20:45:45 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-24 20:45:45 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 20:46:47 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (3.7ms)
+Completed 200 OK in 642ms (Views: 638.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:46:48 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:46:48 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:46:48 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:46:48 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:46:48 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:46:48 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:46:48 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 20:46:48 -0700
+
+
+Started GET "/assets/coachella.jpg" for 127.0.0.1 at 2014-09-24 20:46:48 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 20:46:48 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 20:46:48 -0700
+
+
+Started GET "/assets/dragon.jpg" for 127.0.0.1 at 2014-09-24 20:46:48 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 20:46:48 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-24 20:46:49 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-24 20:46:49 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 20:46:49 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-24 20:46:49 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 20:47:06 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (2.9ms)
+Completed 200 OK in 240ms (Views: 237.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:47:07 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:47:07 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:47:07 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:47:07 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:47:07 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:47:07 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:47:07 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 20:47:39 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (26.3ms)
+Completed 200 OK in 318ms (Views: 315.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:47:40 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:47:40 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:47:40 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:47:40 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:47:40 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:47:40 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:47:40 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 20:47:40 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 20:47:40 -0700
+
+
+Started GET "/assets/dragon.jpg" for 127.0.0.1 at 2014-09-24 20:47:40 -0700
+
+
+Started GET "/assets/coachella.jpg" for 127.0.0.1 at 2014-09-24 20:47:40 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 20:47:40 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 20:47:40 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-24 20:47:40 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 20:47:40 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-24 20:47:40 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-24 20:47:40 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 20:48:23 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (1.7ms)
+Completed 200 OK in 825ms (Views: 823.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:48:24 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:48:24 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:48:24 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:48:24 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:48:24 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:48:24 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:48:24 -0700
+
+
+Started GET "/assets/dragon.jpg" for 127.0.0.1 at 2014-09-24 20:48:24 -0700
+
+
+Started GET "/assets/coachella.jpg" for 127.0.0.1 at 2014-09-24 20:48:24 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 20:48:24 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 20:48:24 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 20:48:24 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 20:48:24 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 20:48:24 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-24 20:48:24 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-24 20:48:24 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-24 20:48:24 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 20:48:30 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (2.5ms)
+Completed 200 OK in 457ms (Views: 454.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:48:30 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:48:30 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:48:31 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:48:31 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:48:31 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:48:31 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:48:31 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 20:48:31 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 20:48:31 -0700
+
+
+Started GET "/assets/dragon.jpg" for 127.0.0.1 at 2014-09-24 20:48:31 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 20:48:31 -0700
+
+
+Started GET "/assets/coachella.jpg" for 127.0.0.1 at 2014-09-24 20:48:31 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 20:48:31 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 20:48:31 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-24 20:48:31 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-24 20:48:31 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-24 20:48:31 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 20:49:19 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (1.5ms)
+Completed 200 OK in 506ms (Views: 503.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:49:20 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:49:20 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:49:20 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:49:20 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:49:20 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:49:20 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:49:20 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 20:49:20 -0700
+
+
+Started GET "/assets/coachella.jpg" for 127.0.0.1 at 2014-09-24 20:49:20 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 20:49:20 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 20:49:20 -0700
+
+
+Started GET "/assets/dragon.jpg" for 127.0.0.1 at 2014-09-24 20:49:20 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 20:49:20 -0700
+
+
+Started GET "/assets/github_logo.jpg" for 127.0.0.1 at 2014-09-24 20:49:20 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 20:49:20 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-24 20:49:20 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-24 20:49:20 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-24 20:49:20 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 20:50:02 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (20.9ms)
+Completed 200 OK in 293ms (Views: 290.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:50:02 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:50:02 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:50:02 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:50:02 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:50:02 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:50:02 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:50:02 -0700
+
+
+Started GET "/assets/github_logo.jpg" for 127.0.0.1 at 2014-09-24 20:50:03 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 20:50:03 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 20:50:03 -0700
+
+
+Started GET "/assets/dragon.jpg" for 127.0.0.1 at 2014-09-24 20:50:03 -0700
+
+
+Started GET "/assets/coachella.jpg" for 127.0.0.1 at 2014-09-24 20:50:03 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 20:50:03 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 20:50:03 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 20:50:03 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-24 20:50:03 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-24 20:50:03 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-24 20:50:03 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 20:50:05 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (2.8ms)
+Completed 200 OK in 390ms (Views: 386.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:50:05 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:50:06 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:50:06 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:50:06 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:50:06 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:50:06 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:50:06 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 20:50:28 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (30.0ms)
+Completed 200 OK in 305ms (Views: 302.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:50:28 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:50:28 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:50:28 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:50:28 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:50:28 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:50:28 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:50:28 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 20:50:28 -0700
+
+
+Started GET "/assets/github_logo.jpg" for 127.0.0.1 at 2014-09-24 20:50:28 -0700
+
+
+Started GET "/assets/dragon.jpg" for 127.0.0.1 at 2014-09-24 20:50:28 -0700
+
+
+Started GET "/assets/coachella.jpg" for 127.0.0.1 at 2014-09-24 20:50:28 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 20:50:28 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 20:50:28 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 20:50:28 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 20:50:29 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-24 20:50:29 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-24 20:50:29 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-24 20:50:29 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 20:51:03 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (1.8ms)
+Completed 200 OK in 298ms (Views: 295.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:51:03 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:51:03 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:51:03 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:51:03 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:51:03 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:51:03 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:51:03 -0700
+
+
+Started GET "/assets/github_logo.jpg" for 127.0.0.1 at 2014-09-24 20:51:03 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 20:51:04 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 20:51:04 -0700
+
+
+Started GET "/assets/coachella.jpg" for 127.0.0.1 at 2014-09-24 20:51:04 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 20:51:04 -0700
+
+
+Started GET "/assets/dragon.jpg" for 127.0.0.1 at 2014-09-24 20:51:04 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 20:51:04 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-24 20:51:04 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 20:51:04 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-24 20:51:04 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-24 20:51:04 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 20:53:48 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 162ms
+
+ActionView::Template::Error (Asset filtered out and will not be served: add `Rails.application.config.assets.precompile += %w( home.js )` to `config/initializers/assets.rb` and restart your server):
+    4:   =javascript_include_tag '//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'
+    5:   =include_gon
+    6:   =javascript_include_tag 'audio'
+    7:   =javascript_include_tag 'home'
+    8:   =javascript_include_tag 'visualizer'
+    9:   =stylesheet_link_tag 'application'
+   10:   =stylesheet_link_tag 'audios'
+  app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___2403739997040613263_70226698779720'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (62.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 20:54:31 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (40.9ms)
+Completed 200 OK in 512ms (Views: 397.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-09-24 20:54:33 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:54:33 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:54:34 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:54:34 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:54:34 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:54:34 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:54:34 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:54:34 -0700
+
+
+Started GET "/assets/github_logo.jpg" for 127.0.0.1 at 2014-09-24 20:54:34 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 20:54:34 -0700
+
+
+Started GET "/assets/coachella.jpg" for 127.0.0.1 at 2014-09-24 20:54:34 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 20:54:34 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 20:54:34 -0700
+
+
+Started GET "/assets/dragon.jpg" for 127.0.0.1 at 2014-09-24 20:54:34 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 20:54:34 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 20:54:34 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-24 20:54:34 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-24 20:54:34 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-24 20:54:34 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 20:56:16 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (22.7ms)
+Completed 200 OK in 242ms (Views: 239.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:56:16 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-09-24 20:56:16 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:56:17 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:56:17 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:56:17 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:56:17 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:56:17 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:56:17 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 20:58:08 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (22.3ms)
+Completed 200 OK in 458ms (Views: 455.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 20:58:08 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 20:58:08 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:58:08 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-09-24 20:58:08 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:58:08 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:58:09 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:58:09 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:58:09 -0700
+
+
+Started GET "/assets/github_logo.jpg" for 127.0.0.1 at 2014-09-24 20:58:09 -0700
+
+
+Started GET "/assets/dragon.jpg" for 127.0.0.1 at 2014-09-24 20:58:09 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 20:58:09 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 20:58:09 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-24 20:58:09 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 20:58:09 -0700
+
+
+Started GET "/assets/coachella.jpg" for 127.0.0.1 at 2014-09-24 20:58:09 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 20:58:09 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 20:58:09 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-24 20:58:09 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-24 20:58:09 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 20:58:37 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 20:58:37 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 20:58:37 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 20:58:37 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 20:58:37 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 21:01:15 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (1.8ms)
+Completed 200 OK in 222ms (Views: 220.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-09-24 21:01:16 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 21:01:16 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 21:01:16 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 21:01:16 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 21:01:16 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 21:01:16 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 21:01:16 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 21:01:16 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 21:01:16 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 21:01:16 -0700
+
+
+Started GET "/assets/github_logo.jpg" for 127.0.0.1 at 2014-09-24 21:01:16 -0700
+
+
+Started GET "/assets/dragon.jpg" for 127.0.0.1 at 2014-09-24 21:01:16 -0700
+
+
+Started GET "/assets/coachella.jpg" for 127.0.0.1 at 2014-09-24 21:01:16 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 21:01:16 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 21:01:16 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 21:01:16 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-24 21:01:16 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-24 21:01:16 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-24 21:01:16 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 21:02:56 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (37.5ms)
+Completed 200 OK in 515ms (Views: 512.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 21:02:57 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-09-24 21:02:57 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 21:02:57 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 21:02:57 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 21:02:57 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 21:02:57 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 21:02:57 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 21:02:57 -0700
+
+
+Started GET "/assets/github_logo.jpg" for 127.0.0.1 at 2014-09-24 21:02:57 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 21:02:58 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 21:02:58 -0700
+
+
+Started GET "/assets/dragon.jpg" for 127.0.0.1 at 2014-09-24 21:02:58 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 21:02:58 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 21:02:58 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-24 21:02:58 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-24 21:02:58 -0700
+
+
+Started GET "/assets/coachella.jpg" for 127.0.0.1 at 2014-09-24 21:02:58 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 21:02:58 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-24 21:02:58 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 21:04:23 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (20.9ms)
+Completed 200 OK in 727ms (Views: 725.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 21:04:23 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 21:04:24 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 21:04:24 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-09-24 21:04:24 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 21:04:24 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 21:04:24 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 21:04:24 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 21:04:24 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 21:04:24 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 21:04:24 -0700
+
+
+Started GET "/assets/github_logo.jpg" for 127.0.0.1 at 2014-09-24 21:04:24 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 21:04:24 -0700
+
+
+Started GET "/assets/coachella.jpg" for 127.0.0.1 at 2014-09-24 21:04:24 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 21:04:24 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 21:04:24 -0700
+
+
+Started GET "/assets/dragon.jpg" for 127.0.0.1 at 2014-09-24 21:04:24 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-24 21:04:24 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-24 21:04:24 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-24 21:04:24 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 21:05:12 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (22.9ms)
+Completed 200 OK in 324ms (Views: 321.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 21:05:13 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-09-24 21:05:13 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 21:05:13 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 21:05:13 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 21:05:13 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 21:05:13 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 21:05:13 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 21:05:13 -0700
+
+
+Started GET "/assets/github_logo.jpg" for 127.0.0.1 at 2014-09-24 21:05:13 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 21:05:13 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 21:05:13 -0700
+
+
+Started GET "/assets/dragon.jpg" for 127.0.0.1 at 2014-09-24 21:05:13 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 21:05:13 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 21:05:13 -0700
+
+
+Started GET "/assets/coachella.jpg" for 127.0.0.1 at 2014-09-24 21:05:13 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-24 21:05:13 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 21:05:13 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-24 21:05:13 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-24 21:05:13 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 21:05:54 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (1.5ms)
+Completed 200 OK in 523ms (Views: 521.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 21:05:55 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-09-24 21:05:55 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 21:05:55 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 21:05:55 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 21:05:55 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 21:05:55 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 21:05:55 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 21:05:55 -0700
+
+
+Started GET "/assets/github_logo.jpg" for 127.0.0.1 at 2014-09-24 21:05:55 -0700
+
+
+Started GET "/assets/dragon.jpg" for 127.0.0.1 at 2014-09-24 21:05:55 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 21:05:55 -0700
+
+
+Started GET "/assets/coachella.jpg" for 127.0.0.1 at 2014-09-24 21:05:55 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 21:05:55 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 21:05:55 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 21:05:55 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-24 21:05:55 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 21:05:55 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-24 21:05:55 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-24 21:05:55 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 21:06:02 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (1.9ms)
+Completed 200 OK in 539ms (Views: 537.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-09-24 21:06:03 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 21:06:03 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 21:06:03 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 21:06:03 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 21:06:03 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 21:06:03 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 21:06:03 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 21:06:03 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 21:06:03 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 21:06:03 -0700
+
+
+Started GET "/assets/dragon.jpg" for 127.0.0.1 at 2014-09-24 21:06:03 -0700
+
+
+Started GET "/assets/coachella.jpg" for 127.0.0.1 at 2014-09-24 21:06:03 -0700
+
+
+Started GET "/assets/github_logo.jpg" for 127.0.0.1 at 2014-09-24 21:06:03 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 21:06:03 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 21:06:03 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 21:06:03 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-24 21:06:03 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-24 21:06:03 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-24 21:06:03 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 21:09:05 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (1.7ms)
+Completed 200 OK in 451ms (Views: 448.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 21:09:05 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 21:09:05 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-09-24 21:09:05 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 21:09:05 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 21:09:05 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 21:09:05 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 21:09:05 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 21:09:05 -0700
+
+
+Started GET "/assets/github_logo.jpg" for 127.0.0.1 at 2014-09-24 21:09:06 -0700
+
+
+Started GET "/assets/dragon.jpg" for 127.0.0.1 at 2014-09-24 21:09:06 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 21:09:06 -0700
+
+
+Started GET "/assets/coachella.jpg" for 127.0.0.1 at 2014-09-24 21:09:06 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 21:09:06 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 21:09:06 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 21:09:06 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 21:09:06 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-24 21:09:06 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-24 21:09:06 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-24 21:09:06 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 21:09:18 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 21:09:18 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 21:09:18 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 21:09:18 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 21:09:18 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 21:10:34 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (2.8ms)
+Completed 200 OK in 688ms (Views: 684.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 21:10:35 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-09-24 21:10:35 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 21:10:35 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 21:10:35 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 21:10:35 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 21:10:35 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 21:10:35 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 21:10:35 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 21:10:35 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 21:10:35 -0700
+
+
+Started GET "/assets/dragon.jpg" for 127.0.0.1 at 2014-09-24 21:10:35 -0700
+
+
+Started GET "/assets/github_logo.jpg" for 127.0.0.1 at 2014-09-24 21:10:35 -0700
+
+
+Started GET "/assets/coachella.jpg" for 127.0.0.1 at 2014-09-24 21:10:35 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 21:10:35 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 21:10:35 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 21:10:35 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-24 21:10:35 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-24 21:10:35 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-24 21:10:36 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 21:10:58 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 21:10:58 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 21:10:58 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 21:10:58 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 21:10:58 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 21:12:08 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (2.3ms)
+Completed 200 OK in 637ms (Views: 634.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 21:12:09 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-09-24 21:12:09 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 21:12:09 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 21:12:09 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 21:12:09 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 21:12:09 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 21:12:09 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 21:12:09 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 21:12:10 -0700
+
+
+Started GET "/assets/github_logo.jpg" for 127.0.0.1 at 2014-09-24 21:12:10 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 21:12:10 -0700
+
+
+Started GET "/assets/dragon.jpg" for 127.0.0.1 at 2014-09-24 21:12:10 -0700
+
+
+Started GET "/assets/coachella.jpg" for 127.0.0.1 at 2014-09-24 21:12:10 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 21:12:10 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 21:12:10 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 21:12:10 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-24 21:12:10 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-24 21:12:10 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-24 21:12:10 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 21:13:01 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (21.6ms)
+Completed 200 OK in 249ms (Views: 247.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 21:13:01 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-09-24 21:13:01 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 21:13:02 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 21:13:02 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 21:13:02 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 21:13:02 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 21:13:02 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 21:13:02 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 21:13:02 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 21:13:02 -0700
+
+
+Started GET "/assets/coachella.jpg" for 127.0.0.1 at 2014-09-24 21:13:02 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 21:13:02 -0700
+
+
+Started GET "/assets/github_logo.jpg" for 127.0.0.1 at 2014-09-24 21:13:02 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 21:13:02 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 21:13:02 -0700
+
+
+Started GET "/assets/dragon.jpg" for 127.0.0.1 at 2014-09-24 21:13:02 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-24 21:13:02 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-24 21:13:02 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-24 21:13:02 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 21:13:20 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (1.7ms)
+Completed 200 OK in 370ms (Views: 367.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-09-24 21:13:20 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 21:13:20 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 21:13:21 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 21:13:21 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 21:13:21 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 21:13:21 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 21:13:21 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 21:13:21 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 21:13:21 -0700
+
+
+Started GET "/assets/github_logo.jpg" for 127.0.0.1 at 2014-09-24 21:13:21 -0700
+
+
+Started GET "/assets/dragon.jpg" for 127.0.0.1 at 2014-09-24 21:13:21 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 21:13:21 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 21:13:21 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-24 21:13:21 -0700
+
+
+Started GET "/assets/coachella.jpg" for 127.0.0.1 at 2014-09-24 21:13:21 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 21:13:21 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 21:13:21 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-24 21:13:21 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-24 21:13:21 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 21:14:01 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (20.8ms)
+Completed 200 OK in 323ms (Views: 320.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 21:14:02 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 21:14:02 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-09-24 21:14:02 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 21:14:02 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 21:14:02 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 21:14:02 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 21:14:02 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 21:14:02 -0700
+
+
+Started GET "/assets/github_logo.jpg" for 127.0.0.1 at 2014-09-24 21:14:02 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 21:14:02 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 21:14:02 -0700
+
+
+Started GET "/assets/dragon.jpg" for 127.0.0.1 at 2014-09-24 21:14:02 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 21:14:02 -0700
+
+
+Started GET "/assets/coachella.jpg" for 127.0.0.1 at 2014-09-24 21:14:02 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 21:14:02 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 21:14:02 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-24 21:14:02 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-24 21:14:02 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-24 21:14:02 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-24 21:14:24 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (146.3ms)
+Completed 200 OK in 394ms (Views: 391.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-09-24 21:14:24 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 21:14:24 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 21:14:24 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 21:14:24 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 21:14:24 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 21:14:25 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 21:14:25 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 21:14:25 -0700
+
+
+Started GET "/assets/github_logo.jpg" for 127.0.0.1 at 2014-09-24 21:14:25 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-24 21:14:25 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-24 21:14:25 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-24 21:14:25 -0700
+
+
+Started GET "/assets/coachella.jpg" for 127.0.0.1 at 2014-09-24 21:14:25 -0700
+
+
+Started GET "/assets/dragon.jpg" for 127.0.0.1 at 2014-09-24 21:14:25 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-24 21:14:25 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-24 21:14:25 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-24 21:14:25 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-24 21:14:25 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-24 21:14:25 -0700
+
+
+Started GET "/samscraper" for 127.0.0.1 at 2014-09-24 21:15:12 -0700
+Processing by SongController#index as HTML
+  [1m[35mSong Load (1.6ms)[0m  SELECT `songs`.* FROM `songs`  WHERE (`songs`.`id` IS NOT NULL) AND (`songs`.`filename` IS NOT NULL)
+  Rendered shared/_canvas.html.haml (63.9ms)
+  [1m[36mSong Load (1.0ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE ((`songs`.`id` IN (797, 798, 803) OR `songs`.`id` IS NULL))[0m
+  Rendered shared/_playlist.html.haml (10.9ms)
+  Rendered song/index.html.haml within layouts/application (285.8ms)
+Completed 200 OK in 820ms (Views: 659.1ms | ActiveRecord: 23.8ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 21:15:13 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 21:15:13 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 21:15:13 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 21:15:13 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-09-24 21:15:13 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 21:15:13 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 21:15:13 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 21:15:13 -0700
+
+
+Started GET "/assets/headphones2.jpg" for 127.0.0.1 at 2014-09-24 21:15:13 -0700
+
+
+Started GET "/assets/headphones.jpg" for 127.0.0.1 at 2014-09-24 21:15:13 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to AddColumnToSong (20140925041915)
+  [1m[35m (852.6ms)[0m  ALTER TABLE `songs` ADD `thumb_url` varchar(255)
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (43.9ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20140925041915')
+  [1m[36m (12.8ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.6ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36mSQL (59.7ms)[0m  [1mDELETE FROM `songs`[0m
+  [1m[36mSong Exists (14.1ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '26rbx' LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (40.7ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('Chet Faker x WKND', '26rbx', '2014-09-25 04:22:37', 'Germany’s wunderkind WKND is on a mission to keep the good grooves going with his dreamy sound, and today we’re gifted with the release of “Lover,” which derives from a Chet Faker cover. The Australian artist revamped “You Don’t Treat Me No Good” by Sonia', 'http://hypem.com/go/itunes_search/Chet%20Faker%20x%20WKND', '26rbx', 'Chet Faker x WKND - Lover', 'http://www.themusicninja.com/funky-house-chet-faker-x-wknd-lover/', '26rbx', 'http://static.hypem.net/thumbs_new/1e/2533406.jpg', 'Lover', '2014-09-25 04:22:37')[0m
+  [1m[35m (16.1ms)[0m  COMMIT
+  [1m[36mSong Exists (0.8ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '26rry' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('Kendrick Lamar', '26rry', '2014-09-25 04:22:38', 'Désormais attendu après le succès de son album Good Kid, M.A.A.D City, Kendrick Lamar dévoile le titre i. Ici, le rappeur de Compton étale sa classe sur une production de Rakhi, et plus particulièrement sur un sample de Who’s That Lady des Isley Brothers.', 'http://hypem.com/go/itunes_search/Kendrick%20Lamar', '26rry', 'Kendrick Lamar - i', 'http://pausemusicale.com/kendrick-lamar-i/', '26rry', 'http://static.hypem.net/thumbs_new/80/2534528.jpg', 'i', '2014-09-25 04:22:38')[0m
+  [1m[35m (8.8ms)[0m  COMMIT
+  [1m[36mSong Exists (0.8ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '26qsa' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('Mattafix', '26qsa', '2014-09-25 04:22:38', 'Tropical Monday ahoy! This LEEX remix of Mattafix and ‘Big City Life’ brings in those pipes and laid back vibes. Perfect for the sunshine. ABOUT Follow me on Twitter Follow me on Instagram Follow me on Facebook', 'http://hypem.com/go/itunes_search/Mattafix', '26qsa', 'Mattafix - Big City Life (LEEX Remix)', 'http://www.yourmusicradar.com/mattafix-big-city-life-leex-remix/', '26qsa', 'http://static.hypem.net/thumbs_new/ec/2532844.jpg', 'Big City Life (LEEX Remix)', '2014-09-25 04:22:38')[0m
+  [1m[35m (37.7ms)[0m  COMMIT
+  [1m[36mSong Exists (1.2ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '26rxy' LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('Anna of the North', '26rxy', '2014-09-25 04:22:38', 'The Chainsmokers are what you call “men of the people.” Even post-”#Selfie,” Alex and Drew continue to pump out a slew of originals and remixes released FOR FREE. Their most recent remix of Anna of the North’s “Sway” brings us a medley of sounds from the ', 'http://hypem.com/go/itunes_search/Anna%20of%20the%20North', '26rxy', 'Anna of the North - Sway (The Chainsmokers Remix)', 'http://www.chubbybeavers.com/anna-of-the-north-sway-the-chainsmokers-remix/', '26rxy', 'http://static.hypem.net/thumbs_new/1/2534913.jpg', 'Sway (The Chainsmokers Remix)', '2014-09-25 04:22:38')[0m
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36mSong Exists (0.9ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '26mqv' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('Logic', '26mqv', '2014-09-25 04:22:38', 'Transitioning from a mixtape to a studio album is no easy task. While the expectations for what constitutes a good free tape versus a full length project in terms of quality are constantly evolving due to guys like Lil Wayne and Drake and their meticulous', 'http://hypem.com/go/itunes_search/Logic', '26mqv', 'Logic - Under Pressure (Prod. By Logic)', 'http://www.earmilk.com/2014/09/16/logic-goes-under-pressure-with-the-1st-release-from-his-new-album/', '26mqv', 'http://static.hypem.net/thumbs_new/6f/2529903.jpg', 'Under Pressure (Prod. By Logic)', '2014-09-25 04:22:38')[0m
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36mSong Exists (0.7ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '26rva' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('Ryan Hemsworth', '26rva', '2014-09-25 04:22:38', 'Who knew that Ryan Hemsworth would have gone all emo on us after the big club bangers he\'s dropped the ... Read the full article at http://www.prefixmag.com/news/stream-ryan-hemsworth-snow-in-newark-f-dawn-golden/78293/', 'http://hypem.com/go/itunes_search/Ryan%20Hemsworth', '26rva', 'Ryan Hemsworth - Snow In Newark (with Dawn Golden)', 'http://www.prefixmag.com/news/stream-ryan-hemsworth-snow-in-newark-f-dawn-golden/78293/', '26rva', 'http://static.hypem.net/thumbs_new/2e/2533934.jpg', 'Snow In Newark (with Dawn Golden)', '2014-09-25 04:22:38')[0m
+  [1m[35m (6.1ms)[0m  COMMIT
+  [1m[36mSong Exists (1.7ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '26qsj' LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('ZHU', '26qsj', '2014-09-25 04:22:38', 'It’s time for some new ZHU but really not so new. This is actually a cover of CHVRCHES‘ single, “Gun”, Read more at Earbuddy.', 'http://hypem.com/go/itunes_search/ZHU', '26qsj', 'ZHU - Gun. (CHVRCHES Cover)', 'http://www.earbuddy.net/51642/zhu-gun-chvrches-cover.html/listen/pop', '26qsj', 'http://static.hypem.net/thumbs_new/a1/2533025.jpg', 'Gun. (CHVRCHES Cover)', '2014-09-25 04:22:38')[0m
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36mSong Exists (0.8ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '26q6h' LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('Elliphant', '26q6h', '2014-09-25 04:22:38', 'Sizzling MC skills, serious lyrical prowess and standing alongside MØ? Elliphant returns with new song and collaboration “One More” for the win. It’s abstract, strangely captivating and to the brim with cheap dirty beats, just like everyone is saying. In ', 'http://hypem.com/go/itunes_search/Elliphant', '26q6h', 'Elliphant - One More\" feat. MØ', 'http://kickkicksnare.com/2014/09/22/elliphant-feat-mo-one/', '26q6h', 'http://static.hypem.net/thumbs_new/49/2533193.jpg', 'One More\" feat. MØ', '2014-09-25 04:22:38')[0m
+  [1m[35m (151.7ms)[0m  COMMIT
+  [1m[36mSong Exists (0.8ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '26r73' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('alt-J', '26r73', '2014-09-25 04:22:38', 'It’s pretty much a foregone conclusion at this point that alt-J is a success story. Despite having embraced the kind of music that doesn’t normally get a lot of love on mainstream outlets, the group has still managed to bridge the gap between niche market', 'http://hypem.com/go/itunes_search/alt-J', '26r73', 'alt-J - Warm Foothills', 'http://www.hillydilly.com/2014/09/alt-j-this-is-all-yours/', '26r73', 'http://static.hypem.net/thumbs_new/a2/2533282.jpg', 'Warm Foothills', '2014-09-25 04:22:38')[0m
+  [1m[35m (30.2ms)[0m  COMMIT
+  [1m[36mSong Exists (0.8ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '26q3s' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('SBTRKT', '26q3s', '2014-09-25 04:22:38', 'This year has seen a flurry of activity from clandestine mastermind SBTRKT, with his phenomenal Transitions EP series followed by the announcement of his second full length album titled \'Wonder Where We Land\', set for release on the 22nd of September on Y', 'http://hypem.com/go/itunes_search/SBTRKT', '26q3s', 'SBTRKT - THE LIGHT feat. Denai Moore', 'http://stoneyroads.com/2014/09/sbtrkt-the-light-young-turks', '26q3s', 'http://static.hypem.net/thumbs_new/30/2532656.jpg', 'THE LIGHT feat. Denai Moore', '2014-09-25 04:22:38')[0m
+  [1m[35m (3.7ms)[0m  COMMIT
+  [1m[36mSong Exists (0.8ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '26peh' LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('Route 94', '26peh', '2014-09-25 04:22:38', 'Rising Canadian stars Martin Kottmeier and Tristian Norton, aka Young Bombs, are an explosive force to be reckoned with. Their electro-house sound is unique, upbeat but not overbearing. Their latest remix of Route 94’s hit track “My Love” featuring the vo', 'http://hypem.com/go/itunes_search/Route%2094', '26peh', 'Route 94 - My Love (feat. Jess Glynne) (Young Bombs Remix)', 'http://www.earmilk.com/2014/09/23/young-bombs-get-your-heart-racing-with-my-love-remix/', '26peh', 'http://static.hypem.net/thumbs_new/ec/2534124.jpg', 'My Love (feat. Jess Glynne) (Young Bombs Remix)', '2014-09-25 04:22:38')[0m
+  [1m[35m (2.5ms)[0m  COMMIT
+  [1m[36mSong Exists (0.8ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '24x5f' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('BLACKBIRD BLACKBIRD', '24x5f', '2014-09-25 04:22:38', '[Artwork by Joe Fenton] Blackbird Blackbird is the electronic music project of San Francisco’s Mikey Maramag. As Blackbird Blackbird, Maramag appreciates the qualities of sonic ambience providing layers of swirling guitars, atmospheric textures of electri', 'http://hypem.com/go/itunes_search/BLACKBIRD%20BLACKBIRD', '24x5f', 'BLACKBIRD BLACKBIRD - Beasts', 'http://musicisart.ws/blackbird-blackbird/', '24x5f', 'http://static.hypem.net/thumbs_new/d1/2508497.jpg', 'Beasts', '2014-09-25 04:22:38')[0m
+  [1m[35m (2.6ms)[0m  COMMIT
+  [1m[36mSong Exists (0.9ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '26jne' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('MATT ZANARDO', '26jne', '2014-09-25 04:22:38', 'This beautiful song “Love Blind” by Matt Zanardo was originally hosted by This Song Is Sick’s soundcloud, but as you may have heard, their account was deactivated (read more about that HERE). In the meantime, Zanardo has re-uploaded the song to his own ac', 'http://hypem.com/go/itunes_search/MATT%20ZANARDO', '26jne', 'MATT ZANARDO - Love Blind (Original \'4AM\' Mix)', 'http://danideahl.com/matt-zanardo-love-blind/', '26jne', 'http://static.hypem.net/thumbs_new/f9/2532601.jpg', 'Love Blind (Original \'4AM\' Mix)', '2014-09-25 04:22:38')[0m
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36mSong Exists (0.9ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '260ft' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('Josef Salvat', '260ft', '2014-09-25 04:22:38', 'Poster boy Josef Salvat breaks the silence (and how!) with Shoot & Run, a first taste of . The setting is somewhat more dramatic (vibes of Young & Beautiful in there with those growing strings), hence his time in the studio with Justin Parker who tends to', 'http://hypem.com/go/itunes_search/Josef%20Salvat', '260ft', 'Josef Salvat - Shoot and Run', 'http://disconaivete.com/post/94460470916', '260ft', 'http://static.hypem.net/thumbs_new/fc/2509820.jpg', 'Shoot and Run', '2014-09-25 04:22:38')[0m
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36mSong Exists (0.8ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '26qen' LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('Fleetwood Mac', '26qen', '2014-09-25 04:22:38', 'Afrobeta turn in a class edit of Fleetwood Mac’s ‘Everywhere’ which takes the original and adds some electro house spice to the mix. ABOUT www.afrobeta.com Facebook Twitter MySpace Last.fm Songkick Tumblr YouTube', 'http://hypem.com/go/itunes_search/Fleetwood%20Mac', '26qen', 'Fleetwood Mac - Everywhere (Afrobeta remix)', 'http://www.yourmusicradar.com/fleetwood-mac-everywhere-afrobeta-remix/', '26qen', 'http://static.hypem.net/thumbs_new/13/2532627.jpg', 'Everywhere (Afrobeta remix)', '2014-09-25 04:22:38')[0m
+  [1m[35m (2.9ms)[0m  COMMIT
+  [1m[36mSong Exists (0.9ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '26s2f' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('Female', '26s2f', '2014-09-25 04:22:38', 'Australian producer Female paints a purely magical soundscape on Only You, which features top DJ of the world, Calvin Harris, and Ayah Marar. I love how the song starts off hushed and gentle with the vintage pops and crackles of an old record player. Ther', 'http://hypem.com/go/itunes_search/Female', '26s2f', 'Female - Only You feat. Calvin Harris', 'http://iheartmoosiq.tumblr.com/post/98352318944/australian-producer-female-paints-a-purely-magical', '26s2f', 'http://static.hypem.net/thumbs_new/8b/2535307.jpg', 'Only You feat. Calvin Harris', '2014-09-25 04:22:38')[0m
+  [1m[35m (2.5ms)[0m  COMMIT
+  [1m[36mSong Exists (1.0ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '26s45' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('Flosstradamus', '26s45', '2014-09-25 04:22:38', 'Without a doubt, one of the most meteoric indie hip hop rises of this year is the one achieved by Atlanta artist Raury. It’s hard to believe it’s only been a few months since Sunshine, and a mere two since Cigarette Song. He’s been featured on one of SBTR', 'http://hypem.com/go/itunes_search/Flosstradamus', '26s45', 'Flosstradamus - God\'s Whisper (Flosstradamus & Aryay Remix)', 'http://iheartmoosiq.tumblr.com/post/98274553604/without-a-doubt-one-of-the-most-meteoric-indie', '26s45', 'http://static.hypem.net/thumbs_new/32/2534450.jpg', 'God\'s Whisper (Flosstradamus & Aryay Remix)', '2014-09-25 04:22:38')[0m
+  [1m[35m (1.7ms)[0m  COMMIT
+  [1m[36mSong Exists (0.8ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '26rhr' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('Strange talk', '26rhr', '2014-09-25 04:22:38', 'Dancing Astronaut - house, electro, progressive, dubstep With just over a month until his debut studio album releases, Dillon Francis has been flooding the market with a wide array of his own productions to grip tightly to longtime fans and new listeners ', 'http://hypem.com/go/itunes_search/Strange%20talk', '26rhr', 'Strange talk - Morning Sun (Dillon Francis Remix)', 'http://www.dancingastronaut.com/2014/09/strange-talk-morning-sun-dillon-francis-remix/', '26rhr', 'http://static.hypem.net/thumbs_new/72/2534258.jpg', 'Morning Sun (Dillon Francis Remix)', '2014-09-25 04:22:38')[0m
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36mSong Exists (0.8ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '25h8q' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('ODESZA', '25h8q', '2014-09-25 04:22:38', 'ODESZA - Memories That You Call [pre-order] their new album, In Return, will be released September 8th on Counter Records (a Ninja Tune imprint) throw your hands in the air!', 'http://hypem.com/go/itunes_search/ODESZA', '25h8q', 'ODESZA - Memories That You Call (feat. Monsoonsiren)', 'http://moarrr.com/post/91974383476', '25h8q', 'http://static.hypem.net/thumbs_new/d/2496013.jpg', 'Memories That You Call (feat. Monsoonsiren)', '2014-09-25 04:22:38')[0m
+  [1m[35m (2.4ms)[0m  COMMIT
+  [1m[36mSong Exists (1.0ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '26nbm' LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('Tycho', '26nbm', '2014-09-25 04:22:38', 'While Tycho\'s latest LP Awake is about as consistent as they come, \"See\" still manages to stand out as one of the strongest tracks. Its driving percussion, warm guitar, and synth flourishes sum up the strengths of Scott Hansen\'s recent music. Now the trac', 'http://hypem.com/go/itunes_search/Tycho', '26nbm', 'Tycho - See (Beacon Remix)', 'http://www.earmilk.com/2014/09/21/tychos-see-gets-a-music-video-and-remix-by-beacon/', '26nbm', 'http://static.hypem.net/thumbs_new/96/2532758.jpg', 'See (Beacon Remix)', '2014-09-25 04:22:38')[0m
+  [1m[35m (2.1ms)[0m  COMMIT
+  [1m[36mSong Exists (0.8ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '26rbw' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('The Game', '26rbw', '2014-09-25 04:22:38', 'SNBRN has been causing quite the buzz. I first fell in love with the relatively new producer when he released his Sunset House remix of Ace of Base’s track “All She Wants”. Continuing to impress, his newest project, a remix of The Game’s “Let’s Ride”, has', 'http://hypem.com/go/itunes_search/The%20Game', '26rbw', 'The Game - Let\'s Ride (SNBRN Remix)', 'http://stoneyroads.com/2014/09/the-game-lets-ride-snbrn-remix', '26rbw', 'http://static.hypem.net/thumbs_new/2a/2533418.jpg', 'Let\'s Ride (SNBRN Remix)', '2014-09-25 04:22:38')[0m
+  [1m[35m (1.6ms)[0m  COMMIT
+  [1m[36mSong Exists (0.8ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '26rvk' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('Ben Howard', '26rvk', '2014-09-25 04:22:38', 'I’m gonna be completely honest (and perhaps open myself up to a ton of criticism), but I’ve never really ‘got’ Ben Howard. I don’t know if that’s because his breakthrough tracks were horrifically overplayed on the radio, or if I just saw his videos pop up', 'http://hypem.com/go/itunes_search/Ben%20Howard', '26rvk', 'Ben Howard - Hideaway (Kiesza cover)', 'http://whenthegramophonerings.com/2014/09/23/download-ben-howard-hideaway-kiesza-cover/', '26rvk', 'http://static.hypem.net/thumbs_new/f9/2533881.jpg', 'Hideaway (Kiesza cover)', '2014-09-25 04:22:38')[0m
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36mSong Exists (0.8ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '266j5' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('Oasis', '266j5', '2014-09-25 04:22:38', 'Sava & Razz give Charli XCX’s ‘Break The Rules’ a remix injection of house and drop some energy in there for good measure. ABOUT Instagram Twitter Facebook', 'http://hypem.com/go/itunes_search/Oasis', '266j5', 'Oasis - Wonderwall (Sava&Razz Remix)', 'http://www.yourmusicradar.com/charli-xcx-break-the-rules-sava-razz-remix/', '266j5', 'http://static.hypem.net/thumbs_new/2d/2532653.jpg', 'Wonderwall (Sava&Razz Remix)', '2014-09-25 04:22:38')[0m
+  [1m[35m (1.4ms)[0m  COMMIT
+  [1m[36mSong Exists (0.8ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '26p20' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('Flying Lotus', '26p20', '2014-09-25 04:22:38', 'A partir del próximo siete de Octubre debutará en las tiendas el nuevo álbum del Dj Steven Ellison, alias Flying Lotus, a titularse You’re Dead! y del cual ya conocemos un primer sencillo junto a Kendrick Lamar. Hoy el artista ha compartido un nuevo adela', 'http://hypem.com/go/itunes_search/Flying%20Lotus', '26p20', 'Flying Lotus - Coronus, The Terminator', 'http://www.revistametronomo.com/2014/09/18/flying-lotus-comparte-otro-adelanto-de-su-proximo-album/', '26p20', 'http://static.hypem.net/thumbs_new/60/2531680.jpg', 'Coronus, The Terminator', '2014-09-25 04:22:38')[0m
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36mSong Exists (0.9ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '26mgt' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('Litany.', '26mgt', '2014-09-25 04:22:38', 'Delikatny damski wokal w burzy perkusji. Litany tworzy przyjemny electro pop. Wokal dryfuje po linii wodnej zrobionej z elektroniczny dźwięków, które przyspieszają pod koniec by go opleść. Wokalistka doskonale żongluje intensywnymi emocjami. MP3', 'http://hypem.com/go/itunes_search/Litany.', '26mgt', 'Litany. - Look', 'http://frytkarnia.tumblr.com/post/97735098002/delikatny-damski-wokal-w-burzy-perkusji-litany', '26mgt', 'http://static.hypem.net/thumbs_new/9b/2530459.jpg', 'Look', '2014-09-25 04:22:38')[0m
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36mSong Exists (1.0ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '26rg0' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('Azealia Banks', '26rg0', '2014-09-25 04:22:38', 'Well, this has to be the best offering from Azealia Banks since ’212′. New single ‘Chasing Time’ is one that you’ll be hitting the play button for a repeat listen the second it stops. Hallelujah to that we say! Things bode well for the long awaited debut ', 'http://hypem.com/go/itunes_search/Azealia%20Banks', '26rg0', 'Azealia Banks - Chasing Time', 'http://www.yourmusicradar.com/azealia-banks-chasing-time/', '26rg0', 'http://static.hypem.net/thumbs_new/eb/2533611.jpg', 'Chasing Time', '2014-09-25 04:22:38')[0m
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36mSong Exists (0.8ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '26r75' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('alt-J', '26r75', '2014-09-25 04:22:38', 'It’s pretty much a foregone conclusion at this point that alt-J is a success story. Despite having embraced the kind of music that doesn’t normally get a lot of love on mainstream outlets, the group has still managed to bridge the gap between niche market', 'http://hypem.com/go/itunes_search/alt-J', '26r75', 'alt-J - Bloodflood pt.II', 'http://www.hillydilly.com/2014/09/alt-j-this-is-all-yours/', '26r75', 'http://static.hypem.net/thumbs_new/a2/2533282.jpg', 'Bloodflood pt.II', '2014-09-25 04:22:38')[0m
+  [1m[35m (1.4ms)[0m  COMMIT
+  [1m[36mSong Exists (0.9ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '26nnb' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('Keys N Krates', '26nnb', '2014-09-25 04:22:38', 'Great (fun!) video by Toronto’s Keys N Krates for a song we’ve posted previously and a brand new song to boot as a bonus, huzzah! Second single from the forthcoming Every Nite EP.', 'http://hypem.com/go/itunes_search/Keys%20N%20Krates', '26nnb', 'Keys N Krates - Understand Why', 'http://different-kitchen.com/2014/09/mp3-music-video-keys-n-krates-understand-why-are-we-faded/', '26nnb', 'http://static.hypem.net/thumbs_new/e6/2532582.jpg', 'Understand Why', '2014-09-25 04:22:38')[0m
+  [1m[35m (1.7ms)[0m  COMMIT
+  [1m[36mSong Exists (0.8ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '26ryq' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('Chris Malinchak', '26ryq', '2014-09-25 04:22:38', 'Oh, this is nice. Chris Malinchak conquered our summer with the massively underrated Stranger, and now he’s back with a more mellower beat. While MNEK is fresh off a fiery live performance in London (not to mention releasing a video for his best track, In', 'http://hypem.com/go/itunes_search/Chris%20Malinchak', '26ryq', 'Chris Malinchak - Happiness (feat. MNEK)', 'http://pressplayok.com/chris-malinchak-happiness-feat-mnek/', '26ryq', 'http://static.hypem.net/thumbs_new/6c/2533996.jpg', 'Happiness (feat. MNEK)', '2014-09-25 04:22:38')[0m
+  [1m[35m (2.4ms)[0m  COMMIT
+  [1m[36mSong Exists (0.8ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '26sxm' LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('Alina Baraz & Galimatias', '26sxm', '2014-09-25 04:22:38', 'Oh man, these two are at it again with another incredibly sexy and seductive new song. For the past year, Alina Baraz and Galimatias have been wowing us with their musical style, a combination of Baraz’s overly delightful vocals mixed with Galimatias’ add', 'http://hypem.com/go/itunes_search/Alina%20Baraz%20&%20Galimatias', '26sxm', 'Alina Baraz & Galimatias - Fantasy', 'http://www.themusicninja.com/seductive-alina-baraz-galimatias-fantasy/', '26sxm', 'http://static.hypem.net/thumbs_new/f7/2535159.jpg', 'Fantasy', '2014-09-25 04:22:38')[0m
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36mSong Exists (0.8ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '2325p' LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('Mapei, Chance The Rapper & The Social Experiment', '2325p', '2014-09-25 04:22:38', 'Chance The Rapper is well on his way to becoming one the biggest rappers in the world, and while Mapei is not yet on that stratospherical ascent herself, it’s only a matter of time until she reaches such heights. “Don’t Wait” is the track that has caused ', 'http://hypem.com/go/itunes_search/Mapei,%20Chance%20The%20Rapper%20&%20The%20Social%20Experiment', '2325p', 'Mapei, Chance The Rapper & The Social Experiment - Don\'t Wait (Remix)', 'http://www.hillydilly.com/2014/03/mapei-dont-wait-remix-ft-chance-the-rapper-the-social-experiment/', '2325p', 'http://static.hypem.net/thumbs_new/ca/2534346.jpg', 'Don\'t Wait (Remix)', '2014-09-25 04:22:38')[0m
+  [1m[35m (1.5ms)[0m  COMMIT
+  [1m[36mSong Exists (1.1ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '26nw9' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('Ce|este', '26nw9', '2014-09-25 04:22:38', 'Celeste’s debut track, Born Again, showcased one of the most exciting young talents around at the moment, and her second offering, What’s Your Poison, ups the game in style. More punchy and bolder, it’s twists and turns bear resemblance to moments on the ', 'http://hypem.com/go/itunes_search/Ce|este', '26nw9', 'Ce|este - What\'s Your Poison', 'http://www.crackintheroad.com/music/29904-new-celeste-whats-poison', '26nw9', 'http://static.hypem.net/thumbs_new/fb/2532603.jpg', 'What\'s Your Poison', '2014-09-25 04:22:38')[0m
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36mSong Exists (0.8ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '26mpj' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('RAC', '26mpj', '2014-09-25 04:22:38', 'After spending all morning stuck indoors aimlessly studying for some exam, we were bound to put the books down and cruise through Soundcloud to see what the latest was. We went through a few tunes but nothing really popped for us until we stumbled across ', 'http://hypem.com/go/itunes_search/RAC', '26mpj', 'RAC - Cheap Sunglasses feat. Matthew Koma (Two Friends Remix)', 'http://www.themusicninja.com/progressive-house-rac-cheap-sunglasses-ft-matthew-koma-two-friends-remix/', '26mpj', 'http://static.hypem.net/thumbs_new/4b/2529867.jpg', 'Cheap Sunglasses feat. Matthew Koma (Two Friends Remix)', '2014-09-25 04:22:38')[0m
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36mSong Exists (0.8ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '26r8e' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('Kiesza', '26r8e', '2014-09-25 04:22:38', 'Kiesza’s “Hideaway” is one of indie in 2014 biggest success stories. The dance-flavored track topped the UK single chart in April and the song’s video has amassed over 100M views on YouTube. “Bad Thing”, Kiesza’s new track, is not “Hideaway” but it is ver', 'http://hypem.com/go/itunes_search/Kiesza', '26r8e', 'Kiesza - Bad Thing Feat. Joey Bada$$', 'http://blahblahblahscience.com/track-reviews/kiesza-bad-thing-feat-joey-bada', '26r8e', 'http://static.hypem.net/thumbs_new/1f/2534431.jpg', 'Bad Thing Feat. Joey Bada$$', '2014-09-25 04:22:38')[0m
+  [1m[35m (2.7ms)[0m  COMMIT
+  [1m[36mSong Exists (1.1ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '26r74' LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('alt-J', '26r74', '2014-09-25 04:22:38', 'Sounds like: Everything Everything, Django Django, Wild Beasts Song: Alt-J - Nara What\'s so good? At this point, there\'s a good chance you\'ve gotten to listen to Alt-J\'s new albumÂ This Is All Yours. They started by introducing it to the wild in a quite-u', 'http://hypem.com/go/itunes_search/alt-J', '26r74', 'alt-J - Nara', 'http://www.indieshuffle.com/alt-j-nara/', '26r74', 'http://static.hypem.net/thumbs_new/a2/2533282.jpg', 'Nara', '2014-09-25 04:22:38')[0m
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36mSong Exists (1.1ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '26nj1' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('Round2Crew', '26nj1', '2014-09-25 04:22:38', 'The Vegas Club Killers return with a hot new remix to add to their already hot collection of remixes. This time Read more at Earbuddy.', 'http://hypem.com/go/itunes_search/Round2Crew', '26nj1', 'Round2Crew - Booty Had Me Like (Club Killers Remix)', 'http://www.earbuddy.net/51655/round2crew-booty-like-club-killers-remix.html/listen/electronic', '26nj1', 'http://static.hypem.net/thumbs_new/d4/2533332.jpg', 'Booty Had Me Like (Club Killers Remix)', '2014-09-25 04:22:38')[0m
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36mSong Exists (0.9ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '26n64' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('Korallreven', '26n64', '2014-09-25 04:22:38', 'Swedish dreampop duo KORALLREVEN finally announced details of their sophomore studio album. Second Comin’ is the name of their new album which follows the acclaimed 2011 debut An Album by Korallreven. It will be released on November the 2nd via US label C', 'http://hypem.com/go/itunes_search/Korallreven', '26n64', 'Korallreven - Death Is Not For Us', 'http://nbhap.com/music/news/korallreven-death-is-not-for-us/', '26n64', 'http://static.hypem.net/thumbs_new/34/2532916.jpg', 'Death Is Not For Us', '2014-09-25 04:22:38')[0m
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36mSong Exists (1.0ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '26pwc' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('SALES', '26pwc', '2014-09-25 04:22:38', 'If you’re a regular reader of this blog, you should know SALES by now. The Orlando-based duo has finally dropped its self-titled EP, a collection that includes previously released singles and two brand new surprises. The first one is a remix by fellow Orl', 'http://hypem.com/go/itunes_search/SALES', '26pwc', 'SALES - getting it on', 'http://www.wearegoingsolo.com/tracks/sales-getting-it-on/', '26pwc', 'http://static.hypem.net/thumbs_new/47/2532935.jpg', 'getting it on', '2014-09-25 04:22:38')[0m
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36mSong Exists (0.8ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '26s25' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('Sam Smith prod. by Freddy Verano', '26s25', '2014-09-25 04:22:38', 'I chuckled while writing this entire article, because no EARMILK reader needs someone to tell them what happens when Sam Smith mingles with dance music. Wait, what was that one Disclosure song called? Freddy Verano, currently riding an impressive string o', 'http://hypem.com/go/itunes_search/Sam%20Smith%20prod.%20by%20Freddy%20Verano', '26s25', 'Sam Smith prod. by Freddy Verano - Moments (Official Radio Edit)', 'http://www.earmilk.com/2014/09/24/sam-smith-shares-moments-with-freddy-verano/', '26s25', 'http://static.hypem.net/thumbs_new/4/2535172.jpg', 'Moments (Official Radio Edit)', '2014-09-25 04:22:38')[0m
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36mSong Exists (1.0ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '26p2m' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('sylas', '26p2m', '2014-09-25 04:22:38', 'Les presentamos a Sylas, el proyecto de dos productores londinenses que con mucha emotividad y una ambientación dramática y minimalista nos entregan su sencillo debut “Hollow”. Enjoy.', 'http://hypem.com/go/itunes_search/sylas', '26p2m', 'sylas - Hollow', 'http://mu-sique.com/post/97878722566/sylas-hollow', '26p2m', 'http://static.hypem.net/thumbs_new/6/2531846.jpg', 'Hollow', '2014-09-25 04:22:38')[0m
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36mSong Exists (1.0ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '26px0' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('kp.', '26px0', '2014-09-25 04:22:39', 'Here’s another mysterious tune that fell into my laps for which I had to do some digging to find out more about the artist. Turns out, “kp\" is a new solo project helmed by a Los Angeles based artist and the lead vocalist from the band Kan Wakan. Where Did', 'http://hypem.com/go/itunes_search/kp.', '26px0', 'kp. - where did you go', 'http://iheartmoosiq.tumblr.com/post/98191410209/heres-another-mysterious-tune-that-fell-into-my', '26px0', 'http://static.hypem.net/thumbs_new/dc/2533596.jpg', 'where did you go', '2014-09-25 04:22:39')[0m
+  [1m[35m (1.9ms)[0m  COMMIT
+  [1m[36mSong Exists (0.8ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '26ss9' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('Rockie Fresh', '26ss9', '2014-09-25 04:22:39', 'MMG representer Rockie Fresh liberates a new track titled “Hesitate”. Production credit includes Peezy and Cam. Last time we heard from him was back in July when he dropped “Official”. Stream the track below.', 'http://hypem.com/go/itunes_search/Rockie%20Fresh', '26ss9', 'Rockie Fresh - Hesitate\" (Prod. By Peezy & Cam)', 'http://boi-1da.net/2014/09/24/audio-rockie-fresh-hesitate/', '26ss9', 'http://static.hypem.net/thumbs_new/3f/2534975.jpg', 'Hesitate\" (Prod. By Peezy & Cam)', '2014-09-25 04:22:39')[0m
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36mSong Exists (0.9ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '26rm1' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('ZHU', '26rm1', '2014-09-25 04:22:39', 'Sounds like: Little Daylight, NONONO Song: CHVRCHES - Gun (ZHU Cover) What\'s so good? Pretty slow day for new music, so I thought I\'d finally get around to ZHU\'s cover of \"Gun\" by CHVRCHES. Why didn\'t I rush to post this instantly? Well, there\'s something', 'http://hypem.com/go/itunes_search/ZHU', '26rm1', 'ZHU - Gun', 'http://www.indieshuffle.com/chvrches-gun-zhu-cover/', '26rm1', 'http://static.hypem.net/thumbs_new/1/2533633.jpg', 'Gun', '2014-09-25 04:22:39')[0m
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36mSong Exists (0.9ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '26ngf' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('Mating Ritual', '26ngf', '2014-09-25 04:22:39', 'You know, we get asked a lot what our mating ritual is. Ok, we were asked once but we can assure you it involves a pole and it’s irresistible. About as irresistible, in fact, as this other Mating Ritual, also known as the new project from Pacific Air‘s Ry', 'http://hypem.com/go/itunes_search/Mating%20Ritual', '26ngf', 'Mating Ritual - Game', 'http://pressplayok.com/upcoming-mating-ritual/', '26ngf', 'http://static.hypem.net/thumbs_new/b0/2530736.jpg', 'Game', '2014-09-25 04:22:39')[0m
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36mSong Exists (0.8ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '26t71' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('ODESZA', '26t71', '2014-09-25 04:22:39', 'ODESZA teamed up with Thissongissick.com to open the door to an abundance of fresh takes on their standout “Say My Name” track from In Return, and the subsequent remix contest has brought hundreds of artists out of the woodwork in search of sonic notoriet', 'http://hypem.com/go/itunes_search/ODESZA', '26t71', 'ODESZA - Say My Name (RAC Mix)', 'http://www.hillydilly.com/2014/09/odesza-say-my-name-ft-zyra-rac-mix/', '26t71', 'http://static.hypem.net/thumbs_new/4e/2535246.jpg', 'Say My Name (RAC Mix)', '2014-09-25 04:22:39')[0m
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36mSong Exists (1.0ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '26qsr' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('Left. Projects', '26qsr', '2014-09-25 04:22:39', 'Left. appeared out of nowhere last year by spontaneously releasing three phenomenal tracks, each of which demonstrated the Sydney act’s fresh blend of electro-pop. Since, the duo has only released one more official single, “Nessun Dorma“, but that was nin', 'http://hypem.com/go/itunes_search/Left.%20Projects', '26qsr', 'Left. Projects - When My Body Sleeps', 'http://www.hillydilly.com/2014/09/left-when-my-body-sleeps/', '26qsr', 'http://static.hypem.net/thumbs_new/fa/2532858.jpg', 'When My Body Sleeps', '2014-09-25 04:22:39')[0m
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36mSong Exists (0.9ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '1sc0h' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('Josef Salvat', '1sc0h', '2014-09-25 04:22:39', 'Har poppen overhovedet brug for at blive reddet? Nej, vil nogen måske sige. Men lad os lave et tankeeksperiment, hvor den rent faktisk har brug for at blive reddet. Og ind kommer Josef Salvat. “Hvem?”, spørger du. Han har spøgt rundt omkring på nettet sid', 'http://hypem.com/go/itunes_search/Josef%20Salvat', '1sc0h', 'Josef Salvat - This Life', 'http://www.regnsky.dk/2013/05/poppen-er-reddet/', '1sc0h', 'http://static.hypem.net/thumbs_new/33/2192691.jpg', 'This Life', '2014-09-25 04:22:39')[0m
+  [1m[35m (1.6ms)[0m  COMMIT
+  [1m[36mSong Exists (1.0ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '26ngg' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('Mating Ritual', '26ngg', '2014-09-25 04:22:39', 'Having now attended SXSW for the past two years, it’s safe to say that outside of all the fantastic live music, what really makes the Austin event so special is the people. In the first year, as well as hosting a showcase with Disco Naïveté, we spent a co', 'http://hypem.com/go/itunes_search/Mating%20Ritual', '26ngg', 'Mating Ritual - Toxins', 'http://www.crackintheroad.com/music/29979-introducing-mating-ritual', '26ngg', 'http://static.hypem.net/thumbs_new/be/2533566.jpg', 'Toxins', '2014-09-25 04:22:39')[0m
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36mSong Exists (0.9ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '21mw9' LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('Tomas Barfod', '21mw9', '2014-09-25 04:22:39', 'music art film review - REDEFINE magazine Top Pops! January 2014: Death Vessel, School Language, Farao, Tomas Barfod, Gardens & Villa, JMSN \"Pop music shouldn\'t always get a bad rap,\" says Top Pops!, a recurring selection of indie pop highlights across a ', 'http://hypem.com/go/itunes_search/Tomas%20Barfod', '21mw9', 'Tomas Barfod - Pulsing (feat. Nina K)', 'http://www.redefinemag.com/2014/top-indie-pops-death-vessel-school-language-farao-tomas-barfod/', '21mw9', 'http://static.hypem.net/thumbs_new/ff/2400767.jpg', 'Pulsing (feat. Nina K)', '2014-09-25 04:22:39')[0m
+  [1m[35m (1.4ms)[0m  COMMIT
+  [1m[36mSong Exists (1.0ms)[0m  [1mSELECT  1 AS one FROM `songs`  WHERE `songs`.`code` = '26rx7' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO `songs` (`artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES ('Exotic Toy', '26rx7', '2014-09-25 04:22:39', 'Parisian duo Exotic Toy arrived earlier today with their debut single Souvenir. An intense affair...', 'http://hypem.com/go/itunes_search/Exotic%20Toy', '26rx7', 'Exotic Toy - Souvenir', 'http://soundinjections.net/post/98247066163/new-exotic-toy-souvenir', '26rx7', 'http://static.hypem.net/thumbs_new/93/2534291.jpg', 'Souvenir', '2014-09-25 04:22:39')[0m
+  [1m[35m (1.5ms)[0m  COMMIT
+
+
+Started GET "/samscraper" for 127.0.0.1 at 2014-09-24 21:22:45 -0700
+  [1m[35mActiveRecord::SchemaMigration Load (0.9ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+Processing by SongController#index as HTML
+  [1m[36mSong Load (2.5ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE (`songs`.`id` IS NOT NULL) AND (`songs`.`filename` IS NOT NULL)[0m
+  [1m[35mSong Load (1.1ms)[0m  SELECT `songs`.* FROM `songs`  WHERE ((`songs`.`id` IN (797, 798, 803) OR `songs`.`id` IS NULL))
+  Rendered shared/_playlist.html.haml (17.4ms)
+  Rendered song/index.html.haml within layouts/application (55.4ms)
+Completed 200 OK in 956ms (Views: 929.9ms | ActiveRecord: 10.5ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 21:22:47 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 21:22:47 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 21:22:47 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 21:22:47 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-09-24 21:22:47 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 21:22:47 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 21:22:47 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 21:22:47 -0700
+  [1m[36mSong Load (1.3ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '1sc0h' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (21.6ms)[0m  [1mUPDATE `songs` SET `filename` = '1sc0h.mp3', `updated_at` = '2014-09-25 04:23:07' WHERE `songs`.`id` = 890[0m
+  [1m[35m (23.5ms)[0m  COMMIT
+  [1m[36mSong Load (1.1ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '1xhrt' LIMIT 1[0m
+  [1m[35mSong Load (0.8ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '21mw9' LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  UPDATE `songs` SET `filename` = '21mw9.mp3', `updated_at` = '2014-09-25 04:23:08' WHERE `songs`.`id` = 892
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (1.1ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '24s9k' LIMIT 1
+  [1m[36mSong Load (0.7ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '24x5f' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mUPDATE `songs` SET `filename` = '24x5f.mp3', `updated_at` = '2014-09-25 04:23:08' WHERE `songs`.`id` = 855[0m
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36mSong Load (1.0ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '25h8q' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mUPDATE `songs` SET `filename` = '25h8q.mp3', `updated_at` = '2014-09-25 04:23:08' WHERE `songs`.`id` = 862[0m
+  [1m[35m (1.6ms)[0m  COMMIT
+  [1m[36mSong Load (1.2ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '25v45' LIMIT 1[0m
+  [1m[35mSong Load (0.7ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '260ft' LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  UPDATE `songs` SET `filename` = '260ft.mp3', `updated_at` = '2014-09-25 04:23:08' WHERE `songs`.`id` = 857
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (1.2ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '266j5' LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  UPDATE `songs` SET `filename` = '266j5.mp3', `updated_at` = '2014-09-25 04:23:08' WHERE `songs`.`id` = 866
+  [1m[36m (1.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (1.5ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26811' LIMIT 1
+  [1m[36mSong Load (1.0ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26g2x' LIMIT 1[0m
+  [1m[35mSong Load (0.7ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26jne' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  UPDATE `songs` SET `filename` = '26jne.mp3', `updated_at` = '2014-09-25 04:23:08' WHERE `songs`.`id` = 856
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (1.0ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26mgt' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  UPDATE `songs` SET `filename` = '26mgt.mp3', `updated_at` = '2014-09-25 04:23:08' WHERE `songs`.`id` = 868
+  [1m[36m (1.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (1.2ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26mpj' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  UPDATE `songs` SET `filename` = '26mpj.mp3', `updated_at` = '2014-09-25 04:23:08' WHERE `songs`.`id` = 876
+  [1m[36m (2.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (1.0ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26mqv' LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  UPDATE `songs` SET `filename` = '26mqv.mp3', `updated_at` = '2014-09-25 04:23:08' WHERE `songs`.`id` = 848
+  [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (1.0ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26n64' LIMIT 1
+  [1m[36m (0.6ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.3ms)[0m  UPDATE `songs` SET `filename` = '26n64.mp3', `updated_at` = '2014-09-25 04:23:08' WHERE `songs`.`id` = 880
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (1.3ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26nap' LIMIT 1
+  [1m[36mSong Load (0.8ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26nbm' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mUPDATE `songs` SET `filename` = '26nbm.mp3', `updated_at` = '2014-09-25 04:23:08' WHERE `songs`.`id` = 863[0m
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36mSong Load (1.0ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26ndq' LIMIT 1[0m
+  [1m[35mSong Load (0.9ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26ngf' LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  UPDATE `songs` SET `filename` = '26ngf.mp3', `updated_at` = '2014-09-25 04:23:08' WHERE `songs`.`id` = 887
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (1.0ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26ngg' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  UPDATE `songs` SET `filename` = '26ngg.mp3', `updated_at` = '2014-09-25 04:23:08' WHERE `songs`.`id` = 891
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (1.1ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26nj1' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  UPDATE `songs` SET `filename` = '26nj1.mp3', `updated_at` = '2014-09-25 04:23:08' WHERE `songs`.`id` = 879
+  [1m[36m (1.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (1.2ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26nnb' LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  UPDATE `songs` SET `filename` = '26nnb.mp3', `updated_at` = '2014-09-25 04:23:08' WHERE `songs`.`id` = 871
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (1.3ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26nw9' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  UPDATE `songs` SET `filename` = '26nw9.mp3', `updated_at` = '2014-09-25 04:23:08' WHERE `songs`.`id` = 875
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.9ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26p20' LIMIT 1
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  UPDATE `songs` SET `filename` = '26p20.mp3', `updated_at` = '2014-09-25 04:23:08' WHERE `songs`.`id` = 867
+  [1m[36m (1.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (1.1ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26p2m' LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  UPDATE `songs` SET `filename` = '26p2m.mp3', `updated_at` = '2014-09-25 04:23:08' WHERE `songs`.`id` = 883
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (1.0ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26p83' LIMIT 1
+  [1m[36mSong Load (0.9ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26pbd' LIMIT 1[0m
+  [1m[35mSong Load (0.7ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26peh' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.1ms)[0m  UPDATE `songs` SET `filename` = '26peh.mp3', `updated_at` = '2014-09-25 04:23:08' WHERE `songs`.`id` = 854
+  [1m[36m (1.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (1.6ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26ptm' LIMIT 1
+  [1m[36mSong Load (1.8ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26q3s' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mUPDATE `songs` SET `filename` = '26q3s.mp3', `updated_at` = '2014-09-25 04:23:08' WHERE `songs`.`id` = 853[0m
+  [1m[35m (34.9ms)[0m  COMMIT
+  [1m[36mSong Load (0.9ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26q6h' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mUPDATE `songs` SET `filename` = '26q6h.mp3', `updated_at` = '2014-09-25 04:23:08' WHERE `songs`.`id` = 851[0m
+  [1m[35m (26.0ms)[0m  COMMIT
+  [1m[36mSong Load (1.1ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26qen' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mUPDATE `songs` SET `filename` = '26qen.mp3', `updated_at` = '2014-09-25 04:23:08' WHERE `songs`.`id` = 858[0m
+  [1m[35m (15.6ms)[0m  COMMIT
+  [1m[36mSong Load (0.9ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26qsa' LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  BEGIN
+  [1m[36mSQL (1.1ms)[0m  [1mUPDATE `songs` SET `filename` = '26qsa.mp3', `updated_at` = '2014-09-25 04:23:08' WHERE `songs`.`id` = 846[0m
+  [1m[35m (1.5ms)[0m  COMMIT
+  [1m[36mSong Load (0.9ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26qsj' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mUPDATE `songs` SET `filename` = '26qsj.mp3', `updated_at` = '2014-09-25 04:23:08' WHERE `songs`.`id` = 850[0m
+  [1m[35m (1.4ms)[0m  COMMIT
+  [1m[36mSong Load (1.3ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26qsr' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (1.3ms)[0m  [1mUPDATE `songs` SET `filename` = '26qsr.mp3', `updated_at` = '2014-09-25 04:23:08' WHERE `songs`.`id` = 889[0m
+  [1m[35m (1.5ms)[0m  COMMIT
+  [1m[36mSong Load (1.2ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26r73' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (1.1ms)[0m  [1mUPDATE `songs` SET `filename` = '26r73.mp3', `updated_at` = '2014-09-25 04:23:08' WHERE `songs`.`id` = 852[0m
+  [1m[35m (16.0ms)[0m  COMMIT
+  [1m[36mSong Load (1.0ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26r75' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mUPDATE `songs` SET `filename` = '26r75.mp3', `updated_at` = '2014-09-25 04:23:08' WHERE `songs`.`id` = 870[0m
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36mSong Load (0.9ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26r8e' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mUPDATE `songs` SET `filename` = '26r8e.mp3', `updated_at` = '2014-09-25 04:23:08' WHERE `songs`.`id` = 877[0m
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36mSong Load (1.0ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26rbw' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (1.1ms)[0m  [1mUPDATE `songs` SET `filename` = '26rbw.mp3', `updated_at` = '2014-09-25 04:23:08' WHERE `songs`.`id` = 864[0m
+  [1m[35m (2.0ms)[0m  COMMIT
+  [1m[36mSong Load (1.5ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26rbx' LIMIT 1[0m
+  [1m[35m (1.8ms)[0m  BEGIN
+  [1m[36mSQL (1.1ms)[0m  [1mUPDATE `songs` SET `filename` = '26rbx.mp3', `updated_at` = '2014-09-25 04:23:08' WHERE `songs`.`id` = 844[0m
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36mSong Load (1.2ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26rg0' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mUPDATE `songs` SET `filename` = '26rg0.mp3', `updated_at` = '2014-09-25 04:23:08' WHERE `songs`.`id` = 869[0m
+  [1m[35m (16.0ms)[0m  COMMIT
+  [1m[36mSong Load (1.2ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26rhr' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mUPDATE `songs` SET `filename` = '26rhr.mp3', `updated_at` = '2014-09-25 04:23:08' WHERE `songs`.`id` = 861[0m
+  [1m[35m (1.4ms)[0m  COMMIT
+  [1m[36mSong Load (1.3ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26rm1' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (1.1ms)[0m  [1mUPDATE `songs` SET `filename` = '26rm1.mp3', `updated_at` = '2014-09-25 04:23:08' WHERE `songs`.`id` = 886[0m
+  [1m[35m (1.4ms)[0m  COMMIT
+  [1m[36mSong Load (1.0ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26rry' LIMIT 1[0m
+  [1m[35m (0.7ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mUPDATE `songs` SET `filename` = '26rry.mp3', `updated_at` = '2014-09-25 04:23:08' WHERE `songs`.`id` = 845[0m
+  [1m[35m (2.7ms)[0m  COMMIT
+  [1m[36mSong Load (1.0ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26rva' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (1.1ms)[0m  [1mUPDATE `songs` SET `filename` = '26rva.mp3', `updated_at` = '2014-09-25 04:23:08' WHERE `songs`.`id` = 849[0m
+  [1m[35m (1.4ms)[0m  COMMIT
+  [1m[36mSong Load (0.9ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26rxy' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mUPDATE `songs` SET `filename` = '26rxy.mp3', `updated_at` = '2014-09-25 04:23:08' WHERE `songs`.`id` = 847[0m
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36mSong Load (0.9ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26ryq' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mUPDATE `songs` SET `filename` = '26ryq.mp3', `updated_at` = '2014-09-25 04:23:08' WHERE `songs`.`id` = 872[0m
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36mSong Load (1.0ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26s2f' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (1.1ms)[0m  [1mUPDATE `songs` SET `filename` = '26s2f.mp3', `updated_at` = '2014-09-25 04:23:08' WHERE `songs`.`id` = 859[0m
+  [1m[35m (1.6ms)[0m  COMMIT
+  [1m[36mSong Load (0.9ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26s45' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (2.0ms)[0m  [1mUPDATE `songs` SET `filename` = '26s45.mp3', `updated_at` = '2014-09-25 04:23:08' WHERE `songs`.`id` = 860[0m
+  [1m[35m (1.6ms)[0m  COMMIT
+
+
+Started GET "/samscraper" for 127.0.0.1 at 2014-09-24 21:23:11 -0700
+Processing by SongController#index as HTML
+  [1m[36mSong Load (1.8ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE (`songs`.`id` IS NOT NULL) AND (`songs`.`filename` IS NOT NULL)[0m
+  Rendered shared/_canvas.html.haml (63.2ms)
+  [1m[35mSong Load (0.9ms)[0m  SELECT `songs`.* FROM `songs`  WHERE ((`songs`.`id` IN (797, 798, 803) OR `songs`.`id` IS NULL))
+  Rendered shared/_playlist.html.haml (3.2ms)
+  Rendered song/index.html.haml within layouts/application (196.9ms)
+Completed 200 OK in 532ms (Views: 509.9ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-09-24 21:23:12 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 21:23:12 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 21:23:12 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 21:23:12 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 21:23:12 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 21:23:12 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 21:23:12 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 21:23:12 -0700
+
+
+Started GET "/assets/headphones.jpg" for 127.0.0.1 at 2014-09-24 21:23:12 -0700
+
+
+Started GET "/samscraper" for 127.0.0.1 at 2014-09-24 21:23:57 -0700
+Processing by SongController#index as HTML
+  [1m[36mSong Load (2.5ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE (`songs`.`id` IS NOT NULL) AND (`songs`.`filename` IS NOT NULL)[0m
+  Rendered shared/_canvas.html.haml (7.0ms)
+  [1m[35mSong Load (1.5ms)[0m  SELECT `songs`.* FROM `songs`  WHERE ((`songs`.`id` IN (797, 798, 803) OR `songs`.`id` IS NULL))
+  Rendered shared/_playlist.html.haml (5.4ms)
+  Rendered song/index.html.haml within layouts/application (345.1ms)
+Completed 200 OK in 1373ms (Views: 1349.2ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-09-24 21:23:59 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 21:23:59 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 21:23:59 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 21:23:59 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 21:23:59 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 21:23:59 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 21:23:59 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 21:23:59 -0700
+
+
+Started GET "/assets/headphones.jpg" for 127.0.0.1 at 2014-09-24 21:23:59 -0700
+
+
+Started GET "/samscraper" for 127.0.0.1 at 2014-09-24 21:24:11 -0700
+Processing by SongController#index as HTML
+  [1m[36mSong Load (1.8ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE (`songs`.`id` IS NOT NULL) AND (`songs`.`filename` IS NOT NULL)[0m
+  Rendered shared/_canvas.html.haml (5.8ms)
+  [1m[35mSong Load (1.2ms)[0m  SELECT `songs`.* FROM `songs`  WHERE ((`songs`.`id` IN (797, 798, 803) OR `songs`.`id` IS NULL))
+  Rendered shared/_playlist.html.haml (4.3ms)
+  Rendered song/index.html.haml within layouts/application (148.2ms)
+Completed 200 OK in 818ms (Views: 793.9ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 21:24:13 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 21:24:13 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-09-24 21:24:13 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 21:24:13 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 21:24:13 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 21:24:13 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 21:24:13 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 21:24:13 -0700
+
+
+Started GET "/assets/headphones.jpg" for 127.0.0.1 at 2014-09-24 21:24:13 -0700
+
+
+Started GET "/assets/headphones2.jpg" for 127.0.0.1 at 2014-09-24 21:24:13 -0700
+
+
+Started GET "/samscraper" for 127.0.0.1 at 2014-09-24 21:26:58 -0700
+Processing by SongController#index as HTML
+  [1m[36mSong Load (2.5ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE (`songs`.`id` IS NOT NULL) AND (`songs`.`filename` IS NOT NULL)[0m
+  Rendered shared/_canvas.html.haml (8.3ms)
+  [1m[35mSong Load (1.2ms)[0m  SELECT `songs`.* FROM `songs`  WHERE ((`songs`.`id` IN (797, 798, 803) OR `songs`.`id` IS NULL))
+  Rendered shared/_playlist.html.haml (15.0ms)
+  Rendered song/index.html.haml within layouts/application (209.2ms)
+Completed 200 OK in 835ms (Views: 812.2ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 21:26:59 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-09-24 21:26:59 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 21:26:59 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 21:26:59 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 21:26:59 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 21:26:59 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 21:26:59 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 21:26:59 -0700
+
+
+Started GET "/assets/headphones3.jpg" for 127.0.0.1 at 2014-09-24 21:27:00 -0700
+
+
+Started GET "/assets/headphones.jpg" for 127.0.0.1 at 2014-09-24 21:27:00 -0700
+
+
+Started POST "/q.json" for 127.0.0.1 at 2014-09-24 21:27:22 -0700
+Processing by SongController#add_to_session_playlist as */*
+  Parameters: {"song_id"=>"848"}
+  [1m[36mSong Load (1.3ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE ((`songs`.`id` IN (797, 798, 803, 848) OR `songs`.`id` IS NULL))[0m
+  Rendered shared/_playlist.html.haml (10.8ms)
+Completed 200 OK in 20ms (Views: 1.2ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 21:28:15 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 21:28:15 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 21:28:15 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 21:28:15 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 21:28:15 -0700
+
+
+Started GET "/samscraper" for 127.0.0.1 at 2014-09-24 21:29:09 -0700
+Processing by SongController#index as HTML
+  [1m[35mSong Load (2.8ms)[0m  SELECT `songs`.* FROM `songs`  WHERE (`songs`.`id` IS NOT NULL) AND (`songs`.`filename` IS NOT NULL)
+  Rendered shared/_canvas.html.haml (5.9ms)
+  [1m[36mSong Load (2.4ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE ((`songs`.`id` IN (797, 798, 803, 848) OR `songs`.`id` IS NULL))[0m
+  Rendered shared/_playlist.html.haml (17.6ms)
+  Rendered song/index.html.haml within layouts/application (246.1ms)
+Completed 200 OK in 1962ms (Views: 1714.6ms | ActiveRecord: 5.2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-09-24 21:29:11 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 21:29:11 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 21:29:11 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 21:29:11 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 21:29:11 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 21:29:11 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 21:29:11 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 21:29:11 -0700
+
+
+Started GET "/assets/headphones.jpg" for 127.0.0.1 at 2014-09-24 21:29:12 -0700
+
+
+Started GET "/samscraper" for 127.0.0.1 at 2014-09-24 21:29:54 -0700
+Processing by SongController#index as HTML
+  [1m[35mSong Load (7.9ms)[0m  SELECT `songs`.* FROM `songs`  WHERE (`songs`.`id` IS NOT NULL) AND (`songs`.`filename` IS NOT NULL)
+  Rendered shared/_canvas.html.haml (6.4ms)
+  [1m[36mSong Load (2.5ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE ((`songs`.`id` IN (797, 798, 803, 848) OR `songs`.`id` IS NULL))[0m
+  Rendered shared/_playlist.html.haml (9.3ms)
+  Rendered song/index.html.haml within layouts/application (150.1ms)
+Completed 200 OK in 1152ms (Views: 1121.6ms | ActiveRecord: 10.4ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-09-24 21:29:55 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-24 21:29:56 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-24 21:29:56 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-24 21:29:56 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-24 21:29:56 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-24 21:29:56 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-24 21:29:56 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-24 21:29:56 -0700
+
+
+Started GET "/assets/headphones2.jpg" for 127.0.0.1 at 2014-09-24 21:29:56 -0700
+
+
+Started GET "/assets/headphones.jpg" for 127.0.0.1 at 2014-09-24 21:29:56 -0700

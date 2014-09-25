@@ -65,6 +65,7 @@ namespace :music do
               title: song["title"],
               sitename: song["mediaid"],
               posturl: song["posturl"],
+              thumb_url: song["thumb_url"],
               thumb_url_artist: song["thumb_url_artist"],
               description: song["description"],
               itunes_link: song["itunes_link"]
