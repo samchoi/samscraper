@@ -8,7 +8,8 @@ class SongController < ApplicationController
   # GET /song.json
   def index
     redirect_to home_path and return unless browser.chrome?
-    @songs = Song.where.not(id: session[:song_filter], filename: nil)
+    #@songs = Song.where.not(id: session[:song_filter], filename: nil)
+    @songs = Song.where(active: true).order('rank ASC')
     @song = @songs.sample
     gon.music_host = Rails.configuration.settings['filehost']
     @playlist = session[:playlist].nil? ? [] : Song.where(id: session[:playlist])

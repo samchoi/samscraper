@@ -42,25 +42,30 @@ Visualizer.prototype.loop = function(x, id){
     canvas = document.getElementById(id);
     ctx = canvas.getContext('2d');
     ctx.clearRect(0, 0, canvas.width, canvas.height); // Clear the canvas
-    ctx.fillStyle = '#09E5D0';//this.randomColor(); // Color of the bars
     bars = this.analyser.frequencyBinCount;
+    ctx.fillStyle = '#09E5D0';//this.randomColor(); // Color of the bars
+    ctx.strokeStyle = '#09E5D0';
+    bar = $('input[name=visual-option]:checked').val() == 'bar'
     for (var i = 0; i < bars; i++) {
-	bar_x = i * 5;
-	bar_width = 3;
-	bar_height = -(fbc_array[i] / 2);
-	//fillRect( x, y, width, height ) // Explanation of the parameters below
-	ctx.fillRect(bar_x, bar_height, bar_width, canvas.height-5);
-	//ctx.fillRect(bar_x, canvas.height, bar_width, bar_height);
-	if(this.lastFreq){
-	    if(this.lastFreq[i] < fbc_array[i]){
-		delta -= 1;
-	    }else if(this.lastFreq[i] > fbc_array[i]){
-		delta += 1;
-	    }
-	}
+        //ctx.fillStyle = getColor(i);
+        bar_x = i*3;
+        bar_width = 2;
+        bar_height = -(fbc_array[i] / 2);
+        //ctx.fillRect(bar_x, bar_height, bar_width, canvas.height-5);
+        //bars
+        if(bar){
+            ctx.fillRect(bar_x, 0, bar_width, fbc_array[i] *.6);
+        }else{
+            //line
+            if(fbc_array[i+1]){
+                ctx.beginPath()
+                ctx.moveTo(bar_x, Math.max(fbc_array[i] *.6, 10));
+                ctx.lineTo(bar_x+3, Math.max(fbc_array[i+1] *.6, 10));
+                ctx.stroke();
+            }
+        }
     }
-    window.webkitRequestAnimationFrame(function(inc){ self.loop(delta, id); });
-    this.lastFreq = fbc_array;
+    window.requestAnimationFrame(function(inc){ self.loop(delta, id); });
 }
 
 Visualizer.prototype.randomColor =function () {
@@ -73,4 +78,29 @@ Visualizer.prototype.randomColor =function () {
     var colors = ['#09E5D0', '#03403A', '#0AFFE7', '#057F74', '#08BFAD']
 
     return colors[Math.round(Math.random() * 5)];
+}
+
+function RGB2Color(r,g,b)
+{
+    return '#' + byte2Hex(r) + byte2Hex(g) + byte2Hex(b);
+}
+
+function byte2Hex(n)
+{
+    var nybHexString = "0123456789ABCDEF";
+    return String(nybHexString.substr((n >> 4) & 0x0F,1)) + nybHexString.substr(n & 0x0F,1);
+}
+
+
+
+
+function getColor(i){
+    var frequency1 = .3, frequency2 = .3, frequency3 = .3,
+        phase1 = 0, phase2 = 2, phase3 = 4, len = 50, center = 128, width = 127;
+
+    var red = Math.sin(frequency1*i + phase1) * width + center;
+    var grn = Math.sin(frequency2*i + phase2) * width + center;
+    var blu = Math.sin(frequency3*i + phase3) * width + center;
+
+    return RGB2Color(red,grn,blu);
 }

@@ -8,16 +8,15 @@
         .bottom
           %a.name{ href: "/song/#{song.id}"}=song.name
           %p.actions
-            %span.add &#43;
+            %span.add{data: {id: song.id} } &#43;
             %span.play-btn &#9658;
             %a.download-btn{href: download_song_path(song.id), alt: 'Download Song', title: 'Download'} &#8623;
           .description
             =song.description
           %p.rank
-            =song.id
+            =song.rank
 
   %h2
     %input#playlist-name{ type: 'text', maxlength: 25 }
     %a.download-list{ href: download_zip_path(Time.new.seconds_until_end_of_day.to_s)} &#8623;
     %a{ href: reset_path} &#10226;
-  =render partial: 'shared/playlist', locals: { playlist: @playlist }

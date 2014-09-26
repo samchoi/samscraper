@@ -33,6 +33,7 @@ namespace :music do
               title: song["title"],
               sitename: song["mediaid"],
               posturl: song["posturl"],
+              thumb_url: song["thumb_url"],
               thumb_url_artist: song["thumb_url_artist"],
               description: song["description"],
               itunes_link: song["itunes_link"]
@@ -48,6 +49,7 @@ namespace :music do
     require 'net/http'
     puts "Getting Hypemachine Top 50"
     counter = 0
+    Song.update_all({active: false})
     3.times do |i|
       begin
         domain = "hypem.com"
@@ -56,7 +58,15 @@ namespace :music do
         history = JSON.parse(response.body)
         history.each do |key, song|
           next if key == 'version'
-          song_params = {
+          counter += 1
+          puts counter.to_s
+          existing_song = Song.where({ code: song["mediaid"] }).first
+          if existing_song
+            existing_song.rank = counter
+            existing_song.active = true
+            existing_song.save
+          else
+            song_params = {
               filename: nil,
               name: "#{song["artist"]} - #{song["title"]}",
               code: song["mediaid"],
@@ -68,11 +78,12 @@ namespace :music do
               thumb_url: song["thumb_url"],
               thumb_url_artist: song["thumb_url_artist"],
               description: song["description"],
-              itunes_link: song["itunes_link"]
-          }
-          counter += 1
-          status = Song.new(song_params).save! unless Song.exists?({ code: song["mediaid"] })
-          puts counter.to_s
+              itunes_link: song["itunes_link"],
+              rank: counter,
+              active: true
+            }
+            status = Song.new(song_params).save!
+          end
         end
       end
     end

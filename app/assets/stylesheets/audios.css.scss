@@ -8,11 +8,14 @@ body{
       background-color: transparent;
     }
   }
-
 }
 
 .audio-content{
-
+  #opts{
+    color: #fff;
+    position: fixed;
+    z-index: 2;
+  }
   #fixed-top{
     background-image: url('/assets/headphones.jpg');
     background-position: 0 -50px;
@@ -59,7 +62,13 @@ body{
 
     #ticker{
       height: 35px;
+      line-height: 60px;
+      margin-left: 50px;
       width: 55%;
+    }
+
+    #playlist-count{
+      cursor: pointer;
       margin-left: 50px;
     }
   }
@@ -79,8 +88,7 @@ body{
     overflow: hidden;
     width: 75%;
     li{
-      background-attachment: fixed;
-      background-image: url('http://resources1.news.com.au/images/2014/04/16/1226886/312449-133690ea-c504-11e3-bbdc-335205f64e54.jpg');
+      background-repeat: no-repeat;
       border: 3px solid #fff;
       border-radius: 3px;
       box-shadow: 0 0 2px 0 rgba(0,0,0,.1);
@@ -107,6 +115,9 @@ body{
         .name{
           display: block;
           width: 160px;
+          height: 30px;
+          overflow: hidden;
+          display: inline-block;
           text-align: center;
         }
 
@@ -164,8 +175,35 @@ body{
   }
 
   #playlist{
-    float: right;
+    line-height: 25px;
+    background-color: white;
+    list-style: none;
+    margin-right: 15px;
+    position: absolute;
+    right: 0;
     width: 15%;
+    height: 75%;
+    overflow-y: scroll;
+    &.inactive{
+      display: none;
+    }
+    li+li{
+      border-top: 1px solid #000000;
+      padding: 5px;
+    }
+    .download-list{
+      border: 4px;
+      background: grey;
+      color: black;
+      display: block;
+      line-height: 30px;
+      margin: 5px 15px;
+      text-align: center;
+      text-decoration: none;
+      &:hover{
+        color: white;
+      }
+    }
   }
   .add, .minus{
     cursor: pointer;

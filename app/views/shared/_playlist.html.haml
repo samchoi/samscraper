@@ -1,4 +1,10 @@
-%ul#playlist
+%span#playlist-count
+  =@playlist.count
+
+%ul#playlist.inactive
   -playlist.each do |song|
     %li
-      %a{ href: "/song/#{song.id}", data: {filename: song.filename, name: song.name }}=song.name
+      %a.play-song{ href: "/song/#{song.id}", data: {filename: song.filename, name: song.name }}=song.name
+  -if playlist.length > 1
+    %li
+      %a.download-list{ href: download_zip_path(Time.new.seconds_until_end_of_day.to_s)} Download

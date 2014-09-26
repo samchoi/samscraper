@@ -55,12 +55,13 @@ $(function() {
         //bind like click
         $('.add').on('click', function(){
             var _self = $(this);
-            $.post('/q.json',{song_id: _self.parents('li').data('id') }, function(data){
+            $.post('/q.json',{song_id: _self.data('id') }, function(data){
               var json = $.parseJSON(data)
               $('#playlist').replaceWith(json.html);
+              $('#playlist-count').html($('#playlist li').length-1);
+              $('#playlist').removeClass('inactive');
+                setTimeout(function(){ $('#playlist').addClass('inactive'); }, 2500);
             });
-
-            $(this).fadeOut();
         });
 
         $('.minus').on('click', function(){
@@ -71,7 +72,11 @@ $(function() {
             _self.parent().slideUp().remove();
         });
 
-        $(document).on('click', '#playlist a', function(e){
+        $('#playlist-count').on('click', function(){
+           $(this).siblings('#playlist').toggleClass('inactive');
+        });
+
+        $(document).on('click', '#playlist a.play-song', function(e){
             var _self = $(this);
             var file =  _self.data('filename');
             e.preventDefault();
@@ -87,12 +92,17 @@ $(function() {
             var $holder = _self.parents('li');
             var file =  $holder.data('filename');
             var name =  $holder.data('name');
+            var id =  $holder.data('id');
+            var description =  $holder.find('.description').html();
             e.preventDefault();
             //set src
             $('#music').attr('src', gon.music_host + file);
-                $('#controls span.name').html(name);
+            $('#controls span.name').html(name);
+            $('#ticker').html(description);
+            $('#controls .btn.add').data('id', id);
             //start player
             $('#action').toggleClass('play');
+
             play();
         });
 
@@ -150,9 +160,9 @@ $(function() {
 
 
     window.onbeforeunload = function(){
-        var music = $('#music')[0]
-        trackHistory(0, 0, music.currentTime);
-        $.cookie('resume', music.currentSrc + "-" + music.currentTime);
+//        var music = $('#music')[0]
+        //trackHistory(0, 0, music.currentTime);
+//        $.cookie('resume', music.currentSrc + "-" + music.currentTime);
     }
 });
 
