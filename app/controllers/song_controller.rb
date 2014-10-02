@@ -4,6 +4,7 @@ class SongController < ApplicationController
 
   before_filter :prepare_fixed_assets
 
+  layout 'mobile', only: [:mobile]
   # GET /song
   # GET /song.json
   def index
@@ -15,7 +16,13 @@ class SongController < ApplicationController
     @playlist = session[:playlist].nil? ? [] : Song.where(id: session[:playlist])
   end
 
+  def mobile
+    @song = Song.where(active: true).order('rank ASC').sample
+    gon.music_host = Rails.configuration.settings['filehost']
+  end
+
   def home
+    redirect_to mobile_path and return if browser.mobile?
   end
 
   def clear

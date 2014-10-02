@@ -9,6 +9,9 @@ Rails.application.routes.draw do
   post 'q.json' => 'song#add_to_session_playlist', as: 'add_to_playlist'
   get 'reset' => 'song#clear', as: 'reset'
   post 'remove.json' => 'song#add_to_session_filter', as: 'remove'
+  get 'm' => 'song#mobile', as: 'mobile'
+
+  get 'code' => 'code#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

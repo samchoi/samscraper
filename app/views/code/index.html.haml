@@ -1,0 +1,65 @@
+#content
+  %h2
+    Big O Notation
+
+  .intro
+    %p
+      When I was in college, I learned Big O notation about 5 times in various classes I took (and some I repeated).
+      I have to pick it up every once in a while to give myself a refresher as interviews, for some reason require you to know this stuff.
+      To further the madness, as an interviewer, you want to ask this question to see how "smart" a candidate is, because anyone who still remembers
+      this stuff should have a good bit of intelligence. So, to save you guys the hassle of youtube and outdated lecture notes, here's Big O Notation as I see it.
+
+  %ul
+    %li#o1
+      %h3 O(1)
+      %p
+        Constant: meaning the block of code does the same work every time.
+      .example
+        function oh1(n){
+          var max = 9
+          for (i = 0; i < max; i++){
+            console.log('hi' + i)
+          }
+        }
+      .why
+        O(1) will always run through the loop 9 times, regardless of n. Even if max = 100000, the algorithm will run through the loop the same amount of times, regardless of n.
+    %li#on
+      %h3 O(n)
+      %p
+        Constant: meaning the block of code does the same work every time.
+      .example
+        function ohn(n){
+          var max = 9
+          for (i = 0; i < n; i++){
+            console.log('hi' + i)
+          }
+        }
+      .why
+        O(n) in the worst case scenario, the code will bne executed n times.
+    %li#onsquared
+      %h3 O(n^x)
+      %p
+        Code will run through block nested by a fact of x
+      .example
+        // O(n^2)
+        function onsquared(n){
+          for(i =0; i < n; i++){
+            for(j =0; j < n; j++){
+              //code
+            }
+          }
+        }
+
+    %li#onsquared
+      %h3 O(logn)
+      %p
+        Code will run through block nested by a fact of x
+      .example
+        // O(n^2)
+        function onsquared(n){
+          for(i =0; i < n; i++){
+            for(j =0; j < n; j++){
+              //code
+            }
+          }
+        }

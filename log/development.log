@@ -67810,3 +67810,1553 @@ Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-26 00:24:2
 
 Started GET "/assets/headphones.jpg" for 127.0.0.1 at 2014-09-26 00:24:26 -0700
 >>>>>>> Stashed changes
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-29 16:22:48 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (372.8ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (8.4ms)
+Completed 200 OK in 637ms (Views: 534.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-29 16:22:54 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-29 16:22:54 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-09-29 16:22:54 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-29 16:22:54 -0700
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-29 16:22:54 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-29 16:22:54 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-29 16:22:54 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-29 16:22:54 -0700
+
+
+Started GET "/assets/github_logo.jpg" for 127.0.0.1 at 2014-09-29 16:22:54 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-09-29 16:22:54 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-09-29 16:22:54 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-09-29 16:22:54 -0700
+
+
+Started GET "/assets/dragon.jpg" for 127.0.0.1 at 2014-09-29 16:22:54 -0700
+
+
+Started GET "/assets/coachella.jpg" for 127.0.0.1 at 2014-09-29 16:22:54 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-09-29 16:22:55 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-09-29 16:22:55 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-09-29 16:22:55 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-09-29 16:22:55 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-09-29 16:22:55 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-29 16:23:14 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 85ms (Views: 84.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-29 16:23:14 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 164ms (Views: 162.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/m" for 127.0.0.1 at 2014-09-29 16:23:17 -0700
+Processing by SongController#mobile as HTML
+  [1m[35mSong Load (55.0ms)[0m  SELECT `songs`.* FROM `songs`  WHERE `songs`.`active` = 1  ORDER BY rank ASC
+  Rendered song/mobile.html.haml within layouts/mobile (0.9ms)
+Completed 200 OK in 466ms (Views: 44.1ms | ActiveRecord: 289.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-29 16:23:38 -0700
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (0.4ms)
+Completed 200 OK in 12529ms (Views: 77.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-09-29 16:23:50 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-09-29 16:23:51 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-09-29 16:23:51 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-09-29 16:23:51 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-29 16:23:51 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-09-29 16:23:51 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-29 16:23:51 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-29 16:23:51 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-29 16:24:02 -0700
+Processing by SongController#home as HTML
+Redirected to http://localhost:3000/m
+Completed 302 Found in 9386ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-29 16:24:12 -0700
+Processing by SongController#home as HTML
+Redirected to http://localhost:3000/m
+Completed 302 Found in 4010ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/m" for 127.0.0.1 at 2014-09-29 16:24:16 -0700
+Processing by SongController#mobile as HTML
+  [1m[36mSong Load (0.6ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE `songs`.`active` = 1  ORDER BY rank ASC[0m
+  Rendered song/mobile.html.haml within layouts/mobile (0.1ms)
+Completed 200 OK in 73ms (Views: 6.4ms | ActiveRecord: 59.9ms)
+
+
+Started GET "/m" for 127.0.0.1 at 2014-09-29 16:26:11 -0700
+Processing by SongController#mobile as HTML
+  [1m[35mSong Load (1.6ms)[0m  SELECT `songs`.* FROM `songs`  WHERE `songs`.`active` = 1  ORDER BY rank ASC
+  Rendered song/mobile.html.haml within layouts/mobile (15.9ms)
+Completed 200 OK in 35ms (Views: 21.9ms | ActiveRecord: 5.3ms)
+
+
+Started GET "/m" for 127.0.0.1 at 2014-09-29 16:26:34 -0700
+Processing by SongController#mobile as HTML
+  [1m[36mSong Load (1.2ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE `songs`.`active` = 1  ORDER BY rank ASC[0m
+  Rendered song/mobile.html.haml within layouts/mobile (0.5ms)
+Completed 200 OK in 13ms (Views: 6.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/m" for 127.0.0.1 at 2014-09-29 16:28:22 -0700
+Processing by SongController#mobile as HTML
+  [1m[35mSong Load (1.0ms)[0m  SELECT `songs`.* FROM `songs`  WHERE `songs`.`active` = 1  ORDER BY rank ASC
+  Rendered song/mobile.html.haml within layouts/mobile (1.4ms)
+Completed 200 OK in 12ms (Views: 6.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/headphones3.jpg" for 127.0.0.1 at 2014-09-29 16:28:22 -0700
+
+
+Started GET "/m" for 127.0.0.1 at 2014-09-29 16:28:58 -0700
+Processing by SongController#mobile as HTML
+  [1m[36mSong Load (0.8ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE `songs`.`active` = 1  ORDER BY rank ASC[0m
+  Rendered song/mobile.html.haml within layouts/mobile (1.4ms)
+Completed 200 OK in 15ms (Views: 7.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/headphones3.jpg" for 127.0.0.1 at 2014-09-29 16:28:58 -0700
+
+
+Started GET "/m" for 127.0.0.1 at 2014-09-29 16:29:36 -0700
+Processing by SongController#mobile as HTML
+  [1m[35mSong Load (0.6ms)[0m  SELECT `songs`.* FROM `songs`  WHERE `songs`.`active` = 1  ORDER BY rank ASC
+  Rendered song/mobile.html.haml within layouts/mobile (1.7ms)
+Completed 200 OK in 11ms (Views: 6.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/headphones3.jpg" for 127.0.0.1 at 2014-09-29 16:29:36 -0700
+
+
+Started GET "/m" for 127.0.0.1 at 2014-09-29 16:31:17 -0700
+Processing by SongController#mobile as HTML
+  [1m[36mSong Load (0.6ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE `songs`.`active` = 1  ORDER BY rank ASC[0m
+  Rendered song/mobile.html.haml within layouts/mobile (4.3ms)
+Completed 200 OK in 14ms (Views: 9.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/headphones3.jpg" for 127.0.0.1 at 2014-09-29 16:31:17 -0700
+
+
+Started GET "/m" for 127.0.0.1 at 2014-09-29 16:33:04 -0700
+Processing by SongController#mobile as HTML
+  [1m[35mSong Load (0.9ms)[0m  SELECT `songs`.* FROM `songs`  WHERE `songs`.`active` = 1  ORDER BY rank ASC
+  Rendered song/mobile.html.haml within layouts/mobile (3.2ms)
+Completed 200 OK in 13ms (Views: 8.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/m" for 127.0.0.1 at 2014-09-29 16:34:16 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by SongController#mobile as HTML
+  [1m[35mSong Load (0.5ms)[0m  SELECT `songs`.* FROM `songs`  WHERE `songs`.`active` = 1  ORDER BY rank ASC
+  Rendered song/mobile.html.haml within layouts/mobile (28.7ms)
+Completed 500 Internal Server Error in 71ms
+
+ActionView::Template::Error (no implicit conversion of nil into String):
+    1: #content
+    2:   %audio#music{ src: Rails.configuration.settings['filehost'] + @song.filename, preload: 'auto' }
+    3:   #controls.actions{ data: {id: @song.id, filename: @song.filename, name: @song.name} }
+    4:     %span.name=@song.name
+    5:     /%span.btn.minus &#8722;
+  app/views/song/mobile.html.haml:2:in `+'
+  app/views/song/mobile.html.haml:2:in `_app_views_song_mobile_html_haml___2517717532478036503_70146065301260'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (59.2ms)
+
+
+Started GET "/m" for 127.0.0.1 at 2014-09-29 16:34:26 -0700
+Processing by SongController#mobile as HTML
+  [1m[36mSong Load (1.7ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE `songs`.`active` = 1  ORDER BY rank ASC[0m
+  Rendered song/mobile.html.haml within layouts/mobile (1.1ms)
+Completed 200 OK in 125ms (Views: 117.1ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 127.0.0.1 at 2014-09-29 16:34:26 -0700
+
+
+Started GET "/assets/headphones3.jpg" for 127.0.0.1 at 2014-09-29 16:34:26 -0700
+
+
+Started GET "/m" for 127.0.0.1 at 2014-09-29 16:34:27 -0700
+Processing by SongController#mobile as HTML
+  [1m[35mSong Load (0.6ms)[0m  SELECT `songs`.* FROM `songs`  WHERE `songs`.`active` = 1  ORDER BY rank ASC
+  Rendered song/mobile.html.haml within layouts/mobile (1.4ms)
+Completed 200 OK in 47ms (Views: 41.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 127.0.0.1 at 2014-09-29 16:34:27 -0700
+
+
+Started GET "/m" for 127.0.0.1 at 2014-09-29 16:34:28 -0700
+Processing by SongController#mobile as HTML
+  [1m[36mSong Load (1.5ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE `songs`.`active` = 1  ORDER BY rank ASC[0m
+  Rendered song/mobile.html.haml within layouts/mobile (1.7ms)
+Completed 200 OK in 24ms (Views: 16.9ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 127.0.0.1 at 2014-09-29 16:34:28 -0700
+
+
+Started GET "/m" for 127.0.0.1 at 2014-09-29 16:37:35 -0700
+Processing by SongController#mobile as HTML
+  [1m[35mSong Load (0.6ms)[0m  SELECT `songs`.* FROM `songs`  WHERE `songs`.`active` = 1  ORDER BY rank ASC
+  Rendered song/mobile.html.haml within layouts/mobile (1.1ms)
+Completed 200 OK in 40ms (Views: 33.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 127.0.0.1 at 2014-09-29 16:37:35 -0700
+
+
+Started GET "/assets/headphones3.jpg" for 127.0.0.1 at 2014-09-29 16:37:35 -0700
+
+
+Started GET "/m" for 127.0.0.1 at 2014-09-29 16:38:03 -0700
+Processing by SongController#mobile as HTML
+  [1m[36mSong Load (2.4ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE `songs`.`active` = 1  ORDER BY rank ASC[0m
+  Rendered song/mobile.html.haml within layouts/mobile (1.2ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (Illegal nesting: nesting within a tag that already has content is illegal.):
+    10: 
+    11: 
+    12:     /%marquee#ticker{scrolldelay: 5, scrollamount: 2}
+    13:       /=@song.description
+    14:       /%a{href: @song.posturl, target: '_blank'}
+    15:         /&nbsp; (read more)
+  app/views/song/mobile.html.haml:13
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (12.7ms)
+
+
+Started GET "/m" for 127.0.0.1 at 2014-09-29 16:38:15 -0700
+Processing by SongController#mobile as HTML
+  [1m[35mSong Load (1.1ms)[0m  SELECT `songs`.* FROM `songs`  WHERE `songs`.`active` = 1  ORDER BY rank ASC
+  Rendered song/mobile.html.haml within layouts/mobile (2.7ms)
+Completed 200 OK in 18ms (Views: 12.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 127.0.0.1 at 2014-09-29 16:38:15 -0700
+
+
+Started GET "/m" for 127.0.0.1 at 2014-09-29 16:38:25 -0700
+Processing by SongController#mobile as HTML
+  [1m[36mSong Load (1.1ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE `songs`.`active` = 1  ORDER BY rank ASC[0m
+  Rendered song/mobile.html.haml within layouts/mobile (0.9ms)
+Completed 200 OK in 16ms (Views: 10.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 127.0.0.1 at 2014-09-29 16:38:25 -0700
+
+
+Started GET "/m" for 127.0.0.1 at 2014-09-29 16:39:22 -0700
+Processing by SongController#mobile as HTML
+  [1m[35mSong Load (0.7ms)[0m  SELECT `songs`.* FROM `songs`  WHERE `songs`.`active` = 1  ORDER BY rank ASC
+  Rendered song/mobile.html.haml within layouts/mobile (0.8ms)
+Completed 200 OK in 73ms (Views: 68.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 127.0.0.1 at 2014-09-29 16:39:22 -0700
+
+
+Started GET "/assets/headphones3.jpg" for 127.0.0.1 at 2014-09-29 16:39:22 -0700
+
+
+Started GET "/m" for 127.0.0.1 at 2014-09-29 16:41:52 -0700
+Processing by SongController#mobile as HTML
+  [1m[36mSong Load (1.0ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE `songs`.`active` = 1  ORDER BY rank ASC[0m
+  Rendered song/mobile.html.haml within layouts/mobile (0.9ms)
+Completed 200 OK in 98ms (Views: 89.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 127.0.0.1 at 2014-09-29 16:41:52 -0700
+
+
+Started GET "/m" for 127.0.0.1 at 2014-09-29 16:41:57 -0700
+Processing by SongController#mobile as HTML
+  [1m[35mSong Load (0.6ms)[0m  SELECT `songs`.* FROM `songs`  WHERE `songs`.`active` = 1  ORDER BY rank ASC
+  Rendered song/mobile.html.haml within layouts/mobile (1.1ms)
+Completed 200 OK in 17ms (Views: 11.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 127.0.0.1 at 2014-09-29 16:42:07 -0700
+
+
+Started GET "/assets/headphones3.jpg" for 127.0.0.1 at 2014-09-29 16:42:07 -0700
+
+
+Started GET "/m" for 127.0.0.1 at 2014-09-29 16:43:16 -0700
+Processing by SongController#mobile as HTML
+  [1m[36mSong Load (0.6ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE `songs`.`active` = 1  ORDER BY rank ASC[0m
+  Rendered song/mobile.html.haml within layouts/mobile (2.1ms)
+Completed 200 OK in 17ms (Views: 12.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 127.0.0.1 at 2014-09-29 16:43:16 -0700
+
+
+Started GET "/m" for 127.0.0.1 at 2014-09-29 16:43:52 -0700
+Processing by SongController#mobile as HTML
+  [1m[35mSong Load (0.8ms)[0m  SELECT `songs`.* FROM `songs`  WHERE `songs`.`active` = 1  ORDER BY rank ASC
+  Rendered song/mobile.html.haml within layouts/mobile (0.7ms)
+Completed 200 OK in 111ms (Views: 106.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 127.0.0.1 at 2014-09-29 16:43:53 -0700
+
+
+Started GET "/assets/headphones3.jpg" for 127.0.0.1 at 2014-09-29 16:43:53 -0700
+
+
+Started GET "/m" for 127.0.0.1 at 2014-09-29 16:44:49 -0700
+Processing by SongController#mobile as HTML
+  [1m[36mSong Load (0.8ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE `songs`.`active` = 1  ORDER BY rank ASC[0m
+  Rendered song/mobile.html.haml within layouts/mobile (2.4ms)
+Completed 200 OK in 17ms (Views: 12.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 127.0.0.1 at 2014-09-29 16:44:49 -0700
+
+
+Started GET "/m" for 127.0.0.1 at 2014-09-29 16:45:21 -0700
+Processing by SongController#mobile as HTML
+  [1m[35mSong Load (1.0ms)[0m  SELECT `songs`.* FROM `songs`  WHERE `songs`.`active` = 1  ORDER BY rank ASC
+  Rendered song/mobile.html.haml within layouts/mobile (0.6ms)
+Completed 200 OK in 96ms (Views: 90.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 127.0.0.1 at 2014-09-29 16:45:21 -0700
+
+
+Started GET "/assets/headphones3.jpg" for 127.0.0.1 at 2014-09-29 16:45:21 -0700
+
+
+Started GET "/m" for 127.0.0.1 at 2014-09-29 16:46:02 -0700
+Processing by SongController#mobile as HTML
+  [1m[36mSong Load (2.5ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE `songs`.`active` = 1  ORDER BY rank ASC[0m
+  Rendered song/mobile.html.haml within layouts/mobile (0.9ms)
+Completed 200 OK in 115ms (Views: 106.2ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 127.0.0.1 at 2014-09-29 16:46:02 -0700
+
+
+Started GET "/assets/headphones3.jpg" for 127.0.0.1 at 2014-09-29 16:46:03 -0700
+
+
+Started GET "/m" for 127.0.0.1 at 2014-09-29 16:46:08 -0700
+Processing by SongController#mobile as HTML
+  [1m[35mSong Load (1.1ms)[0m  SELECT `songs`.* FROM `songs`  WHERE `songs`.`active` = 1  ORDER BY rank ASC
+  Rendered song/mobile.html.haml within layouts/mobile (0.9ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (no implicit conversion of nil into String):
+    1: #content
+    2:   %audio#music{ src: Rails.configuration.settings['filehost'] + @song.filename, preload: 'auto' }
+    3:   #controls.actions{ data: {id: @song.id, filename: @song.filename, name: @song.name} }
+    4:     /%a.download{href: download_song_path(@song.id), alt: 'Download Song', title: 'Download'} &#8623;
+    5:     /%span.btn.add{data: {id: @song.id} } &#43;
+  app/views/song/mobile.html.haml:2:in `+'
+  app/views/song/mobile.html.haml:2:in `_app_views_song_mobile_html_haml___2517717532478036503_70146066655960'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (13.8ms)
+
+
+Started GET "/m" for 127.0.0.1 at 2014-09-29 16:46:10 -0700
+Processing by SongController#mobile as HTML
+  [1m[36mSong Load (1.5ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE `songs`.`active` = 1  ORDER BY rank ASC[0m
+  Rendered song/mobile.html.haml within layouts/mobile (0.8ms)
+Completed 200 OK in 16ms (Views: 10.8ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 127.0.0.1 at 2014-09-29 16:46:10 -0700
+
+
+Started GET "/m" for 127.0.0.1 at 2014-09-29 16:46:11 -0700
+Processing by SongController#mobile as HTML
+  [1m[35mSong Load (2.1ms)[0m  SELECT `songs`.* FROM `songs`  WHERE `songs`.`active` = 1  ORDER BY rank ASC
+  Rendered song/mobile.html.haml within layouts/mobile (0.9ms)
+Completed 200 OK in 21ms (Views: 14.7ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 127.0.0.1 at 2014-09-29 16:46:11 -0700
+
+
+Started GET "/m" for 127.0.0.1 at 2014-09-29 16:46:44 -0700
+Processing by SongController#mobile as HTML
+  [1m[36mSong Load (0.6ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE `songs`.`active` = 1  ORDER BY rank ASC[0m
+  Rendered song/mobile.html.haml within layouts/mobile (0.6ms)
+Completed 200 OK in 49ms (Views: 44.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 127.0.0.1 at 2014-09-29 16:46:44 -0700
+
+
+Started GET "/assets/headphones3.jpg" for 127.0.0.1 at 2014-09-29 16:47:57 -0700
+
+
+Started GET "/m" for 127.0.0.1 at 2014-09-29 16:50:03 -0700
+Processing by SongController#mobile as HTML
+  [1m[35mSong Load (1.0ms)[0m  SELECT `songs`.* FROM `songs`  WHERE `songs`.`active` = 1  ORDER BY rank ASC
+  Rendered song/mobile.html.haml within layouts/mobile (0.8ms)
+Completed 200 OK in 53ms (Views: 47.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 127.0.0.1 at 2014-09-29 16:50:03 -0700
+
+
+Started GET "/m" for 127.0.0.1 at 2014-09-29 16:50:39 -0700
+Processing by SongController#mobile as HTML
+  [1m[36mSong Load (1.2ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE `songs`.`active` = 1  ORDER BY rank ASC[0m
+  Rendered song/mobile.html.haml within layouts/mobile (0.6ms)
+Completed 200 OK in 17ms (Views: 10.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 127.0.0.1 at 2014-09-29 16:50:42 -0700
+
+
+Started GET "/assets/headphones3.jpg" for 127.0.0.1 at 2014-09-29 16:50:42 -0700
+
+
+Started GET "/m" for 127.0.0.1 at 2014-09-29 16:51:37 -0700
+Processing by SongController#mobile as HTML
+  [1m[35mSong Load (0.8ms)[0m  SELECT `songs`.* FROM `songs`  WHERE `songs`.`active` = 1  ORDER BY rank ASC
+  Rendered song/mobile.html.haml within layouts/mobile (0.7ms)
+Completed 200 OK in 135ms (Views: 129.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 127.0.0.1 at 2014-09-29 16:51:37 -0700
+
+
+Started GET "/assets/headphones3.jpg" for 127.0.0.1 at 2014-09-29 16:51:40 -0700
+
+
+Started GET "/m" for 127.0.0.1 at 2014-09-29 16:53:35 -0700
+Processing by SongController#mobile as HTML
+  [1m[36mSong Load (0.9ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE `songs`.`active` = 1  ORDER BY rank ASC[0m
+  Rendered song/mobile.html.haml within layouts/mobile (0.7ms)
+Completed 200 OK in 80ms (Views: 74.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 127.0.0.1 at 2014-09-29 16:53:35 -0700
+
+
+Started GET "/m" for 127.0.0.1 at 2014-09-29 16:55:19 -0700
+Processing by SongController#mobile as HTML
+  [1m[35mSong Load (0.6ms)[0m  SELECT `songs`.* FROM `songs`  WHERE `songs`.`active` = 1  ORDER BY rank ASC
+  Rendered song/mobile.html.haml within layouts/mobile (0.7ms)
+Completed 200 OK in 127ms (Views: 121.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 127.0.0.1 at 2014-09-29 16:55:19 -0700
+
+
+Started GET "/assets/headphones3.jpg" for 127.0.0.1 at 2014-09-29 16:55:20 -0700
+
+
+Started GET "/m" for 127.0.0.1 at 2014-09-29 16:55:39 -0700
+Processing by SongController#mobile as HTML
+  [1m[36mSong Load (0.8ms)[0m  [1mSELECT `songs`.* FROM `songs`  WHERE `songs`.`active` = 1  ORDER BY rank ASC[0m
+  Rendered song/mobile.html.haml within layouts/mobile (0.7ms)
+Completed 200 OK in 74ms (Views: 69.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 127.0.0.1 at 2014-09-29 16:55:39 -0700
+
+
+Started GET "/assets/headphones3.jpg" for 127.0.0.1 at 2014-09-29 16:55:40 -0700
+
+
+Started GET "/m" for 127.0.0.1 at 2014-09-29 16:56:00 -0700
+Processing by SongController#mobile as HTML
+  [1m[35mSong Load (0.7ms)[0m  SELECT `songs`.* FROM `songs`  WHERE `songs`.`active` = 1  ORDER BY rank ASC
+  Rendered song/mobile.html.haml within layouts/mobile (0.8ms)
+Completed 200 OK in 81ms (Views: 76.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 127.0.0.1 at 2014-09-29 16:56:00 -0700
+
+
+Started GET "/assets/headphones3.jpg" for 127.0.0.1 at 2014-09-29 16:56:00 -0700
+
+
+Started GET "/s?url=http://api.soundcloud.com/tracks/164767462/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w&name=26a2r" for 127.0.0.1 at 2014-10-01 16:48:33 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (75.9ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by SongController#download as */*
+  Parameters: {"url"=>"http://api.soundcloud.com/tracks/164767462/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w", "name"=>"26a2r"}
+Completed 200 OK in 3498ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/s?url=http://api.soundcloud.com/tracks/169903461/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w&name=26wx5" for 127.0.0.1 at 2014-10-01 16:48:38 -0700
+Processing by SongController#download as */*
+  Parameters: {"url"=>"http://api.soundcloud.com/tracks/169903461/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w", "name"=>"26wx5"}
+Completed 200 OK in 1484ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/s?url=http://api.soundcloud.com/tracks/169341729/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w&name=26vjs" for 127.0.0.1 at 2014-10-01 16:48:39 -0700
+Processing by SongController#download as */*
+  Parameters: {"url"=>"http://api.soundcloud.com/tracks/169341729/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w", "name"=>"26vjs"}
+Completed 200 OK in 1317ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/s?url=http://go.hillydilly.com/00948085.mp3?SvmFY8aVk8GrPunxzfAC6kDJ&name=26wg0" for 127.0.0.1 at 2014-10-01 16:48:41 -0700
+Processing by SongController#download as */*
+  Parameters: {"url"=>"http://go.hillydilly.com/00948085.mp3?SvmFY8aVk8GrPunxzfAC6kDJ", "name"=>"26wg0"}
+Completed 200 OK in 2451ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/s?url=http://api.soundcloud.com/tracks/169241626/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w&name=26t7k" for 127.0.0.1 at 2014-10-01 16:48:43 -0700
+Processing by SongController#download as */*
+  Parameters: {"url"=>"http://api.soundcloud.com/tracks/169241626/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w", "name"=>"26t7k"}
+Completed 200 OK in 1189ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/s?url=http://api.soundcloud.com/tracks/169498841/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w&name=26txm" for 127.0.0.1 at 2014-10-01 16:48:44 -0700
+Processing by SongController#download as */*
+  Parameters: {"url"=>"http://api.soundcloud.com/tracks/169498841/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w", "name"=>"26txm"}
+Completed 200 OK in 1252ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/s?url=http://api.soundcloud.com/tracks/169339373/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w&name=26tvp" for 127.0.0.1 at 2014-10-01 16:48:45 -0700
+Processing by SongController#download as */*
+  Parameters: {"url"=>"http://api.soundcloud.com/tracks/169339373/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w", "name"=>"26tvp"}
+Completed 200 OK in 1527ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/s?url=http://api.soundcloud.com/tracks/169786843/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w&name=26w6d" for 127.0.0.1 at 2014-10-01 16:48:47 -0700
+Processing by SongController#download as */*
+  Parameters: {"url"=>"http://api.soundcloud.com/tracks/169786843/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w", "name"=>"26w6d"}
+Completed 200 OK in 1084ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/s?url=http://api.soundcloud.com/tracks/167881787/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w&name=26n5b" for 127.0.0.1 at 2014-10-01 16:48:48 -0700
+Processing by SongController#download as */*
+  Parameters: {"url"=>"http://api.soundcloud.com/tracks/167881787/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w", "name"=>"26n5b"}
+Completed 200 OK in 1562ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/s?url=http://api.soundcloud.com/tracks/169281900/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w&name=26tvt" for 127.0.0.1 at 2014-10-01 16:48:50 -0700
+Processing by SongController#download as */*
+  Parameters: {"url"=>"http://api.soundcloud.com/tracks/169281900/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w", "name"=>"26tvt"}
+Completed 200 OK in 1182ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/s?url=http://api.soundcloud.com/tracks/169221466/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w&name=26vq1" for 127.0.0.1 at 2014-10-01 16:48:51 -0700
+Processing by SongController#download as */*
+  Parameters: {"url"=>"http://api.soundcloud.com/tracks/169221466/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w", "name"=>"26vq1"}
+Completed 200 OK in 1140ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/s?url=http://api.soundcloud.com/tracks/169975389/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w&name=26x11" for 127.0.0.1 at 2014-10-01 16:48:52 -0700
+Processing by SongController#download as */*
+  Parameters: {"url"=>"http://api.soundcloud.com/tracks/169975389/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w", "name"=>"26x11"}
+Completed 200 OK in 2341ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/s?url=http://api.soundcloud.com/tracks/169819696/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w&name=26whx" for 127.0.0.1 at 2014-10-01 16:48:54 -0700
+Processing by SongController#download as */*
+  Parameters: {"url"=>"http://api.soundcloud.com/tracks/169819696/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w", "name"=>"26whx"}
+Completed 200 OK in 6303ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/s?url=http://api.soundcloud.com/tracks/168846107/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w&name=26rsp" for 127.0.0.1 at 2014-10-01 16:49:01 -0700
+Processing by SongController#download as */*
+  Parameters: {"url"=>"http://api.soundcloud.com/tracks/168846107/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w", "name"=>"26rsp"}
+Completed 200 OK in 1207ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/s?url=http://api.soundcloud.com/tracks/170039654/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w&name=26xhz" for 127.0.0.1 at 2014-10-01 16:49:02 -0700
+Processing by SongController#download as */*
+  Parameters: {"url"=>"http://api.soundcloud.com/tracks/170039654/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w", "name"=>"26xhz"}
+Completed 200 OK in 1177ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/s?url=http://api.soundcloud.com/tracks/169330573/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w&name=26ttp" for 127.0.0.1 at 2014-10-01 16:49:03 -0700
+Processing by SongController#download as */*
+  Parameters: {"url"=>"http://api.soundcloud.com/tracks/169330573/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w", "name"=>"26ttp"}
+Completed 200 OK in 1316ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/s?url=http://api.soundcloud.com/tracks/166353351/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w&name=26e41" for 127.0.0.1 at 2014-10-01 16:49:04 -0700
+Processing by SongController#download as */*
+  Parameters: {"url"=>"http://api.soundcloud.com/tracks/166353351/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w", "name"=>"26e41"}
+Completed 200 OK in 1543ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/s?url=http://api.soundcloud.com/tracks/156812928/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w&name=259sb" for 127.0.0.1 at 2014-10-01 16:49:06 -0700
+Processing by SongController#download as */*
+  Parameters: {"url"=>"http://api.soundcloud.com/tracks/156812928/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w", "name"=>"259sb"}
+Completed 200 OK in 1852ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/s?url=http://api.soundcloud.com/tracks/159708798/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w&name=25nkh" for 127.0.0.1 at 2014-10-01 16:49:08 -0700
+Processing by SongController#download as */*
+  Parameters: {"url"=>"http://api.soundcloud.com/tracks/159708798/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w", "name"=>"25nkh"}
+Completed 200 OK in 1457ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/s?url=http://api.soundcloud.com/tracks/169806850/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w&name=26w7s" for 127.0.0.1 at 2014-10-01 16:49:09 -0700
+Processing by SongController#download as */*
+  Parameters: {"url"=>"http://api.soundcloud.com/tracks/169806850/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w", "name"=>"26w7s"}
+Completed 200 OK in 1263ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/s?url=http://api.soundcloud.com/tracks/169312186/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w&name=26trz" for 127.0.0.1 at 2014-10-01 16:53:54 -0700
+Processing by SongController#download as */*
+  Parameters: {"url"=>"http://api.soundcloud.com/tracks/169312186/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w", "name"=>"26trz"}
+Completed 200 OK in 2601ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/s?url=http://api.soundcloud.com/tracks/169860876/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w&name=26x02" for 127.0.0.1 at 2014-10-01 16:53:57 -0700
+Processing by SongController#download as */*
+  Parameters: {"url"=>"http://api.soundcloud.com/tracks/169860876/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w", "name"=>"26x02"}
+Completed 200 OK in 1003ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/s?url=http://api.soundcloud.com/tracks/169111858/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w&name=26srp" for 127.0.0.1 at 2014-10-01 16:53:58 -0700
+Processing by SongController#download as */*
+  Parameters: {"url"=>"http://api.soundcloud.com/tracks/169111858/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w", "name"=>"26srp"}
+Completed 200 OK in 2069ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/s?url=http://api.soundcloud.com/tracks/147055755/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w&name=26wgp" for 127.0.0.1 at 2014-10-01 16:54:00 -0700
+Processing by SongController#download as */*
+  Parameters: {"url"=>"http://api.soundcloud.com/tracks/147055755/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w", "name"=>"26wgp"}
+Completed 200 OK in 6378ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/s?url=http://api.soundcloud.com/tracks/169847345/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w&name=26wp7" for 127.0.0.1 at 2014-10-01 16:54:07 -0700
+Processing by SongController#download as */*
+  Parameters: {"url"=>"http://api.soundcloud.com/tracks/169847345/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w", "name"=>"26wp7"}
+Completed 200 OK in 1323ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/s?url=http://api.soundcloud.com/tracks/147605145/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w&name=2485n" for 127.0.0.1 at 2014-10-01 16:54:08 -0700
+Processing by SongController#download as */*
+  Parameters: {"url"=>"http://api.soundcloud.com/tracks/147605145/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w", "name"=>"2485n"}
+Completed 200 OK in 1761ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/s?url=http://api.soundcloud.com/tracks/169877833/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w&name=26wnt" for 127.0.0.1 at 2014-10-01 16:54:10 -0700
+Processing by SongController#download as */*
+  Parameters: {"url"=>"http://api.soundcloud.com/tracks/169877833/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w", "name"=>"26wnt"}
+Completed 200 OK in 1572ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/s?url=http://api.soundcloud.com/tracks/168835420/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w&name=26rx7" for 127.0.0.1 at 2014-10-01 16:54:11 -0700
+Processing by SongController#download as */*
+  Parameters: {"url"=>"http://api.soundcloud.com/tracks/168835420/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w", "name"=>"26rx7"}
+Completed 200 OK in 1569ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/s?url=http://api.soundcloud.com/tracks/169994331/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w&name=26y6z" for 127.0.0.1 at 2014-10-01 16:54:13 -0700
+Processing by SongController#download as */*
+  Parameters: {"url"=>"http://api.soundcloud.com/tracks/169994331/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w", "name"=>"26y6z"}
+Completed 200 OK in 1753ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/s?url=http://api.soundcloud.com/tracks/131038790/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w&name=223ws" for 127.0.0.1 at 2014-10-01 16:54:15 -0700
+Processing by SongController#download as */*
+  Parameters: {"url"=>"http://api.soundcloud.com/tracks/131038790/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w", "name"=>"223ws"}
+Completed 200 OK in 1492ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/s?url=http://api.soundcloud.com/tracks/169883088/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w&name=26wwv" for 127.0.0.1 at 2014-10-01 16:54:16 -0700
+Processing by SongController#download as */*
+  Parameters: {"url"=>"http://api.soundcloud.com/tracks/169883088/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w", "name"=>"26wwv"}
+Completed 200 OK in 1571ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/s?url=http://api.soundcloud.com/tracks/170194760/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w&name=26y9b" for 127.0.0.1 at 2014-10-01 16:54:18 -0700
+Processing by SongController#download as */*
+  Parameters: {"url"=>"http://api.soundcloud.com/tracks/170194760/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w", "name"=>"26y9b"}
+Completed 200 OK in 1579ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/s?url=http://api.soundcloud.com/tracks/169923384/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w&name=26xdq" for 127.0.0.1 at 2014-10-01 16:54:19 -0700
+Processing by SongController#download as */*
+  Parameters: {"url"=>"http://api.soundcloud.com/tracks/169923384/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w", "name"=>"26xdq"}
+Completed 200 OK in 1528ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/s?url=http://api.soundcloud.com/tracks/169772485/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w&name=26xd4" for 127.0.0.1 at 2014-10-01 16:54:21 -0700
+Processing by SongController#download as */*
+  Parameters: {"url"=>"http://api.soundcloud.com/tracks/169772485/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w", "name"=>"26xd4"}
+Completed 200 OK in 1261ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/s?url=http://go.hillydilly.com/00948107.mp3?SvmFY8aVk8GrPunxzfAC6kDJ&name=26xfn" for 127.0.0.1 at 2014-10-01 16:54:22 -0700
+Processing by SongController#download as */*
+  Parameters: {"url"=>"http://go.hillydilly.com/00948107.mp3?SvmFY8aVk8GrPunxzfAC6kDJ", "name"=>"26xfn"}
+Completed 200 OK in 2324ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/s?url=http://api.soundcloud.com/tracks/169899583/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w&name=26xdr" for 127.0.0.1 at 2014-10-01 16:54:24 -0700
+Processing by SongController#download as */*
+  Parameters: {"url"=>"http://api.soundcloud.com/tracks/169899583/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w", "name"=>"26xdr"}
+Completed 200 OK in 1568ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/s?url=http://api.soundcloud.com/tracks/170133639/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w&name=26xxf" for 127.0.0.1 at 2014-10-01 16:54:26 -0700
+Processing by SongController#download as */*
+  Parameters: {"url"=>"http://api.soundcloud.com/tracks/170133639/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w", "name"=>"26xxf"}
+Completed 200 OK in 1617ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/s?url=http://api.soundcloud.com/tracks/169460630/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w&name=26vs8" for 127.0.0.1 at 2014-10-01 16:54:28 -0700
+Processing by SongController#download as */*
+  Parameters: {"url"=>"http://api.soundcloud.com/tracks/169460630/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w", "name"=>"26vs8"}
+Completed 200 OK in 1636ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/s?url=http://api.soundcloud.com/tracks/166319632/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w&name=26dys" for 127.0.0.1 at 2014-10-01 16:54:29 -0700
+Processing by SongController#download as */*
+  Parameters: {"url"=>"http://api.soundcloud.com/tracks/166319632/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w", "name"=>"26dys"}
+Completed 200 OK in 1085ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/s?url=http://api.soundcloud.com/tracks/169931661/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w&name=26y7t" for 127.0.0.1 at 2014-10-01 16:54:30 -0700
+Processing by SongController#download as */*
+  Parameters: {"url"=>"http://api.soundcloud.com/tracks/169931661/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w", "name"=>"26y7t"}
+Completed 200 OK in 7126ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/s?url=http://api.soundcloud.com/tracks/169867871/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w&name=26pvn" for 127.0.0.1 at 2014-10-01 16:54:58 -0700
+Processing by SongController#download as */*
+  Parameters: {"url"=>"http://api.soundcloud.com/tracks/169867871/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w", "name"=>"26pvn"}
+Completed 200 OK in 1398ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/s?url=http://api.soundcloud.com/tracks/170161717/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w&name=26y2b" for 127.0.0.1 at 2014-10-01 16:55:00 -0700
+Processing by SongController#download as */*
+  Parameters: {"url"=>"http://api.soundcloud.com/tracks/170161717/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w", "name"=>"26y2b"}
+Completed 200 OK in 2248ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/s?url=http://api.soundcloud.com/tracks/126349438/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w&name=21czc" for 127.0.0.1 at 2014-10-01 16:55:02 -0700
+Processing by SongController#download as */*
+  Parameters: {"url"=>"http://api.soundcloud.com/tracks/126349438/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w", "name"=>"21czc"}
+Completed 200 OK in 1257ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/s?url=http://api.soundcloud.com/tracks/167910094/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w&name=26n64" for 127.0.0.1 at 2014-10-01 16:55:03 -0700
+Processing by SongController#download as */*
+  Parameters: {"url"=>"http://api.soundcloud.com/tracks/167910094/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w", "name"=>"26n64"}
+Completed 200 OK in 1124ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/s?url=http://api.soundcloud.com/tracks/164285593/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w&name=26fw4" for 127.0.0.1 at 2014-10-01 16:55:05 -0700
+Processing by SongController#download as */*
+  Parameters: {"url"=>"http://api.soundcloud.com/tracks/164285593/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w", "name"=>"26fw4"}
+Completed 200 OK in 1569ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/s?url=http://api.soundcloud.com/tracks/168983402/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w&name=26rx5" for 127.0.0.1 at 2014-10-01 16:55:06 -0700
+Processing by SongController#download as */*
+  Parameters: {"url"=>"http://api.soundcloud.com/tracks/168983402/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w", "name"=>"26rx5"}
+Completed 200 OK in 1389ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/s?url=http://api.soundcloud.com/tracks/170188882/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w&name=26ya9" for 127.0.0.1 at 2014-10-01 16:55:08 -0700
+Processing by SongController#download as */*
+  Parameters: {"url"=>"http://api.soundcloud.com/tracks/170188882/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w", "name"=>"26ya9"}
+Completed 200 OK in 1251ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/s?url=http://api.soundcloud.com/tracks/170037922/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w&name=26xhn" for 127.0.0.1 at 2014-10-01 16:55:09 -0700
+Processing by SongController#download as */*
+  Parameters: {"url"=>"http://api.soundcloud.com/tracks/170037922/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w", "name"=>"26xhn"}
+Completed 200 OK in 1107ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/s?url=http://api.soundcloud.com/tracks/169501032/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w&name=26vn1" for 127.0.0.1 at 2014-10-01 16:55:10 -0700
+Processing by SongController#download as */*
+  Parameters: {"url"=>"http://api.soundcloud.com/tracks/169501032/stream?consumer_key=nH8p0jYOkoVEZgJukRlG6w", "name"=>"26vn1"}
+Completed 200 OK in 1389ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+  [1m[36mSQL (214.9ms)[0m  [1mUPDATE `songs` SET `songs`.`active` = 0[0m
+  [1m[35mSong Load (202.7ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26a2r'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (91.3ms)[0m  INSERT INTO `songs` (`active`, `artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `rank`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES (1, 'Cold War Kids', '26a2r', '2014-10-02 00:55:54', 'Sounds like: Local Natives, Band of Horses, Frightened Rabbit Song: Cold War Kids - First What\'s so good? So, umm, where did this single come from? Let me just say that in no way, shape, or form was I expecting a new album so soon from Cold War Kids, but ', 'http://hypem.com/go/itunes_search/Cold%20War%20Kids', '26a2r', 'Cold War Kids - First', 'http://www.indieshuffle.com/cold-war-kids-first/', 1, '26a2r', 'http://static.hypem.net/thumbs_new/9c/2538652.jpg', 'First', '2014-10-02 00:55:54')
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.8ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26wx5'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `songs` (`active`, `artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `rank`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES (1, 'Big Data', '26wx5', '2014-10-02 00:55:54', 'It’s time to quit playing things safe tonight. It’s time to live a little, and by live a little, we Read more at Earbuddy.', 'http://hypem.com/go/itunes_search/Big%20Data', '26wx5', 'Big Data - Dangerous (Oliver Remix)', 'http://www.earbuddy.net/51948/big-data-dangerous-oliver-remix.html/listen/remix', 2, '26wx5', 'http://static.hypem.net/thumbs_new/f6/2537974.jpg', 'Dangerous (Oliver Remix)', '2014-10-02 00:55:54')
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.5ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26vjs'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `songs` (`active`, `artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `rank`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES (1, 'TULA home', '26vjs', '2014-10-02 00:55:54', 'Many, many bands and musicians from all walks of genres have served up covers of Chris Isaak’s eternally sexy and passionate Wicked Games. The latest to join the fray is Tula, a songstress from Berlin who first caught my ears over two years ago. Now a fiv', 'http://hypem.com/go/itunes_search/TULA%20home', '26vjs', 'TULA home - Wicked Game', 'http://iheartmoosiq.tumblr.com/post/98505166394/many-many-bands-and-musicians-from-all-walks-of', 3, '26vjs', 'http://static.hypem.net/thumbs_new/8f/2536847.jpg', 'Wicked Game', '2014-10-02 00:55:54')
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26t7k'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `songs` (`active`, `artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `rank`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES (1, 'ODESZA', '26t7k', '2014-10-02 00:55:54', 'I didn’t know where cln was going to take us with his remix of ODESZA’s “Say My Name.” Destination: there! This comes by way of cln’s contribution to the ODESZA remix competition. We’ve done a little shifting through and are swinging our vote his way. You', 'http://hypem.com/go/itunes_search/ODESZA', '26t7k', 'ODESZA - Say My Name (feat. Zyra) (cln Remix)', 'http://kickkicksnare.com/2014/09/25/odesza-feat-zyra-say-name-cln-remix/', 4, '26t7k', 'http://static.hypem.net/thumbs_new/f9/2536185.jpg', 'Say My Name (feat. Zyra) (cln Remix)', '2014-10-02 00:55:54')
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.3ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26txm'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `songs` (`active`, `artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `rank`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES (1, 'Eastside', '26txm', '2014-10-02 00:55:54', 'We don\'t know much about Eastside. In fact, we don\'t know anything at all. The band\'s social media pages are all blacked out and have yet to officially launch yet. It\'s a mystery that has only become more intriguing as their latest work has been dropped i', 'http://hypem.com/go/itunes_search/Eastside', '26txm', 'Eastside - Ellie (Loyal x Don\'t) feat. Chris Brown & Ed Sheeran', 'http://www.earmilk.com/2014/09/25/new-act-eastside-drops-two-track-cover-of-chris-brown-ed-sheeran-with-ellie/', 5, '26txm', 'http://static.hypem.net/thumbs_new/21/2535713.jpg', 'Ellie (Loyal x Don\'t) feat. Chris Brown & Ed Sheeran', '2014-10-02 00:55:54')
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.7ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26wg0'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `songs` (`active`, `artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `rank`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES (1, 'Lorde', '26wg0', '2014-10-02 00:55:54', 'Lorde has unveiled her contribution to The Hunger Games Mockingkay (Part 1) Soundtrack and as with all things Lorde, it’s really good. If you’re not sure about this one, just wait until the chorus hits because my gosh, Lorde and her voodoo are all too rea', 'http://hypem.com/go/itunes_search/Lorde', '26wg0', 'Lorde - Yellow Flicker Beat', 'http://poponandon.com/first-listen-lorde-yellow-flicker-beat/', 6, '26wg0', 'http://static.hypem.net/thumbs_new/5f/2537567.jpg', 'Yellow Flicker Beat', '2014-10-02 00:55:54')
+  [1m[36m (17.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26tvp'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `songs` (`active`, `artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `rank`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES (1, 'Felix Jaehn feat. Chris Meid', '26tvp', '2014-10-02 00:55:54', 'Dancing Astronaut - house, electro, progressive, dubstep As electronic dance music finds itself pivoting towards tastefully melodic offerings instead of over-compressed kicks, a wave of emerging talent has begun to take center stage. One such talent, Feli', 'http://hypem.com/go/itunes_search/Felix%20Jaehn%20feat.%20Chris%20Meid', '26tvp', 'Felix Jaehn feat. Chris Meid - One Last Time Remix', 'http://www.dancingastronaut.com/2014/09/jaymes-young-one-last-time-felix-jaehn-feat-chris-meid-remix/', 7, '26tvp', 'http://static.hypem.net/thumbs_new/f7/2537719.jpg', 'One Last Time Remix', '2014-10-02 00:55:54')
+  [1m[36m (1.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.3ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26vq1'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `songs` (`active`, `artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `rank`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES (1, 'Halsey', '26vq1', '2014-10-02 00:55:54', 'Earlier this year Halsey displayed her slightly edgy pop credentials when she sang about how she liked her bad boys dressed in leather, now she’s going some more with new song Hurricane, whipping up a storm with its lyrics about tripping on LSD, liquor on', 'http://hypem.com/go/itunes_search/Halsey', '26vq1', 'Halsey - Hurricane', 'http://breakingmorewaves.blogspot.mx/2014/09/halsey-hurricane.html', 8, '26vq1', 'http://static.hypem.net/thumbs_new/b8/2537144.jpg', 'Hurricane', '2014-10-02 00:55:54')
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.3ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26x11'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `songs` (`active`, `artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `rank`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES (1, 'Jaymes Young', '26x11', '2014-10-02 00:55:54', 'We’ve been streaming the contents of Jaymes Young‘s EP as they’ve become available, and just recently, the artist unveiled the final piece of his project: an intimate, acoustic-driven ballad entitled “I’ll Be Good”. Decidedly more sentimental-sounding tha', 'http://hypem.com/go/itunes_search/Jaymes%20Young', '26x11', 'Jaymes Young - I\'ll Be Good', 'http://www.hillydilly.com/2014/09/jaymes-young-ill-be-good/', 9, '26x11', 'http://static.hypem.net/thumbs_new/2c/2538028.jpg', 'I\'ll Be Good', '2014-10-02 00:55:54')
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26n5b'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `songs` (`active`, `artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `rank`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES (1, 'The Knocks', '26n5b', '2014-10-02 00:55:54', 'DiscoTech have put a sweet touch on The Knocks’ “Classic.” With a semi-tropical vibe that still sits soundly in nu-disco territory, this remix is a solid re-imagining that doesn’t stray entirely far from the original. It’s flirty and romantic, reminding u', 'http://hypem.com/go/itunes_search/The%20Knocks', '26n5b', 'The Knocks - Classic (DiscoTech Remix) - Big Beat', 'http://danideahl.com/the-knocks-classic-discotech-remix/', 10, '26n5b', 'http://static.hypem.net/thumbs_new/2c/2537260.jpg', 'Classic (DiscoTech Remix) - Big Beat', '2014-10-02 00:55:54')
+  [1m[36m (18.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26whx'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `songs` (`active`, `artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `rank`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES (1, 'Great Good Fine Ok', '26whx', '2014-10-02 00:55:54', 'The infectious Brooklyn Duo, Great Good Fine Ok, have been on a steady rise since the release of their hit single \"You\'re The One For Me,\" now rapidly approaching the 1 million mark on Soundcloud. It\'s safe to say the future is looking more than Great, Go', 'http://hypem.com/go/itunes_search/Great%20Good%20Fine%20Ok', '26whx', 'Great Good Fine Ok - By My Side', 'http://www.earmilk.com/2014/09/29/great-good-fine-ok-by-my-side-premiere/', 11, '26whx', 'http://static.hypem.net/thumbs_new/7c/2537596.jpg', 'By My Side', '2014-10-02 00:55:54')
+  [1m[36m (6.8ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26w6d'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `songs` (`active`, `artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `rank`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES (1, 'Låpsley', '26w6d', '2014-10-02 00:55:54', 'Young songstress Låpsley has been making real waves of late. Holly Fletcher may only be 18 years old, but her beautifully soulful voice layered to perfection with the smoothest of productions makes for a real treat. Her latest track “Falling Short” has ju', 'http://hypem.com/go/itunes_search/Låpsley', '26w6d', 'Låpsley - Falling Short', 'http://www.parttimewizards.co.uk/lapsley-falling-short/', 12, '26w6d', 'http://static.hypem.net/thumbs_new/ba/2538938.jpg', 'Falling Short', '2014-10-02 00:55:54')
+  [1m[36m (12.9ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (1.1ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26tvt'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `songs` (`active`, `artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `rank`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES (1, 'FOYNES(nicholas basquiat)', '26tvt', '2014-10-02 00:55:54', 'We didn’t dig the original of this at all (Sorry Beni, too oooom-tiss ooooom-tiss for our ears) but the Foynes remix? Oh hells yeah… Foynes (or Nicholas Basquiat)is a new-ish kid to the aussie block of shiz-hot producers. Check out his soundcloud for more', 'http://hypem.com/go/itunes_search/FOYNES(nicholas%20basquiat)', '26tvt', 'FOYNES(nicholas basquiat) - Protect (Feat. Antony & Cleopatera) (Foynes Remix)', 'http://www.repeatbutton.com/2014/09/beni-protect-ft-antony-cleopatera-foynes-remix/', 13, '26tvt', 'http://static.hypem.net/thumbs_new/40/2538560.jpg', 'Protect (Feat. Antony & Cleopatera) (Foynes Remix)', '2014-10-02 00:55:54')
+  [1m[36m (10.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.5ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26rsp'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (24.0ms)[0m  UPDATE `songs` SET `active` = 1, `rank` = 14, `updated_at` = '2014-10-02 00:55:54' WHERE `songs`.`id` = 908
+  [1m[36m (4.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.8ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26xhz'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `songs` (`active`, `artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `rank`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES (1, 'Clean Bandit & Jess Glynne', '26xhz', '2014-10-02 00:55:55', 'Check out the new single from Clean Bandit & Jess Glynne. Two names that need no introduction. Perhaps not as big as Rather Be but this will sure be a radio hit in indie and dance stations around the world. In case the names ring a bell but you don\'t know', 'http://hypem.com/go/itunes_search/Clean%20Bandit%20&%20Jess%20Glynne', '26xhz', 'Clean Bandit & Jess Glynne - Real Love', 'http://yaqui.co/music/2014/9/30/clean-bandit-jess-glynne-real-love', 15, '26xhz', 'http://static.hypem.net/thumbs_new/62/2538594.jpg', 'Real Love', '2014-10-02 00:55:55')
+  [1m[36m (1.9ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.6ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26e41'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `songs` (`active`, `artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `rank`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES (1, 'The Magician', '26e41', '2014-10-02 00:55:55', 'One of the best tunes of this summer, The Magician’s feel-good, hands-in-the-air anthem “Sunlight”, featuring vocals from Olly Alexander of Years & Years, will receive a handful of remix treatments, including this one from rising Parisian producer Terence', 'http://hypem.com/go/itunes_search/The%20Magician', '26e41', 'The Magician - Sunlight (Darius Remix)', 'http://www.lagasta.com/the-magician-sunlight-darius-remix/', 16, '26e41', 'http://static.hypem.net/thumbs_new/8a/2523530.jpg', 'Sunlight (Darius Remix)', '2014-10-02 00:55:55')
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26ttp'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `songs` (`active`, `artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `rank`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES (1, 'BANKS.', '26ttp', '2014-10-02 00:55:55', 'Listen to Bag Raiders’ remix from Banks’ song ‘Begging For Thread’', 'http://hypem.com/go/itunes_search/BANKS.', '26ttp', 'BANKS. - Beggin For Thread (Bag Raiders Remix)', 'http://modularmag.com/?p=2475', 17, '26ttp', 'http://static.hypem.net/thumbs_new/3a/2536506.jpg', 'Beggin For Thread (Bag Raiders Remix)', '2014-10-02 00:55:55')
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '259sb'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `songs` (`active`, `artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `rank`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES (1, 'Tom Misch', '259sb', '2014-10-02 00:55:55', 'Serving as the first official release on his new label Beyond The Groove, Tom Misch shares the new song, “Memory”, Read more at Earbuddy.', 'http://hypem.com/go/itunes_search/Tom%20Misch', '259sb', 'Tom Misch - Memory', 'http://www.earbuddy.net/47888/tom-misch-memory.html/listen', 18, '259sb', 'http://static.hypem.net/thumbs_new/4e/2487630.jpg', 'Memory', '2014-10-02 00:55:55')
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26trz'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `songs` (`active`, `artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `rank`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES (1, 'James Vincent McMorrow', '26trz', '2014-10-02 00:55:55', 'This is a Bonus Track from the deluxe edition of Post Tropical that is coming on 10 November. It includes previously unreleased material, remixes and solo recordings. It’s safe to say we love it.', 'http://hypem.com/go/itunes_search/James%20Vincent%20McMorrow', '26trz', 'James Vincent McMorrow - You Know', 'http://www.room516.com/james-vincent-mcmorrow-you-know/', 19, '26trz', 'http://static.hypem.net/thumbs_new/d5/2536149.jpg', 'You Know', '2014-10-02 00:55:55')
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26w7s'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `songs` (`active`, `artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `rank`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES (1, 'Thrupence', '26w7s', '2014-10-02 00:55:55', 'Thrupence entre soie, nous et velours Diffusé chez Future Classic hier, le dernier morceau de Thrupence ressemble à un tendre câlin. Issu de l’album Lessons (Originals Mixtape) qui sortira le 7 novembre prochain, ‘Silk’ mêle le toucher à l’auditif, sans f', 'http://hypem.com/go/itunes_search/Thrupence', '26w7s', 'Thrupence - Silk', 'http://www.allinelectro.com/thrupence-silk-free-download/', 20, '26w7s', 'http://static.hypem.net/thumbs_new/73/2538099.jpg', 'Silk', '2014-10-02 00:55:55')
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.7ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '25nkh'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `songs` (`active`, `artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `rank`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES (1, 'Busta Rhymes', '25nkh', '2014-10-02 00:55:55', 'South London’s Tom Misch continues to kill it. Summery, near calypso, bounces turn this into an unlikely seasonal delight from the incredibly prolific teenager. London’s most wanted.', 'http://hypem.com/go/itunes_search/Busta%20Rhymes', '25nkh', 'Busta Rhymes - Ill Vibe (Tom Misch Remix)', 'http://www.musicbrokemybones.co.uk/?p=10134', 21, '25nkh', 'http://static.hypem.net/thumbs_new/ef/2537455.jpg', 'Ill Vibe (Tom Misch Remix)', '2014-10-02 00:55:55')
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.6ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26wgp'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO `songs` (`active`, `artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `rank`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES (1, 'Kiasmos', '26wgp', '2014-10-02 00:55:55', 'Ólafur Arnalds and Janus Rasmussen hail from two distinctive backgrounds, an Icelandic pianist/composer and a Danish synth-pop producer, respectively. And while you couldn\'t necessarily call their collaboration, Kiasmos, a sum of those disparate parts, th', 'http://hypem.com/go/itunes_search/Kiasmos', '26wgp', 'Kiasmos - Bent', 'http://pitchfork.com/reviews/tracks/17140-kiasmos-bent/', 22, '26wgp', 'http://static.hypem.net/thumbs_new/e1/2539233.jpg', 'Bent', '2014-10-02 00:55:55')
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.6ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '223ws'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `songs` (`active`, `artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `rank`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES (1, 'Broken Bells', '223ws', '2014-10-02 00:55:55', 'Comebackille ei tosiaan parhaimmillaan vedä mikään vertoja, niin kuin viime viikolla todettiin. Kokosimme tuolloin Akin kanssa artisteja, joita vielä haluaisimme nähdä estradilla ja / tai levyttämässä. Mutta. Paluu ei tietenkään aina ole onnistunut, ei mi', 'http://hypem.com/go/itunes_search/Broken%20Bells', '223ws', 'Broken Bells - Leave It Alone', 'http://rosvot.fi/slowshow/paluu-tulevaisuuteen-elakkeessakin-on-puolensa', 23, '223ws', 'http://static.hypem.net/thumbs_new/4d/2446413.jpg', 'Leave It Alone', '2014-10-02 00:55:55')
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26x02'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `songs` (`active`, `artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `rank`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES (1, 'Montgomery', '26x02', '2014-10-02 00:55:55', 'A mere two weeks ago, a mysterious new singer songwriter named Montgomery sauntered into our lives with beautiful electropop song War Cry. The song was no anomaly. The Australian newcomer is back, this time with equally crystalline Piñata, a delicate, cha', 'http://hypem.com/go/itunes_search/Montgomery', '26x02', 'Montgomery - Piñata', 'http://iheartmoosiq.tumblr.com/post/98847894224/a-mere-two-weeks-ago-a-mysterious-new-singer', 24, '26x02', 'http://static.hypem.net/thumbs_new/72/2538866.jpg', 'Piñata', '2014-10-02 00:55:55')
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26srp'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (26.7ms)[0m  INSERT INTO `songs` (`active`, `artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `rank`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES (1, 'Sir Sly', '26srp', '2014-10-02 00:55:55', 'It’s not all that rare that musicians from a group break off and do their own side projects. It is noteworthy though when they start remixing the songs they helped create in the first place, especially when they do such an incredible job of it. RAEKO or J', 'http://hypem.com/go/itunes_search/Sir%20Sly', '26srp', 'Sir Sly - You Haunt Me (RAEKO Remix)', 'http://www.earmilk.com/2014/09/29/sir-slys-raeko-creates-ominous-new-remix-of-you-haunt-me/', 25, '26srp', 'http://static.hypem.net/thumbs_new/e4/2537956.jpg', 'You Haunt Me (RAEKO Remix)', '2014-10-02 00:55:55')
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26wnt'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `songs` (`active`, `artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `rank`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES (1, 'Raury', '26wnt', '2014-10-02 00:55:55', 'Here’s a slick new remix from Auckland producer Polvo Disco of Russian pop/funk outfit Pompeya’s “Y.A.H.T.B.M.F.” Fellow Brit producer, Grum, has come up trumps with a stunning remix of Secondcity’s forthcoming single with Ali Love, “What Can I Do.” Dutch', 'http://hypem.com/go/itunes_search/Raury', '26wnt', 'Raury - God\'s Whisper (Kill Them With Colour Remix)', 'http://kickkicksnare.com/2014/10/01/hello-wednesday-remixes-60/', 26, '26wnt', 'http://static.hypem.net/thumbs_new/2a/2539562.jpg', 'God\'s Whisper (Kill Them With Colour Remix)', '2014-10-02 00:55:55')
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26wp7'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `songs` (`active`, `artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `rank`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES (1, 'Ed Sheeran', '26wp7', '2014-10-02 00:55:55', '“Don’t” was one of our favourite tracks from Ed Sheeran‘s latest album, X, and now, we’ve a new X Ambassadors remix to share that excellently interprets the fine effort. We’ll be the first ones to admit that the original took a bit of time to get going, b', 'http://hypem.com/go/itunes_search/Ed%20Sheeran', '26wp7', 'Ed Sheeran - Don\'t (X Ambassadors Remix)', 'http://www.hillydilly.com/2014/09/ed-sheeran-dont-x-ambassadors-remix/', 27, '26wp7', 'http://static.hypem.net/thumbs_new/ca/2537674.jpg', 'Don\'t (X Ambassadors Remix)', '2014-10-02 00:55:55')
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.7ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '2485n'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `songs` (`active`, `artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `rank`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES (1, 'Tom Misch & Carmody', '2485n', '2014-10-02 00:55:55', 'acid stag acid stag - Australian music news, reviews, videos and streaming ARTEFACT - A Closed Window Say Lou Lou – Peppermint Jeff Sontag – 4.22 Tom Misch & Carmody – Atmosphere Clara Moto - Silently (ft. Mimu) Bob Gravity - Going Back Single Sessions: V', 'http://hypem.com/go/itunes_search/Tom%20Misch%20&%20Carmody', '2485n', 'Tom Misch & Carmody - Atmosphere', 'http://acidstag.com/2014/05/14/single-sessions-volume-four/', 28, '2485n', 'http://static.hypem.net/thumbs_new/72/2461298.jpg', 'Atmosphere', '2014-10-02 00:55:55')
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26rx7'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE `songs` SET `active` = 1, `rank` = 29, `updated_at` = '2014-10-02 00:55:55' WHERE `songs`.`id` = 893
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26y6z'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `songs` (`active`, `artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `rank`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES (1, 'Gorgon City', '26y6z', '2014-10-02 00:55:55', 'Gorgon City has been unleashing tracks from their full-length debut quite consistently lately, and with each, further glimpses into their penchant for high-quality, well-crafted dance music have been given. “FTPA” is the latest track from the aforemention', 'http://hypem.com/go/itunes_search/Gorgon%20City', '26y6z', 'Gorgon City - FTPA feat. Erik Hassle', 'http://www.hillydilly.com/2014/10/gorgon-city-ftpa-ft-erik-hassle/', 30, '26y6z', 'http://static.hypem.net/thumbs_new/ea/2539242.jpg', 'FTPA feat. Erik Hassle', '2014-10-02 00:55:55')
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (1.0ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26xxf'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `songs` (`active`, `artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `rank`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES (1, 'Odezsa', '26xxf', '2014-10-02 00:55:55', 'Sounds like: Flume, Blackbird Blackbird Song: ODESZA - Say My Name (Slow Magic Remix) What\'s so good? ODESZA is leading what is perhaps the most successful remix context in years, and given the influx of quality renditions I find myself loathe to post ano', 'http://hypem.com/go/itunes_search/Odezsa', '26xxf', 'Odezsa - Say My Name (Slow Magic Remix)', 'http://www.indieshuffle.com/odesza-say-my-name-slow-magic-remix/', 31, '26xxf', 'http://static.hypem.net/thumbs_new/7f/2539391.jpg', 'Say My Name (Slow Magic Remix)', '2014-10-02 00:55:55')
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26dys'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `songs` (`active`, `artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `rank`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES (1, 'Luke Million', '26dys', '2014-10-02 00:55:55', 'Luke Million - Light & Sound and he is back, the new single will be out on Friday via etcetc music', 'http://hypem.com/go/itunes_search/Luke%20Million', '26dys', 'Luke Million - Light & Sound', 'http://moarrr.com/post/98333087490', 32, '26dys', 'http://static.hypem.net/thumbs_new/cb/2535115.jpg', 'Light & Sound', '2014-10-02 00:55:55')
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26xdq'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `songs` (`active`, `artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `rank`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES (1, 'Slow Motion', '26xdq', '2014-10-02 00:55:55', 'PHOX touren derzeit durch die Vereinigten Staaten mit Paulo Nutini und werden im November 2014 auch für einige Termine in Deutschland vorbeisehen. das gleichnamige debüt von phox erschien in deutschland am 29.08.2014 und bezauberte neben der gehauchten, i', 'http://hypem.com/go/itunes_search/Slow%20Motion', '26xdq', 'Slow Motion - (Sylvan Esso Remix)', 'http://www.ohfancy.de/blog/2014/09/30/remix-der-sylvan-esso-remix-zum-song-slow-motion-von-phox/', 33, '26xdq', 'http://static.hypem.net/thumbs_new/20/2538528.jpg', '(Sylvan Esso Remix)', '2014-10-02 00:55:55')
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26y9b'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `songs` (`active`, `artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `rank`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES (1, 'Ben Sollee', '26y9b', '2014-10-02 00:55:55', 'This past weekend at TomorrowWorld, tropical house made a gigantic leap as a genre when Norwegian superstar Kygo took over the Main Stage and infected the crowds with the nostalgic vibes of summer. With this huge accomplishment under their belt, the pione', 'http://hypem.com/go/itunes_search/Ben%20Sollee', '26y9b', 'Ben Sollee - Letting Go (Thomas Jack Remix)', 'http://www.chubbybeavers.com/ben_sollee_letting_go_thomas_jack_remix/', 34, '26y9b', 'http://static.hypem.net/thumbs_new/17/2539543.jpg', 'Letting Go (Thomas Jack Remix)', '2014-10-02 00:55:55')
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26wwv'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `songs` (`active`, `artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `rank`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES (1, 'Odesza', '26wwv', '2014-10-02 00:55:55', 'ODESZA‘s “Say My Name” is the goto choice for producers as of late. Already we heard RAC’s remix on the Read more at Earbuddy.', 'http://hypem.com/go/itunes_search/Odesza', '26wwv', 'Odesza - Say My Name feat. Zyra (Jai Wolf Remix)(Counter Records)', 'http://www.earbuddy.net/51941/odesza-say-name-ft-zyra-jai-wolf-remix.html/listen/remix', 35, '26wwv', 'http://static.hypem.net/thumbs_new/ab/2537899.jpg', 'Say My Name feat. Zyra (Jai Wolf Remix)(Counter Records)', '2014-10-02 00:55:55')
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26xdr'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `songs` (`active`, `artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `rank`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES (1, 'Les Sins', '26xdr', '2014-10-02 00:55:55', 'Earlier this summer, Chaz Bundick announced a new album for his project Les Sins. Bundick, the Toro y Moi mastermind, will release the Michael LP on November 4. If the first album track “Bother” was any indication, Michael is gonna be a banger. Chaz enlis', 'http://hypem.com/go/itunes_search/Les%20Sins', '26xdr', 'Les Sins - Why feat. Nate Salman', 'http://apesontape.com/les-sins/', 36, '26xdr', 'http://static.hypem.net/thumbs_new/5f/2538591.jpg', 'Why feat. Nate Salman', '2014-10-02 00:55:55')
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.5ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26y2b'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `songs` (`active`, `artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `rank`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES (1, 'Wonder Wonder', '26y2b', '2014-10-02 00:55:55', 'London rookies Wonder Wonder return with the smoldering single “Shark.” It’s the second release from their debut record which they’ll be teasing one track a month over the course of the next year. Like the previously released “Body Gold,” this one is buil', 'http://hypem.com/go/itunes_search/Wonder%20Wonder', '26y2b', 'Wonder Wonder - Shark', 'http://www.turntablekitchen.com/2014/10/single-serving-wonder-wonder-shark/', 37, '26y2b', 'http://static.hypem.net/thumbs_new/12/2539282.jpg', 'Shark', '2014-10-02 00:55:55')
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26xfn'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `songs` (`active`, `artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `rank`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES (1, 'Fractures', '26xfn', '2014-10-02 00:55:55', 'Mark Zito (Fractures) appeased fans worldwide when he finally released his long-awaited self-titled EP. The release was comprised of a flawless collection of songs showcasing Fractures’ talent for crafting beautifully emotive songwriting. One of the songs', 'http://hypem.com/go/itunes_search/Fractures', '26xfn', 'Fractures - It\'s Alright', 'http://www.hillydilly.com/2014/09/fractures-its-alright-video/', 38, '26xfn', 'http://static.hypem.net/thumbs_new/6/2538502.jpg', 'It\'s Alright', '2014-10-02 00:55:55')
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26pvn'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `songs` (`active`, `artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `rank`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES (1, 'milosh', '26pvn', '2014-10-02 00:55:55', 'A un anno dal debutto dei Rhye, la metà del gruppo composta da Michael Milosh torna con un nuovo brano dopo aver esordito da solista con Jetlag nel 2013. Si intitola ”Right Never Comes” e rivela tutta la sensibilità melodica dell’artista californiano.', 'http://hypem.com/go/itunes_search/milosh', '26pvn', 'milosh - Right Never Comes', 'http://www.sonofmarketing.it/streaming-milosh-right-never-comes/', 39, '26pvn', 'http://static.hypem.net/thumbs_new/91/2533265.jpg', 'Right Never Comes', '2014-10-02 00:55:55')
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26xd4'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO `songs` (`active`, `artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `rank`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES (1, 'VÉRITÉ', '26xd4', '2014-10-02 00:55:55', 'Voila deux mois que nous vous présentions Vérité qui débarquait avec son premier titre Strange Enough. La New-Yorkaise nous présente aujourd’hui sa troisième piste, Echo, qui oscille entre Pop et RnB saccadé. Elle en profite également pour annoncer l’EP d', 'http://hypem.com/go/itunes_search/VÉRITÉ', '26xd4', 'VÉRITÉ - Echo', 'http://pausemusicale.com/verite-echo/', 40, '26xd4', 'http://static.hypem.net/thumbs_new/a4/2538916.jpg', 'Echo', '2014-10-02 00:55:55')
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (1.2ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26vs8'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `songs` (`active`, `artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `rank`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES (1, 'ODESZA', '26vs8', '2014-10-02 00:55:55', 'ODESZA, el popular dúo con sede en Seattle formado por Harrison Mills y Clayton Knigh, nos regala hoy Domingo un estupendo pack de remixes para \"Say My Name\", single incluido en su reciente álbum \"In Returns\", que además cuenta con las estupendas vocales ', 'http://hypem.com/go/itunes_search/ODESZA', '26vs8', 'ODESZA - Say My Name (feat. Zyra) (Hayden James Remix)', 'http://www.yestefindeque.com/2014/09/odesza-say-my-name-remixes-ep.html', 41, '26vs8', 'http://static.hypem.net/thumbs_new/cb/2537163.jpg', 'Say My Name (feat. Zyra) (Hayden James Remix)', '2014-10-02 00:55:55')
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26n64'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  UPDATE `songs` SET `active` = 1, `rank` = 42, `updated_at` = '2014-10-02 00:55:55' WHERE `songs`.`id` = 880
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.5ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26y7t'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `songs` (`active`, `artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `rank`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES (1, 'Young the Giant', '26y7t', '2014-10-02 00:55:55', 'I’m sure you’re familiar with Young The Giant‘s single, “Mind Over Matter”. The song has risen to the top of Read more at Earbuddy.', 'http://hypem.com/go/itunes_search/Young%20the%20Giant', '26y7t', 'Young the Giant - Mind Over Matter (Stint Remix)', 'http://www.earbuddy.net/52048/young-giant-mind-matter-stint-remix.html/listen/remix', 43, '26y7t', 'http://static.hypem.net/thumbs_new/fc/2539260.jpg', 'Mind Over Matter (Stint Remix)', '2014-10-02 00:55:55')
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.6ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26rx5'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `songs` (`active`, `artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `rank`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES (1, 'Polarsets', '26rx5', '2014-10-02 00:55:55', 'It’s official, summer in the western hemisphere is over; the scarves are making an appearance and gone are the flip-flops for another year. One thing we can still enjoy is the summertime music, which is where Whitby Bay (UK) band Polarsets step in. To cel', 'http://hypem.com/go/itunes_search/Polarsets', '26rx5', 'Polarsets - Whispers', 'http://www.unrecorded.mu/news/listen/polarsets-remind-us-what-summer-feels-like-with-whispers/', 44, '26rx5', 'http://static.hypem.net/thumbs_new/e9/2537449.jpg', 'Whispers', '2014-10-02 00:55:55')
+  [1m[36m (1.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.5ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26fw4'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `songs` (`active`, `artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `rank`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES (1, 'Cool Ghouls', '26fw4', '2014-10-02 00:55:55', 'by Bill Pearis San Francisco\'s Cool Ghouls straddle a line between the present and the past. In tight with the current garage/psych scene, their sound also hearkens back to the days of Haight-Ashbury scene. Their sophomore album, A Swirling Fire Burning T', 'http://hypem.com/go/itunes_search/Cool%20Ghouls', '26fw4', 'Cool Ghouls - The Mile', 'http://www.brooklynvegan.com/archives/2014/09/san_franciscos_5.html', 45, '26fw4', 'http://static.hypem.net/thumbs_new/98/2537624.jpg', 'The Mile', '2014-10-02 00:55:55')
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26vn1'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `songs` (`active`, `artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `rank`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES (1, 'OG Maco', '26vn1', '2014-10-02 00:55:55', 'OG Maco’s “U Guessed It” is a bonafide viral hit. The Brandon Thomas-produced banger took off when the video breathed second life into it last month, and between the near-three million YouTube views and countless comedic interpretations of the hook all ov', 'http://hypem.com/go/itunes_search/OG%20Maco', '26vn1', 'OG Maco - U Guessed It feat. 2 Chainz', 'http://pigeonsandplanes.com/2014/09/og-maco-ft-2chainz-u-guessed-it-remix/', 46, '26vn1', 'http://static.hypem.net/thumbs_new/67/2536807.jpg', 'U Guessed It feat. 2 Chainz', '2014-10-02 00:55:55')
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26ya9'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `songs` (`active`, `artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `rank`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES (1, 'Beshken', '26ya9', '2014-10-02 00:55:55', 'Lots of good stuff coming out of LA recently, including this new chill house tune from producer Beshken with rising vocalist Soraya called “Right Time.” This track has Nightswim at the Roosevelt in Los Angeles written all over it. Cool yet sophisticated.', 'http://hypem.com/go/itunes_search/Beshken', '26ya9', 'Beshken - Right Time (feat. Soraya)', 'http://www.discobelle.net/2014/10/01/beshken-right-time-feat-soraya/', 47, '26ya9', 'http://static.hypem.net/thumbs_new/0/2539520.jpg', 'Right Time (feat. Soraya)', '2014-10-02 00:55:55')
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26w70'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO `songs` (`active`, `artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `rank`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES (1, 'Fergie', '26w70', '2014-10-02 00:55:55', 'La chanteuse des Black Eyed Peas est de retour en solo ! Après The Dutchess paru en 2006, Fergie revient sur le devant de la scène avec le single “L.A. Love (La La)”, annonçant l’arrivée imminente d’un nouvel album. Rassurez-vous, la très chanceuse femme ', 'http://hypem.com/go/itunes_search/Fergie', '26w70', 'Fergie - L.A. Love (La La) (HQ)', 'http://www.thewebtape.net/fergie-l-a-love-la-la/36961', 48, '26w70', 'http://static.hypem.net/thumbs_new/7c/2538108.jpg', 'L.A. Love (La La) (HQ)', '2014-10-02 00:55:55')
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.6ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26wv1'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `songs` (`active`, `artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `rank`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES (1, 'SBTRKT', '26wv1', '2014-10-02 00:55:55', 'For those of you located in the UK, today marks the release of SBTRKT‘s new album, Wonder Where We Land, but for those of you residing elsewhere in the world, you’re going to have to wait until October 7th to get your hands on a copy. Nevertheless, SBTRKT', 'http://hypem.com/go/itunes_search/SBTRKT', '26wv1', 'SBTRKT - Wonder Where We Land feat. Sampha', 'http://www.hillydilly.com/2014/09/sbtrkt-wonder-where-we-land-ft-sampha/', 49, '26wv1', 'http://static.hypem.net/thumbs_new/70/2537840.jpg', 'Wonder Where We Land feat. Sampha', '2014-10-02 00:55:55')
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26xhn'  ORDER BY `songs`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `songs` (`active`, `artist`, `code`, `created_at`, `description`, `itunes_link`, `mediaid`, `name`, `posturl`, `rank`, `sitename`, `thumb_url`, `title`, `updated_at`) VALUES (1, 'sylas', '26xhn', '2014-10-02 00:55:55', 'London duo’s debut single is coming out on Aesop next month. Continue reading…', 'http://hypem.com/go/itunes_search/sylas', '26xhn', 'sylas - Shore', 'http://diymag.com/2014/10/01/sylas-stream-second-track-shore', 50, '26xhn', 'http://static.hypem.net/thumbs_new/ea/2538986.jpg', 'Shore', '2014-10-02 00:55:55')
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[36mSong Load (0.5ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '1r0t5' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '1sc0h' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mSong Load (0.6ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '1xhrt' LIMIT 1[0m
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '21czc' LIMIT 1
+  [1m[36mSong Load (0.2ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '21mw9' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.8ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '223ws' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  UPDATE `songs` SET `filename` = '223ws.mp3', `updated_at` = '2014-10-02 00:56:19' WHERE `songs`.`id` = 939
+  [1m[36m (63.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.5ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '22dh3' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mSong Load (0.4ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '2325p' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '23zmq' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mSong Load (0.4ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '2485n' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE `songs` SET `filename` = '2485n.mp3', `updated_at` = '2014-10-02 00:56:19' WHERE `songs`.`id` = 944[0m
+  [1m[35m (15.7ms)[0m  COMMIT
+  [1m[36mSong Load (0.4ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '24fz8' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.5ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '24s9k' LIMIT 1
+  [1m[36mSong Load (0.2ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '24x5f' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '259sb' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE `songs` SET `filename` = '259sb.mp3', `updated_at` = '2014-10-02 00:56:19' WHERE `songs`.`id` = 934
+  [1m[36m (23.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.5ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '25h8q' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36mSong Load (0.4ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '25nkh' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE `songs` SET `filename` = '25nkh.mp3', `updated_at` = '2014-10-02 00:56:19' WHERE `songs`.`id` = 937[0m
+  [1m[35m (16.2ms)[0m  COMMIT
+  [1m[36mSong Load (0.6ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '25rmr' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '25v45' LIMIT 1
+  [1m[36mSong Load (0.2ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '25xwj' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.2ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '260ft' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mSong Load (0.2ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '266j5' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.6ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26811' LIMIT 1
+  [1m[36mSong Load (0.5ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26974' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26a2r' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE `songs` SET `filename` = '26a2r.mp3', `updated_at` = '2014-10-02 00:56:19' WHERE `songs`.`id` = 918
+  [1m[36m (15.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.5ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26dys' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE `songs` SET `filename` = '26dys.mp3', `updated_at` = '2014-10-02 00:56:19' WHERE `songs`.`id` = 947
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26e41' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE `songs` SET `filename` = '26e41.mp3', `updated_at` = '2014-10-02 00:56:19' WHERE `songs`.`id` = 932
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.6ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26fw4' LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE `songs` SET `filename` = '26fw4.mp3', `updated_at` = '2014-10-02 00:56:19' WHERE `songs`.`id` = 959
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.5ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26g2x' LIMIT 1
+  [1m[36mSong Load (0.3ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26jne' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.5ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26mgt' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mSong Load (0.3ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26mpj' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.2ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26mqv' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mSong Load (0.4ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26n5b' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE `songs` SET `filename` = '26n5b.mp3', `updated_at` = '2014-10-02 00:56:19' WHERE `songs`.`id` = 927[0m
+  [1m[35m (0.7ms)[0m  COMMIT
+  [1m[36mSong Load (0.3ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26n64' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.3ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26nap' LIMIT 1
+  [1m[36mSong Load (0.2ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26nbm' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26ndq' LIMIT 1
+  [1m[36mSong Load (0.3ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26ngf' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.3ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26ngg' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mSong Load (0.2ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26nj1' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26nnb' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mSong Load (0.8ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26nw9' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26p20' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mSong Load (0.3ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26p2m' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26p83' LIMIT 1
+  [1m[36mSong Load (0.3ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26pbd' LIMIT 1[0m
+  [1m[35mSong Load (0.2ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26peh' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mSong Load (0.4ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26ptm' LIMIT 1[0m
+  [1m[35mSong Load (0.3ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26pvn' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE `songs` SET `filename` = '26pvn.mp3', `updated_at` = '2014-10-02 00:56:19' WHERE `songs`.`id` = 954
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26pwc' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mSong Load (0.3ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26px0' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.3ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26q3s' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mSong Load (0.6ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26q6h' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.3ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26qen' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mSong Load (0.2ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26qsa' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.2ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26qsj' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mSong Load (0.3ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26qsr' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26r5q' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mSong Load (0.2ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26r73' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.2ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26r74' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mSong Load (0.3ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26r75' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.3ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26r8e' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mSong Load (0.2ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26rbw' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.2ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26rbx' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36mSong Load (0.6ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26rej' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26rg0' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mSong Load (0.3ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26rhr' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.3ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26rm1' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mSong Load (0.3ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26rrq' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.2ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26rry' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mSong Load (0.4ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26rs2' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26rsp' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mSong Load (0.4ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26rt0' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26rva' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mSong Load (0.4ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26rvk' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26rx5' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE `songs` SET `filename` = '26rx5.mp3', `updated_at` = '2014-10-02 00:56:19' WHERE `songs`.`id` = 958
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26rx7' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mSong Load (0.2ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26rxy' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.3ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26ryq' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mSong Load (0.6ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26s08' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.3ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26s1t' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mSong Load (0.3ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26s25' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.2ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26s2f' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mSong Load (0.2ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26s45' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.6ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26s5m' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mSong Load (0.4ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26s75' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.3ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26s8p' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mSong Load (0.4ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26srp' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE `songs` SET `filename` = '26srp.mp3', `updated_at` = '2014-10-02 00:56:19' WHERE `songs`.`id` = 941[0m
+  [1m[35m (0.7ms)[0m  COMMIT
+  [1m[36mSong Load (0.3ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26ss9' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26sxm' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mSong Load (0.6ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26sxs' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.4ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26t41' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mSong Load (0.4ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26t5v' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.3ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26t71' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mSong Load (0.4ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26t7k' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE `songs` SET `filename` = '26t7k.mp3', `updated_at` = '2014-10-02 00:56:19' WHERE `songs`.`id` = 921[0m
+  [1m[35m (15.9ms)[0m  COMMIT
+  [1m[36mSong Load (0.6ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26tj0' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mSong Load (0.5ms)[0m  SELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26tma' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36mSong Load (0.7ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26trz' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE `songs` SET `filename` = '26trz.mp3', `updated_at` = '2014-10-02 00:56:19' WHERE `songs`.`id` = 935[0m
+  [1m[35m (23.7ms)[0m  COMMIT
+  [1m[36mSong Load (0.4ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26ttp' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE `songs` SET `filename` = '26ttp.mp3', `updated_at` = '2014-10-02 00:56:19' WHERE `songs`.`id` = 933[0m
+  [1m[35m (19.5ms)[0m  COMMIT
+  [1m[36mSong Load (0.5ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26tvp' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE `songs` SET `filename` = '26tvp.mp3', `updated_at` = '2014-10-02 00:56:19' WHERE `songs`.`id` = 924[0m
+  [1m[35m (51.3ms)[0m  COMMIT
+  [1m[36mSong Load (0.5ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26tvt' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE `songs` SET `filename` = '26tvt.mp3', `updated_at` = '2014-10-02 00:56:19' WHERE `songs`.`id` = 930[0m
+  [1m[35m (31.8ms)[0m  COMMIT
+  [1m[36mSong Load (0.5ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26txm' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE `songs` SET `filename` = '26txm.mp3', `updated_at` = '2014-10-02 00:56:19' WHERE `songs`.`id` = 922[0m
+  [1m[35m (22.0ms)[0m  COMMIT
+  [1m[36mSong Load (0.6ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26vjs' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE `songs` SET `filename` = '26vjs.mp3', `updated_at` = '2014-10-02 00:56:19' WHERE `songs`.`id` = 920[0m
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36mSong Load (1.2ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26vn1' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE `songs` SET `filename` = '26vn1.mp3', `updated_at` = '2014-10-02 00:56:19' WHERE `songs`.`id` = 960[0m
+  [1m[35m (31.0ms)[0m  COMMIT
+  [1m[36mSong Load (0.6ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26vq1' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE `songs` SET `filename` = '26vq1.mp3', `updated_at` = '2014-10-02 00:56:19' WHERE `songs`.`id` = 925[0m
+  [1m[35m (16.6ms)[0m  COMMIT
+  [1m[36mSong Load (0.6ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26vs8' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE `songs` SET `filename` = '26vs8.mp3', `updated_at` = '2014-10-02 00:56:19' WHERE `songs`.`id` = 956[0m
+  [1m[35m (16.1ms)[0m  COMMIT
+  [1m[36mSong Load (0.4ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26w6d' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE `songs` SET `filename` = '26w6d.mp3', `updated_at` = '2014-10-02 00:56:19' WHERE `songs`.`id` = 929[0m
+  [1m[35m (16.2ms)[0m  COMMIT
+  [1m[36mSong Load (0.6ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26w7s' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mUPDATE `songs` SET `filename` = '26w7s.mp3', `updated_at` = '2014-10-02 00:56:19' WHERE `songs`.`id` = 936[0m
+  [1m[35m (15.9ms)[0m  COMMIT
+  [1m[36mSong Load (0.5ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26wg0' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE `songs` SET `filename` = '26wg0.mp3', `updated_at` = '2014-10-02 00:56:19' WHERE `songs`.`id` = 923[0m
+  [1m[35m (30.6ms)[0m  COMMIT
+  [1m[36mSong Load (0.5ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26wgp' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE `songs` SET `filename` = '26wgp.mp3', `updated_at` = '2014-10-02 00:56:19' WHERE `songs`.`id` = 938[0m
+  [1m[35m (16.0ms)[0m  COMMIT
+  [1m[36mSong Load (0.4ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26whx' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE `songs` SET `filename` = '26whx.mp3', `updated_at` = '2014-10-02 00:56:19' WHERE `songs`.`id` = 928[0m
+  [1m[35m (15.8ms)[0m  COMMIT
+  [1m[36mSong Load (0.4ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26wnt' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE `songs` SET `filename` = '26wnt.mp3', `updated_at` = '2014-10-02 00:56:19' WHERE `songs`.`id` = 942[0m
+  [1m[35m (15.5ms)[0m  COMMIT
+  [1m[36mSong Load (0.9ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26wp7' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE `songs` SET `filename` = '26wp7.mp3', `updated_at` = '2014-10-02 00:56:19' WHERE `songs`.`id` = 943[0m
+  [1m[35m (15.4ms)[0m  COMMIT
+  [1m[36mSong Load (0.5ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26wwv' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE `songs` SET `filename` = '26wwv.mp3', `updated_at` = '2014-10-02 00:56:20' WHERE `songs`.`id` = 950[0m
+  [1m[35m (31.3ms)[0m  COMMIT
+  [1m[36mSong Load (0.4ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26wx5' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE `songs` SET `filename` = '26wx5.mp3', `updated_at` = '2014-10-02 00:56:20' WHERE `songs`.`id` = 919[0m
+  [1m[35m (15.8ms)[0m  COMMIT
+  [1m[36mSong Load (0.5ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26x02' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE `songs` SET `filename` = '26x02.mp3', `updated_at` = '2014-10-02 00:56:20' WHERE `songs`.`id` = 940[0m
+  [1m[35m (16.0ms)[0m  COMMIT
+  [1m[36mSong Load (0.5ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26x11' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE `songs` SET `filename` = '26x11.mp3', `updated_at` = '2014-10-02 00:56:20' WHERE `songs`.`id` = 926[0m
+  [1m[35m (15.9ms)[0m  COMMIT
+  [1m[36mSong Load (0.6ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26xd4' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE `songs` SET `filename` = '26xd4.mp3', `updated_at` = '2014-10-02 00:56:20' WHERE `songs`.`id` = 955[0m
+  [1m[35m (30.8ms)[0m  COMMIT
+  [1m[36mSong Load (0.4ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26xdq' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE `songs` SET `filename` = '26xdq.mp3', `updated_at` = '2014-10-02 00:56:20' WHERE `songs`.`id` = 948[0m
+  [1m[35m (16.8ms)[0m  COMMIT
+  [1m[36mSong Load (0.5ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26xdr' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mUPDATE `songs` SET `filename` = '26xdr.mp3', `updated_at` = '2014-10-02 00:56:20' WHERE `songs`.`id` = 951[0m
+  [1m[35m (19.5ms)[0m  COMMIT
+  [1m[36mSong Load (0.6ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26xfn' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE `songs` SET `filename` = '26xfn.mp3', `updated_at` = '2014-10-02 00:56:20' WHERE `songs`.`id` = 953[0m
+  [1m[35m (16.2ms)[0m  COMMIT
+  [1m[36mSong Load (0.7ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26xhn' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE `songs` SET `filename` = '26xhn.mp3', `updated_at` = '2014-10-02 00:56:20' WHERE `songs`.`id` = 964[0m
+  [1m[35m (15.5ms)[0m  COMMIT
+  [1m[36mSong Load (0.4ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26xhz' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE `songs` SET `filename` = '26xhz.mp3', `updated_at` = '2014-10-02 00:56:20' WHERE `songs`.`id` = 931[0m
+  [1m[35m (32.1ms)[0m  COMMIT
+  [1m[36mSong Load (0.4ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26xxf' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE `songs` SET `filename` = '26xxf.mp3', `updated_at` = '2014-10-02 00:56:20' WHERE `songs`.`id` = 946[0m
+  [1m[35m (15.3ms)[0m  COMMIT
+  [1m[36mSong Load (0.9ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26y2b' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE `songs` SET `filename` = '26y2b.mp3', `updated_at` = '2014-10-02 00:56:20' WHERE `songs`.`id` = 952[0m
+  [1m[35m (16.2ms)[0m  COMMIT
+  [1m[36mSong Load (0.5ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26y6z' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE `songs` SET `filename` = '26y6z.mp3', `updated_at` = '2014-10-02 00:56:20' WHERE `songs`.`id` = 945[0m
+  [1m[35m (18.3ms)[0m  COMMIT
+  [1m[36mSong Load (0.5ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26y7t' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE `songs` SET `filename` = '26y7t.mp3', `updated_at` = '2014-10-02 00:56:20' WHERE `songs`.`id` = 957[0m
+  [1m[35m (16.2ms)[0m  COMMIT
+  [1m[36mSong Load (0.6ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26y9b' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE `songs` SET `filename` = '26y9b.mp3', `updated_at` = '2014-10-02 00:56:20' WHERE `songs`.`id` = 949[0m
+  [1m[35m (33.1ms)[0m  COMMIT
+  [1m[36mSong Load (0.5ms)[0m  [1mSELECT  `songs`.* FROM `songs`  WHERE `songs`.`code` = '26ya9' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE `songs` SET `filename` = '26ya9.mp3', `updated_at` = '2014-10-02 00:56:20' WHERE `songs`.`id` = 961[0m
+  [1m[35m (16.0ms)[0m  COMMIT
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-01 22:47:03 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (83.0ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by SongController#home as HTML
+  Rendered song/home.html.haml within layouts/application (11.6ms)
+Completed 200 OK in 1480ms (Views: 1213.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-10-01 22:47:08 -0700
+
+
+Started GET "/assets/mobile.css?body=1" for 127.0.0.1 at 2014-10-01 22:47:08 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-10-01 22:47:08 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-10-01 22:47:08 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-10-01 22:47:08 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-01 22:47:08 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-01 22:47:08 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-01 22:47:08 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-01 22:47:08 -0700
+
+
+Started GET "/assets/headphones3.jpg" for 127.0.0.1 at 2014-10-01 22:47:09 -0700
+
+
+Started GET "/assets/github_logo.jpg" for 127.0.0.1 at 2014-10-01 22:47:09 -0700
+
+
+Started GET "/assets/ggbridge.jpg" for 127.0.0.1 at 2014-10-01 22:47:10 -0700
+
+
+Started GET "/assets/ucsb.jpg" for 127.0.0.1 at 2014-10-01 22:47:10 -0700
+
+
+Started GET "/assets/coachella.jpg" for 127.0.0.1 at 2014-10-01 22:47:10 -0700
+
+
+Started GET "/assets/dragon.jpg" for 127.0.0.1 at 2014-10-01 22:47:10 -0700
+
+
+Started GET "/assets/passout.jpg" for 127.0.0.1 at 2014-10-01 22:47:10 -0700
+
+
+Started GET "/assets/monkey.jpg" for 127.0.0.1 at 2014-10-01 22:47:10 -0700
+
+
+Started GET "/assets/ireland.jpg" for 127.0.0.1 at 2014-10-01 22:47:10 -0700
+
+
+Started GET "/assets/temple.jpg" for 127.0.0.1 at 2014-10-01 22:47:10 -0700
+
+
+Started GET "/assets/varanasi.jpg" for 127.0.0.1 at 2014-10-01 22:47:10 -0700
+
+
+Started GET "/assets/thai.jpg" for 127.0.0.1 at 2014-10-01 22:47:10 -0700
+
+
+Started GET "/samscraper" for 127.0.0.1 at 2014-10-01 22:48:11 -0700
+Processing by SongController#index as HTML
+  [1m[35mSong Load (1.3ms)[0m  SELECT `songs`.* FROM `songs`  WHERE `songs`.`active` = 1  ORDER BY rank ASC
+  [1m[36m (0.9ms)[0m  [1mSELECT COUNT(*) FROM `songs`  WHERE `songs`.`id` IN (847, 846, 845, 848, 875, 872, 866, 871, 876, 851, 852)[0m
+  [1m[35mSong Load (0.3ms)[0m  SELECT `songs`.* FROM `songs`  WHERE `songs`.`id` IN (847, 846, 845, 848, 875, 872, 866, 871, 876, 851, 852)
+  Rendered shared/_playlist.html.haml (7.2ms)
+  Rendered shared/_canvas.html.haml (209.1ms)
+  Rendered song/index.html.haml within layouts/application (296.0ms)
+Completed 200 OK in 843ms (Views: 594.0ms | ActiveRecord: 143.3ms)
+
+
+Started GET "/assets/audio.js?body=1" for 127.0.0.1 at 2014-10-01 22:48:12 -0700
+
+
+Started GET "/assets/audios.css?body=1" for 127.0.0.1 at 2014-10-01 22:48:12 -0700
+
+
+Started GET "/assets/visualizer.js?body=1" for 127.0.0.1 at 2014-10-01 22:48:12 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-10-01 22:48:12 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-10-01 22:48:12 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-01 22:48:12 -0700
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2014-10-01 22:48:12 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-01 22:48:12 -0700
+
+
+Started GET "/assets/headphones.jpg" for 127.0.0.1 at 2014-10-01 22:48:14 -0700
