@@ -64,13 +64,15 @@ body{
       height: 35px;
       line-height: 60px;
       margin-left: 50px;
-      width: 55%;
+      width: 35%;
     }
 
     #playlist-count{
       cursor: pointer;
-      margin-left: 50px;
-    }
+      position: absolute;
+      right: 75px;
+      border: 1px solid #000;
+      border-radius: 25px;    }
   }
 
   #header{
@@ -85,10 +87,10 @@ body{
     background-image: url('http://clarehubbard.com/wp-content/uploads/2014/09/Headphones-Gray-Music.jpg');
     float: left;
     list-style: none;
+    margin-top: 165px;
     overflow: hidden;
-    width: 75%;
     li{
-      background-repeat: no-repeat;
+      background-color: rgba(100,100,100,.85);
       border: 3px solid #fff;
       border-radius: 3px;
       box-shadow: 0 0 2px 0 rgba(0,0,0,.1);
@@ -98,6 +100,15 @@ body{
       padding: 5px;
       position: relative;
       width: 160px;
+      &.hover{
+        box-shadow: 0px 0px 10px #09E5D0;
+      }
+      .action-name{
+        margin: 0 auto;
+        line-height: 50px;
+        padding-bottom: 25px;
+        float: right;
+      }
       .bottom{
         background-color: #efefef;
         bottom: 0px;
@@ -175,14 +186,14 @@ body{
   }
 
   #playlist{
-    line-height: 25px;
     background-color: white;
-    list-style: none;
-    margin-right: 15px;
+    border-radius: 4px;
+    height: 360px;
+    line-height: 25px;
     position: absolute;
-    right: 0;
+    right: 50px;
+    top: 150px;
     width: 15%;
-    height: 75%;
     overflow-y: scroll;
     &.inactive{
       display: none;

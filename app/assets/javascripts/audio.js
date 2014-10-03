@@ -45,6 +45,35 @@ $(function() {
         });
 
 
+
+        $('#songs').on('mouseover', 'li', function(){
+            $(this).addClass('hover');
+            //$(this).find('.action-name').html('Play');
+        }).on('mouseout', 'li', function(){
+            $(this).removeClass('hover');
+            //$(this).find('.action-name').html('');
+        }).on('mouseover', '.download-btn', function(){
+            //$(this).parents('.bottom').siblings('.action-name').html('Download');
+        });
+
+        $('.bottom').on('mouseover', '.name', function(){
+            $(this).parent().siblings('.action-name').html('Play');
+        }).on('mouseout', '.name', function(){
+            $(this).parent().siblings('.action-name').html('');
+        });;
+
+        $('.actions').on('mouseover', '.play-btn', function(){
+           $(this).parents('.bottom').siblings('.action-name').html('Play');
+        }).on('mouseover', '.pause-btn', function(){
+           $(this).parents('.bottom').siblings('.action-name').html('Pause');
+        }).on('mouseover', '.download-btn', function(){
+           $(this).parents('.bottom').siblings('.action-name').html('Download');
+        }).on('mouseover', '.add', function(){
+            $(this).parents('.bottom').siblings('.action-name').html('Save');
+        }).on('mouseout', function(){
+            $(this).parents('.bottom').siblings('.action-name').html('');
+        });
+
         //bind pause clicks
         $('.audio .action.pause').on('click', function(){
             viz.pause();

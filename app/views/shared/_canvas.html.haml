@@ -4,7 +4,7 @@
 
 #fixed-top{style: "background-image: url('#{@header_image}')"}
   %audio#music{ src: Rails.configuration.settings['filehost'] + song.filename, preload: 'auto' }
-  %canvas#viz{ width: 1350, height: 200}
+  %canvas#viz{ width: 1350, height: 100}
 
   #controls.actions{ data: {id: song.id, filename: song.filename, name: song.name} }
     %span.name=song.name
@@ -20,6 +20,8 @@
       %a{href: song.posturl, target: '_blank'}
         &nbsp; (read more)
 
-    =render partial: 'shared/playlist', locals: { playlist: @playlist } if @playlist
 
-
+    -if @playlist
+      %span#playlist-count
+        =@playlist.count
+      =render partial: 'shared/playlist', locals: { playlist: @playlist }

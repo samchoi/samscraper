@@ -43,7 +43,7 @@ Visualizer.prototype.loop = function(x, id){
     ctx = canvas.getContext('2d');
     ctx.clearRect(0, 0, canvas.width, canvas.height); // Clear the canvas
     bars = this.analyser.frequencyBinCount;
-    ctx.fillStyle = '#09E5D0';//this.randomColor(); // Color of the bars
+    ctx.fillStyle = 'grey';//this.randomColor(); // Color of the bars
     ctx.strokeStyle = '#09E5D0';
     bar = $('input[name=visual-option]:checked').val() == 'bar'
     for (var i = 0; i < bars; i++) {
@@ -54,13 +54,15 @@ Visualizer.prototype.loop = function(x, id){
         //ctx.fillRect(bar_x, bar_height, bar_width, canvas.height-5);
         //bars
         if(bar){
-            ctx.fillRect(bar_x, 0, bar_width, fbc_array[i] *.6);
+            factor = fbc_array[i];
+            ctx.fillRect(bar_x, 0, bar_width, fbc_array[i]);
         }else{
+            factor = .3;
             //line
             if(fbc_array[i+1]){
                 ctx.beginPath()
-                ctx.moveTo(bar_x, Math.max(fbc_array[i] *.6, 10));
-                ctx.lineTo(bar_x+3, Math.max(fbc_array[i+1] *.6, 10));
+                ctx.moveTo(bar_x, Math.max(fbc_array[i] * factor, 10));
+                ctx.lineTo(bar_x+3, Math.max(fbc_array[i+1] * factor, 10));
                 ctx.stroke();
             }
         }
