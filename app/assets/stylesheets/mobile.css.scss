@@ -6,25 +6,29 @@ body{
 }
 
 #content{
-  background-image: url("/assets/headphones3.jpg");
+  font-family: 'Special Elite', cursive;
   min-height: 480px;
-  height: 100%;
+  height: 100vh;
   width: 100%;
-
-  #controls{
-    background-color: rgba(255, 255, 255, .8);
-    border-radius: 2px;
-    box-shadow: 0 0 2px 0 rgba(0,0,0,.1);
-    margin: 15px;
-    min-width: 240px;
-    overflow: hidden;
-    padding: 15px 20px;
+  #songs{
+    height: 90%;
+    overflow: scroll;
     position: absolute;
-    top: 75%;
+    top: 25px;
     width: 25%;
     z-index: 1;
-    .name{
-      float: right;
+
+    .song{
+      background-color: rgba(255, 255, 255, .8);
+      border-radius: 2px;
+      box-shadow: 0 0 2px 0 rgba(0,0,0,.1);
+      margin: 15px;
+      overflow: hidden;
+      padding: 15px 20px;
+      .name{
+        float: right;
+        width: 75%;
+      }
     }
   }
 }

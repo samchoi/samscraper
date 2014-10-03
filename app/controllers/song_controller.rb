@@ -17,7 +17,8 @@ class SongController < ApplicationController
   end
 
   def mobile
-    @song = Song.where(active: true).order('rank ASC').sample
+    @songs = Song.where(active: true).order('rank ASC')
+    @song = @songs.sample
     gon.music_host = Rails.configuration.settings['filehost']
   end
 

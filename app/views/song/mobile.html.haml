@@ -1,9 +1,12 @@
 #content
   %audio#music{ src: Rails.configuration.settings['filehost'] + @song.filename, preload: 'auto' }
-  #controls.actions{ data: {id: @song.id, filename: @song.filename, name: @song.name} }
-    /%a.download{href: download_song_path(@song.id), alt: 'Download Song', title: 'Download'} &#8623;
-    /%span.btn.add{data: {id: @song.id} } &#43;
-    %span.btn.play.inactive &#9658;
-    %span.btn.pause &#9616;&#9616;
-    %marquee.name{scrolldelay: 5, scrollamount: 2}
-      =@song.name
+
+  %ul#songs
+    -@songs.each do |song|
+      %li.song{ data: {id: song.id, filename: song.filename, name: song.name} }
+        /%a.download{href: download_song_path(@song.id), alt: 'Download Song', title: 'Download'} &#8623;
+        /%span.btn.add{data: {id: @song.id} } &#43;
+        %span.btn.play.inactive &#9658;
+        %span.btn.pause &#9616;&#9616;
+        %span.name
+          =song.name
