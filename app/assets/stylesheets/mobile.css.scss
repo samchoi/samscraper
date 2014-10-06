@@ -11,11 +11,12 @@ body{
   height: 100vh;
   width: 100%;
   #songs{
+    font-size: 18px;
     height: 90%;
     overflow: scroll;
     position: absolute;
     top: 25px;
-    width: 25%;
+    width: 75%;
     z-index: 1;
 
     .song{

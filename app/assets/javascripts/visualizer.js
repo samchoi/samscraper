@@ -44,7 +44,7 @@ Visualizer.prototype.loop = function(x, id){
     ctx.clearRect(0, 0, canvas.width, canvas.height); // Clear the canvas
     bars = this.analyser.frequencyBinCount;
     ctx.fillStyle = 'grey';//this.randomColor(); // Color of the bars
-    ctx.strokeStyle = '#09E5D0';
+    ctx.strokeStyle = 'grey';
     bar = $('input[name=visual-option]:checked').val() == 'bar'
     for (var i = 0; i < bars; i++) {
         //ctx.fillStyle = getColor(i);

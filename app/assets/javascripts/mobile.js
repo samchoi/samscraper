@@ -16,8 +16,15 @@ $(function() {
 
     $('#content').css( 'background-image', 'url("/assets/wallpaper'+ random  +'.jpg")');
 
-    $('.song').on('click', function (){
+    $(window).on('orientationchange', function(){
+        $('#content').css('height', '100vh');
+        $('#content').css('width', '100vw');
+    }).on('resize', function(){
+        $('#content').css('height', '100vh');
+        $('#content').css('width', '100vw');
+    });
 
+    $('.song').on('click', function (){
         $(this).toggleClass('paused');
 
         if($(this).hasClass('paused')){

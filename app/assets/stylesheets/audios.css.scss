@@ -83,16 +83,26 @@ body{
   }
 
   #songs{
-    background-attachment: fixed;
-    background-image: url('http://clarehubbard.com/wp-content/uploads/2014/09/Headphones-Gray-Music.jpg');
     float: left;
     list-style: none;
     margin-top: 165px;
     overflow: hidden;
+    &:after{
+      content: "";
+      background-attachment: fixed;
+      background-image: url('http://clarehubbard.com/wp-content/uploads/2014/09/Headphones-Gray-Music.jpg');
+      opacity: 0.5;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      position: absolute;
+      z-index: -1;
+    }
+
     li{
       background-color: rgba(100,100,100,.85);
-      border: 3px solid #fff;
-      border-radius: 3px;
+      border: none;
       box-shadow: 0 0 2px 0 rgba(0,0,0,.1);
       float: left;
       height: 160px;
@@ -192,7 +202,7 @@ body{
     line-height: 25px;
     position: absolute;
     right: 50px;
-    top: 150px;
+    top: 10px;
     width: 15%;
     overflow-y: scroll;
     &.inactive{
