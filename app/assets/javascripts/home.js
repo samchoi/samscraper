@@ -1,4 +1,11 @@
 $(function(){
+    $('#hack').on('mouseover', function(){
+        $('.slide-left').addClass('slide');
+    }).on('mouseout', function(){
+        $('.slide-left').removeClass('slide');
+    });
+
+
     function isPassedHeader(elem)
     {
         var docViewTop = $(window).scrollTop();
@@ -13,8 +20,6 @@ $(function(){
     var $h2 = $('#header h2');
 
     var active = 0, next = 1;
-
-
 
     var lastScrollTop = 0;
     $(window).on('scroll', function(e){

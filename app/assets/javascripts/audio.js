@@ -117,21 +117,9 @@ $(function() {
         });
 
         $(document).on('click', '.play-btn', function(e){
-            var _self = $(this);
-            var $holder = _self.parents('li');
-            var file =  $holder.data('filename');
-            var name =  $holder.data('name');
-            var id =  $holder.data('id');
-            var description =  $holder.find('.description').html();
             e.preventDefault();
-            //set src
-            $('#music').attr('src', gon.music_host + file);
-            $('#controls span.name').html(name);
-            $('#ticker').html(description);
-            $('#controls .btn.add').data('id', id);
-            //start player
-            $('#action').toggleClass('play');
 
+            queueSong($(this));
             play();
         });
 
@@ -140,11 +128,25 @@ $(function() {
         });
 
         $('#music').on('error', function(){
-            playRandomSong();
-        });
+         });
 
         $('#music').on('ended', function(){
-            playRandomSong();
+            //remove tile
+            $('.active').remove();
+            //find next song
+            var songs = $('#songs li');
+            if(songs.length < 1){
+                return;
+            }
+            var i = Math.floor(Math.random()*(songs.length+1));
+            var audio = $(songs[i])
+            var code = audio.data('code');
+            //set control
+            queueSong(audio);
+            //play
+            play();
+
+            //increment counters
         });
 
     }
@@ -152,22 +154,23 @@ $(function() {
     function play(){
         var file = $('#music').attr('src');
         viz.play(file);
-        //trackHistory(code, 1, '');
-//        $(this).toggleClass('play').toggleClass('pause');
-
     }
 
-    function playRandomSong(){
-        var files = $('.audio');
-        if(files.length < 1){
-            return;
-        }
-        var i = Math.floor(Math.random()*(files.length+1));
-        var audio = $(files[i])
-        var code = audio.data('code');
-        play(code);
-    }
+    function queueSong(_self){
+        var $holder = _self.parents('li');
+        var file =  $holder.data('filename');
+        var name =  $holder.data('name');
+        var id =  $holder.data('id');
+        var description =  $holder.find('.description').html();
+        //set src
+        $('#music').attr('src', gon.music_host + file);
+        $('#controls span.name').html(name);
+        $('#ticker').html(description);
+        $('#controls .btn.add').data('id', id);
+        //start player
+        $('#action').toggleClass('play');
 
+    }
     function setTitle(file){
         var $description = $(file).find('.description');
         $('#title').text($description.text());

@@ -24,13 +24,33 @@ $(function() {
         $('#content').css('width', '100vw');
     });
 
-    $('.song').on('click', function (){
-        $(this).toggleClass('paused');
+    $('#title').on('click', function(){
+        var _self = $(this);
 
-        if($(this).hasClass('paused')){
-            $('.song').removeClass('paused');
-            player.music.play($(this).data('filename'))
+        if(_self.hasClass('paused')){
+            _self.removeClass('paused');
+            player.music.play(_self.data('filename'))
         }else{
+            _self.addClass('paused');
+            player.pause();
+        }
+    });
+
+    $('.song').on('click', function (){
+        var _self = $(this);
+
+        if(!_self.hasClass('active')){
+            $('.remove').removeClass('active');
+            _self.addClass('active');
+            $('#title').html(_self.data('name'))
+            $('#music').attr('src', '/music/top50/'+_self.data('filename'));
+        }
+
+        if(_self.hasClass('paused')){
+            _self.removeClass('paused');
+            player.music.play(_self.data('filename'))
+        }else{
+            _self.addClass('paused');
             player.pause();
         }
 

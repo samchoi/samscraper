@@ -2,7 +2,7 @@
   =render partial:'shared/canvas', locals: {song: @song} if @song
   %ul#songs
     -@songs.each do |song|
-      %li{ data: {id: song.id, filename: song.filename, name: song.name} }
+      %li{ data: {id: song.id, filename: song.filename, name: song.name}, class: (@song.id == song.id) ? 'active' : nil }
         %img{ src: song.thumb_url}
         %span.action-name
 

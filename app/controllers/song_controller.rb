@@ -23,7 +23,11 @@ class SongController < ApplicationController
   end
 
   def home
+    require 'rss'
     redirect_to mobile_path and return if browser.mobile?
+    url = 'http://www.sfweekly.com/sanfrancisco/Rss.xml?section=2124628'
+    @events = RSS::Parser.parse(open(url).read, false)
+    binding
   end
 
   def clear

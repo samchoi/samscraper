@@ -10,24 +10,55 @@ body{
   min-height: 480px;
   height: 100vh;
   width: 100%;
+  #title{
+    background-color: rgba(255, 255, 255, .8);
+    color: white;
+    cursor: pointer ;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    width: 100%;
+    &.paused{
+      background-color: rgba(155, 155, 155, .8);
+    }
+  }
+
   #songs{
-    font-size: 18px;
+    font-size: 38px;
     height: 90%;
     overflow: scroll;
     position: absolute;
     top: 25px;
-    width: 75%;
+    width: 95%;
     z-index: 1;
 
     .song{
       background-color: rgba(255, 255, 255, .8);
       border-radius: 2px;
       box-shadow: 0 0 2px 0 rgba(0,0,0,.1);
+      cursor: pointer;
+      float: left;
+      height: 40%;
       margin: 15px;
       overflow: hidden;
       padding: 15px 20px;
+      width: 40%;
+      &.paused{
+        .play{
+          display: inline-block;
+        }
+        .pause{
+          display: none;
+        }
+      }
+      .play{
+        display: none;
+      }
+      .pause{
+        display: inline-block;
+      }
       .name{
-        float: right;
+        display: inline-block;
         width: 75%;
       }
     }
