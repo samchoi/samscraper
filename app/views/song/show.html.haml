@@ -1,2 +1,3 @@
-.audio-content
+.audio-content.single
   =render partial:'shared/canvas', locals: {song: @song} if @song
+  =render partial: 'shared/song_list', locals: { songs: @songs} if @songs

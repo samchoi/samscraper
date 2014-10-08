@@ -11,6 +11,11 @@ body{
 }
 
 .audio-content{
+  #progress{
+    background-color: darkgrey;
+    height: 10px;
+    width: 1px;
+  }
   #opts{
     color: #fff;
     line-height: 16px;
@@ -21,9 +26,10 @@ body{
     z-index: 2;
   }
   #fixed-top{
-    background-image: url('/assets/headphones.jpg');
-    background-position: 0 -50px;
+    background-color: white;
+    box-shadow: 0px 0px 15px 15px #fff;
     position: fixed;
+    top: 0;
     width: 100%;
     z-index: 1;
     .actions{
@@ -77,13 +83,12 @@ body{
     #playlist-count{
       border: 1px solid #000;
       border-radius: 25px;
-      border-radius: 25px;
       cursor: pointer;
       height: 35px;
       line-height: 38px;
       position: absolute;
       right: 75px;
-      top: 10px;
+      top: 20px;
       text-align: center;
       width: 35px;
     }
@@ -99,18 +104,19 @@ body{
   #songs{
     float: left;
     list-style: none;
-    margin-top: 165px;
+    margin-top: 200px;
     overflow: hidden;
     &:after{
-      content: "";
       background-attachment: fixed;
       background-image: url('http://clarehubbard.com/wp-content/uploads/2014/09/Headphones-Gray-Music.jpg');
-      opacity: 0.5;
-      top: 0;
-      left: 0;
       bottom: 0;
-      right: 0;
+      content: "";
+      height: 1850px;
+      left: 0;
+      opacity: 0.5;
       position: absolute;
+      right: 0;
+      top: 0;
       z-index: -1;
     }
 
@@ -124,6 +130,16 @@ body{
       padding: 5px;
       position: relative;
       width: 160px;
+      .rank{
+        font-size: 24px;
+        float: left;
+        line-height: 50px;
+        margin-right: 10px;
+        height: 50px;
+        width: 50px;
+        text-align: center;
+      }
+
       &.hover{
         box-shadow: 0px 0px 10px #09E5D0;
       }
@@ -154,10 +170,6 @@ body{
           overflow: hidden;
           display: inline-block;
           text-align: center;
-        }
-
-        .rank{
-          float: right;
         }
       }
       .description{
@@ -230,7 +242,7 @@ body{
       }
     }
     .download-list{
-      background: grey;
+      background-color: grey;
       border: 4px;
       border-radius: 3px;
       color: black;
@@ -248,4 +260,17 @@ body{
   .add, .minus{
     cursor: pointer;
   }
+
+  &.single{
+    #songs{
+      margin-top: 0;
+      li{
+        position: absolute;
+        top: 165px;
+        left: 45vw;
+      }
+    }
+
+  }
 }
+

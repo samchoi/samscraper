@@ -61,8 +61,8 @@ Visualizer.prototype.loop = function(x, id){
             //line
             if(fbc_array[i+1]){
                 ctx.beginPath()
-                ctx.moveTo(bar_x, Math.max(fbc_array[i] * factor, 10));
-                ctx.lineTo(bar_x+3, Math.max(fbc_array[i+1] * factor, 10));
+                ctx.moveTo(bar_x, fbc_array[i] * factor + 20);
+                ctx.lineTo(bar_x+3, fbc_array[i+1] * factor + 20);
                 ctx.stroke();
             }
         }

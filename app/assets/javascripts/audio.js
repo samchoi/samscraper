@@ -2,12 +2,13 @@ $(function() {
     //create connection between audio tag and canvas
     var viz = new Visualizer('music', 'viz');
     var lastScrollTop = 0;
-
+    var progressInterval;
     play();
 
     bindEvents();
 
     function bindEvents(){
+        /*
         $(document).on('scroll', function(){
             var st = $(this).scrollTop();
             var top = parseInt($('#fixed-top').css('background-position-y'), 10);
@@ -15,7 +16,7 @@ $(function() {
             lastScrollTop = st;
             $('#fixed-top').css('background-position-y', top+factor);
         });
-
+        */
         //bind play click
         $('.audio .action.play').on('click', function(){
             var code = $(this).parent().data('code'); //grab the song id
@@ -67,9 +68,9 @@ $(function() {
         }).on('mouseover', '.pause-btn', function(){
            $(this).parents('.bottom').siblings('.action-name').html('Pause');
         }).on('mouseover', '.download-btn', function(){
-           $(this).parents('.bottom').siblings('.action-name').html('Download');
+           $(this).parents('.bottom').siblings('.action-name').html('Save');
         }).on('mouseover', '.add', function(){
-            $(this).parents('.bottom').siblings('.action-name').html('Save');
+            $(this).parents('.bottom').siblings('.action-name').html('Add');
         }).on('mouseout', function(){
             $(this).parents('.bottom').siblings('.action-name').html('');
         });
@@ -89,7 +90,7 @@ $(function() {
               $('#playlist').replaceWith(json.html);
               $('#playlist-count').html($('#playlist li').length-1);
               $('#playlist').removeClass('inactive');
-                setTimeout(function(){ $('#playlist').addClass('inactive'); }, 2500);
+              setTimeout(function(){ $('#playlist').addClass('inactive'); }, 2500);
             });
         });
 
@@ -101,8 +102,10 @@ $(function() {
             _self.parent().slideUp().remove();
         });
 
-        $('#playlist-count').on('click', function(){
-           $(this).siblings('#playlist').toggleClass('inactive');
+        $('#playlist-count').on('mouseover', function(){
+           $(this).siblings('#playlist').removeClass('inactive');
+        }).on('mouseout', function(){
+            setTimeout(function(){ $('#playlist').addClass('inactive'); }, 2500);
         });
 
         $(document).on('click', '#playlist a.play-song', function(e){
@@ -119,7 +122,7 @@ $(function() {
         $(document).on('click', '.play-btn', function(e){
             e.preventDefault();
 
-            queueSong($(this));
+            queueSong($(this).parents('li'));
             play();
         });
 
@@ -128,25 +131,11 @@ $(function() {
         });
 
         $('#music').on('error', function(){
-         });
-
-        $('#music').on('ended', function(){
-            //remove tile
-            $('.active').remove();
-            //find next song
-            var songs = $('#songs li');
-            if(songs.length < 1){
-                return;
-            }
-            var i = Math.floor(Math.random()*(songs.length+1));
-            var audio = $(songs[i])
-            var code = audio.data('code');
-            //set control
-            queueSong(audio);
-            //play
-            play();
-
-            //increment counters
+            newSong();
+        }).on('play', function(){
+            progressInterval = setInterval(progress, 100);
+        }).on('ended', function(){
+            newSong();
         });
 
     }
@@ -157,11 +146,12 @@ $(function() {
     }
 
     function queueSong(_self){
-        var $holder = _self.parents('li');
+        var $holder = _self;
         var file =  $holder.data('filename');
         var name =  $holder.data('name');
         var id =  $holder.data('id');
         var description =  $holder.find('.description').html();
+        _self.addClass('active')
         //set src
         $('#music').attr('src', gon.music_host + file);
         $('#controls span.name').html(name);
@@ -191,10 +181,44 @@ $(function() {
     }
 
 
+    //setting page refresh restart
     window.onbeforeunload = function(){
-//        var music = $('#music')[0]
-        //trackHistory(0, 0, music.currentTime);
-//        $.cookie('resume', music.currentSrc + "-" + music.currentTime);
+        var music = document.getElementsById('music')
+        $.cookie('resume', music.currentTime);
+    }
+
+    function progress(){
+        var width = document.getElementById('fixed-top').offsetWidth;
+        var music = document.getElementById('music');
+
+        var progress = Math.round(music.currentTime/music.duration * width);
+
+        document.getElementById('progress').style.width = progress +'px'
+        console.log('tick');
+    }
+
+    function resetProgressBar(){
+        document.getElementById('progress').style.width = '0px'
+        clearInterval(progressInterval);
+    }
+
+    function getNextSong(){
+        //remove tile
+        $('.active').remove();
+
+        //find next song
+        var songs = $('#songs li');
+        if(songs.length < 1){
+            return;
+        }
+        var i = Math.floor(Math.random()*(songs.length+1));
+        return $(songs[i])
+    }
+
+    function newSong(){
+        resetProgressBar();
+        queueSong(getNextSong());
+        play();
     }
 });
 

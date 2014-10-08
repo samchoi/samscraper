@@ -1,6 +1,6 @@
-#fixed-top{style: "background-image: url('#{@header_image}')"}
+#fixed-top{}
   %audio#music{ src: Rails.configuration.settings['filehost'] + song.filename, preload: 'auto' }
-
+  #progress
   #controls.actions{ data: {id: song.id, filename: song.filename, name: song.name} }
     %a.download{href: download_song_path(song.id), alt: 'Download Song', title: 'Download'} &#8623;
     %span.btn.add{data: {id: song.id} } &#43;
