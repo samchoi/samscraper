@@ -14,7 +14,10 @@
  *= require_self
  */
 body{
-    font-family: 'Dosis', sans-serif;
     font-family: 'Special Elite', cursive;
     margin: 0;
+    .box-type{
+	    font-family: 'Dosis', sans-serif;
+	    text-decoration: none;
+    }
 }

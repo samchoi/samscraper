@@ -13,10 +13,12 @@ body{
   #title{
     background-color: rgba(255, 255, 255, .8);
     color: white;
-    cursor: pointer ;
-    height: 50px;
-    line-height: 50px;
+    cursor: pointer;
+    font-size: 60px;
+    line-height: 75px;
+    position: fixed;
     text-align: center;
+    top: 0;
     width: 100%;
     &.paused{
       background-color: rgba(155, 155, 155, .8);
@@ -26,11 +28,6 @@ body{
   #songs{
     font-size: 38px;
     height: 90%;
-    overflow: scroll;
-    position: absolute;
-    top: 25px;
-    width: 95%;
-    z-index: 1;
 
     .song{
       background-color: rgba(255, 255, 255, .8);

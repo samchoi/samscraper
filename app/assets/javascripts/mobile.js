@@ -14,7 +14,7 @@ $(function() {
 
     var random = Math.floor(Math.random() * 4) + 1;
 
-    $('#content').css( 'background-image', 'url("/assets/wallpaper'+ random  +'.jpg")');
+    $('body').css( 'background-image', 'url("/assets/wallpaper'+ random  +'.jpg")');
 
     $(window).on('orientationchange', function(){
         $('#content').css('height', '100vh');

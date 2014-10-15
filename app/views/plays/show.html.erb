@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Song:</strong>
+  <%= @play.song_id %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @play.user_id %>
+</p>
+
+<p>
+  <strong>Lat:</strong>
+  <%= @play.lat %>
+</p>
+
+<p>
+  <strong>Long:</strong>
+  <%= @play.long %>
+</p>
+
+<%= link_to 'Edit', edit_play_path(@play) %> |
+<%= link_to 'Back', plays_path %>

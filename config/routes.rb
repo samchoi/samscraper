@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :plays
+
   resources :song
 
   get '/' => 'song#home', as: 'home'

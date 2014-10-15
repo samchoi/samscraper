@@ -105,6 +105,7 @@ class SongController < ApplicationController
     headers['Access-Control-Allow-Origin'] = "*"
     @song = Song.find(params[:id])
     @songs = [@song]
+    gon.song_plays = @song.plays
   end
 
   # GET /song/new

@@ -1,4 +1,5 @@
 class Song < ActiveRecord::Base
+  has_many :plays
 
   def desc
     "#{self.artist} - #{self.title}"

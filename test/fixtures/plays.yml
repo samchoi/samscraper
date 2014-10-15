@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  song_id: 
+  user_id: 
+  lat: 
+  long: 
+
+two:
+  song_id: 
+  user_id: 
+  lat: 
+  long: 

@@ -57,7 +57,7 @@ Visualizer.prototype.loop = function(x, id){
             factor = fbc_array[i];
             ctx.fillRect(bar_x, 0, bar_width, fbc_array[i]);
         }else{
-            factor = .3;
+            factor = .15;
             //line
             if(fbc_array[i+1]){
                 ctx.beginPath()

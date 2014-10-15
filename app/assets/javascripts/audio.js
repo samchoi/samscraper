@@ -143,6 +143,31 @@ $(function() {
     function play(){
         var file = $('#music').attr('src');
         viz.play(file);
+
+
+        $(document).title = 'thistrack.rocks'
+
+        if (navigator.geolocation) {            
+            navigator.geolocation.getCurrentPosition(logPlay);
+        }
+
+    }
+
+    function logPlay(position) {
+        var music = $('.active');
+        var post_data = {
+            play: {
+                song_id: music.data('id'),
+                user_id: 1,
+                lat: position.coords.latitude,
+                long: position.coords.longitude
+            }
+        }
+
+        $.post('/plays.json', post_data, function(){
+            //success action for GPS logging
+        });
+
     }
 
     function queueSong(_self){
@@ -194,7 +219,6 @@ $(function() {
         var progress = Math.round(music.currentTime/music.duration * width);
 
         document.getElementById('progress').style.width = progress +'px'
-        console.log('tick');
     }
 
     function resetProgressBar(){
