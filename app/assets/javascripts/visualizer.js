@@ -57,12 +57,13 @@ Visualizer.prototype.loop = function(x, id){
             factor = fbc_array[i];
             ctx.fillRect(bar_x, 0, bar_width, fbc_array[i]);
         }else{
+            offset = 15;    
             factor = .15;
             //line
             if(fbc_array[i+1]){
                 ctx.beginPath()
-                ctx.moveTo(bar_x, fbc_array[i] * factor + 20);
-                ctx.lineTo(bar_x+3, fbc_array[i+1] * factor + 20);
+                ctx.moveTo(bar_x, Math.min(fbc_array[i] * factor + offset, 50));
+                ctx.lineTo(bar_x+3, Math.min(fbc_array[i+1] * factor + offset, 50));
                 ctx.stroke();
             }
         }
