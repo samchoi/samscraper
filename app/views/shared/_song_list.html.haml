@@ -1,15 +1,16 @@
 %ul#songs
   -songs.each do |song|
-    %li.song{ data: {id: song.id, filename: song.filename, name: song.name}, class: (@song.id == song.id) ? 'active' : nil }
-      .rank
-        ='#' + song.rank.to_s
-      %img{ src: song.thumb_url}
-      %span.action-name
+    %li.song{ data: {id: song.id, filename: song.filename, name: song.name}, class: (@song.id == song.id) ? 'active' : nil }          
       %ul.actions
-        %li.add{data: {id: song.id} } &#43;
-        %li.play-btn &#9658;
-        %li.download
+        %li.rank
+          ='#' + song.rank.to_s
+        %li.img
+          %img{ src: song.thumb_url}      
+        %li.add.button{data: {id: song.id} } &#43;
+        %li.play-btn.button &#9658;
+        %li.download.button
           %a.download-btn{href: download_song_path(song.id), alt: 'Download Song', title: 'Download'} &#8623;
+        %li.action-name
       
       .bottom.box-type
         %a.name{ href: "/song/#{song.id}"}=song.name

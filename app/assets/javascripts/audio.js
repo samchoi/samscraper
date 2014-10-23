@@ -57,22 +57,16 @@ $(function() {
             //$(this).parents('.bottom').siblings('.action-name').html('Download');
         });
 
-        $('.bottom').on('mouseover', '.name', function(){
-            $(this).parent().siblings('.action-name').html('Play');
-        }).on('mouseout', '.name', function(){
-            $(this).parent().siblings('.action-name').html('');
-        });;
-
         $('.actions').on('mouseover', '.play-btn', function(){
-           $(this).parents('.bottom').siblings('.action-name').html('Play');
+           $(this).siblings('.action-name').html('Play');
         }).on('mouseover', '.pause-btn', function(){
-           $(this).parents('.bottom').siblings('.action-name').html('Pause');
-        }).on('mouseover', '.download-btn', function(){
-           $(this).parents('.bottom').siblings('.action-name').html('Save');
+           $(this).siblings('.action-name').html('Pause');
+        }).on('mouseover', '.download', function(){
+           $(this).siblings('.action-name').html('Save');
         }).on('mouseover', '.add', function(){
-            $(this).parents('.bottom').siblings('.action-name').html('Add');
+            $(this).siblings('.action-name').html('Add');
         }).on('mouseout', function(){
-            $(this).parents('.bottom').siblings('.action-name').html('');
+            $(this).find('.action-name').html('');
         });
 
         //bind pause clicks
