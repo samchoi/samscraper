@@ -45,6 +45,7 @@ body{
     box-shadow: 0px 0px 15px 15px #fff;
     position: fixed;
     top: 0;
+    min-width: 320px;
     width: 100%;
     z-index: 1;
     .actions{
@@ -130,8 +131,8 @@ body{
       margin: 5px;
       padding: 5px;
       position: relative;
-      min-width: 200px;
-      width: 22%;
+      min-width: 300px;
+      width: 45%;
       &.hover{
         box-shadow: 0px 0px 10px #09E5D0;
       }

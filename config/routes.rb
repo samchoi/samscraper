@@ -10,6 +10,7 @@ Rails.application.routes.draw do
   resources :song
 
   get '/' => 'song#index', as: 'music'
+  get 'sam' => 'song#home'
   get 's' => 'song#download'
   get 'dl/:name' => 'song#send_zip', as: 'download_zip'
   get 'ds/:id' => 'song#send_song', as: 'download_song'
