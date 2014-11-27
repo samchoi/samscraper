@@ -1,0 +1,24 @@
+#comment-container
+  %form#commenter
+    %textarea#comment
+    %button#submit{ type:'submit'}
+  %ul#user-comments{}
+  
+:javascript
+  $('#commenter').on('submit', function(e){
+    e.preventDefault();
+    $.post('/comments.json', {comment: {user_id: 1, comment: $('#comment').val(), timestamp: '0000-00-0000:00:00'}}, function(){
+      console.log('done');
+    })
+    $(this)
+  });
+
+
+  function add_comment(){
+    $('#user-comments').html('');
+    $.get('/comments.json', function(data){
+      var random = Math.floor(Math.random() * data.length)
+      $('<li class="comment"></li>').appendTo($('#user-comments')).html(data[random].comment);      
+      console.log(data);
+    })
+  }

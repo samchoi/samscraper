@@ -7,16 +7,7 @@ $(function() {
 
     bindEvents();
 
-    function bindEvents(){
-        /*
-        $(document).on('scroll', function(){
-            var st = $(this).scrollTop();
-            var top = parseInt($('#fixed-top').css('background-position-y'), 10);
-            var factor = st > lastScrollTop ? -10 : 10
-            lastScrollTop = st;
-            $('#fixed-top').css('background-position-y', top+factor);
-        });
-        */
+    function bindEvents(){        
         //bind play click
         $('.audio .action.play').on('click', function(){
             var code = $(this).parent().data('code'); //grab the song id
@@ -176,6 +167,7 @@ $(function() {
         $('#controls span.name').html(name);
         $('#ticker').html(description);
         $('#controls .btn.add').data('id', id);
+        $('a.download').attr('href', '/ds/' + id)
         //start player
         $('#action').toggleClass('play');
 
@@ -211,6 +203,10 @@ $(function() {
         var music = document.getElementById('music');
 
         var progress = Math.round(music.currentTime/music.duration * width);
+
+        if(progress%10 == 0){
+            add_comment();     
+        }
 
         document.getElementById('progress').style.width = progress +'px'
     }

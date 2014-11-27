@@ -2,10 +2,12 @@
   =render partial:'shared/canvas', locals: {song: @song} if @song
   =render partial: 'shared/song_list', locals: { songs: @songs} if @songs
   #map
-  
+
+=render partial: 'shared/comments'
+
 :javascript
   // When the window has finished loading create our google map below
-  google.maps.event.addDomListener(window, 'load', init);
+  //google.maps.event.addDomListener(window, 'load', init);
 
   function init() {
         var LatLngList = new Array (new google.maps.LatLng (37.7756, -122.4193));

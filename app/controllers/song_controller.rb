@@ -105,6 +105,7 @@ class SongController < ApplicationController
     headers['Access-Control-Allow-Origin'] = "*"
     @song = Song.find(params[:id])
     @songs = [@song]
+    @comments = Comments.where({ media_id: params[:id]}).order('timestamp ASC');
     gon.song_plays = @song.plays
   end
 

@@ -1,10 +1,15 @@
 Rails.application.routes.draw do
+  resources :comments
+
+  resources :movies
+
+  resources :managers
+
   resources :plays
 
   resources :song
 
-  get '/' => 'song#home', as: 'home'
-  get 'samscraper' => 'song#index', as: 'music'
+  get '/' => 'song#index', as: 'music'
   get 's' => 'song#download'
   get 'dl/:name' => 'song#send_zip', as: 'download_zip'
   get 'ds/:id' => 'song#send_song', as: 'download_song'

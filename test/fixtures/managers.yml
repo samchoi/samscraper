@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  paypal_id: MyString
+  venmo_id: MyString
+  square_id: 
+  name: MyString
+
+two:
+  paypal_id: MyString
+  venmo_id: MyString
+  square_id: 
+  name: MyString
