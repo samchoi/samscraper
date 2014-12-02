@@ -1,0 +1,147 @@
+.container{
+  margin: 0 auto;
+  max-width: 940px;
+  min-width: 480px;
+  padding: 15px;
+  width: 100%;
+
+  .fancy{
+    font-family: 'La Belle Aurore';
+    font-size: 32px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 35.2000007629395px;
+  }
+
+  .lato{
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26.3999996185303px;
+  }
+
+  header{
+    height: 60px;
+    overflow: hidden;
+    .logo{
+      float: left;
+      line-height: 60px;
+      width: 150px;    
+    }
+    .nav{
+      float: right;
+      list-style: none;
+      li{
+        border-right: 1px solid black;                
+        float: left;
+        margin: 0 5px;
+        padding: 0 5px;
+        &.last{
+          border: none;
+        }
+      }
+    }
+  }
+  .image-banner{
+    background: url(http://www.hdwallpaperscool.com/wp-content/uploads/2013/11/3d-sunset-cool-hd-wallpaper-top.jpg);
+    height: 180px;    
+  }  
+
+  #guest-container{
+    width: 85%;
+    margin: 0 auto;
+    header{
+      text-align: center;
+      padding-top: 30px;
+    }
+
+    input.text{
+      background-color: #CCC;
+      border: none;
+      height: 22px;
+      font-size: 24px;
+      padding: 5px;
+    }
+
+    button.go{
+      vertical-align: top;
+      height: 32px;
+      border: 1px solid grey;
+      background-color: grey;
+      color: white;
+      width: 50px;
+      font-size: 16px;
+    }
+
+
+    #search-container{
+      text-align: center;
+      *{
+        display: inline-block
+      }
+      width: 75%;
+      margin: 0 auto;
+      font-size: 16px;
+      label.name{
+        vertical-align: top;
+        line-height: 30px;
+        margin-right: 5px;
+      }
+      input#search{
+        width: 250px;
+      }
+    }
+
+    #rsvp-form{
+      text-align: center;
+
+      table{
+        margin: 0 auto;
+        th{
+          font-size: 14px;
+          width:65px;
+        }
+      }
+
+      .questions{
+        display: inline-block;
+        text-align: left;
+        .heading{
+          font-size: 20px;
+          font-weight: bold;
+        }
+        label{
+          width: 150px;
+          font-size: 16px;
+          display: inline-block;        
+        }
+        input{
+          width: 350px;
+        }
+        .heading{
+          width: 500px;
+          margin-bottom: 10px;
+        }
+        .field{
+          label{
+            font-size: 18px;
+          }
+        }
+
+        button.submit{
+          margin: 0 auto;
+          display: block;
+          width: 90px;
+        }
+
+        .last{
+          margin-bottom: 25px;
+        }
+      }
+    }
+  }
+}
+

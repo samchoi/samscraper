@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :guests
+
   resources :comments
 
   resources :movies
@@ -18,6 +20,8 @@ Rails.application.routes.draw do
   get 'reset' => 'song#clear', as: 'reset'
   post 'remove.json' => 'song#add_to_session_filter', as: 'remove'
   get 'm' => 'song#mobile', as: 'mobile'
+
+  get 'guest_search/:name' => 'guests#find_by_name'
 
   get 'code' => 'code#index'
 

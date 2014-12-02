@@ -1,0 +1,16 @@
+%table{ ng:{ hide: "checkSearch()" } }
+  %thead
+    %tr
+      %th Name
+      %th Response
+      %th{ colspan: 2} RSVP
+  %tbody
+    %tr{ ng:{ repeat: "guest in guests | filter:search" } }
+      %td
+        {{ guest.name }}
+      %td
+        {{ guest.status }}
+      %td
+        %a{ ng: { click: 'setGuest(guest)' }} RSVP
+      %td
+        %a{ ng: { click: 'decline(guest)' }} Decline

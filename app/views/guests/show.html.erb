@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @guest.name %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @guest.status %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @guest.address %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @guest.city %>
+</p>
+
+<p>
+  <strong>State:</strong>
+  <%= @guest.state %>
+</p>
+
+<p>
+  <strong>Zipcode:</strong>
+  <%= @guest.zipcode %>
+</p>
+
+<%= link_to 'Edit', edit_guest_path(@guest) %> |
+<%= link_to 'Back', guests_path %>

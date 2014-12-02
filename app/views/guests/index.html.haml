@@ -1,0 +1,15 @@
+%header 
+  .logo.fancy N + S
+  %ul.nav
+    %li When & Where
+    %li Rsvp
+    %li.last Registry
+
+.image-banner{}
+#guest-container.lato{ ng:{ controller: "GuestController" }}
+  %header.fancy RSVP
+  #search-container
+    %label.name Enter your name
+    %input#search.text{ name: 'search-name', ng:{ model: "search.name" }}
+    %button#search-name.go{ ng:{click: 'getGuest()'}} Go
+  =render partial: 'js_form'

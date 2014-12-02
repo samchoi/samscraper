@@ -53,7 +53,7 @@ $(function() {
         }).on('mouseover', '.pause-btn', function(){
            $(this).siblings('.action-name').html('Pause');
         }).on('mouseover', '.download', function(){
-           $(this).siblings('.action-name').html('Save');
+           $(this).siblings('.action-name').html('Download');
         }).on('mouseover', '.add', function(){
             $(this).siblings('.action-name').html('Add');
         }).on('mouseout', function(){

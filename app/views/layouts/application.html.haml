@@ -1,5 +1,5 @@
 !!!
-%html
+%html{}
   %head
   =javascript_include_tag '//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'
   =include_gon
@@ -7,6 +7,7 @@
   =javascript_include_tag 'home'
   =javascript_include_tag 'visualizer'
   =javascript_include_tag "https://maps.googleapis.com/maps/api/js?key=AIzaSyDWC2iAnNYZMrhrbMXJMIqzB5hI7pElnSA&sensor=false"
+
   =stylesheet_link_tag 'application'
   =stylesheet_link_tag 'audios'
   =stylesheet_link_tag 'home'
@@ -14,5 +15,5 @@
   =stylesheet_link_tag 'http://fonts.googleapis.com/css?family=Special+Elite'
   =stylesheet_link_tag 'http://fonts.googleapis.com/css?family=Open+Sans:400,800'
   =csrf_meta_tags
-%body
+%body{ }
   = yield

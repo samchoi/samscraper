@@ -1,0 +1,41 @@
+%form#rsvp-form{ name: 'guestForm', ng: {submit: 'addGuest()', hide: 'emptyGuest()' }}
+  %table.lato
+    %tr
+      %th
+      %th Yes
+      %th No
+    %tr{ ng:{ repeat: 'i in guestCount(guest)'} }
+      %td Guest {{i}}
+      %td
+        %input.rsvp{ type: 'radio', name: 'guest-{{i}}', ng:{ click: 'addRsvp()'}, value: 'yes'}
+      %td
+        %input.rsvp{ type: 'radio', name: 'guest-{{i}}', ng:{ click: 'addRsvp()'}, value: 'no'}
+  .questions
+    %label.heading 
+      Mailing Address
+    .field
+      %label Street Address
+      %input.text{ name: 'address', ng:{ model: 'guest.address'} }
+    .field
+      %label City
+      %input.text{ name: 'city', ng:{ model: 'guest.city'} }
+    .field
+      %label State
+      %input.text{ name: 'state', ng:{ model: 'guest.state'} }
+    .field
+      %label Zipcode
+      %input.text{ name: 'zipcode', ng:{ model: 'guest.zipcode'} }
+    .field.last
+      %label Country
+      %input.text{ name: 'country', ng:{ model: 'guest.country'} }
+
+    .field
+      %label.heading Any dietary restrictions?
+      %br/
+      %input.text{ name: 'dietary_restriction', ng:{ model: 'guest.dietary_restriction'} }
+    .field
+      %label.heading What song would you like to hear at the wedding?
+      %br/
+      %input.text{ name: 'song_request', ng:{ model: 'guest.song_request'} }
+
+    %button.go.submit{type: 'submit'} Submit

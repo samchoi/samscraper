@@ -14,10 +14,12 @@
  *= require_self
  */
 body{
+  .music{
     font-family: 'Special Elite', cursive;
     margin: 0;
     .box-type{
-	    font-family: 'Dosis', sans-serif;
-	    text-decoration: none;
-    }
+      font-family: 'Dosis', sans-serif;
+      text-decoration: none;
+    }  
+  }
 }

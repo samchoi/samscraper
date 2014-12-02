@@ -1,3 +1,5 @@
+Rails.application.config.assets.precompile += %w( guest.js )
+
 Rails.application.config.assets.precompile += %w( audio.js )
 Rails.application.config.assets.precompile += %w( home.js )
 Rails.application.config.assets.precompile += %w( mobile.js )
