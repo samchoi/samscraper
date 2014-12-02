@@ -12,4 +12,5 @@
     %label.name Enter your name
     %input#search.text{ name: 'search-name', ng:{ model: "search.name" }}
     %button#search-name.go{ ng:{click: 'getGuest()'}} Go
+    %p#message
   =render partial: 'js_form'

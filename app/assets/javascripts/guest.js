@@ -29,7 +29,8 @@
       $http.get(['guest_search', $('#search').val()].join('/')).success(function(data){
         $scope.guest = data;
         if(data == "null"){
-          alert('Oops! Couldn\'t find your butt');
+          $scope.guest = {};
+          $('#message').html('Oops! Couldn\'t find your butt');
         }
       });
     };
@@ -61,7 +62,7 @@
         .success(function(data){
           $scope.guest = {};
           $('#search').val("");
-          alert('Thanks! See you in June!');
+          $('#message').html('Thanks! See you in June!');
         }).error(function(){});
         return;
       }
