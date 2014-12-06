@@ -8,9 +8,6 @@
 .image-banner{}
 #guest-container.lato{ ng:{ controller: "GuestController" }}
   %header.fancy RSVP
-  #search-container
-    %label.name Enter your name
-    %input#search.text{ name: 'search-name', ng:{ model: "search.name" }}
-    %button#search-name.go{ ng:{click: 'getGuest()'}} Go
-    %p#message
+  =render partial: 'search_form'
+  %p#message
   =render partial: 'js_form'

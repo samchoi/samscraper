@@ -77,11 +77,20 @@
 
   }]);
   
-  app.directive('guestList', function(){
+  app.directive('guestRsvpList', function(){
     return {
       restrict: 'E',
       templateUrl: '',
-      controller: guestController
+      controller: ['$scope', function($scope){
+
+        $scope.guestCount = function(guest){
+          var counter = [];
+          for(var i = 1; i <= guest.guest_count; i++){
+            counter.push(i);
+          }
+          return counter.length == 0 ? [1] : counter;
+        };
+      }]
     };
   });
 

@@ -11,7 +11,7 @@ class SongController < ApplicationController
     #redirect_to home_path and return unless browser.chrome?
     #@songs = Song.where.not(id: session[:song_filter], filename: nil)
     @songs = Song.where(active: true).order('rank ASC')
-    @song = @songs.sample
+    @song = Song.where.not(filename: nil).order("RAND()").limit(1).first
     gon.music_host = Rails.configuration.settings['filehost']
     @playlist = session[:playlist].nil? ? [] : Song.where(id: session[:playlist])
   end
