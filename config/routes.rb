@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  resources :guests
+  resources :guests do
+    get 'template/:id' => 'guests#template'      
+  end
 
   resources :comments
 
@@ -9,7 +11,9 @@ Rails.application.routes.draw do
 
   resources :plays
 
-  resources :song
+  resources :song do
+    get 'template/:id' => 'song#template'      
+  end
 
   get '/' => 'song#index', as: 'music'
   get 'sam' => 'song#home'

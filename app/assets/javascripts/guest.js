@@ -6,20 +6,6 @@
     $scope.guests = gon.guests || [];
 
     $scope.guest = {};
-    /*this.getGuests = function(){
-      $http.get('guests.json', { 'guest': this.guest})
-        .success(function(data){
-          this.guests = data;
-        }).error(function(){});
-    };*/
-
-    $scope.guestCount = function(guest){
-      var counter = [];
-      for(var i = 1; i <= guest.guest_count; i++){
-        counter.push(i);
-      }
-      return counter.length == 0 ? [1] : counter;
-    };
 
     $scope.emptyGuest = function(){
       return Object.getOwnPropertyNames($scope.guest).length == 0;
@@ -76,11 +62,13 @@
     };
 
   }]);
+
+  
   
   app.directive('guestRsvpList', function(){
     return {
       restrict: 'E',
-      templateUrl: '',
+      templateUrl: 'guests/0/template/guest-rsvp-list',
       controller: ['$scope', function($scope){
 
         $scope.guestCount = function(guest){

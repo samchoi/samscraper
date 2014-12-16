@@ -1,15 +1,5 @@
 %form#rsvp-form{ name: 'guestForm', ng: {submit: 'addGuest()', hide: 'emptyGuest()' }}
-  %table.lato
-    %tr
-      %th
-      %th Yes
-      %th No
-    %tr{ ng:{ repeat: 'i in guestCount(guest)'} }
-      %td Guest {{i}}
-      %td
-        %input.rsvp{ type: 'radio', name: 'guest-{{i}}', ng:{ click: 'addRsvp()'}, value: 'yes'}
-      %td
-        %input.rsvp{ type: 'radio', name: 'guest-{{i}}', ng:{ click: 'addRsvp()'}, value: 'no'}
+  %guest-rsvp-list
   .questions
     %label.heading 
       Mailing Address

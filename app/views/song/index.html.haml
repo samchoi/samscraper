@@ -1,8 +1,12 @@
-.audio-content
-  =render partial:'shared/canvas', locals: {song: @song} if @song
+.audio-content{ng: { controller: 'MusicController'}}
+  =render partial:'fixed_top', locals: {song: @song} if @song
 
-  %h2
-    Today's Top 50 from
-    %a{href: '//hypem.com/popular'}HypeMachine
+  #ad-containter
+    Ad Goes Here
+  =render partial: 'song'
 
-  =render partial: 'shared/song_list', locals: { songs: @songs} if @songs
+  =render partial: 'middle'
+
+  =render partial: 'download_list'
+
+#footer

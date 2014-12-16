@@ -1,5 +1,5 @@
 !!!
-%html{}
+%html{ 'ng-app' => 'songs'}
   %head
     %title 
       = 'thisTrack.rocks | ' + (@song.title || 'music that rocks')
@@ -14,15 +14,14 @@
 
   =stylesheet_link_tag 'application'
   =stylesheet_link_tag 'audios'
-  =stylesheet_link_tag 'home'
   =stylesheet_link_tag 'http://fonts.googleapis.com/css?family=Dosis'
   =stylesheet_link_tag 'http://fonts.googleapis.com/css?family=Special+Elite'
-  =stylesheet_link_tag 'http://fonts.googleapis.com/css?family=Open+Sans:400,800'
+  =stylesheet_link_tag 'http://fonts.googleapis.com/css?family=Source+Sans+Pro'
   =csrf_meta_tags
 %body{ }
-  %header
-    %h1 thisTrack.rocks
-    %h2 music that rocks
-    %h2 Legend | &#43;: Add to DL list | &#8623;: DL current track
 
   = yield
+  
+  =javascript_include_tag "//ajax.googleapis.com/ajax/libs/angularjs/1.3.4/angular.min.js"
+  =javascript_include_tag "music.js"
+

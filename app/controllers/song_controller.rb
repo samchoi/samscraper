@@ -13,7 +13,10 @@ class SongController < ApplicationController
     @songs = Song.where(active: true).order('rank ASC')
     @song = Song.where.not(filename: nil).order("RAND()").limit(1).first
     gon.music_host = Rails.configuration.settings['filehost']
+    gon.songs = @songs;
+
     @playlist = session[:playlist].nil? ? [] : Song.where(id: session[:playlist])
+    @playlist = [Song.first]
   end
 
   def mobile

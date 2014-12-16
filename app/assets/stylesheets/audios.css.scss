@@ -1,301 +1,142 @@
-body{
-  a{
-    color: #696F7A;
-    &:visited{
-      color: #696F7A;
-    }
-    &:hover{
-      background-color: transparent;
-    }
-  }
-}
-
 .audio-content{
-  overflow: hidden;
-/*  &:after{
-    background-attachment: fixed;
-    background-image: url('http://clarehubbard.com/wp-content/uploads/2014/09/Headphones-Gray-Music.jpg');
-    bottom: 0;
-    content: "";
-    height: 3450px;
-    left: 0;
-    opacity: 0.4;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: -1;
+  a, a:visited, a:hover{
+    color: #e6e6e6;
   }
-*/
-  #progress{
-    background-color: darkgrey;
-    height: 10px;
-    width: 1px;
+  *{
+    margin: 2px;
+    padding: 3px;
   }
-  #opts{
-    color: #fff;
-    line-height: 16px;
-    position: fixed;
-    right: 0;
-    top: 10px;
-    width: 65px;
-    z-index: 2;
-  }
+
+  background-color: #000000;  
+  color: #e6e6e6;
+  font-family: "Source Sans Pro";
+  letter-spacing: .05em;
+  padding-top: 75px;
+
   #fixed-top{
-    background-color: white;
-    box-shadow: 0px 0px 15px 15px #fff;
+    background-color: inherit;
+    height: 75px;
     position: fixed;
-    top: 0;
-    min-width: 320px;
-    width: 100%;
-    z-index: 1;
-    .actions{
-      box-shadow: 0px 2px 4px 0px #000;
+    top: 0;    
+
+    h1#logo{
+      font-family: 'Special Elite', cursive;    
+      float: right;
+      &:after{
+        clear:both;
+      }
     }
-  }
 
-  .inactive{
-    display: none;
-  }
-
-  .actions{
-    color: #000;
-    a{
-      color: #000;
-      text-decoration: none;
+    #controls.actions{
+      display: inline-block;
+      margin: 5px;
+      padding: 2px;
+      list-style: none;
+      font-size: 16px;
+      line-height: 16px;
+      li{ 
+        display: inline-block;
+      }
     }
-  }
-
-  #playlist-name{
-    border: none;
-    background-color: grey;
-    color: #fff;
-    height: 25px;
-    outline: none;
-    padding: 5px;
-    &:focus{
-      border: none;
-    }
-  }
-
-  #q{
-    overflow: scroll;
-    height: 225px;
-  }
-
-  #controls{
-    background-color: grey;
-    line-height: 50px;
-    margin-bottom: 0;
-    padding: 0 15px;
-    width: 100%;
 
     #ticker{
-      height: 35px;
-      line-height: 60px;
-      margin-left: 50px;
-      width: 35%;
+      display: inline-block;
+      width: 25%;
     }
 
-    #playlist-count{
-      border: 1px solid #000;
-      border-radius: 25px;
-      cursor: pointer;
-      height: 35px;
-      line-height: 38px;
-      position: absolute;
-      right: 75px;
-      top: 20px;
-      text-align: center;
-      width: 35px;
+    #progress{
+      display: block;
+      height: 20px;
+      background-color: #81b71a;
+      border-bottom: 1px solid #262626;
+      width: 0;
     }
+
+
   }
 
-  #header{
-    background-image: url('/assets/headphones.jpg');
-    background-position: 0 -50px;
-    height: 250px;
-    width: 100%;
+  #ad-container{
+    height: 50px;
   }
 
   #songs{
-    float: left;
     list-style: none;
-    margin-top: 100px;
-    overflow: scroll;
-    li.song{
-      background-color: rgba(100,100,100,.85);
-      border: 1px solid #555;
-      //box-shadow: 1px 0px 3px 1px #555;
-      float: left;
-      height: 160px;
-      margin: 5px;
-      padding: 5px;
-      position: relative;
-      min-width: 300px;
-      width: 45%;
-      &.hover{
-        box-shadow: 0px 0px 10px #09E5D0;
-      }
-      .action-name{
-        margin: 0 auto;
-        line-height: 50px;
-        padding-bottom: 25px;
-        float: right;
-      }
-      .actions{        
-        list-style: none;
-        margin: 0;
-        overflow: hidden;
-        padding: 0;
-        li{
-          float: left;
-          height: 45px;
-          line-height: 45px;
-          text-align: center;
-          width: 45px;
-          font-size: 25px;
-          &.button{
-            cursor: pointer;          
-          }
-        }
-      }
-      .bottom{
-        background-color: #efefef;
-        bottom: 0px;
-        overflow: hidden;
-        padding: 10px 0;
-        position: absolute;
-        right: 0px;
-        text-decoration: none;
-        text-align: center;
-        width: 100%;
-        .actions{
-          float: left;
-          span{
-            cursor: pointer;
-          }
-        }
-
-        .name{
-          color: #a1a1a1;
-          display: inline-block;
-          font-family: 'Open Sans', sans-serif;
-          font-weight: 600;
-          font-size: 17px;
-          //width: 250px;
-          height: 75px;
-          overflow: hidden;
-          text-align: center;
-          text-decoration: none;
-          text-transform: uppercase;
-        }
-      }
-      .description{
-        display: none;
-      }
-    }
-
-  }
-
-  .audio{
-    position: relative;
-    float: left;
-    margin: 5px;
-    padding: 5px;
-    width: 200px;
-    height: 200px;
-    border-radius: 2px;
-    border: 1px solid black;
-
-    background-repeat: no-repeat;
-    background-position: top right;
-    font-weight: bold;
-    color: #000;
-    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
-    &.active{
-      background-color: grey;
-    }
-    .action {
-      position: absolute;
-      bottom: 10px;
-      &.like {
-        right: 10px;
-      }
-    }
-  }
-
-  .play{
-    padding-left: 5px;
-  }
-  .pause{
-    letter-spacing: -.15em;
-    margin-right: 2px;
-  }
-  .btn{
-    cursor: pointer;
-  }
-
-  .download:hover{
-    background-color: none;
-  }
-
-  #playlist{
-    background-color: white;
-    box-shadow: 1px 1px 10px 2px #000;
-    border-radius: 1px;
-    height: 360px;
-    line-height: 25px;
-    position: absolute;
-    right: 75px;
-    top: 40px;
-    width: 15%;
-    overflow-y: scroll;
-    &.inactive{
-      display: none;
-    }
-    li{
-      padding: 5px 0px;
-      &:last{
-        list-style: none;
-      }
-    }
-    .download-list{
-      background-color: grey;
-      border: 4px;
-      border-radius: 3px;
-      color: black;
-      display: inline-block;
-      line-height: 30px;
-      margin: 5px 15px;
-      padding: 0px 10px;
-      text-align: center;
-      text-decoration: none;
+    display: inline-block;
+    width: 325px;
+    margin: 2px;
+    padding: 3px;
+    .song{
+      width: 300px;
+      height: 80px;
+      margin: 2px;
+      padding: 3px;
+      background-color: #262626;
+      overflow: hidden;
       &:hover{
-        color: white;
+        background-color: #303030;
+      }
+
+      .rank{
+        display: inline-block;
+        display: none;
+        height: 55px;
+        width: 55px;
+        font-size: 55px;
+        line-height: 55px;
+        text-align: center;        
+      }
+
+      .song-info{
+        display: inline-block;
+        list-style: none;
+        height: 70px;
+        width: 220px;
+        overflow: hidden;
+        li.name{
+          text-align: center;
+          text-overflow: ellipsis;
+        }
+
+        li ul.actions{
+          margin: 0 auto;
+          text-align: center;
+          list-style: none;
+          li{
+            display: inline-block;
+          }
+        }      
       }
     }
   }
-  .add, .minus{
-    cursor: pointer;
-  }
-
-  &.single{
-    #songs{
-      position: absolute;
-      top: 100px;
-      left: 0px;
-      width: 350px;
-      li{
-        width: 84%;
-      }
+  #middle{
+    width: 500px;
+    vertical-align: top;
+    display: inline-block;
+    ul{
+      list-style: none;
     }
+  }
 
+  #download-list{
+    width: 300px;
+    vertical-align: top;
+    display: inline-block;
+    ol{
+      list-style-position: inside;
+    }
   }
-  #map{
-    height: 100vh;
-    width: 100%;
-    z-index: -2;
-  }
+
+  .section{
+    min-height: 100%;
+    border-left: 1px solid #262626;
+    border-right: 1px solid #262626;
+    &:first-child{
+      border-left: none;
+    }
+    &:last-child{
+      border-right: none;
+    }
+ }
+
+
 }
-
-

@@ -1,34 +1,30 @@
 $(function() {
-    //create connection between audio tag and canvas
+    //create connection between audio tag and canvas, only need to initialize once
     var viz = new Visualizer('music', 'viz');
     var lastScrollTop = 0;
     var progressInterval;
     play();
+    document.getElementById('viz').width = document.body.clientWidth - 25;
 
     bindEvents();
 
     function bindEvents(){        
-        //bind play click
-        $('.audio .action.play').on('click', function(){
-            var code = $(this).parent().data('code'); //grab the song id
-            play(code);
-        });
-
+        
         $('#action').on('click', function(){
             if($(this).hasClass('pause')){
                 $('#music').get(0).pause();
             }else{
-                $('#music').get(0).play();
+                //$('#music').get(0).play();
             }
             $(this).toggleClass('play').toggleClass('pause');
         });
 
 
         $('.actions').on('click', '.play', function(){
-            viz.play();
+/*            viz.play();
             $(this).toggleClass('inactive');
             $(this).siblings('.pause').toggleClass('inactive');
-
+*/
         }).on('click', '.pause', function(){
             viz.pause();
             $(this).toggleClass('inactive');
@@ -107,8 +103,8 @@ $(function() {
         $(document).on('click', '.play-btn', function(e){
             e.preventDefault();
 
-            queueSong($(this).parents('li'));
-            play();
+            //queueSong($(this).parents('li'));
+            //play();
         });
 
         $(document).on('keyup', '#playlist-name', function(){
@@ -116,7 +112,7 @@ $(function() {
         });
 
         $('#music').on('error', function(){
-            newSong();
+            //newSong();
         }).on('play', function(){
             progressInterval = setInterval(progress, 100);
         }).on('ended', function(){
@@ -126,16 +122,7 @@ $(function() {
     }
 
     function play(){
-        var file = $('#music').attr('src');
-        viz.play(file);
-
-
-        $(document).title = 'thistrack.rocks'
-
-        if (navigator.geolocation) {            
-            navigator.geolocation.getCurrentPosition(logPlay);
-        }
-
+        console.log(1)
     }
 
     function logPlay(position) {
@@ -196,6 +183,8 @@ $(function() {
     window.onbeforeunload = function(){
         var music = document.getElementsById('music')
         $.cookie('resume', music.currentTime);
+        $.cookie('song', music.currentTime);
+
     }
 
     function progress(){
@@ -205,7 +194,7 @@ $(function() {
         var progress = Math.round(music.currentTime/music.duration * width);
 
         if(progress%10 == 0){
-            add_comment();     
+        //    add_comment();     
         }
 
         document.getElementById('progress').style.width = progress +'px'

@@ -1,6 +1,7 @@
 Rails.application.assets.register_engine '.haml', Tilt::HamlTemplate
 
 Rails.application.config.assets.precompile += %w( guest.js )
+Rails.application.config.assets.precompile += %w( music.js )
 
 Rails.application.config.assets.precompile += %w( audio.js )
 Rails.application.config.assets.precompile += %w( home.js )
