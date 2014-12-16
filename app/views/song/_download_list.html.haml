@@ -1,0 +1,6 @@
+#download-list.section
+  %h4
+    %span#playlist-count
+      =@playlist.count rescue 0
+    Songs for download:
+  =render partial: 'cart', locals: { playlist: @playlist }

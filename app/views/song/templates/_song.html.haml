@@ -1,0 +1,15 @@
+%ul#songs
+  %li.song{ ng: { repeat: 'song in allSongs()', class: 'active:isActiveSong(song)'}
+    %ul.actions
+      %li.rank{ng: { model: 'song.rank'}}
+      %li.img{ ng: {src: 'song.thumb_url'}}
+        %img{ src: song.thumb_url}      
+      %li.add.button{ng: {click: 'addSong(song)'} } &#43;
+      %li.play-btn.button{ng: {click: 'playSong(song)'}} &#9658;
+      %li.download.button
+        %a.download-btn{href: 'dl_path/{{song.id}}', alt: 'Download Song', title: 'Download'} &#8623;
+      %li.action-name
+    
+    .bottom.box-type
+      %a.name{ href: "/song/{{song.id}}", ng: {model: 'song.name'}}=song.name
+      .description{ ng: {model: 'song.description'}}

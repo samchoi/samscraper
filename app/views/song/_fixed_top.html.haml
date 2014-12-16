@@ -1,0 +1,20 @@
+#fixed-top{}
+  %audio#music{ src: Rails.configuration.settings['filehost'] + song.filename, preload: 'auto' }
+  #progress
+  %ul#controls.actions{ data: {id: song.id, filename: song.filename, name: song.name} }
+    %li
+      %a.download{href: download_song_path(song.id), alt: 'Download Song', title: 'Download'} &#8623;
+    %li.btn.add{data: {id: song.id} } &#43;
+    %li.btn.play.inactive &#9658;
+    %li.btn.pause &#9616;&#9616;
+
+  %span.name=song.name
+
+  #opts{ style: 'display: none;'}
+    %input{type: 'radio', name: 'visual-option', value: 'bar'} Bar
+    %input{type: 'radio', name: 'visual-option', value: 'line'} Line
+
+  %h1#logo 
+    thisTrack.rocks
+
+  %canvas#viz{ width: 1000, height: 50}
