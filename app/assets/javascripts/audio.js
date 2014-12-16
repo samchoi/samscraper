@@ -3,34 +3,13 @@ $(function() {
     var viz = new Visualizer('music', 'viz');
     var lastScrollTop = 0;
     var progressInterval;
-    play();
-    document.getElementById('viz').width = document.body.clientWidth - 25;
+    //play();
+    document.getElementById('viz').width = Math.min(document.body.clientWidth, 1280) - 5;
 
     bindEvents();
 
     function bindEvents(){        
         
-        $('#action').on('click', function(){
-            if($(this).hasClass('pause')){
-                $('#music').get(0).pause();
-            }else{
-                //$('#music').get(0).play();
-            }
-            $(this).toggleClass('play').toggleClass('pause');
-        });
-
-
-        $('.actions').on('click', '.play', function(){
-/*            viz.play();
-            $(this).toggleClass('inactive');
-            $(this).siblings('.pause').toggleClass('inactive');
-*/
-        }).on('click', '.pause', function(){
-            viz.pause();
-            $(this).toggleClass('inactive');
-            $(this).siblings('.play').toggleClass('inactive');
-
-        });
 
 
 
@@ -56,12 +35,6 @@ $(function() {
             $(this).find('.action-name').html('');
         });
 
-        //bind pause clicks
-        $('.audio .action.pause').on('click', function(){
-            viz.pause();
-            $(this).toggleClass('play').toggleClass('pause');
-
-        });
 
         //bind like click
         $('.add').on('click', function(){

@@ -5,11 +5,11 @@
     %img.clip-art{  ng: {src: '{{song.thumb_url}}'} }      
     %ul.song-info
       %li.name
-        %a{ href: "/song/{{song.id}}"}
+        %a{ ng: {href: "/song/{{song.id}}"}}
           {{ song.name }}      
       %li
         %ul.actions
           %li.add.button{ng: {click: 'addSong(song)'} } &#43;
-          %li.play-btn.button{ng: {click: 'playSong(song)'}} &#9658;
+          %li.play{ng: {click: 'playSong(song)'}} &#9658;
           %li.download.button
             %a.download-btn{href: 'dl_path/{{song.id}}', alt: 'Download Song', title: 'Download'} &#8623;

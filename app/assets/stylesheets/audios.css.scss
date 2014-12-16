@@ -1,24 +1,29 @@
+$white: #e6e6e6;
+$green: #81b71a;
+$dark-grey: #262626;
+
 .audio-content{
   a, a:visited, a:hover{
-    color: #e6e6e6;
+    color: $white;
+    text-decoration: none;
   }
   *{
     margin: 2px;
     padding: 3px;
   }
-
   background-color: #000000;  
   color: #e6e6e6;
   font-family: "Source Sans Pro";
   letter-spacing: .05em;
-  padding-top: 75px;
+  padding-top: 175px;
 
   #fixed-top{
     background-color: inherit;
-    height: 75px;
+    height: 125px;
     position: fixed;
     top: 0;    
-
+    margin: 0;
+    padding: 0;
     h1#logo{
       font-family: 'Special Elite', cursive;    
       float: right;
@@ -36,20 +41,23 @@
       line-height: 16px;
       li{ 
         display: inline-block;
-      }
-    }
+        &.inactive{
+          display: none;
+        }
 
-    #ticker{
-      display: inline-block;
-      width: 25%;
+      }
     }
 
     #progress{
       display: block;
-      height: 20px;
-      background-color: #81b71a;
-      border-bottom: 1px solid #262626;
+      height: 10px;
+      background-color: $green;
+      border-bottom: 1px solid $dark-grey;
       width: 0;
+    }
+
+    #viz{
+      border-top: 2px solid $dark-grey;
     }
 
 
@@ -57,20 +65,25 @@
 
   #ad-container{
     height: 50px;
+    border-bottom: 1px solid $dark-grey;
+    border-top: 1px solid $dark-grey;
   }
 
   #songs{
+    border-left: none;
     list-style: none;
     display: inline-block;
     width: 325px;
     margin: 2px;
     padding: 3px;
+    max-height: 650px;
+    overflow: scroll;
     .song{
-      width: 300px;
+      width: 315px;
       height: 80px;
       margin: 2px;
       padding: 3px;
-      background-color: #262626;
+      background-color: $dark-grey;
       overflow: hidden;
       &:hover{
         background-color: #303030;
@@ -93,6 +106,8 @@
         width: 220px;
         overflow: hidden;
         li.name{
+          height: 32px;
+          overflow: hidden;
           text-align: center;
           text-overflow: ellipsis;
         }
@@ -102,7 +117,11 @@
           text-align: center;
           list-style: none;
           li{
+            cursor: pointer;
             display: inline-block;
+            &.inactive{
+              display: none;
+            }
           }
         }      
       }
@@ -112,6 +131,14 @@
     width: 500px;
     vertical-align: top;
     display: inline-block;
+
+    .artist{
+      color: $green;
+    }
+
+    .title{
+      color: #FFFFFF;
+    }
     ul{
       list-style: none;
     }
@@ -121,21 +148,48 @@
     width: 300px;
     vertical-align: top;
     display: inline-block;
+    border-right: none;
+
     ol{
       list-style-position: inside;
+    }
+
+    .download-list{
+      background-color: $green;
+      border-radius: 10px;
+      padding: 5px;
+      color: #262626;
+      &:hover{
+        color: #e6e6e6;
+      }
+    }
+    .clear-list{
+      border-bottom: 1px solid $dark-grey;
+      border-top: 1px solid $dark-grey;
+      text-align: center;
+      cursor: pointer;
+      &:hover{
+        color: $green;
+      }
+    }
+
+    textarea{
+      width: 100%;
+      height: 75px;
+      font-size: 16px;
+    }
+
+    button{
+      border-radius: 0;
+      border: none;
+      padding: 6px;
     }
   }
 
   .section{
-    min-height: 100%;
-    border-left: 1px solid #262626;
-    border-right: 1px solid #262626;
-    &:first-child{
-      border-left: none;
-    }
-    &:last-child{
-      border-right: none;
-    }
+    height: 100%;
+    border-left: 1px solid $dark-grey;
+    border-right: 1px solid $dark-grey;
  }
 
 

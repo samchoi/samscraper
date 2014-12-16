@@ -1,14 +1,15 @@
 #fixed-top{}
-  %audio#music{ src: Rails.configuration.settings['filehost'] + song.filename, preload: 'auto' }
+  %audio#music{ src: Rails.configuration.settings['filehost'] + song.filename }, preload: 'true' }
   #progress
-  %ul#controls.actions{ data: {id: song.id, filename: song.filename, name: song.name} }
+  %ul#controls.actions{ }
     %li
       %a.download{href: download_song_path(song.id), alt: 'Download Song', title: 'Download'} &#8623;
-    %li.btn.add{data: {id: song.id} } &#43;
-    %li.btn.play.inactive &#9658;
-    %li.btn.pause &#9616;&#9616;
+    %li.add{ng: {click: "addSong(song)"} } &#43;
+    %li.play.inactive{ ng: {click: 'playSong(song)'}} &#9658;
+    %li.pause{ ng: {click: 'pauseSong(song)'}} &#9616;&#9616;
 
-  %span.name=song.name
+  %span.name
+    {{song.name}}
 
   #opts{ style: 'display: none;'}
     %input{type: 'radio', name: 'visual-option', value: 'bar'} Bar

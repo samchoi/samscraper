@@ -1,18 +1,17 @@
 #middle.section
   %h3
-    What blogs say:
-  %ul.blogs
-    %li
-      =@song.description + "..."
-      %a{href: @song.posturl, target: '_blank'}
-        (read more)
+    %span.artist
+      {{song.artist}}
+    =" | "
+    %span.title
+      {{song.title}}
+  %p
+    {{song.description}} ...
+    %a{href: @song.posturl, target: '_blank'}
+      (read more)
   %h3
     What users say:
-  %ul.soundcloud
-    %li This is cool
-    %li This is cool
-    %li This is cool
-    %li This is cool
-    %li This is cool
-    %li This is cool
-
+  %ul.comments
+    %li.comment{ng: { repeat: 'comment in comments'}}
+      {{comment.comment}}
+    

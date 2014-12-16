@@ -12,11 +12,13 @@ class SongController < ApplicationController
     #@songs = Song.where.not(id: session[:song_filter], filename: nil)
     @songs = Song.where(active: true).order('rank ASC')
     @song = Song.where.not(filename: nil).order("RAND()").limit(1).first
+    @playlist = session[:playlist].nil? ? [] : Song.where(id: session[:playlist])
+
     gon.music_host = Rails.configuration.settings['filehost']
     gon.songs = @songs;
-
-    @playlist = session[:playlist].nil? ? [] : Song.where(id: session[:playlist])
-    @playlist = [Song.first]
+    gon.song = @song;
+    gon.comments = Comment.all;
+    gon.playlist = @playlist
   end
 
   def mobile
@@ -46,7 +48,7 @@ class SongController < ApplicationController
 
     respond_to do |format|
       format.all do
-        render json: { html: render_to_string(partial: 'shared/playlist', formats: [:json, :html], layout: false, locals: {playlist: @songs}) }
+        render json: @songs
       end
     end
   end

@@ -1,6 +1,13 @@
 #download-list.section
   %h4
     %span#playlist-count
-      =@playlist.count rescue 0
-    Songs for download:
-  =render partial: 'cart', locals: { playlist: @playlist }
+      {{playlist.length}}
+    Songs for
+    %a.download-list{ href: download_zip_path(Time.new.seconds_until_end_of_day.to_s), title: 'Download Playlist', target: '_blank'} download
+
+  =render partial: 'cart'
+
+  %form#comment{ng: {submit: 'addComment()'}}
+    %textarea#comment{ type: 'text', ng:{model: 'comment.comment'}}
+    %button#send-comment{}
+      Post

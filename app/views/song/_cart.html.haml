@@ -1,9 +1,6 @@
 %ol#playlist
-  -playlist.each do |song|
-    %li
-      %a.play-song{ href: "/song/#{song.id}", data: {filename: song.filename, name: song.name }}=song.name
-  -if playlist.length > 1
-    %span
-      %a.download-list{ href: download_zip_path(Time.new.seconds_until_end_of_day.to_s), title: 'Download Playlist'} Download
-      %a{ href: reset_path, title: 'Clear Playlist'} &#10226;
-
+  %li{ ng: {repeat: "song in playlist"}}
+    %a{ ng: {href: "/song/{{song.id}}"} }
+      {{song.name}}
+.clear-list{ ng: {show: 'playlist.length', click: 'clearPlaylist()'}}
+  clear      
