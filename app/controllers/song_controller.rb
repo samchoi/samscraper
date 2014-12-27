@@ -63,7 +63,7 @@ class SongController < ApplicationController
     zip_file = params[:name] + '.zip'
     zip_file_path = Rails.configuration.settings['zip_path'] + zip_file
 
-    songs = Song.where.not(filename: nil)
+    songs = Song.where("created_at > ?", "2014-11-01 00:00:00")
     
     Zip::File.open(zip_file_path, Zip::File::CREATE) do |zip|
       songs.each do |song|
