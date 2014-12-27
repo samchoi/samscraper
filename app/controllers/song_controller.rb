@@ -63,8 +63,7 @@ class SongController < ApplicationController
     zip_file = params[:name] + '.zip'
     zip_file_path = Rails.configuration.settings['zip_path'] + zip_file
 
-    #songs = Song.where(id: session[:playlist])
-    songs = Song.all
+    songs = Song.where.not(filename: nil)
     
     Zip::File.open(zip_file_path, Zip::File::CREATE) do |zip|
       songs.each do |song|
