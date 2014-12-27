@@ -68,7 +68,7 @@ class SongController < ApplicationController
     Zip::File.open(zip_file_path, Zip::File::CREATE) do |zip|
       songs.each do |song|
         music_file_path = music_path + '/' + song.filename
-        zip.add("#{song.download_name}", music_file_path)
+        zip.add("#{song.download_name}", music_file_path) rescue nil
       end
       zip.get_output_stream("tracks.txt") do |os|
         os.write songs.map{ |song| "#{song.desc}"}.join("\n")
