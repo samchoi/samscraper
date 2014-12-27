@@ -13,6 +13,15 @@
 
     $scope.comment = {};
 
+    $scope.counter = 0;
+
+    $scope.comment_display = gon.comments[0] || {};
+
+    $scope.activeList = $scope.songs;
+
+    $scope.changeActiveList = function(songList){
+      $scope.activeList = songList;
+    }
 
     $scope.allSongs = function(){
       return $scope.songs;
@@ -29,6 +38,8 @@
         $scope.playlist = data;
         //increment count
       });
+
+      $scope.changeActiveList($scope.playlist);
     };
 
     $scope.pauseSong = function(){
@@ -54,6 +65,8 @@
         if (navigator.geolocation) {            
             //navigator.geolocation.getCurrentPosition(logPlay);
         }
+
+      $scope.changeActiveList($scope.songs);
     };
 
     $scope.clearPlaylist = function(){
@@ -62,12 +75,54 @@
 
 
     $scope.addComment = function(){
-      $http.post('comments.json', { 'comment': $scope.comment})
+      $scope.comment.song_id = $scope.song.id;
+      $scope.comment.comment_time = Math.round(document.getElementById('music').currentTime);
+
+      $http.post('/comments.json', { 'comment': $scope.comment})
         .success(function(data){
           $scope.comment = {};
           //display success message
         }).error(function(){});
     };
+
+    $scope.activeComment = function(comment){
+
+    }
+
+    $scope.setupMusicPlayer = function(){
+
+      $('#music').on('error', function(){
+        }).on('play', function(){
+            progressInterval = setInterval($scope.progress, 100);
+        }).on('ended', function(){
+            var index = Math.round(Math.random() * $scope.activeList.length);
+            //need to reset comments and counter
+            $scope.playSong($scope.activeList[index]);
+            $scope.$apply();
+        });
+    };
+
+    $scope.progress = function(){
+      var width = document.getElementById('fixed-top').offsetWidth;
+      var music = document.getElementById('music');
+
+      var progress = Math.round(music.currentTime/music.duration * width);
+
+      var currentTime = Math.round(music.currentTime);
+      if($scope.comments[$scope.counter] && currentTime == $scope.comments[$scope.counter].comment_time){
+        $scope.comment_display = $scope.comments[$scope.counter] || {};
+        $scope.counter += 1;
+        $scope.$apply();          
+      }
+      if(progress%10 == 0){
+      //    add_comment();     
+      }
+
+      document.getElementById('progress').style.width = progress +'px'
+    }
+
+    $scope.setupMusicPlayer();
+
   }]);  
   
   app.directive('songList', function(){

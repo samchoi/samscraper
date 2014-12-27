@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141201064842) do
+ActiveRecord::Schema.define(version: 20141223223526) do
 
   create_table "comments", force: true do |t|
     t.string   "comment"
@@ -19,11 +19,18 @@ ActiveRecord::Schema.define(version: 20141201064842) do
     t.date     "timestamp"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "song_id"
+    t.integer  "comment_time"
+  end
+
+  create_table "groups", force: true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "guests", force: true do |t|
     t.string   "name"
-    t.boolean  "status"
     t.string   "address"
     t.string   "city"
     t.string   "state"
@@ -34,8 +41,8 @@ ActiveRecord::Schema.define(version: 20141201064842) do
     t.text     "dietary_restriction"
     t.string   "song_request"
     t.string   "country"
-    t.integer  "guest_count"
     t.string   "rsvp"
+    t.integer  "group_id"
   end
 
   create_table "managers", force: true do |t|

@@ -1,1 +1,1 @@
-json.extract! @guest, :id, :name, :status, :address, :city, :state, :zipcode, :created_at, :updated_at
+json.extract! @guest, :id, :name, :address, :city, :state, :zipcode, :created_at, :updated_at

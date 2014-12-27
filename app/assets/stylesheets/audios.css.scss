@@ -2,6 +2,10 @@ $white: #e6e6e6;
 $green: #81b71a;
 $dark-grey: #262626;
 
+body{
+  background-color: #000
+}
+
 .audio-content{
   a, a:visited, a:hover{
     color: $white;
@@ -190,7 +194,15 @@ $dark-grey: #262626;
     height: 100%;
     border-left: 1px solid $dark-grey;
     border-right: 1px solid $dark-grey;
- }
-
+  }
+  #footer{
+    border-top: 1px solid $dark-grey;
+    ul{
+      li{
+        display: inline-block;
+        text-align: center;
+      }
+    }
+  }
 
 }

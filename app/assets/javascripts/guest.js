@@ -4,7 +4,6 @@
 
   var guestController = app.controller('GuestController', ['$scope', '$http', function($scope, $http){
     $scope.guests = gon.guests || [];
-
     $scope.guest = {};
 
     $scope.emptyGuest = function(){
@@ -29,22 +28,23 @@
       return document.getElementById('search').value == "";
     };
 
-    $scope.rsvpCount = function(status){
-      //not liking this because I really should be checking for .status
+    $scope.countRsvps = function(){
       var checked = $('input:radio:checked');
-      var rsvp_count = 0;
+      var rsvps = { yes: [], no: []};
       for(var i in checked){
-        if (checked[i].value == status){
-          rsvp_count += 1;
+        var response = checked[i];
+        if(response == 'yes'){
+          rsvps.yes.push(response.id);
+        }else{
+          rsvps.no.push(response.id);
         }
       }
-      return rsvp_count;
+      return rsvps;
     };
 
     $scope.addGuest = function(){
-      if($scope.guest.id){
-        $scope.guest.rsvp = $scope.rsvpCount('yes');
-        $http.put('guests/'+ $scope.guest.id +'.json', { 'guest': $scope.guest})
+      if($scope.guest.id){        
+        $http.put('guests/'+ $scope.guest.id +'.json', { guest: $scope.guest, rsvps: $scope.countRsvps()})
         .success(function(data){
           $scope.guest = {};
           $('#search').val("");

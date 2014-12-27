@@ -28,7 +28,7 @@ class GuestsController < ApplicationController
     gon.guests = @guests;
     @guest = Guest.find_by_name(params[:name])
     respond_to do |format|
-      format.all{ render json: @guest }
+      format.all{ render json: @guest, methods: [:party] }
     end
   end
 
@@ -62,6 +62,10 @@ class GuestsController < ApplicationController
   def update
     respond_to do |format|
       if @guest.update(guest_params)
+
+        #save guest rsvps
+        Guest.update_party(params[:guest]['party'])
+
         format.html { redirect_to @guest, notice: 'Guest was successfully updated.' }
         format.json { render :show, status: :ok, location: @guest }
       else
@@ -89,6 +93,6 @@ class GuestsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def guest_params
-      params.require(:guest).permit(:name, :status, :address, :city, :state, :zipcodemessage, :dietary_restriction, :song_request, :country, :guest_count, :rsvp, :id, :created_at, :updated_at)
+      params.require(:guest).permit(:name, :address, :city, :state, :zipcode, :message, :dietary_restriction, :song_request, :country, :guest_count, :rsvp, :id, :created_at, :updated_at, :party, :group_id)
     end
 end

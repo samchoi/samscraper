@@ -17,7 +17,7 @@ class SongController < ApplicationController
     gon.music_host = Rails.configuration.settings['filehost']
     gon.songs = @songs;
     gon.song = @song;
-    gon.comments = Comment.all;
+    gon.comments = Comment.song(@song.id)
     gon.playlist = @playlist
   end
 
@@ -63,7 +63,9 @@ class SongController < ApplicationController
     zip_file = params[:name] + '.zip'
     zip_file_path = Rails.configuration.settings['zip_path'] + zip_file
 
-    songs = Song.where(id: session[:playlist])
+    #songs = Song.where(id: session[:playlist])
+    songs = Song.all
+    
     Zip::File.open(zip_file_path, Zip::File::CREATE) do |zip|
       songs.each do |song|
         music_file_path = music_path + '/' + song.filename
@@ -110,8 +112,15 @@ class SongController < ApplicationController
     headers['Access-Control-Allow-Origin'] = "*"
     @song = Song.find(params[:id])
     @songs = [@song]
-    @comments = Comments.where({ media_id: params[:id]}).order('timestamp ASC');
-    gon.song_plays = @song.plays
+    @playlist = session[:playlist].nil? ? [] : Song.where(id: session[:playlist])
+
+    gon.music_host = Rails.configuration.settings['filehost']
+    gon.songs = @songs
+    gon.song = @song
+    gon.comments = Comment.song(@song.id)
+    gon.playlist = @playlist
+
+    render 'index'
   end
 
   # GET /song/new

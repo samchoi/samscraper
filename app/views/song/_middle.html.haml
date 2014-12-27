@@ -7,11 +7,12 @@
       {{song.title}}
   %p
     {{song.description}} ...
-    %a{href: @song.posturl, target: '_blank'}
+    %a{href: @song.posturl, target: '_blank', ng:{ href: 'song.posturl'}}
       (read more)
+
   %h3
     What users say:
   %ul.comments
-    %li.comment{ng: { repeat: 'comment in comments'}}
-      {{comment.comment}}
+    %li.comment{ng: { model: 'comment_display'}}
+      {{comment_display.comment}}
     

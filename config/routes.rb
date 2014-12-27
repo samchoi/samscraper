@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :groups
+
   resources :guests do
     get 'template/:id' => 'guests#template'      
   end
