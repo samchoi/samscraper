@@ -5,7 +5,8 @@
 header{
   background-color: #222e2e;
   color: #ffffff;
-  font-family: "Playfair Display";
+  font-family: 'Josefin Slab', serif;
+  font-family: 'Josefin Sans', sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 400;
@@ -62,6 +63,7 @@ header{
 #content{
   width: 100%;
   margin: 0 auto;
+  background-color: #fafafa;
 
   ol{
     list-style: none;
@@ -69,13 +71,15 @@ header{
     margin: 0 auto;
     li{
       font-family: "Open Sans", sans-serif;      
+      font-family: 'Josefin Slab', serif;
+      font-size: 24px;
       h2{
         margin: 0 auto;
         width: 85%;
         display: block;
         padding: 270px 0;
         max-width: 650px;
-        font-size: 33px;
+        font-size: 40px;
         line-height: 1.1em;
         text-transform: none;
         letter-spacing: 1px;
@@ -83,7 +87,7 @@ header{
         font-style: normal;
       }
       .open{
-        font-size: 24px;
+        font-size: 32px;
         font-weight: 400;
       }
       &.banner{
@@ -96,6 +100,8 @@ header{
         .content{
           background-color: rgba(50,69,68,.8);
           color: #ffffff;
+          text-shadow: 1px 2px #000;
+
 
           p{
             margin: 0 auto;
@@ -107,6 +113,8 @@ header{
       &.text{
         margin: 150px auto;
         width: 650px;
+        text-shadow: 1px 2px #fbfbfb;
+
       }
       p{
       }
@@ -126,7 +134,7 @@ header{
       width: 700px;
       padding: 25px;  
       .strong{
-        font-family: "Playfair Display";
+        font-family: 'Josefin Slab', serif;
         display: inline-block;
         float: left;
         padding: 10px 15px;
@@ -135,6 +143,7 @@ header{
         &:hover{
           opacity: .8;
         }
+        font-family: 'Josefin Sans', sans-serif;
         color: #ffffff;
         text-decoration: none;
         text-transform: uppercase;
@@ -151,13 +160,13 @@ header{
 
 footer{
   padding: 50px 0;
-  font-family: "Playfair Display";
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 100;
   text-transform: uppercase;
   width: 100%;
   background-color: #222e2e;
   color: #ffffff;
-  font-family: "Playfair Display";
-  ol{
+  ul{
     margin: 0 auto;
     width: 550px;
     list-style: "square";
