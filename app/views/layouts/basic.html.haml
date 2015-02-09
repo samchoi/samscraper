@@ -1,0 +1,34 @@
+%html
+  %head
+    =stylesheet_link_tag 'cci'
+    =stylesheet_link_tag 'http://fonts.googleapis.com/css?family=Playfair+Display'
+    =stylesheet_link_tag 'http://fonts.googleapis.com/css?family=Open+Sans'
+  %body
+
+    %header
+      %a.logo{ title: "Combat Crimes, Inc", href: "/cci"}
+        Combat Crimes, Inc
+      %ul#nav
+        %li.service 
+          %span Services
+          %ul.dropdown
+            %li Technology
+            %li AML / Complicance & Risk  Management
+            %li Performance Review
+        %li 
+          %span About Us
+        %li 
+          %span Contact Us
+
+    =yield
+
+    %footer
+      %ol
+        %li
+          %addr
+            801 N. Brand Blvd., Suite 325
+        %li
+          %addr
+            Glendale, CA
+        %li
+          818-800-6883

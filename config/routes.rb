@@ -5,6 +5,8 @@ Rails.application.routes.draw do
     get 'template/:id' => 'guests#template'      
   end
 
+  resources :cci
+
   resources :comments
 
   resources :movies
