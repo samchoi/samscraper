@@ -5,7 +5,9 @@ Rails.application.routes.draw do
     get 'template/:id' => 'guests#template'      
   end
 
-  resources :cci
+  resources :cci do
+    
+  end
 
   resources :comments
 
@@ -19,6 +21,7 @@ Rails.application.routes.draw do
     get 'template/:id' => 'song#template'      
   end
 
+  get 'wsi' => 'cci#wsi'  
   get '/' => 'song#index', as: 'music'
   get 'sam' => 'song#home'
   get 's' => 'song#download'

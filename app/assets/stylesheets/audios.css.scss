@@ -3,7 +3,20 @@ $green: #81b71a;
 $dark-grey: #262626;
 
 body{
-  background-color: #000
+  background-color: #000;
+}
+
+
+.toggler{
+  li{
+    display: inline-block;
+    height: 100px;
+    width: 200px;
+    border: 1px solid $dark-grey;
+    &:hover, &.active{
+      background-color: $green;
+    }
+  }
 }
 
 .audio-content{
@@ -190,12 +203,18 @@ body{
     }
   }
 
+  .hide{
+    display: none;
+  }
+
+
   .section{
     height: 100%;
     border-left: 1px solid $dark-grey;
     border-right: 1px solid $dark-grey;
   }
-  #footer{
+  
+  footer{
     border-top: 1px solid $dark-grey;
     ul{
       li{

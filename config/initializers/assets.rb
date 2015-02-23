@@ -13,4 +13,5 @@ Rails.application.config.assets.precompile += %w( audios.css )
 Rails.application.config.assets.precompile += %w( home.css )
 Rails.application.config.assets.precompile += %w( mobile.css )
 
-Rails.application.config.assets.precompile += %w( cci.css )
+#Rails.application.config.assets.precompile += %w( cci.css )
+#Rails.application.config.assets.precompile += %w( wsi.css )

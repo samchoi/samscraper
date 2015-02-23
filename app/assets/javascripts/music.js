@@ -102,6 +102,12 @@
         });
     };
 
+    $scope.toggleBox = function(selector){
+      $('.toggler li.' + selector).toggleClass('active');
+      $('#' + selector).toggle();
+    }
+
+
     $scope.progress = function(){
       var width = document.getElementById('fixed-top').offsetWidth;
       var music = document.getElementById('music');

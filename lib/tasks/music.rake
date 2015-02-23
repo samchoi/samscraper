@@ -19,7 +19,7 @@ namespace :music do
     15.times do |i|
       begin
         source = "hypem.com"
-        path = '/playlist/history/samchoi/json/#{i+1}/data.json'
+        path = '/playlist/loved/samchoi/json/#{i+1}/data.json'
         response = Net::HTTP.get_response(source, path)
         history = JSON.parse(response.body)
         history.each do |key, song|

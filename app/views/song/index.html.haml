@@ -3,6 +3,12 @@
 
   #ad-container
     Ad Goes Here
+
+  %ul.toggler
+    %li.songs{ ng: { click: "toggleBox('songs')"}} Song
+    %li.middle{ ng: { click: "toggleBox('middle')"}} Middle
+    %li.download-list{ ng: { click: "toggleBox('download-list')"}} Download
+
   =render partial: 'song'
 
   =render partial: 'middle'
