@@ -4,6 +4,9 @@
   #ad-container
     Ad Goes Here
 
+  #search
+    %input{type: 'text'}
+    %button{ng: { click: 'search()'}} Search
   %ul.toggler
     %li.songs{ ng: { click: "toggleBox('songs')"}} Song
     %li.middle{ ng: { click: "toggleBox('middle')"}} Middle

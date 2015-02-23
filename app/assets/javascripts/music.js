@@ -104,7 +104,17 @@
 
     $scope.toggleBox = function(selector){
       $('.toggler li.' + selector).toggleClass('active');
-      $('#' + selector).toggle();
+      $('#' + selector).toggle();       
+    }
+
+    $scope.search = function(){
+      var search_term = document.querySelector('#search input').value;
+      $http.get('/search/' + search_term)
+        .success(function(data){
+          $scope.songs = data;
+          $scope.$apply();
+          //display success message
+        }).error(function(){});
     }
 
 

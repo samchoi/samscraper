@@ -105,6 +105,13 @@ class SongController < ApplicationController
     end
   end
 
+  def search
+    headers['Access-Control-Allow-Origin'] = "*"
+    @songs = Song.where("artist LIKE ? OR name LIKE ?", "%#{params[:term]}%","%#{params[:term]}%")
+    render json: @songs
+  end
+
+
   # GET /song/1
   # GET /song/1.json
   def show

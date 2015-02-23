@@ -25,6 +25,8 @@ Rails.application.routes.draw do
   get '/' => 'song#index', as: 'music'
   get 'sam' => 'song#home'
   get 's' => 'song#download'
+  get 'search/:term' => 'song#search'
+
   get 'dl/:name' => 'song#send_zip', as: 'download_zip'
   get 'ds/:id' => 'song#send_song', as: 'download_song'
   post 'q.json' => 'song#add_to_session_playlist', as: 'add_to_playlist'

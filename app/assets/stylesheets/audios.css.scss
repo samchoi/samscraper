@@ -19,6 +19,28 @@ body{
   }
 }
 
+#search{
+  input, button{
+    border: 1px solid $white;
+    color: $white;
+    height: 32px;
+    font-size: 24px;
+    background-color: #000;
+  }
+
+  input{
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+
+  button{
+    height: 40px;
+    padding: 4px;
+  }
+}
+
 .audio-content{
   a, a:visited, a:hover{
     color: $white;
