@@ -6,7 +6,7 @@
       %th{ colspan: 2} RSVP
   %tbody
     %tr{ ng:{ repeat: "guest in guests | filter:search" } }
-      %td
+      %td.guest-name
         {{ guest.name }}
       %td
         {{ guest.status }}
