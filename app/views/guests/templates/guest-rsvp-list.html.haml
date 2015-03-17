@@ -4,7 +4,7 @@
     %th Yes
     %th No
   %tr{ ng:{ repeat: 'g in guest.party'} }
-    %td{ ng: { model: 'g.name'} } {{g.name}}
+    %td.guest-name{ ng: { model: 'g.name'} } {{g.name}}
     %td
       %input.rsvp{ type: 'radio', name: 'guest-{{g.id}}', ng:{ model: 'g.rsvp'}, value: 'yes'}
     %td
