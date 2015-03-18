@@ -3,20 +3,12 @@
 
   #ad-container
     Ad Goes Here
+  .container-main
+    =render partial: 'song'
 
-  #search
-    %input{type: 'text'}
-    %button{ng: { click: 'search()'}} Search
-  %ul.toggler
-    %li.songs{ ng: { click: "toggleBox('songs')"}} Song
-    %li.middle{ ng: { click: "toggleBox('middle')"}} Middle
-    %li.download-list{ ng: { click: "toggleBox('download-list')"}} Download
+    =render partial: 'middle'
 
-  =render partial: 'song'
-
-  =render partial: 'middle'
-
-  =render partial: 'download_list'
+    =render partial: 'download_list'
 
 %footer
   %ul

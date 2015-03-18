@@ -11,6 +11,10 @@
   %span.name
     {{song.name}}
 
+  #search
+    %input{type: 'text'}
+    %button{ng: { click: 'search()'}} Search
+
   #opts{ style: 'display: none;'}
     %input{type: 'radio', name: 'visual-option', value: 'bar'} Bar
     %input{type: 'radio', name: 'visual-option', value: 'line'} Line
@@ -18,4 +22,8 @@
   %h1#logo 
     thisTrack.rocks
 
+  %ul.toggler
+    %li.songs{ ng: { click: "toggleBox('songs')"}} Song
+    %li.middle{ ng: { click: "toggleBox('middle')"}} Middle
+    %li.download-list{ ng: { click: "toggleBox('download-list')"}} Download
   %canvas#viz{ width: 1000, height: 50}

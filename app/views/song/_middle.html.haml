@@ -16,3 +16,7 @@
     %li.comment{ng: { model: 'comment_display'}}
       {{comment_display.comment}}
     
+  %form#comment{ng: {submit: 'addComment()'}}
+    %textarea#comment{ type: 'text', ng:{model: 'comment.comment'}}
+    %button#send-comment{}
+      Post
