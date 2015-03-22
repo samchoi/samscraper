@@ -3,7 +3,7 @@
   var app = angular.module('guestList', []);
 
   var guestController = app.controller('GuestController', ['$scope', '$http', function($scope, $http){
-    $scope.guests = gon.guests || [];
+    $scope.guests = [];
     $scope.guest = {};
 
     $scope.emptyGuest = function(){
