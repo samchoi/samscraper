@@ -16,6 +16,8 @@
         if(data == "null"){
           $scope.guest = {};
           $('#message').html('Oops! Couldn\'t find your butt');
+        }else{
+          $('#message').html('');
         }
       });
     };

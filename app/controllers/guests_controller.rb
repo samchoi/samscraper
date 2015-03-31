@@ -27,6 +27,7 @@ class GuestsController < ApplicationController
     @guests = Guest.all
     gon.guests = @guests;
     @guest = Guest.find_by_name(params[:name])
+    @guest ='reserved' if @guest.group.reserved
     respond_to do |format|
       format.all{ render json: @guest, methods: [:party] }
     end
@@ -65,7 +66,7 @@ class GuestsController < ApplicationController
 
         #save guest rsvps
         Guest.update_party(params[:guest]['party'])
-
+        Group.update(params[:guest]['group_id'], { reserved: true});
         format.html { redirect_to @guest, notice: 'Guest was successfully updated.' }
         format.json { render :show, status: :ok, location: @guest }
       else
