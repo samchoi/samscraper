@@ -1,7 +1,7 @@
-.audio-container{}
-  %audio.player{ src: Rails.configuration.settings['filehost'] + song.filename }, preload: 'true' }
-  .progress-bar
-  %ul.controls{}
+#fixed-top{}
+  %audio#music{ src: Rails.configuration.settings['filehost'] + song.filename }, preload: 'true' }
+  #progress
+  %ul#controls.actions{ }
     %li
       %a.download{href: download_song_path(song.id), alt: 'Download Song', title: 'Download'} &#8623;
     %li.add{ng: {click: "addSong(song)"} } &#43;
@@ -11,20 +11,19 @@
   %span.name
     {{song.name}}
 
-.search-container
-  %input.search-term{type: 'text'}
-  %button.search-button{ng: { click: 'search()'}} Search
+  #search
+    %input{type: 'text'}
+    %button{ng: { click: 'search()'}} Search
 
-.visualizer-controls{ style: 'display: none;'}
-  %input{type: 'radio', name: 'visual-option', value: 'bar'} Bar
-  %input{type: 'radio', name: 'visual-option', value: 'line'} Line
+  #opts{ style: 'display: none;'}
+    %input{type: 'radio', name: 'visual-option', value: 'bar'} Bar
+    %input{type: 'radio', name: 'visual-option', value: 'line'} Line
 
-%h1.logo 
-  thisTrack.rocks
+  %h1#logo 
+    thisTrack.rocks
 
-%ul.toggler
-  %li.songs{ ng: { click: "toggleBox('songs')"}} Song
-  %li.middle{ ng: { click: "toggleBox('middle')"}} Middle
-  %li.download-list{ ng: { click: "toggleBox('download-list')"}} Download
-
-%canvas.viualizer{ width: 1000, height: 50}
+  %ul.toggler
+    %li.songs{ ng: { click: "toggleBox('songs')"}} Song
+    %li.middle{ ng: { click: "toggleBox('middle')"}} Middle
+    %li.download-list{ ng: { click: "toggleBox('download-list')"}} Download
+  %canvas#viz{ width: 1000, height: 50}
