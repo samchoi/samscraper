@@ -94,6 +94,7 @@ namespace :music do
     music_path = Rails.configuration.settings['music_path'] + '/'
 
     songs.each do |song|
+      next if song.filename.nil?
       file = music_path + song.filename
       if File.zero?(file)
         song.active = false
