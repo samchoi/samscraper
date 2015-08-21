@@ -96,12 +96,13 @@ namespace :music do
     folder = Rails.configuration.settings['music_path']
     zipfile_name = Rails.configuration.settings['zip_path'] + 'test3.zip'
 
-    songs = [Song.first, Song.last]
+    songs = Song.where({active: true})
     puts zipfile_name
     Zip::File.open(zipfile_name, Zip::File::CREATE) do |zipfile|
       songs.each do |song|
-        filename = song.filename
-        puts song.filename
+        filename = "#{song.artist} - #{song.title}"
+        puts filename
+        #id3 tag coming soon...
         # Two arguments:
         # - The name of the file as it will appear in the archive
         # - The original file, including the path to find it
