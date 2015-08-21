@@ -121,7 +121,7 @@ namespace :music do
         # Two arguments:
         # - The name of the file as it will appear in the archive
         # - The original file, including the path to find it
-        zipfile.add(filename, folder + '/' + filename)
+        zipfile.add(filename, folder + '/' + song.filename)
       end
       zipfile.get_output_stream("tracks.txt") do |os|
         os.write songs.map{ |song| "#{song.artist} - #{song.title}"}.join('\n')
