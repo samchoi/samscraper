@@ -89,6 +89,20 @@ namespace :music do
     end
   end
 
+ task :clean_db => :environment do
+    songs = Song.all
+    music_path = Rails.configuration.settings['music_path'] + '/'
+
+    songs.each do |song|
+      file = music_path + song.filename
+      if File.zero?(file)
+        song.active = false
+        song.save
+      end
+    end 
+
+ end
+
   task :zip => :environment do
     require 'rubygems'
     require 'zip'
