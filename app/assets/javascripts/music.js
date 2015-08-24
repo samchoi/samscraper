@@ -73,6 +73,9 @@
       $scope.playlist = [];
     }
 
+    $scope.togglePlaylist = function(){
+      $('#download-list').toggleClass('show');
+    }
 
     $scope.addComment = function(){
       $scope.comment.song_id = $scope.song.id;

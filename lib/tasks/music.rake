@@ -115,7 +115,7 @@ namespace :music do
     puts zipfile_name
     Zip::File.open(zipfile_name, Zip::File::CREATE) do |zipfile|
       songs.each do |song|
-        filename = "#{song.artist} - #{song.title}"
+        filename = "#{song.artist} - #{song.title}.mp3"
         puts filename
         #id3 tag coming soon...
         # Two arguments:
@@ -127,5 +127,18 @@ namespace :music do
         os.write songs.map{ |song| "#{song.artist} - #{song.title}"}.join('\n')
       end
     end
+  end
+
+  task :tag_file => :environment do
+    require 'rubygems'
+    require 'id3lib'
+    require 'zip'
+    
+    tag = ID3Lib::Tag.new('~/test3/sylas - Hollow.mp3')
+
+    # Get and set text frames with convenience methods
+    tag.title  = 'Hollow'
+    tag.artist = 'sylas'
+    tag.update!
   end
 end

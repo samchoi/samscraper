@@ -1,5 +1,6 @@
 class Song < ActiveRecord::Base
   has_many :plays
+  has_and_belongs_to_many :playlists
 
   def desc
     "#{self.artist} - #{self.title}"

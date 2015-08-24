@@ -1,0 +1,3 @@
+zip_path: '/home/deploy/www/samscraper/public/zips/'
+music_path: '/root/old/wordpress/music/hm/top50'
+filehost: '/music/hm/top50/'

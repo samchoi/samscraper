@@ -187,10 +187,17 @@ body{
   }
 
   #download-list{
-    width: 300px;
-    vertical-align: top;
-    display: inline-block;
+    background-color: #000;
     border-right: none;
+    position: absolute;
+    top: 0;
+    vertical-align: top;
+    width: 300px;
+    display: none;
+
+    &.show{
+      display: block;
+    }
 
     ol{
       list-style-position: inside;

@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :playlists
+
   resources :groups
 
   resources :guests do

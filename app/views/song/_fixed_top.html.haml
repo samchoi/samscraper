@@ -22,7 +22,9 @@
   %h1#logo 
     thisTrack.rocks
 
-  %ul.toggler
+  =render partial: 'download_list'
+
+  %ul.toggler{ style: 'display:none' }
     %li.songs{ ng: { click: "toggleBox('songs')"}} Song
     %li.middle{ ng: { click: "toggleBox('middle')"}} Middle
     %li.download-list{ ng: { click: "toggleBox('download-list')"}} Download
