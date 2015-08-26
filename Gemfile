@@ -37,7 +37,7 @@ gem 'browser'
 gem 'turbolinks'
 
 gem 'pry'
-gem 'id3lib-ruby'
+#gem 'id3lib-ruby'
 
 #gem 'id3lib'
 # Use ActiveModel has_secure_password
