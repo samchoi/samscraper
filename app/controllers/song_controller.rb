@@ -126,7 +126,12 @@ class SongController < ApplicationController
     gon.comments = Comment.song(@song.id)
     gon.playlist = @playlist
 
-    render 'index'
+    
+    respond_to do |format|
+      format.html { render 'index' }
+      format.json { render :show }
+    end
+
   end
 
   # GET /song/new
