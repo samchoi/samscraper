@@ -20,7 +20,7 @@ Rails.application.routes.draw do
   resources :plays
 
   resources :song do
-    get 'template/:id' => 'song#template'      
+    get 'template/:id' => 'song#template'
   end
 
   get 'wsi' => 'cci#wsi'  
@@ -37,6 +37,7 @@ Rails.application.routes.draw do
   get 'm' => 'song#mobile', as: 'mobile'
 
   get 'guest_search/:name' => 'guests#find_by_name'
+  get 'random/:count' => 'song#random'      
 
   get 'code' => 'code#index'
 

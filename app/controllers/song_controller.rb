@@ -188,6 +188,16 @@ class SongController < ApplicationController
     @header_image = ['/assets/headphones.jpg', '/assets/headphones2.jpg', '/assets/headphones3.jpg'].sample()
   end
 
+  def random
+    count = params[:count].to_i || 5 rescue 5
+    @songs = Song.all.shuffle[0..count]
+    respond_to do |format|
+      format.html { }
+      format.json { render json: @songs }
+    end
+  end
+
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_song
