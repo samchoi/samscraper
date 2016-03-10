@@ -19,6 +19,7 @@ class SongController < ApplicationController
     gon.song = @song;
     gon.comments = Comment.song(@song.id)
     gon.playlist = @playlist
+    render 'tmp'
   end
 
   def mobile
@@ -190,7 +191,7 @@ class SongController < ApplicationController
 
   def random
     count = params[:count].to_i || 5 rescue 5
-    @songs = Song.all.shuffle[0..count]
+    @songs = Song.where(mediaid: "TS").shuffle[0..count]
     respond_to do |format|
       format.html { }
       format.json { render json: @songs }

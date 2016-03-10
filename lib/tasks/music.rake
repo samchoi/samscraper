@@ -89,7 +89,35 @@ namespace :music do
     end
   end
 
- task :clean_db => :environment do
+  task :load_folder => :environment do
+    require "id3tag"
+    path = "/var/www/Taylor Swift/01. Studio Albums/"
+    albums = ["(2009)Fearless (Platinum Edition)", "(2012)Red (Deluxe Version)", "(2009)Fearless (International Edition)", "(2010)Speak Now"]
+    counter = 1    
+
+    albums.each do |album|
+    mp3s = Dir.entries(path+album).select { |filename| filename =~ /\.mp3/i }
+      counter += 1
+
+      mp3s.each do |file|     
+        ID3Tag.read(File.open(path + album + "/"  + file, "rb")) do |tag|
+          song_params = {
+            filename: file,
+            name: "#{tag.artist} - #{tag.title}",
+            code: "#{counter}TS#{tag.track_nr}",
+            mediaid: "TS",
+            artist: tag.artist,
+            title: tag.title,
+            rank: tag.track_nr,
+            active: true
+          }
+          Song.new(song_params).save!
+        end
+      end  
+    end
+  end
+
+  task :clean_db => :environment do
     songs = Song.all
     music_path = Rails.configuration.settings['music_path'] + '/'
 
@@ -101,8 +129,7 @@ namespace :music do
         song.save
       end
     end 
-
- end
+  end
 
   task :zip => :environment do
     require 'rubygems'

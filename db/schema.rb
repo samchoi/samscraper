@@ -24,10 +24,8 @@ ActiveRecord::Schema.define(version: 20150824232426) do
   end
 
   create_table "groups", force: true do |t|
-    t.string   "name"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.boolean  "reserved"
+    t.string  "name",     limit: 22, null: false
+    t.boolean "reserved"
   end
 
   create_table "guests", force: true do |t|
