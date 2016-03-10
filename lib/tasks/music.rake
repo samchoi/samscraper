@@ -91,30 +91,28 @@ namespace :music do
 
   task :load_folder => :environment do
     require "id3tag"
-    path = "/var/www/Taylor Swift/01. Studio Albums/"
-    albums = ["(2009)Fearless (Platinum Edition)", "(2012)Red (Deluxe Version)", "(2009)Fearless (International Edition)", "(2010)Speak Now"]
-    counter = 1    
+    
+    ARGV.each { |a| task a.to_sym do ; end }
 
-    albums.each do |album|
-    mp3s = Dir.entries(path+album).select { |filename| filename =~ /\.mp3/i }
-      counter += 1
+    path = ARGV[1]
+    code = ARGV[2]
+    mp3s = Dir.entries(path).select { |filename| filename =~ /\.mp3/i }
 
-      mp3s.each do |file|     
-        ID3Tag.read(File.open(path + album + "/"  + file, "rb")) do |tag|
-          song_params = {
-            filename: file,
-            name: "#{tag.artist} - #{tag.title}",
-            code: "#{counter}TS#{tag.track_nr}",
-            mediaid: "TS",
-            artist: tag.artist,
-            title: tag.title,
-            rank: tag.track_nr,
-            active: true
-          }
-          Song.new(song_params).save!
-        end
-      end  
-    end
+    mp3s.each do |file|     
+      ID3Tag.read(File.open(path + "/"  + file, "rb")) do |tag|
+        song_params = {
+          filename: file,
+          name: nil,
+          code: code + tag.track_nr,
+          mediaid: code,
+          artist: tag.artist,
+          title: tag.title,
+          rank: tag.track_nr,
+          active: true
+        }
+        Song.new(song_params).save!
+      end
+    end  
   end
 
   task :clean_db => :environment do

@@ -189,9 +189,22 @@ class SongController < ApplicationController
     @header_image = ['/assets/headphones.jpg', '/assets/headphones2.jpg', '/assets/headphones3.jpg'].sample()
   end
 
+  def kanye
+    @songs = Song.where()
+    respond_to do |format|
+      format.html { }
+      format.json { render json: @songs }
+    end
+
+  end
+
   def random
     count = params[:count].to_i || 5 rescue 5
+<<<<<<< Updated upstream
     @songs = Song.where(mediaid: "TS").shuffle[0..count]
+=======
+    @songs = Song.all.shuffle[0..(count-1)]
+>>>>>>> Stashed changes
     respond_to do |format|
       format.html { }
       format.json { render json: @songs }
