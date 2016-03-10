@@ -38,7 +38,7 @@ Rails.application.routes.draw do
 
   get 'guest_search/:name' => 'guests#find_by_name'
   get 'random/:count' => 'song#random'      
-
+  get 'media/:mediaid' => 'song#mediaid'
   get 'code' => 'code#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
