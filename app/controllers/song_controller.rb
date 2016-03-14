@@ -190,7 +190,7 @@ class SongController < ApplicationController
   end
 
   def mediaid
-    @songs = Song.where(mediaid: params[:mediaid])
+    @songs = Song.where(mediaid: params[:mediaid]).order('rank ASC')
     respond_to do |format|
       format.html { }
       format.json { render json: @songs }
